@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+	<title>Yael Ben Shalom - Drawing Tool</title>
+	<link rel="icon" href="../images/favicon.png" type="../image/png">
+
+	<!-- Load some fonts from Google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../style.css">
+
+	<!-- P5 Loaded from a CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+	
+	<script src="vector.js"></script>
+	<script src="tools.js"></script>
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<div id="assignment">
+		<div class="row">
+			<h1>Assignment 3 - Drawing Tool</h1>
+			<h2>In this assignment, I created my own KidPix using P5.js</h2>
+			<div class="polaroid">
+				<h2>🖍🖌 My Drawing Tool 🖌🖍</h2>
+				<h3>Play around with the different drawing tools </h3>
+				<div id="main">
+
+				</div>
+				<div>
+					<div>
+						<button onclick="tool.mode='clear'">🗑️</button>
+						<button onclick="tool.mode='erase'">⚪️</button>
+						<button onclick="tool.mode='pen'">🖋</button>
+						<button onclick="tool.mode='StringPen'">🖌</button>
+						<button onclick="tool.mode='SymmetricPen'">🖍</button>
+						<button onclick="tool.mode='bubblePen'">💦</button>
+					</div>
+					<div>
+						<br>
+						<button onclick="tool.mode='RainbowSquares'">🟧</button>
+						<button onclick="tool.mode='LoveEmoji'">💖</button>
+						<button onclick="tool.mode='NatureEmoji'">🌴</button>
+						<button onclick="tool.mode='FairyEmoji'">🧚‍♀️</button>
+						<button onclick="tool.mode='BollsEmoji'">🏈</button>
+						<button onclick="tool.mode='StarsEmoji'">🌟</button>
+					</div>					
+					<div>
+						<br>
+						<input type="color" id="background" onchange="tool.background = hexToHSL(this.value)">
+						<input type="color" id="color" onchange="tool.color = hexToHSL(this.value)">
+						<input type="range" min="5" max="100" value="10" class="slider" onchange="tool.size = this.value*.1">
+					</div>
+				</div>
+			</div>
+			<br><br><br><br><br>
+			<a href="../index.html" id="button" class="btn wow tada page-scroll" onclick="buttonPress()">Go Back</a>
+			<br><br><br><br><br>
+		</div>
+	</div>
+	<br>
+</body>
+
+</html>

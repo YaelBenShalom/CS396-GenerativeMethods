@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+	<title>Yael Ben Shalom - Emoji Essay</title>
+	<link rel="icon" href="../images/favicon.png" type="../image/png">
+
+	<!-- Load some fonts from Google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../style.css">
+
+	<script src="../shared/vue.js"></script>
+	<script src="../shared/p5.min.js"></script>
+
+	<!-- My app's code goes last, 
+		because it needs to refer to things in the previous JS files -->
+
+	<script src="vector.js"></script>
+	<script src="v-sim.js"></script>
+	<script src="sim-payitforward.js"></script>
+
+	<script src="app.js"></script>
+
+</head>
+
+<body>
+	<div id="assignment">
+		<div class="row">
+			<h1>Assignment 6 - Emoji Argument</h1>
+			<h2>In this assignment, I create a custom Pay-it-Forward simulation</h2>
+
+			<div class="polaroid">
+				<h2>❤️ ⬅︎ 😇 My Pay-it-Forward Simulation 😇 ➡︎ ❤️</h2>
+
+				<div class="text">
+					<p> The movie "Pay it Forward" (2000) tells the story of Trevor McKinney - an 11-year-old boy that launched a goodwill movement known as "pay it forward".</p>
+					<p> In the movie, Trevor's social studies teacher gives the class an assignment to devise and put into action a plan that will change the world for the better.</p>
+					<p> Trevor's plan is a charitable program based on the networking of good deeds. He calls his plan "pay it forward", which means the recipient of a favor does a favor for three others rather than paying the favor back.</p>
+						<div class="row">
+							<img src="pay-it-forward1.jpg" class="img-responsive" alt="pay-it-forward" style="width:70%">
+						</div>
+					<p> In this assignment, I simulated the spread of good deeds within a community, as a dependency of how many people "paid it forward".</p>
+				</div>	
+				<h3>Use the emoji buttons to restart, step or play/stop the Pay-it-Forward simulators </h3>
+
+				<div id="app">
+
+				</div>
+				<p> So learn from Trevor McKinney and pay it forward! ❤️❤️❤️
+				</p>
+				<div class="row">
+					<img src="pay-it-forward2.jpeg" class="img-responsive" alt="pay-it-forward" style="width:60%">
+				</div>
+			</div>
+
+			<br><br><br><br><br>
+			<a href="../index.html" id="button" class="btn wow tada page-scroll" onclick="buttonPress()">Go Back</a>
+			<br><br><br><br><br>
+		</div>
+	</div>
+	<br>
+</body>
+
+</html>
