@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+	<title>Yael Ben Shalom - Big Data</title>
+	<link rel="icon" href="../images/favicon.png" type="../image/png">
+
+	<!-- Load some fonts from Google fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../style.css">
+
+	<script src="../shared/vue.js"></script>
+	<script src="../shared/p5.min.js"></script>
+
+	<script src="./data/emoji/emoji.js"></script>
+	<script src="./data/emoji/emoji-occurence.js"></script>
+
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<div id="assignment" style="max-width: 1000px">
+		<div class="row">
+			<h1>Assignment 8 - Big Data</h1>
+			<h2>In this assignment, I created an interactive app to browse and visualize data</h2>
+
+			<div class="polaroid">
+				<h2>👍🏼 🦾 😂 My Emoji Distribution Visualization App 😂 🦾 👍🏼</h2>
+				<h3>Hover on the graph to discover the distribution of your favorite emoji</h3>
+				<div class="text">
+					<p> This graph presents the usage distribution of 845 emoji characters, computed from all tweets until June 4th, 2015.<br>
+						The bars are organized by the number of occurrences, from left to right.</p>
+					<p> Hovering over a bar will present the emoji image, the number of occurrences, and the occurrence percent out of all the emoji occurrences.</p>
+				</div>
+				<div class="column-large">
+					<div id="app">
+
+					</div>
+				</div>
+				<div class="column-small">
+					<br><br><br><br><br><br><br><br><br><br><br>
+					<div id="distribution">
+
+					</div>
+				</div>
+			</div>
+
+			<br><br><br><br><br>
+			<a href="../index.html" id="button" class="btn wow tada page-scroll" onclick="buttonPress()">Go Back</a>
+			<br><br><br><br><br>
+		</div>
+	</div>
+	<br>
+</body>
+</html>
