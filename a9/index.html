@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+	<title>Yael Ben Shalom - Virtual Costumes</title>
+	<link rel="icon" href="../images/favicon.png" type="../image/png">
+	
+	<!-- Style the page -->
+   	<link rel="stylesheet" href="../shared/handsfree.css" />
+	<link rel="stylesheet" href="../style.css">
+
+  	<script src="../shared/handsfree-8.4.2.js"></script>
+
+	<script src="vector.js"></script>
+	
+ 	<script src="../shared/handsfree-utilities.js"></script>
+	<script src="../shared/delaunay-utilities.js"></script>
+	<script src="../shared/neatjson.js"></script>
+	<script src="../shared/vue.js"></script>
+	<script src="../shared/p5.min.js"></script>
+	<script src="../shared/delaunator.min.js"></script>
+
+	<!-- recorded face & hand data of Dr. Kate -->
+	<script src="../shared/testfacedata.js"></script>
+	<script src="../shared/testhanddata.js"></script>
+
+	
+	<script src="face-styles.js"></script>
+	<script src="app.js"></script>
+	<script src="spring.js"></script>
+
+	<!-- Face styles -->
+	<script src="face-myMask.js"></script>
+	<script src="face-blank.js"></script>
+	<script src="face-angelface.js"></script>
+	<script src="face-rainbar.js"></script>
+	<!-- <script src="face-greenman.js"></script> -->
+	<!-- <script src="face-voronoimask.js"></script> -->
+	<!-- <script src="face-hair.js"></script> -->
+	<script src="face-juggler.js"></script>
+	<script src="face-nose.js"></script>
+</head>
+
+<body>
+	<div id="assignment">
+		<div class="row">
+			<h1>Assignment 9 - Virtual Costumes</h1>
+			<h2>In this assignment, I created a function that takes continuous tracking data, and turns it into graphics</h2>
+			<div class="polaroid">
+				<h2>🤡👺🧛🏻‍♀️ My Virtual Costumes 🧛🏻‍♀️👺🤡</h2>
+				<h3>Play with the sliders and see the interactive graphics changing</h3>
+				<br><br><br><br><br><br><br><br><br><br><br><br>
+				<div id="app">
+
+				</div>
+				<div id="controls">
+
+				</div>
+			</div>
+			<br><br><br><br><br>
+			<a href="../index.html" id="button" class="btn wow tada page-scroll" onclick="buttonPress()">Go Back</a>
+			<br><br><br><br><br>
+		</div>
+	</div>
+	<br>
+</body>
+
+</html>

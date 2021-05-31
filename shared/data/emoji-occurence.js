@@ -1,4 +1,4 @@
-const emojiOccurenceData = [
+const emojiOccurrenceData = [
   {
     "Emoji": "😂",
     "Unicode codepoint": "1F602",
