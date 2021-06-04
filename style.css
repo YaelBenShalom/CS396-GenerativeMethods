@@ -77,7 +77,7 @@ a {
 #pages {
 	padding: 20px;
 	margin: 15px auto;
-	max-width: 1000px;
+	max-width: 1200px;
 	box-shadow: 1px 2px 5px hsla(0, 0, 0, .5);
 	background-color: white;
 	border-radius: 10px;
@@ -87,7 +87,7 @@ a {
 #assignments {
 	padding: 20px;
 	margin: 15px auto;
-	max-width: 1000px;
+	max-width: 1200px;
 	box-shadow: 1px 2px 5px hsla(0, 0, 0, .5);
 	background-color: white;
 	border-radius: 10px;
@@ -97,7 +97,7 @@ a {
 #contact {
 	padding: 20px;
 	margin: 15px auto;
-	max-width: 1000px;
+	max-width: 1200px;
 	box-shadow: 1px 2px 5px hsla(0, 0, 0, .5);
 	background-color: white;
 	border-radius: 10px;
@@ -513,10 +513,12 @@ table, th, td {
 
 /* For assignment 9 */
 .handsfree-debugger {
-	top: 320px;
-	right: 590px;
-	/* text-align: center; */
+	display: block;
 	position: absolute;
-	/* position: center; */
-	width:400px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 319px;
+	width:420px;
 }
