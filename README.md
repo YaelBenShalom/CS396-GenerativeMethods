@@ -1,9 +1,7 @@
-# Yael Ben Shalom
-## CS396 - Generative Methods, Northwestern University
+# CS396 - Generative Methods, Northwestern University
 
 
-This is my webpage created on assignment 1 of Generative Methods course.<br>
-The webpage can be found [here](https://yaelbenshalom.github.io/GenerativeMethods/index.html).
+The webpage (created on assignment 1) can be found [here](https://yaelbenshalom.github.io/GenerativeMethods/index.html).
 
 
 ### Acknowledgements:
