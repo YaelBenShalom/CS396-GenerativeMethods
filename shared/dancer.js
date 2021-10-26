@@ -39,7 +39,6 @@
     },
 
     /* Controls */
-
     play : function () {
       this.audioAdapter.play();
       return this;
@@ -55,9 +54,7 @@
       return this;
     },
 
-
     /* Actions */
-
     createKick : function ( options ) {
       return new Dancer.Kick( this, options );
     },
@@ -87,9 +84,7 @@
       return this;
     },
 
-
     /* Getters */
-
     getVolume : function () {
       return this.audioAdapter.getVolume();
     },
@@ -131,9 +126,7 @@
       return this.audioAdapter.isPlaying;
     },
 
-
     /* Sections */
-
     after : function ( time, callback ) {
       var _this = this;
       this.sections.push({
@@ -492,7 +485,6 @@
   }
 
   Dancer.adapters.webaudio = adapter;
-
 })();
 
 (function() {
@@ -503,7 +495,6 @@
   };
 
   adapter.prototype = {
-
     load : function ( _source ) {
       var _this = this;
       this.audio = _source;
@@ -590,7 +581,6 @@
   }
 
   Dancer.adapters.moz = adapter;
-
 })();
 
 (function() {
@@ -739,7 +729,6 @@
   }
 
   Dancer.adapters.flash = adapter;
-
 })();
 
 /* 
@@ -765,9 +754,7 @@ function FourierTransform(bufferSize, sampleRate) {
 
   /**
    * Calculates the *middle* frequency of an FFT band.
-   *
    * @param {Number} index The index of the FFT band.
-   *
    * @returns The middle frequency in Hz.
    */
   this.getBandFrequency = function(index) {
@@ -802,10 +789,8 @@ function FourierTransform(bufferSize, sampleRate) {
 /**
  * FFT is a class for calculating the Discrete Fourier Transform of a signal
  * with the Fast Fourier Transform algorithm.
- *
  * @param {Number} bufferSize The size of the sample buffer to be computed. Must be power of 2
  * @param {Number} sampleRate The sampleRate of the buffer (eg. 44100)
- *
  * @constructor
  */
 function FFT(bufferSize, sampleRate) {
@@ -839,9 +824,7 @@ function FFT(bufferSize, sampleRate) {
 /**
  * Performs a forward transform on the sample buffer.
  * Converts a time domain signal to frequency domain spectra.
- *
  * @param {Array} buffer The sample buffer. Buffer Length must be power of 2
- *
  * @returns The frequency spectrum array
  */
 FFT.prototype.forward = function(buffer) {
@@ -997,7 +980,6 @@ var FlashDetect = new function(){
     };
     /**
      * Parse a standard enabledPlugin.description into an object.
-     * 
      * @param {String} str The enabledPlugin.description value.
      * @return An object having raw, major, minor, revision and revisionStr attributes.
      * @type Object
@@ -1016,7 +998,6 @@ var FlashDetect = new function(){
     };
     /**
      * Parse the plugin revision string into an integer.
-     * 
      * @param {String} The revision in string format.
      * @type Number
      */
@@ -1025,7 +1006,6 @@ var FlashDetect = new function(){
     };
     /**
      * Is the major version greater than or equal to a specified version.
-     * 
      * @param {Number} version The minimum required major version.
      * @type Boolean
      */
@@ -1034,7 +1014,6 @@ var FlashDetect = new function(){
     };
     /**
      * Is the minor version greater than or equal to a specified version.
-     * 
      * @param {Number} version The minimum required minor version.
      * @type Boolean
      */
@@ -1043,7 +1022,6 @@ var FlashDetect = new function(){
     };
     /**
      * Is the revision version greater than or equal to a specified version.
-     * 
      * @param {Number} version The minimum required revision version.
      * @type Boolean
      */
@@ -1052,7 +1030,6 @@ var FlashDetect = new function(){
     };
     /**
      * Is the version greater than or equal to a specified major, minor and revision.
-     * 
      * @param {Number} major The minimum required major version.
      * @param {Number} (Optional) minor The minimum required minor version.
      * @param {Number} (Optional) revision The minimum required revision version.

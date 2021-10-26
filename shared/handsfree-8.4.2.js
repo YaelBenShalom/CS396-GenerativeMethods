@@ -624,7 +624,6 @@
       }
     }
 
-
     /**
      * Debugs the pose model
      */
@@ -1009,9 +1008,7 @@
       this.data.state = this.getStates();
       this.data.degree = this.getDegrees();
       this.data.isDetected = this.api.is_detected();
-
       this.handsfree.data.weboji = this.data;
-
       return this.data
     }
 
@@ -1080,14 +1077,12 @@
       state.mouthClosed = morphs[6] === 0;
       state.mouthOpen =
         morphs[6] > this.handsfree.config.weboji.morphs.threshold.mouthOpen;
-
       return state
     }
   }
 
   /**
    * Removes all key-value entries from the list cache.
-   *
    * @private
    * @name clear
    * @memberOf ListCache
@@ -1096,14 +1091,12 @@
     this.__data__ = [];
     this.size = 0;
   }
-
   var _listCacheClear = listCacheClear;
 
   /**
    * Performs a
    * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
    * comparison between two values to determine if they are equivalent.
-   *
    * @static
    * @memberOf _
    * @since 4.0.0
@@ -1111,25 +1104,6 @@
    * @param {*} value The value to compare.
    * @param {*} other The other value to compare.
    * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
-   * @example
-   *
-   * var object = { 'a': 1 };
-   * var other = { 'a': 1 };
-   *
-   * _.eq(object, object);
-   * // => true
-   *
-   * _.eq(object, other);
-   * // => false
-   *
-   * _.eq('a', 'a');
-   * // => true
-   *
-   * _.eq('a', Object('a'));
-   * // => false
-   *
-   * _.eq(NaN, NaN);
-   * // => true
    */
   function eq(value, other) {
     return value === other || (value !== value && other !== other);
@@ -1139,7 +1113,6 @@
 
   /**
    * Gets the index at which the `key` is found in `array` of key-value pairs.
-   *
    * @private
    * @param {Array} array The array to inspect.
    * @param {*} key The key to search for.
@@ -1165,7 +1138,6 @@
 
   /**
    * Removes `key` and its value from the list cache.
-   *
    * @private
    * @name delete
    * @memberOf ListCache
@@ -1193,7 +1165,6 @@
 
   /**
    * Gets the list cache value for `key`.
-   *
    * @private
    * @name get
    * @memberOf ListCache
@@ -1211,7 +1182,6 @@
 
   /**
    * Checks if a list cache value for `key` exists.
-   *
    * @private
    * @name has
    * @memberOf ListCache
@@ -1226,7 +1196,6 @@
 
   /**
    * Sets the list cache `key` to `value`.
-   *
    * @private
    * @name set
    * @memberOf ListCache
@@ -1251,7 +1220,6 @@
 
   /**
    * Creates an list cache object.
-   *
    * @private
    * @constructor
    * @param {Array} [entries] The key-value pairs to cache.
@@ -1278,7 +1246,6 @@
 
   /**
    * Removes all key-value entries from the stack.
-   *
    * @private
    * @name clear
    * @memberOf Stack
@@ -1292,7 +1259,6 @@
 
   /**
    * Removes `key` and its value from the stack.
-   *
    * @private
    * @name delete
    * @memberOf Stack
@@ -1311,7 +1277,6 @@
 
   /**
    * Gets the stack value for `key`.
-   *
    * @private
    * @name get
    * @memberOf Stack
@@ -1326,7 +1291,6 @@
 
   /**
    * Checks if a stack value for `key` exists.
-   *
    * @private
    * @name has
    * @memberOf Stack
@@ -1414,7 +1378,6 @@
 
   /**
    * Converts `value` to a string using `Object.prototype.toString`.
-   *
    * @private
    * @param {*} value The value to convert.
    * @returns {string} Returns the converted string.
@@ -1434,7 +1397,6 @@
 
   /**
    * The base implementation of `getTag` without fallbacks for buggy environments.
-   *
    * @private
    * @param {*} value The value to query.
    * @returns {string} Returns the `toStringTag`.
@@ -1454,26 +1416,12 @@
    * Checks if `value` is the
    * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
    * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
-   *
    * @static
    * @memberOf _
    * @since 0.1.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is an object, else `false`.
-   * @example
-   *
-   * _.isObject({});
-   * // => true
-   *
-   * _.isObject([1, 2, 3]);
-   * // => true
-   *
-   * _.isObject(_.noop);
-   * // => true
-   *
-   * _.isObject(null);
-   * // => false
    */
   function isObject(value) {
     var type = typeof value;
@@ -1490,20 +1438,12 @@
 
   /**
    * Checks if `value` is classified as a `Function` object.
-   *
    * @static
    * @memberOf _
    * @since 0.1.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a function, else `false`.
-   * @example
-   *
-   * _.isFunction(_);
-   * // => true
-   *
-   * _.isFunction(/abc/);
-   * // => false
    */
   function isFunction(value) {
     if (!isObject_1(value)) {
@@ -1530,7 +1470,6 @@
 
   /**
    * Checks if `func` has its source masked.
-   *
    * @private
    * @param {Function} func The function to check.
    * @returns {boolean} Returns `true` if `func` is masked, else `false`.
@@ -1549,7 +1488,6 @@
 
   /**
    * Converts `func` to its source code.
-   *
    * @private
    * @param {Function} func The function to convert.
    * @returns {string} Returns the source code.
@@ -1595,7 +1533,6 @@
 
   /**
    * The base implementation of `_.isNative` without bad shim checks.
-   *
    * @private
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a native function,
@@ -1613,7 +1550,6 @@
 
   /**
    * Gets the value at `key` of `object`.
-   *
    * @private
    * @param {Object} [object] The object to query.
    * @param {string} key The key of the property to get.
@@ -1627,7 +1563,6 @@
 
   /**
    * Gets the native function at `key` of `object`.
-   *
    * @private
    * @param {Object} object The object to query.
    * @param {string} key The key of the method to get.
@@ -1642,7 +1577,6 @@
 
   /* Built-in method references that are verified to be native. */
   var Map = _getNative(_root, 'Map');
-
   var _Map = Map;
 
   /* Built-in method references that are verified to be native. */
@@ -1652,7 +1586,6 @@
 
   /**
    * Removes all key-value entries from the hash.
-   *
    * @private
    * @name clear
    * @memberOf Hash
@@ -1693,7 +1626,6 @@
 
   /**
    * Gets the hash value for `key`.
-   *
    * @private
    * @name get
    * @memberOf Hash
@@ -1719,7 +1651,6 @@
 
   /**
    * Checks if a hash value for `key` exists.
-   *
    * @private
    * @name has
    * @memberOf Hash
@@ -1738,7 +1669,6 @@
 
   /**
    * Sets the hash `key` to `value`.
-   *
    * @private
    * @name set
    * @memberOf Hash
@@ -1757,7 +1687,6 @@
 
   /**
    * Creates a hash object.
-   *
    * @private
    * @constructor
    * @param {Array} [entries] The key-value pairs to cache.
@@ -1765,7 +1694,6 @@
   function Hash(entries) {
     var index = -1,
         length = entries == null ? 0 : entries.length;
-
     this.clear();
     while (++index < length) {
       var entry = entries[index];
@@ -1784,7 +1712,6 @@
 
   /**
    * Removes all key-value entries from the map.
-   *
    * @private
    * @name clear
    * @memberOf MapCache
@@ -1802,7 +1729,6 @@
 
   /**
    * Checks if `value` is suitable for use as unique object key.
-   *
    * @private
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
@@ -1818,7 +1744,6 @@
 
   /**
    * Gets the data for `map`.
-   *
    * @private
    * @param {Object} map The map to query.
    * @param {string} key The reference key.
@@ -1835,7 +1760,6 @@
 
   /**
    * Removes `key` and its value from the map.
-   *
    * @private
    * @name delete
    * @memberOf MapCache
@@ -1852,7 +1776,6 @@
 
   /**
    * Gets the map value for `key`.
-   *
    * @private
    * @name get
    * @memberOf MapCache
@@ -1867,7 +1790,6 @@
 
   /**
    * Checks if a map value for `key` exists.
-   *
    * @private
    * @name has
    * @memberOf MapCache
@@ -1882,7 +1804,6 @@
 
   /**
    * Sets the map `key` to `value`.
-   *
    * @private
    * @name set
    * @memberOf MapCache
@@ -1903,7 +1824,6 @@
 
   /**
    * Creates a map cache object to store key-value pairs.
-   *
    * @private
    * @constructor
    * @param {Array} [entries] The key-value pairs to cache.
@@ -1933,7 +1853,6 @@
 
   /**
    * Sets the stack `key` to `value`.
-   *
    * @private
    * @name set
    * @memberOf Stack
@@ -1961,7 +1880,6 @@
 
   /**
    * Creates a stack cache object to store key-value pairs.
-   *
    * @private
    * @constructor
    * @param {Array} [entries] The key-value pairs to cache.
@@ -1993,7 +1911,6 @@
   /**
    * The base implementation of `assignValue` and `assignMergeValue` without
    * value checks.
-   *
    * @private
    * @param {Object} object The object to modify.
    * @param {string} key The key of the property to assign.
@@ -2017,7 +1934,6 @@
   /**
    * This function is like `assignValue` except that it doesn't assign
    * `undefined` values.
-   *
    * @private
    * @param {Object} object The object to modify.
    * @param {string} key The key of the property to assign.
@@ -2034,7 +1950,6 @@
 
   /**
    * Creates a base function for methods like `_.forIn` and `_.forOwn`.
-   *
    * @private
    * @param {boolean} [fromRight] Specify iterating from right to left.
    * @returns {Function} Returns the new base function.
@@ -2062,7 +1977,6 @@
    * The base implementation of `baseForOwn` which iterates over `object`
    * properties returned by `keysFunc` and invokes `iteratee` for each property.
    * Iteratee functions may exit iteration early by explicitly returning `false`.
-   *
    * @private
    * @param {Object} object The object to iterate over.
    * @param {Function} iteratee The function invoked per iteration.
@@ -2089,7 +2003,6 @@
 
   /**
    * Creates a clone of  `buffer`.
-   *
    * @private
    * @param {Buffer} buffer The buffer to clone.
    * @param {boolean} [isDeep] Specify a deep clone.
@@ -2111,12 +2024,10 @@
 
   /** Built-in value references. */
   var Uint8Array = _root.Uint8Array;
-
   var _Uint8Array = Uint8Array;
 
   /**
    * Creates a clone of `arrayBuffer`.
-   *
    * @private
    * @param {ArrayBuffer} arrayBuffer The array buffer to clone.
    * @returns {ArrayBuffer} Returns the cloned array buffer.
@@ -2131,7 +2042,6 @@
 
   /**
    * Creates a clone of `typedArray`.
-   *
    * @private
    * @param {Object} typedArray The typed array to clone.
    * @param {boolean} [isDeep] Specify a deep clone.
@@ -2146,7 +2056,6 @@
 
   /**
    * Copies the values of `source` to `array`.
-   *
    * @private
    * @param {Array} source The array to copy values from.
    * @param {Array} [array=[]] The array to copy values to.
@@ -2171,7 +2080,6 @@
   /**
    * The base implementation of `_.create` without support for assigning
    * properties to the created object.
-   *
    * @private
    * @param {Object} proto The object to inherit from.
    * @returns {Object} Returns the new object.
@@ -2196,7 +2104,6 @@
 
   /**
    * Creates a unary function that invokes `func` with its argument transformed.
-   *
    * @private
    * @param {Function} func The function to wrap.
    * @param {Function} transform The argument transform.
@@ -2212,7 +2119,6 @@
 
   /** Built-in value references. */
   var getPrototype = _overArg(Object.getPrototypeOf, Object);
-
   var _getPrototype = getPrototype;
 
   /** Used for built-in method references. */
@@ -2220,7 +2126,6 @@
 
   /**
    * Checks if `value` is likely a prototype object.
-   *
    * @private
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
@@ -2236,7 +2141,6 @@
 
   /**
    * Initializes an object clone.
-   *
    * @private
    * @param {Object} object The object to clone.
    * @returns {Object} Returns the initialized clone.
@@ -2252,26 +2156,12 @@
   /**
    * Checks if `value` is object-like. A value is object-like if it's not `null`
    * and has a `typeof` result of "object".
-   *
    * @static
    * @memberOf _
    * @since 4.0.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
-   * @example
-   *
-   * _.isObjectLike({});
-   * // => true
-   *
-   * _.isObjectLike([1, 2, 3]);
-   * // => true
-   *
-   * _.isObjectLike(_.noop);
-   * // => false
-   *
-   * _.isObjectLike(null);
-   * // => false
    */
   function isObjectLike(value) {
     return value != null && typeof value == 'object';
@@ -2284,7 +2174,6 @@
 
   /**
    * The base implementation of `_.isArguments`.
-   *
    * @private
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is an `arguments` object,
@@ -2306,7 +2195,6 @@
 
   /**
    * Checks if `value` is likely an `arguments` object.
-   *
    * @static
    * @memberOf _
    * @since 0.1.0
@@ -2314,13 +2202,6 @@
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is an `arguments` object,
    *  else `false`.
-   * @example
-   *
-   * _.isArguments(function() { return arguments; }());
-   * // => true
-   *
-   * _.isArguments([1, 2, 3]);
-   * // => false
    */
   var isArguments = _baseIsArguments(function() { return arguments; }()) ? _baseIsArguments : function(value) {
     return isObjectLike_1(value) && hasOwnProperty$4.call(value, 'callee') &&
@@ -2331,26 +2212,12 @@
 
   /**
    * Checks if `value` is classified as an `Array` object.
-   *
    * @static
    * @memberOf _
    * @since 0.1.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is an array, else `false`.
-   * @example
-   *
-   * _.isArray([1, 2, 3]);
-   * // => true
-   *
-   * _.isArray(document.body.children);
-   * // => false
-   *
-   * _.isArray('abc');
-   * // => false
-   *
-   * _.isArray(_.noop);
-   * // => false
    */
   var isArray = Array.isArray;
 
@@ -2364,26 +2231,12 @@
    *
    * **Note:** This method is loosely based on
    * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
-   *
    * @static
    * @memberOf _
    * @since 4.0.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
-   * @example
-   *
-   * _.isLength(3);
-   * // => true
-   *
-   * _.isLength(Number.MIN_VALUE);
-   * // => false
-   *
-   * _.isLength(Infinity);
-   * // => false
-   *
-   * _.isLength('3');
-   * // => false
    */
   function isLength(value) {
     return typeof value == 'number' &&
@@ -2396,26 +2249,12 @@
    * Checks if `value` is array-like. A value is considered array-like if it's
    * not a function and has a `value.length` that's an integer greater than or
    * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
-   *
    * @static
    * @memberOf _
    * @since 4.0.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
-   * @example
-   *
-   * _.isArrayLike([1, 2, 3]);
-   * // => true
-   *
-   * _.isArrayLike(document.body.children);
-   * // => true
-   *
-   * _.isArrayLike('abc');
-   * // => true
-   *
-   * _.isArrayLike(_.noop);
-   * // => false
    */
   function isArrayLike(value) {
     return value != null && isLength_1(value.length) && !isFunction_1(value);
@@ -2426,7 +2265,6 @@
   /**
    * This method is like `_.isArrayLike` except that it also checks if `value`
    * is an object.
-   *
    * @static
    * @memberOf _
    * @since 4.0.0
@@ -2434,19 +2272,6 @@
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is an array-like object,
    *  else `false`.
-   * @example
-   *
-   * _.isArrayLikeObject([1, 2, 3]);
-   * // => true
-   *
-   * _.isArrayLikeObject(document.body.children);
-   * // => true
-   *
-   * _.isArrayLikeObject('abc');
-   * // => false
-   *
-   * _.isArrayLikeObject(_.noop);
-   * // => false
    */
   function isArrayLikeObject(value) {
     return isObjectLike_1(value) && isArrayLike_1(value);
@@ -2456,16 +2281,11 @@
 
   /**
    * This method returns `false`.
-   *
    * @static
    * @memberOf _
    * @since 4.13.0
    * @category Util
    * @returns {boolean} Returns `false`.
-   * @example
-   *
-   * _.times(2, _.stubFalse);
-   * // => [false, false]
    */
   function stubFalse() {
     return false;
@@ -2491,20 +2311,12 @@
 
   /**
    * Checks if `value` is a buffer.
-   *
    * @static
    * @memberOf _
    * @since 4.3.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
-   * @example
-   *
-   * _.isBuffer(new Buffer(2));
-   * // => true
-   *
-   * _.isBuffer(new Uint8Array(2));
-   * // => false
    */
   var isBuffer = nativeIsBuffer || stubFalse_1;
 
@@ -2530,30 +2342,12 @@
   /**
    * Checks if `value` is a plain object, that is, an object created by the
    * `Object` constructor or one with a `[[Prototype]]` of `null`.
-   *
    * @static
    * @memberOf _
    * @since 0.8.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
-   * @example
-   *
-   * function Foo() {
-   *   this.a = 1;
-   * }
-   *
-   * _.isPlainObject(new Foo);
-   * // => false
-   *
-   * _.isPlainObject([1, 2, 3]);
-   * // => false
-   *
-   * _.isPlainObject({ 'x': 0, 'y': 0 });
-   * // => true
-   *
-   * _.isPlainObject(Object.create(null));
-   * // => true
    */
   function isPlainObject(value) {
     if (!isObjectLike_1(value) || _baseGetTag(value) != objectTag) {
@@ -2615,7 +2409,6 @@
 
   /**
    * The base implementation of `_.isTypedArray` without Node.js optimizations.
-   *
    * @private
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
@@ -2629,7 +2422,6 @@
 
   /**
    * The base implementation of `_.unary` without support for storing metadata.
-   *
    * @private
    * @param {Function} func The function to cap arguments for.
    * @returns {Function} Returns the new capped function.
@@ -2678,20 +2470,12 @@
 
   /**
    * Checks if `value` is classified as a typed array.
-   *
    * @static
    * @memberOf _
    * @since 3.0.0
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
-   * @example
-   *
-   * _.isTypedArray(new Uint8Array);
-   * // => true
-   *
-   * _.isTypedArray([]);
-   * // => false
    */
   var isTypedArray = nodeIsTypedArray ? _baseUnary(nodeIsTypedArray) : _baseIsTypedArray;
 
@@ -2699,7 +2483,6 @@
 
   /**
    * Gets the value at `key`, unless `key` is "__proto__" or "constructor".
-   *
    * @private
    * @param {Object} object The object to query.
    * @param {string} key The key of the property to get.
@@ -2926,26 +2709,13 @@
 
   /**
    * Creates an array of the own and inherited enumerable property names of `object`.
-   *
    * **Note:** Non-object values are coerced to objects.
-   *
    * @static
    * @memberOf _
    * @since 3.0.0
    * @category Object
    * @param {Object} object The object to query.
    * @returns {Array} Returns the array of property names.
-   * @example
-   *
-   * function Foo() {
-   *   this.a = 1;
-   *   this.b = 2;
-   * }
-   *
-   * Foo.prototype.c = 3;
-   *
-   * _.keysIn(new Foo);
-   * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
    */
   function keysIn(object) {
     return isArrayLike_1(object) ? _arrayLikeKeys(object, true) : _baseKeysIn(object);
@@ -2956,26 +2726,12 @@
   /**
    * Converts `value` to a plain object flattening inherited enumerable string
    * keyed properties of `value` to own properties of the plain object.
-   *
    * @static
    * @memberOf _
    * @since 3.0.0
    * @category Lang
    * @param {*} value The value to convert.
    * @returns {Object} Returns the converted plain object.
-   * @example
-   *
-   * function Foo() {
-   *   this.b = 2;
-   * }
-   *
-   * Foo.prototype.c = 3;
-   *
-   * _.assign({ 'a': 1 }, new Foo);
-   * // => { 'a': 1, 'b': 2 }
-   *
-   * _.assign({ 'a': 1 }, _.toPlainObject(new Foo));
-   * // => { 'a': 1, 'b': 2, 'c': 3 }
    */
   function toPlainObject(value) {
     return _copyObject(value, keysIn_1(value));
@@ -2987,7 +2743,6 @@
    * A specialized version of `baseMerge` for arrays and objects which performs
    * deep merges and tracks traversed objects enabling objects with circular
    * references to be merged.
-   *
    * @private
    * @param {Object} object The destination object.
    * @param {Object} source The source object.
@@ -3099,19 +2854,12 @@
 
   /**
    * This method returns the first argument it receives.
-   *
    * @static
    * @since 0.1.0
    * @memberOf _
    * @category Util
    * @param {*} value Any value.
    * @returns {*} Returns `value`.
-   * @example
-   *
-   * var object = { 'a': 1 };
-   *
-   * console.log(_.identity(object) === object);
-   * // => true
    */
   function identity(value) {
     return value;
@@ -3122,7 +2870,6 @@
   /**
    * A faster alternative to `Function#apply`, this function invokes `func`
    * with the `this` binding of `thisArg` and the arguments of `args`.
-   *
    * @private
    * @param {Function} func The function to invoke.
    * @param {*} thisArg The `this` binding of `func`.
@@ -3178,22 +2925,12 @@
 
   /**
    * Creates a function that returns `value`.
-   *
    * @static
    * @memberOf _
    * @since 2.4.0
    * @category Util
    * @param {*} value The value to return from the new function.
    * @returns {Function} Returns the new constant function.
-   * @example
-   *
-   * var objects = _.times(2, _.constant({ 'a': 1 }));
-   *
-   * console.log(objects);
-   * // => [{ 'a': 1 }, { 'a': 1 }]
-   *
-   * console.log(objects[0] === objects[1]);
-   * // => true
    */
   function constant(value) {
     return function() {
@@ -3205,7 +2942,6 @@
 
   /**
    * The base implementation of `setToString` without support for hot loop shorting.
-   *
    * @private
    * @param {Function} func The function to modify.
    * @param {Function} string The `toString` result.
@@ -3365,18 +3101,6 @@
    * @param {Object} object The destination object.
    * @param {...Object} [sources] The source objects.
    * @returns {Object} Returns `object`.
-   * @example
-   *
-   * var object = {
-   *   'a': [{ 'b': 2 }, { 'd': 4 }]
-   * };
-   *
-   * var other = {
-   *   'a': [{ 'c': 3 }, { 'e': 5 }]
-   * };
-   *
-   * _.merge(object, other);
-   * // => { 'a': [{ 'b': 2, 'c': 3 }, { 'd': 4, 'e': 5 }] }
    */
   var merge = _createAssigner(function(object, source, srcIndex) {
     _baseMerge(object, source, srcIndex);
@@ -3689,12 +3413,6 @@
    * @since 2.4.0
    * @category Date
    * @returns {number} Returns the timestamp.
-   * @example
-   *
-   * _.defer(function(stamp) {
-   *   console.log(_.now() - stamp);
-   * }, _.now());
-   * // => Logs the number of milliseconds it took for the deferred invocation.
    */
   var now = function() {
     return _root.Date.now();
@@ -3714,13 +3432,6 @@
    * @category Lang
    * @param {*} value The value to check.
    * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
-   * @example
-   *
-   * _.isSymbol(Symbol.iterator);
-   * // => true
-   *
-   * _.isSymbol('abc');
-   * // => false
    */
   function isSymbol(value) {
     return typeof value == 'symbol' ||
@@ -3756,19 +3467,6 @@
    * @category Lang
    * @param {*} value The value to process.
    * @returns {number} Returns the number.
-   * @example
-   *
-   * _.toNumber(3.2);
-   * // => 3.2
-   *
-   * _.toNumber(Number.MIN_VALUE);
-   * // => 5e-324
-   *
-   * _.toNumber(Infinity);
-   * // => Infinity
-   *
-   * _.toNumber('3.2');
-   * // => 3.2
    */
   function toNumber(value) {
     if (typeof value == 'number') {
@@ -3835,24 +3533,6 @@
    * @param {boolean} [options.trailing=true]
    *  Specify invoking on the trailing edge of the timeout.
    * @returns {Function} Returns the new debounced function.
-   * @example
-   *
-   * // Avoid costly calculations while the window size is in flux.
-   * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
-   *
-   * // Invoke `sendMail` when clicked, debouncing subsequent calls.
-   * jQuery(element).on('click', _.debounce(sendMail, 300, {
-   *   'leading': true,
-   *   'trailing': false
-   * }));
-   *
-   * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
-   * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
-   * var source = new EventSource('/stream');
-   * jQuery(source).on('message', debounced);
-   *
-   * // Cancel the trailing debounced invocation.
-   * jQuery(window).on('popstate', debounced.cancel);
    */
   function debounce(func, wait, options) {
     var lastArgs,
@@ -4016,17 +3696,6 @@
    * @param {boolean} [options.trailing=true]
    *  Specify invoking on the trailing edge of the timeout.
    * @returns {Function} Returns the new throttled function.
-   * @example
-   *
-   * // Avoid excessively updating the position while scrolling.
-   * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
-   *
-   * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
-   * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
-   * jQuery(element).on('click', throttled);
-   *
-   * // Cancel the trailing throttled invocation.
-   * jQuery(window).on('popstate', throttled.cancel);
    */
   function throttle(func, wait, options) {
     var leading = true,
