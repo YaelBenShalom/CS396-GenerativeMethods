@@ -1,4227 +1,4227 @@
 const emojiOccurrenceData = [
   {
-    "Emoji": "😂",
+    Emoji: "😂",
     "Unicode codepoint": "1F602",
-    "Occurrences": 754843296
+    Occurrences: 754843296,
   },
   {
-    "Emoji": "♥",
+    Emoji: "♥",
     "Unicode codepoint": 2665,
-    "Occurrences": 524698612
+    Occurrences: 524698612,
   },
   {
-    "Emoji": "❤",
+    Emoji: "❤",
     "Unicode codepoint": 2764,
-    "Occurrences": 341911962
+    Occurrences: 341911962,
   },
   {
-    "Emoji": "😍",
+    Emoji: "😍",
     "Unicode codepoint": "1F60D",
-    "Occurrences": 319310348
+    Occurrences: 319310348,
   },
   {
-    "Emoji": "😒",
+    Emoji: "😒",
     "Unicode codepoint": "1F612",
-    "Occurrences": 282824635
+    Occurrences: 282824635,
   },
   {
-    "Emoji": "😊",
+    Emoji: "😊",
     "Unicode codepoint": "1F60A",
-    "Occurrences": 239396341
+    Occurrences: 239396341,
   },
   {
-    "Emoji": "😭",
+    Emoji: "😭",
     "Unicode codepoint": "1F62D",
-    "Occurrences": 235371370
+    Occurrences: 235371370,
   },
   {
-    "Emoji": "☺",
+    Emoji: "☺",
     "Unicode codepoint": "263A",
-    "Occurrences": 218194544
+    Occurrences: 218194544,
   },
   {
-    "Emoji": "😘",
+    Emoji: "😘",
     "Unicode codepoint": "1F618",
-    "Occurrences": 218118200
+    Occurrences: 218118200,
   },
   {
-    "Emoji": "👌",
+    Emoji: "👌",
     "Unicode codepoint": "1F44C",
-    "Occurrences": 216474343
+    Occurrences: 216474343,
   },
   {
-    "Emoji": "💕",
+    Emoji: "💕",
     "Unicode codepoint": "1F495",
-    "Occurrences": 207761611
+    Occurrences: 207761611,
   },
   {
-    "Emoji": "😩",
+    Emoji: "😩",
     "Unicode codepoint": "1F629",
-    "Occurrences": 200190869
+    Occurrences: 200190869,
   },
   {
-    "Emoji": "😔",
+    Emoji: "😔",
     "Unicode codepoint": "1F614",
-    "Occurrences": 176890966
+    Occurrences: 176890966,
   },
   {
-    "Emoji": "😏",
+    Emoji: "😏",
     "Unicode codepoint": "1F60F",
-    "Occurrences": 161571042
+    Occurrences: 161571042,
   },
   {
-    "Emoji": "😁",
+    Emoji: "😁",
     "Unicode codepoint": "1F601",
-    "Occurrences": 156701240
+    Occurrences: 156701240,
   },
   {
-    "Emoji": "🙏",
+    Emoji: "🙏",
     "Unicode codepoint": "1F64F",
-    "Occurrences": 108313552
+    Occurrences: 108313552,
   },
   {
-    "Emoji": "👍",
+    Emoji: "👍",
     "Unicode codepoint": "1F44D",
-    "Occurrences": 103659680
+    Occurrences: 103659680,
   },
   {
-    "Emoji": "😳",
+    Emoji: "😳",
     "Unicode codepoint": "1F633",
-    "Occurrences": 101446264
+    Occurrences: 101446264,
   },
   {
-    "Emoji": "🙌",
+    Emoji: "🙌",
     "Unicode codepoint": "1F64C",
-    "Occurrences": 101401014
+    Occurrences: 101401014,
   },
   {
-    "Emoji": "😉",
+    Emoji: "😉",
     "Unicode codepoint": "1F609",
-    "Occurrences": 93130132
+    Occurrences: 93130132,
   },
   {
-    "Emoji": "✌",
+    Emoji: "✌",
     "Unicode codepoint": "270C",
-    "Occurrences": 92918671
+    Occurrences: 92918671,
   },
   {
-    "Emoji": "😌",
+    Emoji: "😌",
     "Unicode codepoint": "1F60C",
-    "Occurrences": 89167611
+    Occurrences: 89167611,
   },
   {
-    "Emoji": "🙈",
+    Emoji: "🙈",
     "Unicode codepoint": "1F648",
-    "Occurrences": 87361590
+    Occurrences: 87361590,
   },
   {
-    "Emoji": "💁",
+    Emoji: "💁",
     "Unicode codepoint": "1F481",
-    "Occurrences": 80658432
+    Occurrences: 80658432,
   },
   {
-    "Emoji": "😎",
+    Emoji: "😎",
     "Unicode codepoint": "1F60E",
-    "Occurrences": 77342110
+    Occurrences: 77342110,
   },
   {
-    "Emoji": "🎶",
+    Emoji: "🎶",
     "Unicode codepoint": "1F3B6",
-    "Occurrences": 75686787
+    Occurrences: 75686787,
   },
   {
-    "Emoji": "👀",
+    Emoji: "👀",
     "Unicode codepoint": "1F440",
-    "Occurrences": 73298395
+    Occurrences: 73298395,
   },
   {
-    "Emoji": "😄",
+    Emoji: "😄",
     "Unicode codepoint": "1F604",
-    "Occurrences": 69979164
+    Occurrences: 69979164,
   },
   {
-    "Emoji": "😴",
+    Emoji: "😴",
     "Unicode codepoint": "1F634",
-    "Occurrences": 69145415
+    Occurrences: 69145415,
   },
   {
-    "Emoji": "😢",
+    Emoji: "😢",
     "Unicode codepoint": "1F622",
-    "Occurrences": 66115753
+    Occurrences: 66115753,
   },
   {
-    "Emoji": "😑",
+    Emoji: "😑",
     "Unicode codepoint": "1F611",
-    "Occurrences": 65146774
+    Occurrences: 65146774,
   },
   {
-    "Emoji": "💖",
+    Emoji: "💖",
     "Unicode codepoint": "1F496",
-    "Occurrences": 63618206
+    Occurrences: 63618206,
   },
   {
-    "Emoji": "💯",
+    Emoji: "💯",
     "Unicode codepoint": "1F4AF",
-    "Occurrences": 62290703
+    Occurrences: 62290703,
   },
   {
-    "Emoji": "😜",
+    Emoji: "😜",
     "Unicode codepoint": "1F61C",
-    "Occurrences": 62114227
+    Occurrences: 62114227,
   },
   {
-    "Emoji": "😞",
+    Emoji: "😞",
     "Unicode codepoint": "1F61E",
-    "Occurrences": 61070323
+    Occurrences: 61070323,
   },
   {
-    "Emoji": "💜",
+    Emoji: "💜",
     "Unicode codepoint": "1F49C",
-    "Occurrences": 60469119
+    Occurrences: 60469119,
   },
   {
-    "Emoji": "✨",
+    Emoji: "✨",
     "Unicode codepoint": 2728,
-    "Occurrences": 60185885
+    Occurrences: 60185885,
   },
   {
-    "Emoji": "😋",
+    Emoji: "😋",
     "Unicode codepoint": "1F60B",
-    "Occurrences": 59267903
+    Occurrences: 59267903,
   },
   {
-    "Emoji": "👏",
+    Emoji: "👏",
     "Unicode codepoint": "1F44F",
-    "Occurrences": 58380838
+    Occurrences: 58380838,
   },
   {
-    "Emoji": "😕",
+    Emoji: "😕",
     "Unicode codepoint": "1F615",
-    "Occurrences": 58018713
+    Occurrences: 58018713,
   },
   {
-    "Emoji": "😅",
+    Emoji: "😅",
     "Unicode codepoint": "1F605",
-    "Occurrences": 56761959
+    Occurrences: 56761959,
   },
   {
-    "Emoji": "💙",
+    Emoji: "💙",
     "Unicode codepoint": "1F499",
-    "Occurrences": 56461105
+    Occurrences: 56461105,
   },
   {
-    "Emoji": "🙊",
+    Emoji: "🙊",
     "Unicode codepoint": "1F64A",
-    "Occurrences": 55041267
+    Occurrences: 55041267,
   },
   {
-    "Emoji": "✋",
+    Emoji: "✋",
     "Unicode codepoint": "270B",
-    "Occurrences": 54103833
+    Occurrences: 54103833,
   },
   {
-    "Emoji": "😐",
+    Emoji: "😐",
     "Unicode codepoint": "1F610",
-    "Occurrences": 53358696
+    Occurrences: 53358696,
   },
   {
-    "Emoji": "💔",
+    Emoji: "💔",
     "Unicode codepoint": "1F494",
-    "Occurrences": 53230593
+    Occurrences: 53230593,
   },
   {
-    "Emoji": "😪",
+    Emoji: "😪",
     "Unicode codepoint": "1F62A",
-    "Occurrences": 49970036
+    Occurrences: 49970036,
   },
   {
-    "Emoji": "💗",
+    Emoji: "💗",
     "Unicode codepoint": "1F497",
-    "Occurrences": 48133212
+    Occurrences: 48133212,
   },
   {
-    "Emoji": "💞",
+    Emoji: "💞",
     "Unicode codepoint": "1F49E",
-    "Occurrences": 47878441
+    Occurrences: 47878441,
   },
   {
-    "Emoji": "💘",
+    Emoji: "💘",
     "Unicode codepoint": "1F498",
-    "Occurrences": 47752224
+    Occurrences: 47752224,
   },
   {
-    "Emoji": "💋",
+    Emoji: "💋",
     "Unicode codepoint": "1F48B",
-    "Occurrences": 45098484
+    Occurrences: 45098484,
   },
   {
-    "Emoji": "😱",
+    Emoji: "😱",
     "Unicode codepoint": "1F631",
-    "Occurrences": 44273326
+    Occurrences: 44273326,
   },
   {
-    "Emoji": "😡",
+    Emoji: "😡",
     "Unicode codepoint": "1F621",
-    "Occurrences": 42365269
+    Occurrences: 42365269,
   },
   {
-    "Emoji": "😫",
+    Emoji: "😫",
     "Unicode codepoint": "1F62B",
-    "Occurrences": 40627490
+    Occurrences: 40627490,
   },
   {
-    "Emoji": "👊",
+    Emoji: "👊",
     "Unicode codepoint": "1F44A",
-    "Occurrences": 40302227
+    Occurrences: 40302227,
   },
   {
-    "Emoji": "☀",
+    Emoji: "☀",
     "Unicode codepoint": 2600,
-    "Occurrences": 40252825
+    Occurrences: 40252825,
   },
   {
-    "Emoji": "😃",
+    Emoji: "😃",
     "Unicode codepoint": "1F603",
-    "Occurrences": 38848201
+    Occurrences: 38848201,
   },
   {
-    "Emoji": "🌸",
+    Emoji: "🌸",
     "Unicode codepoint": "1F338",
-    "Occurrences": 38808623
+    Occurrences: 38808623,
   },
   {
-    "Emoji": "😈",
+    Emoji: "😈",
     "Unicode codepoint": "1F608",
-    "Occurrences": 38262758
+    Occurrences: 38262758,
   },
   {
-    "Emoji": "😝",
+    Emoji: "😝",
     "Unicode codepoint": "1F61D",
-    "Occurrences": 35285546
+    Occurrences: 35285546,
   },
   {
-    "Emoji": "🌹",
+    Emoji: "🌹",
     "Unicode codepoint": "1F339",
-    "Occurrences": 34347008
+    Occurrences: 34347008,
   },
   {
-    "Emoji": "😤",
+    Emoji: "😤",
     "Unicode codepoint": "1F624",
-    "Occurrences": 34171254
+    Occurrences: 34171254,
   },
   {
-    "Emoji": "👋",
+    Emoji: "👋",
     "Unicode codepoint": "1F44B",
-    "Occurrences": 33676745
+    Occurrences: 33676745,
   },
   {
-    "Emoji": "✔",
+    Emoji: "✔",
     "Unicode codepoint": 2714,
-    "Occurrences": 32993404
+    Occurrences: 32993404,
   },
   {
-    "Emoji": "💪",
+    Emoji: "💪",
     "Unicode codepoint": "1F4AA",
-    "Occurrences": 32944700
+    Occurrences: 32944700,
   },
   {
-    "Emoji": "🎉",
+    Emoji: "🎉",
     "Unicode codepoint": "1F389",
-    "Occurrences": 32191417
+    Occurrences: 32191417,
   },
   {
-    "Emoji": "💛",
+    Emoji: "💛",
     "Unicode codepoint": "1F49B",
-    "Occurrences": 31129058
+    Occurrences: 31129058,
   },
   {
-    "Emoji": "😷",
+    Emoji: "😷",
     "Unicode codepoint": "1F637",
-    "Occurrences": 30366008
+    Occurrences: 30366008,
   },
   {
-    "Emoji": "👉",
+    Emoji: "👉",
     "Unicode codepoint": "1F449",
-    "Occurrences": 29947346
+    Occurrences: 29947346,
   },
   {
-    "Emoji": "😣",
+    Emoji: "😣",
     "Unicode codepoint": "1F623",
-    "Occurrences": 29098660
+    Occurrences: 29098660,
   },
   {
-    "Emoji": "💚",
+    Emoji: "💚",
     "Unicode codepoint": "1F49A",
-    "Occurrences": 28702288
+    Occurrences: 28702288,
   },
   {
-    "Emoji": "😓",
+    Emoji: "😓",
     "Unicode codepoint": "1F613",
-    "Occurrences": 27457364
+    Occurrences: 27457364,
   },
   {
-    "Emoji": "😻",
+    Emoji: "😻",
     "Unicode codepoint": "1F63B",
-    "Occurrences": 27219133
+    Occurrences: 27219133,
   },
   {
-    "Emoji": "😆",
+    Emoji: "😆",
     "Unicode codepoint": "1F606",
-    "Occurrences": 26697893
+    Occurrences: 26697893,
   },
   {
-    "Emoji": "💀",
+    Emoji: "💀",
     "Unicode codepoint": "1F480",
-    "Occurrences": 25767749
+    Occurrences: 25767749,
   },
   {
-    "Emoji": "🔥",
+    Emoji: "🔥",
     "Unicode codepoint": "1F525",
-    "Occurrences": 25630578
+    Occurrences: 25630578,
   },
   {
-    "Emoji": "🌚",
+    Emoji: "🌚",
     "Unicode codepoint": "1F31A",
-    "Occurrences": 25219451
+    Occurrences: 25219451,
   },
   {
-    "Emoji": "😚",
+    Emoji: "😚",
     "Unicode codepoint": "1F61A",
-    "Occurrences": 24234959
+    Occurrences: 24234959,
   },
   {
-    "Emoji": "😖",
+    Emoji: "😖",
     "Unicode codepoint": "1F616",
-    "Occurrences": 24103082
+    Occurrences: 24103082,
   },
   {
-    "Emoji": "🔫",
+    Emoji: "🔫",
     "Unicode codepoint": "1F52B",
-    "Occurrences": 23078175
+    Occurrences: 23078175,
   },
   {
-    "Emoji": "😥",
+    Emoji: "😥",
     "Unicode codepoint": "1F625",
-    "Occurrences": 22955877
+    Occurrences: 22955877,
   },
   {
-    "Emoji": "🙋",
+    Emoji: "🙋",
     "Unicode codepoint": "1F64B",
-    "Occurrences": 22833309
+    Occurrences: 22833309,
   },
   {
-    "Emoji": "😠",
+    Emoji: "😠",
     "Unicode codepoint": "1F620",
-    "Occurrences": 22421053
+    Occurrences: 22421053,
   },
   {
-    "Emoji": "😬",
+    Emoji: "😬",
     "Unicode codepoint": "1F62C",
-    "Occurrences": 21531678
+    Occurrences: 21531678,
   },
   {
-    "Emoji": "👈",
+    Emoji: "👈",
     "Unicode codepoint": "1F448",
-    "Occurrences": 21480709
+    Occurrences: 21480709,
   },
   {
-    "Emoji": "✊",
+    Emoji: "✊",
     "Unicode codepoint": "270A",
-    "Occurrences": 21475921
+    Occurrences: 21475921,
   },
   {
-    "Emoji": "🎧",
+    Emoji: "🎧",
     "Unicode codepoint": "1F3A7",
-    "Occurrences": 21452127
+    Occurrences: 21452127,
   },
   {
-    "Emoji": "🙅",
+    Emoji: "🙅",
     "Unicode codepoint": "1F645",
-    "Occurrences": 21389151
+    Occurrences: 21389151,
   },
   {
-    "Emoji": "💓",
+    Emoji: "💓",
     "Unicode codepoint": "1F493",
-    "Occurrences": 21299988
+    Occurrences: 21299988,
   },
   {
-    "Emoji": "👑",
+    Emoji: "👑",
     "Unicode codepoint": "1F451",
-    "Occurrences": 21151848
+    Occurrences: 21151848,
   },
   {
-    "Emoji": "😀",
+    Emoji: "😀",
     "Unicode codepoint": "1F600",
-    "Occurrences": 20779182
+    Occurrences: 20779182,
   },
   {
-    "Emoji": "👎",
+    Emoji: "👎",
     "Unicode codepoint": "1F44E",
-    "Occurrences": 20520127
+    Occurrences: 20520127,
   },
   {
-    "Emoji": "😛",
+    Emoji: "😛",
     "Unicode codepoint": "1F61B",
-    "Occurrences": 20268580
+    Occurrences: 20268580,
   },
   {
-    "Emoji": "💃",
+    Emoji: "💃",
     "Unicode codepoint": "1F483",
-    "Occurrences": 19881745
+    Occurrences: 19881745,
   },
   {
-    "Emoji": "🌟",
+    Emoji: "🌟",
     "Unicode codepoint": "1F31F",
-    "Occurrences": 18833513
+    Occurrences: 18833513,
   },
   {
-    "Emoji": "▶",
+    Emoji: "▶",
     "Unicode codepoint": "25B6",
-    "Occurrences": 18473269
+    Occurrences: 18473269,
   },
   {
-    "Emoji": "😶",
+    Emoji: "😶",
     "Unicode codepoint": "1F636",
-    "Occurrences": 18318306
+    Occurrences: 18318306,
   },
   {
-    "Emoji": "☑",
+    Emoji: "☑",
     "Unicode codepoint": 2611,
-    "Occurrences": 15942012
+    Occurrences: 15942012,
   },
   {
-    "Emoji": "💩",
+    Emoji: "💩",
     "Unicode codepoint": "1F4A9",
-    "Occurrences": 15713610
+    Occurrences: 15713610,
   },
   {
-    "Emoji": "💫",
+    Emoji: "💫",
     "Unicode codepoint": "1F4AB",
-    "Occurrences": 15694642
+    Occurrences: 15694642,
   },
   {
-    "Emoji": "©",
+    Emoji: "©",
     "Unicode codepoint": "00A9",
-    "Occurrences": 15625636
+    Occurrences: 15625636,
   },
   {
-    "Emoji": "🐧",
+    Emoji: "🐧",
     "Unicode codepoint": "1F427",
-    "Occurrences": 15243154
+    Occurrences: 15243154,
   },
   {
-    "Emoji": "🚶",
+    Emoji: "🚶",
     "Unicode codepoint": "1F6B6",
-    "Occurrences": 15228091
+    Occurrences: 15228091,
   },
   {
-    "Emoji": "🎵",
+    Emoji: "🎵",
     "Unicode codepoint": "1F3B5",
-    "Occurrences": 15184245
+    Occurrences: 15184245,
   },
   {
-    "Emoji": "💎",
+    Emoji: "💎",
     "Unicode codepoint": "1F48E",
-    "Occurrences": 14671903
+    Occurrences: 14671903,
   },
   {
-    "Emoji": "🙆",
+    Emoji: "🙆",
     "Unicode codepoint": "1F646",
-    "Occurrences": 14556644
+    Occurrences: 14556644,
   },
   {
-    "Emoji": "😰",
+    Emoji: "😰",
     "Unicode codepoint": "1F630",
-    "Occurrences": 14442860
+    Occurrences: 14442860,
   },
   {
-    "Emoji": "😇",
+    Emoji: "😇",
     "Unicode codepoint": "1F607",
-    "Occurrences": 14336791
+    Occurrences: 14336791,
   },
   {
-    "Emoji": "💥",
+    Emoji: "💥",
     "Unicode codepoint": "1F4A5",
-    "Occurrences": 14243458
+    Occurrences: 14243458,
   },
   {
-    "Emoji": "🍕",
+    Emoji: "🍕",
     "Unicode codepoint": "1F355",
-    "Occurrences": 13936290
+    Occurrences: 13936290,
   },
   {
-    "Emoji": "👐",
+    Emoji: "👐",
     "Unicode codepoint": "1F450",
-    "Occurrences": 12771908
+    Occurrences: 12771908,
   },
   {
-    "Emoji": "💭",
+    Emoji: "💭",
     "Unicode codepoint": "1F4AD",
-    "Occurrences": 12739529
+    Occurrences: 12739529,
   },
   {
-    "Emoji": "🌞",
+    Emoji: "🌞",
     "Unicode codepoint": "1F31E",
-    "Occurrences": 12718738
+    Occurrences: 12718738,
   },
   {
-    "Emoji": "💤",
+    Emoji: "💤",
     "Unicode codepoint": "1F4A4",
-    "Occurrences": 12511349
+    Occurrences: 12511349,
   },
   {
-    "Emoji": "✈",
+    Emoji: "✈",
     "Unicode codepoint": 2708,
-    "Occurrences": 12497804
+    Occurrences: 12497804,
   },
   {
-    "Emoji": "🙇",
+    Emoji: "🙇",
     "Unicode codepoint": "1F647",
-    "Occurrences": 12132198
+    Occurrences: 12132198,
   },
   {
-    "Emoji": "➡",
+    Emoji: "➡",
     "Unicode codepoint": "27A1",
-    "Occurrences": 12006565
+    Occurrences: 12006565,
   },
   {
-    "Emoji": "🎀",
+    Emoji: "🎀",
     "Unicode codepoint": "1F380",
-    "Occurrences": 11675034
+    Occurrences: 11675034,
   },
   {
-    "Emoji": "👽",
+    Emoji: "👽",
     "Unicode codepoint": "1F47D",
-    "Occurrences": 11656421
+    Occurrences: 11656421,
   },
   {
-    "Emoji": "👼",
+    Emoji: "👼",
     "Unicode codepoint": "1F47C",
-    "Occurrences": 11555320
+    Occurrences: 11555320,
   },
   {
-    "Emoji": "🍀",
+    Emoji: "🍀",
     "Unicode codepoint": "1F340",
-    "Occurrences": 11470192
+    Occurrences: 11470192,
   },
   {
-    "Emoji": "😹",
+    Emoji: "😹",
     "Unicode codepoint": "1F639",
-    "Occurrences": 11452894
+    Occurrences: 11452894,
   },
   {
-    "Emoji": "👇",
+    Emoji: "👇",
     "Unicode codepoint": "1F447",
-    "Occurrences": 11434167
+    Occurrences: 11434167,
   },
   {
-    "Emoji": "💅",
+    Emoji: "💅",
     "Unicode codepoint": "1F485",
-    "Occurrences": 11319898
+    Occurrences: 11319898,
   },
   {
-    "Emoji": "❌",
+    Emoji: "❌",
     "Unicode codepoint": "274C",
-    "Occurrences": 10994076
+    Occurrences: 10994076,
   },
   {
-    "Emoji": "☁",
+    Emoji: "☁",
     "Unicode codepoint": 2601,
-    "Occurrences": 10910631
+    Occurrences: 10910631,
   },
   {
-    "Emoji": "👅",
+    Emoji: "👅",
     "Unicode codepoint": "1F445",
-    "Occurrences": 10866564
+    Occurrences: 10866564,
   },
   {
-    "Emoji": "👯",
+    Emoji: "👯",
     "Unicode codepoint": "1F46F",
-    "Occurrences": 10813999
+    Occurrences: 10813999,
   },
   {
-    "Emoji": "◀",
+    Emoji: "◀",
     "Unicode codepoint": "25C0",
-    "Occurrences": 10805372
+    Occurrences: 10805372,
   },
   {
-    "Emoji": "♣",
+    Emoji: "♣",
     "Unicode codepoint": 2663,
-    "Occurrences": 10574987
+    Occurrences: 10574987,
   },
   {
-    "Emoji": "😟",
+    Emoji: "😟",
     "Unicode codepoint": "1F61F",
-    "Occurrences": 10519203
+    Occurrences: 10519203,
   },
   {
-    "Emoji": "🌍",
+    Emoji: "🌍",
     "Unicode codepoint": "1F30D",
-    "Occurrences": 10479114
+    Occurrences: 10479114,
   },
   {
-    "Emoji": "😨",
+    Emoji: "😨",
     "Unicode codepoint": "1F628",
-    "Occurrences": 10456887
+    Occurrences: 10456887,
   },
   {
-    "Emoji": "🍃",
+    Emoji: "🍃",
     "Unicode codepoint": "1F343",
-    "Occurrences": 10397878
+    Occurrences: 10397878,
   },
   {
-    "Emoji": "🌺",
+    Emoji: "🌺",
     "Unicode codepoint": "1F33A",
-    "Occurrences": 10348507
+    Occurrences: 10348507,
   },
   {
-    "Emoji": "✅",
+    Emoji: "✅",
     "Unicode codepoint": 2705,
-    "Occurrences": 10307703
+    Occurrences: 10307703,
   },
   {
-    "Emoji": "💦",
+    Emoji: "💦",
     "Unicode codepoint": "1F4A6",
-    "Occurrences": 10210789
+    Occurrences: 10210789,
   },
   {
-    "Emoji": "❄",
+    Emoji: "❄",
     "Unicode codepoint": 2744,
-    "Occurrences": 10142321
+    Occurrences: 10142321,
   },
   {
-    "Emoji": "⭐",
+    Emoji: "⭐",
     "Unicode codepoint": "2B50",
-    "Occurrences": 9975235
+    Occurrences: 9975235,
   },
   {
-    "Emoji": "☝",
+    Emoji: "☝",
     "Unicode codepoint": "261D",
-    "Occurrences": 9918192
+    Occurrences: 9918192,
   },
   {
-    "Emoji": "✖",
+    Emoji: "✖",
     "Unicode codepoint": 2716,
-    "Occurrences": 9860679
+    Occurrences: 9860679,
   },
   {
-    "Emoji": "🎈",
+    Emoji: "🎈",
     "Unicode codepoint": "1F388",
-    "Occurrences": 9808227
+    Occurrences: 9808227,
   },
   {
-    "Emoji": "🔴",
+    Emoji: "🔴",
     "Unicode codepoint": "1F534",
-    "Occurrences": 9769858
+    Occurrences: 9769858,
   },
   {
-    "Emoji": "❗",
+    Emoji: "❗",
     "Unicode codepoint": 2757,
-    "Occurrences": 9638316
+    Occurrences: 9638316,
   },
   {
-    "Emoji": "🎁",
+    Emoji: "🎁",
     "Unicode codepoint": "1F381",
-    "Occurrences": 8893712
+    Occurrences: 8893712,
   },
   {
-    "Emoji": "⬅",
+    Emoji: "⬅",
     "Unicode codepoint": "2B05",
-    "Occurrences": 8890498
+    Occurrences: 8890498,
   },
   {
-    "Emoji": "🌎",
+    Emoji: "🌎",
     "Unicode codepoint": "1F30E",
-    "Occurrences": 8845159
+    Occurrences: 8845159,
   },
   {
-    "Emoji": "🏃",
+    Emoji: "🏃",
     "Unicode codepoint": "1F3C3",
-    "Occurrences": 8743346
+    Occurrences: 8743346,
   },
   {
-    "Emoji": "🎤",
+    Emoji: "🎤",
     "Unicode codepoint": "1F3A4",
-    "Occurrences": 8722531
+    Occurrences: 8722531,
   },
   {
-    "Emoji": "🌙",
+    Emoji: "🌙",
     "Unicode codepoint": "1F319",
-    "Occurrences": 8122474
+    Occurrences: 8122474,
   },
   {
-    "Emoji": "💝",
+    Emoji: "💝",
     "Unicode codepoint": "1F49D",
-    "Occurrences": 8098170
+    Occurrences: 8098170,
   },
   {
-    "Emoji": "⚽",
+    Emoji: "⚽",
     "Unicode codepoint": "26BD",
-    "Occurrences": 7972397
+    Occurrences: 7972397,
   },
   {
-    "Emoji": "👫",
+    Emoji: "👫",
     "Unicode codepoint": "1F46B",
-    "Occurrences": 7839732
+    Occurrences: 7839732,
   },
   {
-    "Emoji": "🌻",
+    Emoji: "🌻",
     "Unicode codepoint": "1F33B",
-    "Occurrences": 7765068
+    Occurrences: 7765068,
   },
   {
-    "Emoji": "🌿",
+    Emoji: "🌿",
     "Unicode codepoint": "1F33F",
-    "Occurrences": 7732282
+    Occurrences: 7732282,
   },
   {
-    "Emoji": "👆",
+    Emoji: "👆",
     "Unicode codepoint": "1F446",
-    "Occurrences": 7722165
+    Occurrences: 7722165,
   },
   {
-    "Emoji": "‼",
+    Emoji: "‼",
     "Unicode codepoint": "203C",
-    "Occurrences": 7653957
+    Occurrences: 7653957,
   },
   {
-    "Emoji": "♨",
+    Emoji: "♨",
     "Unicode codepoint": 2668,
-    "Occurrences": 7634246
+    Occurrences: 7634246,
   },
   {
-    "Emoji": "🍻",
+    Emoji: "🍻",
     "Unicode codepoint": "1F37B",
-    "Occurrences": 7546644
+    Occurrences: 7546644,
   },
   {
-    "Emoji": "👻",
+    Emoji: "👻",
     "Unicode codepoint": "1F47B",
-    "Occurrences": 7543983
+    Occurrences: 7543983,
   },
   {
-    "Emoji": "🙉",
+    Emoji: "🙉",
     "Unicode codepoint": "1F649",
-    "Occurrences": 7539690
+    Occurrences: 7539690,
   },
   {
-    "Emoji": "🐶",
+    Emoji: "🐶",
     "Unicode codepoint": "1F436",
-    "Occurrences": 7536283
+    Occurrences: 7536283,
   },
   {
-    "Emoji": "🙍",
+    Emoji: "🙍",
     "Unicode codepoint": "1F64D",
-    "Occurrences": 7531187
+    Occurrences: 7531187,
   },
   {
-    "Emoji": "🌴",
+    Emoji: "🌴",
     "Unicode codepoint": "1F334",
-    "Occurrences": 7516661
+    Occurrences: 7516661,
   },
   {
-    "Emoji": "💏",
+    Emoji: "💏",
     "Unicode codepoint": "1F48F",
-    "Occurrences": 7438784
+    Occurrences: 7438784,
   },
   {
-    "Emoji": "😙",
+    Emoji: "😙",
     "Unicode codepoint": "1F619",
-    "Occurrences": 7416131
+    Occurrences: 7416131,
   },
   {
-    "Emoji": "😵",
+    Emoji: "😵",
     "Unicode codepoint": "1F635",
-    "Occurrences": 7399442
+    Occurrences: 7399442,
   },
   {
-    "Emoji": "💰",
+    Emoji: "💰",
     "Unicode codepoint": "1F4B0",
-    "Occurrences": 7309270
+    Occurrences: 7309270,
   },
   {
-    "Emoji": "🎄",
+    Emoji: "🎄",
     "Unicode codepoint": "1F384",
-    "Occurrences": 7240167
+    Occurrences: 7240167,
   },
   {
-    "Emoji": "🏀",
+    Emoji: "🏀",
     "Unicode codepoint": "1F3C0",
-    "Occurrences": 7147294
+    Occurrences: 7147294,
   },
   {
-    "Emoji": "💟",
+    Emoji: "💟",
     "Unicode codepoint": "1F49F",
-    "Occurrences": 6905287
+    Occurrences: 6905287,
   },
   {
-    "Emoji": "🌈",
+    Emoji: "🌈",
     "Unicode codepoint": "1F308",
-    "Occurrences": 6887913
+    Occurrences: 6887913,
   },
   {
-    "Emoji": "💐",
+    Emoji: "💐",
     "Unicode codepoint": "1F490",
-    "Occurrences": 6864552
+    Occurrences: 6864552,
   },
   {
-    "Emoji": "💆",
+    Emoji: "💆",
     "Unicode codepoint": "1F486",
-    "Occurrences": 6814269
+    Occurrences: 6814269,
   },
   {
-    "Emoji": "👭",
+    Emoji: "👭",
     "Unicode codepoint": "1F46D",
-    "Occurrences": 6761020
+    Occurrences: 6761020,
   },
   {
-    "Emoji": "🎥",
+    Emoji: "🎥",
     "Unicode codepoint": "1F3A5",
-    "Occurrences": 6681927
+    Occurrences: 6681927,
   },
   {
-    "Emoji": "🌵",
+    Emoji: "🌵",
     "Unicode codepoint": "1F335",
-    "Occurrences": 6630654
+    Occurrences: 6630654,
   },
   {
-    "Emoji": "👸",
+    Emoji: "👸",
     "Unicode codepoint": "1F478",
-    "Occurrences": 6591434
+    Occurrences: 6591434,
   },
   {
-    "Emoji": "😯",
+    Emoji: "😯",
     "Unicode codepoint": "1F62F",
-    "Occurrences": 6494825
+    Occurrences: 6494825,
   },
   {
-    "Emoji": "😧",
+    Emoji: "😧",
     "Unicode codepoint": "1F627",
-    "Occurrences": 6474573
+    Occurrences: 6474573,
   },
   {
-    "Emoji": "😲",
+    Emoji: "😲",
     "Unicode codepoint": "1F632",
-    "Occurrences": 6406047
+    Occurrences: 6406047,
   },
   {
-    "Emoji": "🌝",
+    Emoji: "🌝",
     "Unicode codepoint": "1F31D",
-    "Occurrences": 6402123
+    Occurrences: 6402123,
   },
   {
-    "Emoji": "😮",
+    Emoji: "😮",
     "Unicode codepoint": "1F62E",
-    "Occurrences": 6360003
+    Occurrences: 6360003,
   },
   {
-    "Emoji": "🌀",
+    Emoji: "🌀",
     "Unicode codepoint": "1F300",
-    "Occurrences": 6358332
+    Occurrences: 6358332,
   },
   {
-    "Emoji": "💨",
+    Emoji: "💨",
     "Unicode codepoint": "1F4A8",
-    "Occurrences": 6357622
+    Occurrences: 6357622,
   },
   {
-    "Emoji": "💍",
+    Emoji: "💍",
     "Unicode codepoint": "1F48D",
-    "Occurrences": 6317755
+    Occurrences: 6317755,
   },
   {
-    "Emoji": "🌷",
+    Emoji: "🌷",
     "Unicode codepoint": "1F337",
-    "Occurrences": 6317749
+    Occurrences: 6317749,
   },
   {
-    "Emoji": "🎂",
+    Emoji: "🎂",
     "Unicode codepoint": "1F382",
-    "Occurrences": 6268262
+    Occurrences: 6268262,
   },
   {
-    "Emoji": "😿",
+    Emoji: "😿",
     "Unicode codepoint": "1F63F",
-    "Occurrences": 6212963
+    Occurrences: 6212963,
   },
   {
-    "Emoji": "🐱",
+    Emoji: "🐱",
     "Unicode codepoint": "1F431",
-    "Occurrences": 6200370
+    Occurrences: 6200370,
   },
   {
-    "Emoji": "☎",
+    Emoji: "☎",
     "Unicode codepoint": "260E",
-    "Occurrences": 6167437
+    Occurrences: 6167437,
   },
   {
-    "Emoji": "☕",
+    Emoji: "☕",
     "Unicode codepoint": 2615,
-    "Occurrences": 6073663
+    Occurrences: 6073663,
   },
   {
-    "Emoji": "💸",
+    Emoji: "💸",
     "Unicode codepoint": "1F4B8",
-    "Occurrences": 5741314
+    Occurrences: 5741314,
   },
   {
-    "Emoji": "🎊",
+    Emoji: "🎊",
     "Unicode codepoint": "1F38A",
-    "Occurrences": 5711124
+    Occurrences: 5711124,
   },
   {
-    "Emoji": "🔪",
+    Emoji: "🔪",
     "Unicode codepoint": "1F52A",
-    "Occurrences": 5670100
+    Occurrences: 5670100,
   },
   {
-    "Emoji": "🎅",
+    Emoji: "🎅",
     "Unicode codepoint": "1F385",
-    "Occurrences": 5636088
+    Occurrences: 5636088,
   },
   {
-    "Emoji": "🌏",
+    Emoji: "🌏",
     "Unicode codepoint": "1F30F",
-    "Occurrences": 5502470
+    Occurrences: 5502470,
   },
   {
-    "Emoji": "🎸",
+    Emoji: "🎸",
     "Unicode codepoint": "1F3B8",
-    "Occurrences": 5437834
+    Occurrences: 5437834,
   },
   {
-    "Emoji": "⛄",
+    Emoji: "⛄",
     "Unicode codepoint": "26C4",
-    "Occurrences": 5352949
+    Occurrences: 5352949,
   },
   {
-    "Emoji": "💬",
+    Emoji: "💬",
     "Unicode codepoint": "1F4AC",
-    "Occurrences": 5215672
+    Occurrences: 5215672,
   },
   {
-    "Emoji": "📕",
+    Emoji: "📕",
     "Unicode codepoint": "1F4D5",
-    "Occurrences": 5073197
+    Occurrences: 5073197,
   },
   {
-    "Emoji": "♠",
+    Emoji: "♠",
     "Unicode codepoint": 2660,
-    "Occurrences": 5002160
+    Occurrences: 5002160,
   },
   {
-    "Emoji": "⚡",
+    Emoji: "⚡",
     "Unicode codepoint": "26A1",
-    "Occurrences": 4965222
+    Occurrences: 4965222,
   },
   {
-    "Emoji": "💣",
+    Emoji: "💣",
     "Unicode codepoint": "1F4A3",
-    "Occurrences": 4928966
+    Occurrences: 4928966,
   },
   {
-    "Emoji": "🇺🇸",
+    Emoji: "🇺🇸",
     "Unicode codepoint": "1F1FA-1F1F8",
-    "Occurrences": 4921430
+    Occurrences: 4921430,
   },
   {
-    "Emoji": "☔",
+    Emoji: "☔",
     "Unicode codepoint": 2614,
-    "Occurrences": 4909259
+    Occurrences: 4909259,
   },
   {
-    "Emoji": "👿",
+    Emoji: "👿",
     "Unicode codepoint": "1F47F",
-    "Occurrences": 4830840
+    Occurrences: 4830840,
   },
   {
-    "Emoji": "⭕",
+    Emoji: "⭕",
     "Unicode codepoint": "2B55",
-    "Occurrences": 4812708
+    Occurrences: 4812708,
   },
   {
-    "Emoji": "🏈",
+    Emoji: "🏈",
     "Unicode codepoint": "1F3C8",
-    "Occurrences": 4753281
+    Occurrences: 4753281,
   },
   {
-    "Emoji": "💌",
+    Emoji: "💌",
     "Unicode codepoint": "1F48C",
-    "Occurrences": 4746328
+    Occurrences: 4746328,
   },
   {
-    "Emoji": "♦",
+    Emoji: "♦",
     "Unicode codepoint": 2666,
-    "Occurrences": 4638684
+    Occurrences: 4638684,
   },
   {
-    "Emoji": "😦",
+    Emoji: "😦",
     "Unicode codepoint": "1F626",
-    "Occurrences": 4634236
+    Occurrences: 4634236,
   },
   {
-    "Emoji": "🍆",
+    Emoji: "🍆",
     "Unicode codepoint": "1F346",
-    "Occurrences": 4580931
+    Occurrences: 4580931,
   },
   {
-    "Emoji": "💑",
+    Emoji: "💑",
     "Unicode codepoint": "1F491",
-    "Occurrences": 4576859
+    Occurrences: 4576859,
   },
   {
-    "Emoji": "📷",
+    Emoji: "📷",
     "Unicode codepoint": "1F4F7",
-    "Occurrences": 4473665
+    Occurrences: 4473665,
   },
   {
-    "Emoji": "😽",
+    Emoji: "😽",
     "Unicode codepoint": "1F63D",
-    "Occurrences": 4459969
+    Occurrences: 4459969,
   },
   {
-    "Emoji": "😼",
+    Emoji: "😼",
     "Unicode codepoint": "1F63C",
-    "Occurrences": 4393587
+    Occurrences: 4393587,
   },
   {
-    "Emoji": "😸",
+    Emoji: "😸",
     "Unicode codepoint": "1F638",
-    "Occurrences": 4376650
+    Occurrences: 4376650,
   },
   {
-    "Emoji": "👾",
+    Emoji: "👾",
     "Unicode codepoint": "1F47E",
-    "Occurrences": 4376133
+    Occurrences: 4376133,
   },
   {
-    "Emoji": "🌼",
+    Emoji: "🌼",
     "Unicode codepoint": "1F33C",
-    "Occurrences": 4355604
+    Occurrences: 4355604,
   },
   {
-    "Emoji": "👶",
+    Emoji: "👶",
     "Unicode codepoint": "1F476",
-    "Occurrences": 4295312
+    Occurrences: 4295312,
   },
   {
-    "Emoji": "🚀",
+    Emoji: "🚀",
     "Unicode codepoint": "1F680",
-    "Occurrences": 4294536
+    Occurrences: 4294536,
   },
   {
-    "Emoji": "🐷",
+    Emoji: "🐷",
     "Unicode codepoint": "1F437",
-    "Occurrences": 4157648
+    Occurrences: 4157648,
   },
   {
-    "Emoji": "🍌",
+    Emoji: "🍌",
     "Unicode codepoint": "1F34C",
-    "Occurrences": 4154205
+    Occurrences: 4154205,
   },
   {
-    "Emoji": "1⃣",
+    Emoji: "1⃣",
     "Unicode codepoint": "0031-20E3",
-    "Occurrences": 4153635
+    Occurrences: 4153635,
   },
   {
-    "Emoji": "🍁",
+    Emoji: "🍁",
     "Unicode codepoint": "1F341",
-    "Occurrences": 4124914
+    Occurrences: 4124914,
   },
   {
-    "Emoji": "⛅",
+    Emoji: "⛅",
     "Unicode codepoint": "26C5",
-    "Occurrences": 4064623
+    Occurrences: 4064623,
   },
   {
-    "Emoji": "🐼",
+    Emoji: "🐼",
     "Unicode codepoint": "1F43C",
-    "Occurrences": 4017723
+    Occurrences: 4017723,
   },
   {
-    "Emoji": "▪",
+    Emoji: "▪",
     "Unicode codepoint": "25AA",
-    "Occurrences": 4013361
+    Occurrences: 4013361,
   },
   {
-    "Emoji": "🌊",
+    Emoji: "🌊",
     "Unicode codepoint": "1F30A",
-    "Occurrences": 3980922
+    Occurrences: 3980922,
   },
   {
-    "Emoji": "🙀",
+    Emoji: "🙀",
     "Unicode codepoint": "1F640",
-    "Occurrences": 3955352
+    Occurrences: 3955352,
   },
   {
-    "Emoji": "👄",
+    Emoji: "👄",
     "Unicode codepoint": "1F444",
-    "Occurrences": 3838749
+    Occurrences: 3838749,
   },
   {
-    "Emoji": "🍴",
+    Emoji: "🍴",
     "Unicode codepoint": "1F374",
-    "Occurrences": 3815769
+    Occurrences: 3815769,
   },
   {
-    "Emoji": "👣",
+    Emoji: "👣",
     "Unicode codepoint": "1F463",
-    "Occurrences": 3798640
+    Occurrences: 3798640,
   },
   {
-    "Emoji": "💿",
+    Emoji: "💿",
     "Unicode codepoint": "1F4BF",
-    "Occurrences": 3777866
+    Occurrences: 3777866,
   },
   {
-    "Emoji": "🚬",
+    Emoji: "🚬",
     "Unicode codepoint": "1F6AC",
-    "Occurrences": 3638056
+    Occurrences: 3638056,
   },
   {
-    "Emoji": "2⃣",
+    Emoji: "2⃣",
     "Unicode codepoint": "0032-20E3",
-    "Occurrences": 3635007
+    Occurrences: 3635007,
   },
   {
-    "Emoji": "🐯",
+    Emoji: "🐯",
     "Unicode codepoint": "1F42F",
-    "Occurrences": 3596207
+    Occurrences: 3596207,
   },
   {
-    "Emoji": "🆗",
+    Emoji: "🆗",
     "Unicode codepoint": "1F197",
-    "Occurrences": 3579625
+    Occurrences: 3579625,
   },
   {
-    "Emoji": "📱",
+    Emoji: "📱",
     "Unicode codepoint": "1F4F1",
-    "Occurrences": 3564656
+    Occurrences: 3564656,
   },
   {
-    "Emoji": "🐢",
+    Emoji: "🐢",
     "Unicode codepoint": "1F422",
-    "Occurrences": 3560701
+    Occurrences: 3560701,
   },
   {
-    "Emoji": "🎼",
+    Emoji: "🎼",
     "Unicode codepoint": "1F3BC",
-    "Occurrences": 3557453
+    Occurrences: 3557453,
   },
   {
-    "Emoji": "🔮",
+    Emoji: "🔮",
     "Unicode codepoint": "1F52E",
-    "Occurrences": 3554044
+    Occurrences: 3554044,
   },
   {
-    "Emoji": "🍩",
+    Emoji: "🍩",
     "Unicode codepoint": "1F369",
-    "Occurrences": 3551732
+    Occurrences: 3551732,
   },
   {
-    "Emoji": "🎮",
+    Emoji: "🎮",
     "Unicode codepoint": "1F3AE",
-    "Occurrences": 3542605
+    Occurrences: 3542605,
   },
   {
-    "Emoji": "💢",
+    Emoji: "💢",
     "Unicode codepoint": "1F4A2",
-    "Occurrences": 3516305
+    Occurrences: 3516305,
   },
   {
-    "Emoji": "🍟",
+    Emoji: "🍟",
     "Unicode codepoint": "1F35F",
-    "Occurrences": 3469506
+    Occurrences: 3469506,
   },
   {
-    "Emoji": "🍺",
+    Emoji: "🍺",
     "Unicode codepoint": "1F37A",
-    "Occurrences": 3426114
+    Occurrences: 3426114,
   },
   {
-    "Emoji": "🏆",
+    Emoji: "🏆",
     "Unicode codepoint": "1F3C6",
-    "Occurrences": 3410625
+    Occurrences: 3410625,
   },
   {
-    "Emoji": "🍂",
+    Emoji: "🍂",
     "Unicode codepoint": "1F342",
-    "Occurrences": 3259487
+    Occurrences: 3259487,
   },
   {
-    "Emoji": "💂",
+    Emoji: "💂",
     "Unicode codepoint": "1F482",
-    "Occurrences": 3246707
+    Occurrences: 3246707,
   },
   {
-    "Emoji": "🍹",
+    Emoji: "🍹",
     "Unicode codepoint": "1F379",
-    "Occurrences": 3219571
+    Occurrences: 3219571,
   },
   {
-    "Emoji": "🍔",
+    Emoji: "🍔",
     "Unicode codepoint": "1F354",
-    "Occurrences": 3176206
+    Occurrences: 3176206,
   },
   {
-    "Emoji": "🚗",
+    Emoji: "🚗",
     "Unicode codepoint": "1F697",
-    "Occurrences": 3157747
+    Occurrences: 3157747,
   },
   {
-    "Emoji": "😗",
+    Emoji: "😗",
     "Unicode codepoint": "1F617",
-    "Occurrences": 3115583
+    Occurrences: 3115583,
   },
   {
-    "Emoji": "📲",
+    Emoji: "📲",
     "Unicode codepoint": "1F4F2",
-    "Occurrences": 3082630
+    Occurrences: 3082630,
   },
   {
-    "Emoji": "🍭",
+    Emoji: "🍭",
     "Unicode codepoint": "1F36D",
-    "Occurrences": 3067816
+    Occurrences: 3067816,
   },
   {
-    "Emoji": "🔞",
+    Emoji: "🔞",
     "Unicode codepoint": "1F51E",
-    "Occurrences": 3046469
+    Occurrences: 3046469,
   },
   {
-    "Emoji": "🚨",
+    Emoji: "🚨",
     "Unicode codepoint": "1F6A8",
-    "Occurrences": 2989392
+    Occurrences: 2989392,
   },
   {
-    "Emoji": "🔝",
+    Emoji: "🔝",
     "Unicode codepoint": "1F51D",
-    "Occurrences": 2979262
+    Occurrences: 2979262,
   },
   {
-    "Emoji": "🍷",
+    Emoji: "🍷",
     "Unicode codepoint": "1F377",
-    "Occurrences": 2952688
+    Occurrences: 2952688,
   },
   {
-    "Emoji": "🍉",
+    Emoji: "🍉",
     "Unicode codepoint": "1F349",
-    "Occurrences": 2938112
+    Occurrences: 2938112,
   },
   {
-    "Emoji": "⚠",
+    Emoji: "⚠",
     "Unicode codepoint": "26A0",
-    "Occurrences": 2904765
+    Occurrences: 2904765,
   },
   {
-    "Emoji": "🐰",
+    Emoji: "🐰",
     "Unicode codepoint": "1F430",
-    "Occurrences": 2889692
+    Occurrences: 2889692,
   },
   {
-    "Emoji": "🐻",
+    Emoji: "🐻",
     "Unicode codepoint": "1F43B",
-    "Occurrences": 2857406
+    Occurrences: 2857406,
   },
   {
-    "Emoji": "🌌",
+    Emoji: "🌌",
     "Unicode codepoint": "1F30C",
-    "Occurrences": 2827259
+    Occurrences: 2827259,
   },
   {
-    "Emoji": "👨",
+    Emoji: "👨",
     "Unicode codepoint": "1F468",
-    "Occurrences": 2826663
+    Occurrences: 2826663,
   },
   {
-    "Emoji": "🍫",
+    Emoji: "🍫",
     "Unicode codepoint": "1F36B",
-    "Occurrences": 2825408
+    Occurrences: 2825408,
   },
   {
-    "Emoji": "🍦",
+    Emoji: "🍦",
     "Unicode codepoint": "1F366",
-    "Occurrences": 2825240
+    Occurrences: 2825240,
   },
   {
-    "Emoji": "🐸",
+    Emoji: "🐸",
     "Unicode codepoint": "1F438",
-    "Occurrences": 2796766
+    Occurrences: 2796766,
   },
   {
-    "Emoji": "🍰",
+    Emoji: "🍰",
     "Unicode codepoint": "1F370",
-    "Occurrences": 2785180
+    Occurrences: 2785180,
   },
   {
-    "Emoji": "™",
+    Emoji: "™",
     "Unicode codepoint": 2122,
-    "Occurrences": 2751540
+    Occurrences: 2751540,
   },
   {
-    "Emoji": "💉",
+    Emoji: "💉",
     "Unicode codepoint": "1F489",
-    "Occurrences": 2745505
+    Occurrences: 2745505,
   },
   {
-    "Emoji": "😺",
+    Emoji: "😺",
     "Unicode codepoint": "1F63A",
-    "Occurrences": 2722949
+    Occurrences: 2722949,
   },
   {
-    "Emoji": "🍪",
+    Emoji: "🍪",
     "Unicode codepoint": "1F36A",
-    "Occurrences": 2722464
+    Occurrences: 2722464,
   },
   {
-    "Emoji": "🐬",
+    Emoji: "🐬",
     "Unicode codepoint": "1F42C",
-    "Occurrences": 2721304
+    Occurrences: 2721304,
   },
   {
-    "Emoji": "🐳",
+    Emoji: "🐳",
     "Unicode codepoint": "1F433",
-    "Occurrences": 2679581
+    Occurrences: 2679581,
   },
   {
-    "Emoji": "♻",
+    Emoji: "♻",
     "Unicode codepoint": "267B",
-    "Occurrences": 2675624
+    Occurrences: 2675624,
   },
   {
-    "Emoji": "3⃣",
+    Emoji: "3⃣",
     "Unicode codepoint": "0033-20E3",
-    "Occurrences": 2655802
+    Occurrences: 2655802,
   },
   {
-    "Emoji": "🐝",
+    Emoji: "🐝",
     "Unicode codepoint": "1F41D",
-    "Occurrences": 2652464
+    Occurrences: 2652464,
   },
   {
-    "Emoji": "🐣",
+    Emoji: "🐣",
     "Unicode codepoint": "1F423",
-    "Occurrences": 2649992
+    Occurrences: 2649992,
   },
   {
-    "Emoji": "🚫",
+    Emoji: "🚫",
     "Unicode codepoint": "1F6AB",
-    "Occurrences": 2603197
+    Occurrences: 2603197,
   },
   {
-    "Emoji": "👹",
+    Emoji: "👹",
     "Unicode codepoint": "1F479",
-    "Occurrences": 2600540
+    Occurrences: 2600540,
   },
   {
-    "Emoji": "🎬",
+    Emoji: "🎬",
     "Unicode codepoint": "1F3AC",
-    "Occurrences": 2572402
+    Occurrences: 2572402,
   },
   {
-    "Emoji": "🐒",
+    Emoji: "🐒",
     "Unicode codepoint": "1F412",
-    "Occurrences": 2552156
+    Occurrences: 2552156,
   },
   {
-    "Emoji": "🎃",
+    Emoji: "🎃",
     "Unicode codepoint": "1F383",
-    "Occurrences": 2544970
+    Occurrences: 2544970,
   },
   {
-    "Emoji": "🆒",
+    Emoji: "🆒",
     "Unicode codepoint": "1F192",
-    "Occurrences": 2517445
+    Occurrences: 2517445,
   },
   {
-    "Emoji": "🐾",
+    Emoji: "🐾",
     "Unicode codepoint": "1F43E",
-    "Occurrences": 2509690
+    Occurrences: 2509690,
   },
   {
-    "Emoji": "🙎",
+    Emoji: "🙎",
     "Unicode codepoint": "1F64E",
-    "Occurrences": 2474569
+    Occurrences: 2474569,
   },
   {
-    "Emoji": "🍸",
+    Emoji: "🍸",
     "Unicode codepoint": "1F378",
-    "Occurrences": 2473625
+    Occurrences: 2473625,
   },
   {
-    "Emoji": "🛅",
+    Emoji: "🛅",
     "Unicode codepoint": "1F6C5",
-    "Occurrences": 2469658
+    Occurrences: 2469658,
   },
   {
-    "Emoji": "💇",
+    Emoji: "💇",
     "Unicode codepoint": "1F487",
-    "Occurrences": 2469338
+    Occurrences: 2469338,
   },
   {
-    "Emoji": "📺",
+    Emoji: "📺",
     "Unicode codepoint": "1F4FA",
-    "Occurrences": 2451163
+    Occurrences: 2451163,
   },
   {
-    "Emoji": "😾",
+    Emoji: "😾",
     "Unicode codepoint": "1F63E",
-    "Occurrences": 2419844
+    Occurrences: 2419844,
   },
   {
-    "Emoji": "🐍",
+    Emoji: "🐍",
     "Unicode codepoint": "1F40D",
-    "Occurrences": 2410068
+    Occurrences: 2410068,
   },
   {
-    "Emoji": "🍑",
+    Emoji: "🍑",
     "Unicode codepoint": "1F351",
-    "Occurrences": 2404898
+    Occurrences: 2404898,
   },
   {
-    "Emoji": "🍓",
+    Emoji: "🍓",
     "Unicode codepoint": "1F353",
-    "Occurrences": 2400545
+    Occurrences: 2400545,
   },
   {
-    "Emoji": "®",
+    Emoji: "®",
     "Unicode codepoint": "00AE",
-    "Occurrences": 2397376
+    Occurrences: 2397376,
   },
   {
-    "Emoji": "💵",
+    Emoji: "💵",
     "Unicode codepoint": "1F4B5",
-    "Occurrences": 2384774
+    Occurrences: 2384774,
   },
   {
-    "Emoji": "🏊",
+    Emoji: "🏊",
     "Unicode codepoint": "1F3CA",
-    "Occurrences": 2361710
+    Occurrences: 2361710,
   },
   {
-    "Emoji": "🐘",
+    Emoji: "🐘",
     "Unicode codepoint": "1F418",
-    "Occurrences": 2326276
+    Occurrences: 2326276,
   },
   {
-    "Emoji": "🌾",
+    Emoji: "🌾",
     "Unicode codepoint": "1F33E",
-    "Occurrences": 2308709
+    Occurrences: 2308709,
   },
   {
-    "Emoji": "📚",
+    Emoji: "📚",
     "Unicode codepoint": "1F4DA",
-    "Occurrences": 2274357
+    Occurrences: 2274357,
   },
   {
-    "Emoji": "👪",
+    Emoji: "👪",
     "Unicode codepoint": "1F46A",
-    "Occurrences": 2271788
+    Occurrences: 2271788,
   },
   {
-    "Emoji": "👩",
+    Emoji: "👩",
     "Unicode codepoint": "1F469",
-    "Occurrences": 2255848
+    Occurrences: 2255848,
   },
   {
-    "Emoji": "🔊",
+    Emoji: "🔊",
     "Unicode codepoint": "1F50A",
-    "Occurrences": 2244562
+    Occurrences: 2244562,
   },
   {
-    "Emoji": "⚾",
+    Emoji: "⚾",
     "Unicode codepoint": "26BE",
-    "Occurrences": 2240403
+    Occurrences: 2240403,
   },
   {
-    "Emoji": "🆘",
+    Emoji: "🆘",
     "Unicode codepoint": "1F198",
-    "Occurrences": 2185300
+    Occurrences: 2185300,
   },
   {
-    "Emoji": "🍒",
+    Emoji: "🍒",
     "Unicode codepoint": "1F352",
-    "Occurrences": 2154190
+    Occurrences: 2154190,
   },
   {
-    "Emoji": "✂",
+    Emoji: "✂",
     "Unicode codepoint": 2702,
-    "Occurrences": 2145929
+    Occurrences: 2145929,
   },
   {
-    "Emoji": "⬇",
+    Emoji: "⬇",
     "Unicode codepoint": "2B07",
-    "Occurrences": 2145221
+    Occurrences: 2145221,
   },
   {
-    "Emoji": "🐥",
+    Emoji: "🐥",
     "Unicode codepoint": "1F425",
-    "Occurrences": 2143236
+    Occurrences: 2143236,
   },
   {
-    "Emoji": "🎐",
+    Emoji: "🎐",
     "Unicode codepoint": "1F390",
-    "Occurrences": 2131068
+    Occurrences: 2131068,
   },
   {
-    "Emoji": "🌑",
+    Emoji: "🌑",
     "Unicode codepoint": "1F311",
-    "Occurrences": 2127448
+    Occurrences: 2127448,
   },
   {
-    "Emoji": "👧",
+    Emoji: "👧",
     "Unicode codepoint": "1F467",
-    "Occurrences": 2121784
+    Occurrences: 2121784,
   },
   {
-    "Emoji": "🎓",
+    Emoji: "🎓",
     "Unicode codepoint": "1F393",
-    "Occurrences": 2109702
+    Occurrences: 2109702,
   },
   {
-    "Emoji": "💻",
+    Emoji: "💻",
     "Unicode codepoint": "1F4BB",
-    "Occurrences": 2092761
+    Occurrences: 2092761,
   },
   {
-    "Emoji": "❓",
+    Emoji: "❓",
     "Unicode codepoint": 2753,
-    "Occurrences": 2087372
+    Occurrences: 2087372,
   },
   {
-    "Emoji": "📝",
+    Emoji: "📝",
     "Unicode codepoint": "1F4DD",
-    "Occurrences": 2069136
+    Occurrences: 2069136,
   },
   {
-    "Emoji": "🌕",
+    Emoji: "🌕",
     "Unicode codepoint": "1F315",
-    "Occurrences": 2064681
+    Occurrences: 2064681,
   },
   {
-    "Emoji": "🇫🇷",
+    Emoji: "🇫🇷",
     "Unicode codepoint": "1F1EB-1F1F7",
-    "Occurrences": 2056354
+    Occurrences: 2056354,
   },
   {
-    "Emoji": "⚓",
+    Emoji: "⚓",
     "Unicode codepoint": 2693,
-    "Occurrences": 2052642
+    Occurrences: 2052642,
   },
   {
-    "Emoji": "📢",
+    Emoji: "📢",
     "Unicode codepoint": "1F4E2",
-    "Occurrences": 2044684
+    Occurrences: 2044684,
   },
   {
-    "Emoji": "👵",
+    Emoji: "👵",
     "Unicode codepoint": "1F475",
-    "Occurrences": 2021620
+    Occurrences: 2021620,
   },
   {
-    "Emoji": "🍍",
+    Emoji: "🍍",
     "Unicode codepoint": "1F34D",
-    "Occurrences": 2015557
+    Occurrences: 2015557,
   },
   {
-    "Emoji": "↗",
+    Emoji: "↗",
     "Unicode codepoint": 2197,
-    "Occurrences": 2014184
+    Occurrences: 2014184,
   },
   {
-    "Emoji": "✏",
+    Emoji: "✏",
     "Unicode codepoint": "270F",
-    "Occurrences": 2013824
+    Occurrences: 2013824,
   },
   {
-    "Emoji": "🐙",
+    Emoji: "🐙",
     "Unicode codepoint": "1F419",
-    "Occurrences": 1996849
+    Occurrences: 1996849,
   },
   {
-    "Emoji": "4⃣",
+    Emoji: "4⃣",
     "Unicode codepoint": "0034-20E3",
-    "Occurrences": 1991948
+    Occurrences: 1991948,
   },
   {
-    "Emoji": "💄",
+    Emoji: "💄",
     "Unicode codepoint": "1F484",
-    "Occurrences": 1989556
+    Occurrences: 1989556,
   },
   {
-    "Emoji": "🚘",
+    Emoji: "🚘",
     "Unicode codepoint": "1F698",
-    "Occurrences": 1975228
+    Occurrences: 1975228,
   },
   {
-    "Emoji": "🎆",
+    Emoji: "🎆",
     "Unicode codepoint": "1F386",
-    "Occurrences": 1959222
+    Occurrences: 1959222,
   },
   {
-    "Emoji": "👦",
+    Emoji: "👦",
     "Unicode codepoint": "1F466",
-    "Occurrences": 1946156
+    Occurrences: 1946156,
   },
   {
-    "Emoji": "5⃣",
+    Emoji: "5⃣",
     "Unicode codepoint": "0035-20E3",
-    "Occurrences": 1945523
+    Occurrences: 1945523,
   },
   {
-    "Emoji": "👠",
+    Emoji: "👠",
     "Unicode codepoint": "1F460",
-    "Occurrences": 1943540
+    Occurrences: 1943540,
   },
   {
-    "Emoji": "🔙",
+    Emoji: "🔙",
     "Unicode codepoint": "1F519",
-    "Occurrences": 1931702
+    Occurrences: 1931702,
   },
   {
-    "Emoji": "🌠",
+    Emoji: "🌠",
     "Unicode codepoint": "1F320",
-    "Occurrences": 1930892
+    Occurrences: 1930892,
   },
   {
-    "Emoji": "✉",
+    Emoji: "✉",
     "Unicode codepoint": 2709,
-    "Occurrences": 1923809
+    Occurrences: 1923809,
   },
   {
-    "Emoji": "👳",
+    Emoji: "👳",
     "Unicode codepoint": "1F473",
-    "Occurrences": 1914311
+    Occurrences: 1914311,
   },
   {
-    "Emoji": "🏡",
+    Emoji: "🏡",
     "Unicode codepoint": "1F3E1",
-    "Occurrences": 1905357
+    Occurrences: 1905357,
   },
   {
-    "Emoji": "↘",
+    Emoji: "↘",
     "Unicode codepoint": 2198,
-    "Occurrences": 1902380
+    Occurrences: 1902380,
   },
   {
-    "Emoji": "🇮🇹",
+    Emoji: "🇮🇹",
     "Unicode codepoint": "1F1EE-1F1F9",
-    "Occurrences": 1890699
+    Occurrences: 1890699,
   },
   {
-    "Emoji": "📞",
+    Emoji: "📞",
     "Unicode codepoint": "1F4DE",
-    "Occurrences": 1883854
+    Occurrences: 1883854,
   },
   {
-    "Emoji": "🍗",
+    Emoji: "🍗",
     "Unicode codepoint": "1F357",
-    "Occurrences": 1874794
+    Occurrences: 1874794,
   },
   {
-    "Emoji": "↙",
+    Emoji: "↙",
     "Unicode codepoint": 2199,
-    "Occurrences": 1852567
+    Occurrences: 1852567,
   },
   {
-    "Emoji": "📖",
+    Emoji: "📖",
     "Unicode codepoint": "1F4D6",
-    "Occurrences": 1848651
+    Occurrences: 1848651,
   },
   {
-    "Emoji": "👙",
+    Emoji: "👙",
     "Unicode codepoint": "1F459",
-    "Occurrences": 1806240
+    Occurrences: 1806240,
   },
   {
-    "Emoji": "🔐",
+    Emoji: "🔐",
     "Unicode codepoint": "1F510",
-    "Occurrences": 1778230
+    Occurrences: 1778230,
   },
   {
-    "Emoji": "👟",
+    Emoji: "👟",
     "Unicode codepoint": "1F45F",
-    "Occurrences": 1776712
+    Occurrences: 1776712,
   },
   {
-    "Emoji": "🔵",
+    Emoji: "🔵",
     "Unicode codepoint": "1F535",
-    "Occurrences": 1754086
+    Occurrences: 1754086,
   },
   {
-    "Emoji": "🌛",
+    Emoji: "🌛",
     "Unicode codepoint": "1F31B",
-    "Occurrences": 1725861
+    Occurrences: 1725861,
   },
   {
-    "Emoji": "👬",
+    Emoji: "👬",
     "Unicode codepoint": "1F46C",
-    "Occurrences": 1713687
+    Occurrences: 1713687,
   },
   {
-    "Emoji": "👓",
+    Emoji: "👓",
     "Unicode codepoint": "1F453",
-    "Occurrences": 1710194
+    Occurrences: 1710194,
   },
   {
-    "Emoji": "👃",
+    Emoji: "👃",
     "Unicode codepoint": "1F443",
-    "Occurrences": 1706477
+    Occurrences: 1706477,
   },
   {
-    "Emoji": "↖",
+    Emoji: "↖",
     "Unicode codepoint": 2196,
-    "Occurrences": 1702711
+    Occurrences: 1702711,
   },
   {
-    "Emoji": "🌅",
+    Emoji: "🌅",
     "Unicode codepoint": "1F305",
-    "Occurrences": 1682869
+    Occurrences: 1682869,
   },
   {
-    "Emoji": "🍎",
+    Emoji: "🍎",
     "Unicode codepoint": "1F34E",
-    "Occurrences": 1658434
+    Occurrences: 1658434,
   },
   {
-    "Emoji": "⚪",
+    Emoji: "⚪",
     "Unicode codepoint": "26AA",
-    "Occurrences": 1648586
+    Occurrences: 1648586,
   },
   {
-    "Emoji": "💊",
+    Emoji: "💊",
     "Unicode codepoint": "1F48A",
-    "Occurrences": 1636331
+    Occurrences: 1636331,
   },
   {
-    "Emoji": "🍥",
+    Emoji: "🍥",
     "Unicode codepoint": "1F365",
-    "Occurrences": 1635613
+    Occurrences: 1635613,
   },
   {
-    "Emoji": "🚿",
+    Emoji: "🚿",
     "Unicode codepoint": "1F6BF",
-    "Occurrences": 1622934
+    Occurrences: 1622934,
   },
   {
-    "Emoji": "👂",
+    Emoji: "👂",
     "Unicode codepoint": "1F442",
-    "Occurrences": 1612057
+    Occurrences: 1612057,
   },
   {
-    "Emoji": "🈹",
+    Emoji: "🈹",
     "Unicode codepoint": "1F239",
-    "Occurrences": 1603525
+    Occurrences: 1603525,
   },
   {
-    "Emoji": "💧",
+    Emoji: "💧",
     "Unicode codepoint": "1F4A7",
-    "Occurrences": 1583838
+    Occurrences: 1583838,
   },
   {
-    "Emoji": "🍱",
+    Emoji: "🍱",
     "Unicode codepoint": "1F371",
-    "Occurrences": 1576832
+    Occurrences: 1576832,
   },
   {
-    "Emoji": "🐨",
+    Emoji: "🐨",
     "Unicode codepoint": "1F428",
-    "Occurrences": 1563700
+    Occurrences: 1563700,
   },
   {
-    "Emoji": "🍝",
+    Emoji: "🍝",
     "Unicode codepoint": "1F35D",
-    "Occurrences": 1563106
+    Occurrences: 1563106,
   },
   {
-    "Emoji": "💡",
+    Emoji: "💡",
     "Unicode codepoint": "1F4A1",
-    "Occurrences": 1559686
+    Occurrences: 1559686,
   },
   {
-    "Emoji": "🔋",
+    Emoji: "🔋",
     "Unicode codepoint": "1F50B",
-    "Occurrences": 1558834
+    Occurrences: 1558834,
   },
   {
-    "Emoji": "👰",
+    Emoji: "👰",
     "Unicode codepoint": "1F470",
-    "Occurrences": 1544156
+    Occurrences: 1544156,
   },
   {
-    "Emoji": "🍇",
+    Emoji: "🍇",
     "Unicode codepoint": "1F347",
-    "Occurrences": 1535343
+    Occurrences: 1535343,
   },
   {
-    "Emoji": "🍬",
+    Emoji: "🍬",
     "Unicode codepoint": "1F36C",
-    "Occurrences": 1524365
+    Occurrences: 1524365,
   },
   {
-    "Emoji": "⚫",
+    Emoji: "⚫",
     "Unicode codepoint": "26AB",
-    "Occurrences": 1514773
+    Occurrences: 1514773,
   },
   {
-    "Emoji": "👴",
+    Emoji: "👴",
     "Unicode codepoint": "1F474",
-    "Occurrences": 1507307
+    Occurrences: 1507307,
   },
   {
-    "Emoji": "🐠",
+    Emoji: "🐠",
     "Unicode codepoint": "1F420",
-    "Occurrences": 1499941
+    Occurrences: 1499941,
   },
   {
-    "Emoji": "🐵",
+    Emoji: "🐵",
     "Unicode codepoint": "1F435",
-    "Occurrences": 1497974
+    Occurrences: 1497974,
   },
   {
-    "Emoji": "🇬🇧",
+    Emoji: "🇬🇧",
     "Unicode codepoint": "1F1EC-1F1E7",
-    "Occurrences": 1494884
+    Occurrences: 1494884,
   },
   {
-    "Emoji": "🔗",
+    Emoji: "🔗",
     "Unicode codepoint": "1F517",
-    "Occurrences": 1479691
+    Occurrences: 1479691,
   },
   {
-    "Emoji": "🐟",
+    Emoji: "🐟",
     "Unicode codepoint": "1F41F",
-    "Occurrences": 1475570
+    Occurrences: 1475570,
   },
   {
-    "Emoji": "🔹",
+    Emoji: "🔹",
     "Unicode codepoint": "1F539",
-    "Occurrences": 1473355
+    Occurrences: 1473355,
   },
   {
-    "Emoji": "🌓",
+    Emoji: "🌓",
     "Unicode codepoint": "1F313",
-    "Occurrences": 1463374
+    Occurrences: 1463374,
   },
   {
-    "Emoji": "🌒",
+    Emoji: "🌒",
     "Unicode codepoint": "1F312",
-    "Occurrences": 1457898
+    Occurrences: 1457898,
   },
   {
-    "Emoji": "🚮",
+    Emoji: "🚮",
     "Unicode codepoint": "1F6AE",
-    "Occurrences": 1454768
+    Occurrences: 1454768,
   },
   {
-    "Emoji": "↔",
+    Emoji: "↔",
     "Unicode codepoint": 2194,
-    "Occurrences": 1439487
+    Occurrences: 1439487,
   },
   {
-    "Emoji": "🌃",
+    Emoji: "🌃",
     "Unicode codepoint": "1F303",
-    "Occurrences": 1438581
+    Occurrences: 1438581,
   },
   {
-    "Emoji": "🌔",
+    Emoji: "🌔",
     "Unicode codepoint": "1F314",
-    "Occurrences": 1429120
+    Occurrences: 1429120,
   },
   {
-    "Emoji": "🌜",
+    Emoji: "🌜",
     "Unicode codepoint": "1F31C",
-    "Occurrences": 1413379
+    Occurrences: 1413379,
   },
   {
-    "Emoji": "🐽",
+    Emoji: "🐽",
     "Unicode codepoint": "1F43D",
-    "Occurrences": 1402405
+    Occurrences: 1402405,
   },
   {
-    "Emoji": "🍜",
+    Emoji: "🍜",
     "Unicode codepoint": "1F35C",
-    "Occurrences": 1389165
+    Occurrences: 1389165,
   },
   {
-    "Emoji": "🐴",
+    Emoji: "🐴",
     "Unicode codepoint": "1F434",
-    "Occurrences": 1382542
+    Occurrences: 1382542,
   },
   {
-    "Emoji": "🎨",
+    Emoji: "🎨",
     "Unicode codepoint": "1F3A8",
-    "Occurrences": 1379508
+    Occurrences: 1379508,
   },
   {
-    "Emoji": "↕",
+    Emoji: "↕",
     "Unicode codepoint": 2195,
-    "Occurrences": 1379373
+    Occurrences: 1379373,
   },
   {
-    "Emoji": "🌗",
+    Emoji: "🌗",
     "Unicode codepoint": "1F317",
-    "Occurrences": 1355765
+    Occurrences: 1355765,
   },
   {
-    "Emoji": "🌱",
+    Emoji: "🌱",
     "Unicode codepoint": "1F331",
-    "Occurrences": 1355229
+    Occurrences: 1355229,
   },
   {
-    "Emoji": "🌘",
+    Emoji: "🌘",
     "Unicode codepoint": "1F318",
-    "Occurrences": 1354515
+    Occurrences: 1354515,
   },
   {
-    "Emoji": "🏠",
+    Emoji: "🏠",
     "Unicode codepoint": "1F3E0",
-    "Occurrences": 1354417
+    Occurrences: 1354417,
   },
   {
-    "Emoji": "🌖",
+    Emoji: "🌖",
     "Unicode codepoint": "1F316",
-    "Occurrences": 1340962
+    Occurrences: 1340962,
   },
   {
-    "Emoji": "🆕",
+    Emoji: "🆕",
     "Unicode codepoint": "1F195",
-    "Occurrences": 1336692
+    Occurrences: 1336692,
   },
   {
-    "Emoji": "🐋",
+    Emoji: "🐋",
     "Unicode codepoint": "1F40B",
-    "Occurrences": 1315273
+    Occurrences: 1315273,
   },
   {
-    "Emoji": "🐔",
+    Emoji: "🐔",
     "Unicode codepoint": "1F414",
-    "Occurrences": 1305144
+    Occurrences: 1305144,
   },
   {
-    "Emoji": "🍄",
+    Emoji: "🍄",
     "Unicode codepoint": "1F344",
-    "Occurrences": 1286825
+    Occurrences: 1286825,
   },
   {
-    "Emoji": "🗿",
+    Emoji: "🗿",
     "Unicode codepoint": "1F5FF",
-    "Occurrences": 1286414
+    Occurrences: 1286414,
   },
   {
-    "Emoji": "👗",
+    Emoji: "👗",
     "Unicode codepoint": "1F457",
-    "Occurrences": 1281847
+    Occurrences: 1281847,
   },
   {
-    "Emoji": "✳",
+    Emoji: "✳",
     "Unicode codepoint": 2733,
-    "Occurrences": 1280968
+    Occurrences: 1280968,
   },
   {
-    "Emoji": "🍊",
+    Emoji: "🍊",
     "Unicode codepoint": "1F34A",
-    "Occurrences": 1238256
+    Occurrences: 1238256,
   },
   {
-    "Emoji": "🏄",
+    Emoji: "🏄",
     "Unicode codepoint": "1F3C4",
-    "Occurrences": 1223887
+    Occurrences: 1223887,
   },
   {
-    "Emoji": "🅰",
+    Emoji: "🅰",
     "Unicode codepoint": "1F170",
-    "Occurrences": 1223694
+    Occurrences: 1223694,
   },
   {
-    "Emoji": "🏪",
+    Emoji: "🏪",
     "Unicode codepoint": "1F3EA",
-    "Occurrences": 1219257
+    Occurrences: 1219257,
   },
   {
-    "Emoji": "🍧",
+    Emoji: "🍧",
     "Unicode codepoint": "1F367",
-    "Occurrences": 1217398
+    Occurrences: 1217398,
   },
   {
-    "Emoji": "🌳",
+    Emoji: "🌳",
     "Unicode codepoint": "1F333",
-    "Occurrences": 1202109
+    Occurrences: 1202109,
   },
   {
-    "Emoji": "⌚",
+    Emoji: "⌚",
     "Unicode codepoint": "231A",
-    "Occurrences": 1195014
+    Occurrences: 1195014,
   },
   {
-    "Emoji": "👲",
+    Emoji: "👲",
     "Unicode codepoint": "1F472",
-    "Occurrences": 1179657
+    Occurrences: 1179657,
   },
   {
-    "Emoji": "🌲",
+    Emoji: "🌲",
     "Unicode codepoint": "1F332",
-    "Occurrences": 1178372
+    Occurrences: 1178372,
   },
   {
-    "Emoji": "🚙",
+    Emoji: "🚙",
     "Unicode codepoint": "1F699",
-    "Occurrences": 1167959
+    Occurrences: 1167959,
   },
   {
-    "Emoji": "⛽",
+    Emoji: "⛽",
     "Unicode codepoint": "26FD",
-    "Occurrences": 1167208
+    Occurrences: 1167208,
   },
   {
-    "Emoji": "🐮",
+    Emoji: "🐮",
     "Unicode codepoint": "1F42E",
-    "Occurrences": 1156862
+    Occurrences: 1156862,
   },
   {
-    "Emoji": "🐭",
+    Emoji: "🐭",
     "Unicode codepoint": "1F42D",
-    "Occurrences": 1150092
+    Occurrences: 1150092,
   },
   {
-    "Emoji": "🍳",
+    Emoji: "🍳",
     "Unicode codepoint": "1F373",
-    "Occurrences": 1148362
+    Occurrences: 1148362,
   },
   {
-    "Emoji": "0⃣",
+    Emoji: "0⃣",
     "Unicode codepoint": "0030-20E3",
-    "Occurrences": 1145196
+    Occurrences: 1145196,
   },
   {
-    "Emoji": "🎣",
+    Emoji: "🎣",
     "Unicode codepoint": "1F3A3",
-    "Occurrences": 1142173
+    Occurrences: 1142173,
   },
   {
-    "Emoji": "🎭",
+    Emoji: "🎭",
     "Unicode codepoint": "1F3AD",
-    "Occurrences": 1140646
+    Occurrences: 1140646,
   },
   {
-    "Emoji": "🆓",
+    Emoji: "🆓",
     "Unicode codepoint": "1F193",
-    "Occurrences": 1132489
+    Occurrences: 1132489,
   },
   {
-    "Emoji": "🎩",
+    Emoji: "🎩",
     "Unicode codepoint": "1F3A9",
-    "Occurrences": 1131152
+    Occurrences: 1131152,
   },
   {
-    "Emoji": "🔘",
+    Emoji: "🔘",
     "Unicode codepoint": "1F518",
-    "Occurrences": 1122233
+    Occurrences: 1122233,
   },
   {
-    "Emoji": "🐦",
+    Emoji: "🐦",
     "Unicode codepoint": "1F426",
-    "Occurrences": 1111316
+    Occurrences: 1111316,
   },
   {
-    "Emoji": "🐺",
+    Emoji: "🐺",
     "Unicode codepoint": "1F43A",
-    "Occurrences": 1067992
+    Occurrences: 1067992,
   },
   {
-    "Emoji": "👮",
+    Emoji: "👮",
     "Unicode codepoint": "1F46E",
-    "Occurrences": 1063246
+    Occurrences: 1063246,
   },
   {
-    "Emoji": "🍼",
+    Emoji: "🍼",
     "Unicode codepoint": "1F37C",
-    "Occurrences": 1053627
+    Occurrences: 1053627,
   },
   {
-    "Emoji": "❕",
+    Emoji: "❕",
     "Unicode codepoint": 2755,
-    "Occurrences": 1050046
+    Occurrences: 1050046,
   },
   {
-    "Emoji": "🚲",
+    Emoji: "🚲",
     "Unicode codepoint": "1F6B2",
-    "Occurrences": 1048321
+    Occurrences: 1048321,
   },
   {
-    "Emoji": "⏰",
+    Emoji: "⏰",
     "Unicode codepoint": "23F0",
-    "Occurrences": 1039060
+    Occurrences: 1039060,
   },
   {
-    "Emoji": "🎇",
+    Emoji: "🎇",
     "Unicode codepoint": "1F387",
-    "Occurrences": 1035938
+    Occurrences: 1035938,
   },
   {
-    "Emoji": "🍞",
+    Emoji: "🍞",
     "Unicode codepoint": "1F35E",
-    "Occurrences": 1032367
+    Occurrences: 1032367,
   },
   {
-    "Emoji": "⏩",
+    Emoji: "⏩",
     "Unicode codepoint": 23000000000,
-    "Occurrences": 1029802
+    Occurrences: 1029802,
   },
   {
-    "Emoji": "🐑",
+    Emoji: "🐑",
     "Unicode codepoint": "1F411",
-    "Occurrences": 1028035
+    Occurrences: 1028035,
   },
   {
-    "Emoji": "👺",
+    Emoji: "👺",
     "Unicode codepoint": "1F47A",
-    "Occurrences": 1024120
+    Occurrences: 1024120,
   },
   {
-    "Emoji": "👱",
+    Emoji: "👱",
     "Unicode codepoint": "1F471",
-    "Occurrences": 1022940
+    Occurrences: 1022940,
   },
   {
-    "Emoji": "🔑",
+    Emoji: "🔑",
     "Unicode codepoint": "1F511",
-    "Occurrences": 1017589
+    Occurrences: 1017589,
   },
   {
-    "Emoji": "🍤",
+    Emoji: "🍤",
     "Unicode codepoint": "1F364",
-    "Occurrences": 1013296
+    Occurrences: 1013296,
   },
   {
-    "Emoji": "⛳",
+    Emoji: "⛳",
     "Unicode codepoint": "26F3",
-    "Occurrences": 1012060
+    Occurrences: 1012060,
   },
   {
-    "Emoji": "⬆",
+    Emoji: "⬆",
     "Unicode codepoint": "2B06",
-    "Occurrences": 1001054
+    Occurrences: 1001054,
   },
   {
-    "Emoji": "🛀",
+    Emoji: "🛀",
     "Unicode codepoint": "1F6C0",
-    "Occurrences": 991259
+    Occurrences: 991259,
   },
   {
-    "Emoji": "🔆",
+    Emoji: "🔆",
     "Unicode codepoint": "1F506",
-    "Occurrences": 985783
+    Occurrences: 985783,
   },
   {
-    "Emoji": "🆙",
+    Emoji: "🆙",
     "Unicode codepoint": "1F199",
-    "Occurrences": 984770
+    Occurrences: 984770,
   },
   {
-    "Emoji": "🍋",
+    Emoji: "🍋",
     "Unicode codepoint": "1F34B",
-    "Occurrences": 981077
+    Occurrences: 981077,
   },
   {
-    "Emoji": "🍵",
+    Emoji: "🍵",
     "Unicode codepoint": "1F375",
-    "Occurrences": 977505
+    Occurrences: 977505,
   },
   {
-    "Emoji": "🎾",
+    Emoji: "🎾",
     "Unicode codepoint": "1F3BE",
-    "Occurrences": 970095
+    Occurrences: 970095,
   },
   {
-    "Emoji": "🔃",
+    Emoji: "🔃",
     "Unicode codepoint": "1F503",
-    "Occurrences": 959541
+    Occurrences: 959541,
   },
   {
-    "Emoji": "🐤",
+    Emoji: "🐤",
     "Unicode codepoint": "1F424",
-    "Occurrences": 959469
+    Occurrences: 959469,
   },
   {
-    "Emoji": "🏁",
+    Emoji: "🏁",
     "Unicode codepoint": "1F3C1",
-    "Occurrences": 950219
+    Occurrences: 950219,
   },
   {
-    "Emoji": "〰",
+    Emoji: "〰",
     "Unicode codepoint": 3030,
-    "Occurrences": 942859
+    Occurrences: 942859,
   },
   {
-    "Emoji": "🐎",
+    Emoji: "🐎",
     "Unicode codepoint": "1F40E",
-    "Occurrences": 930678
+    Occurrences: 930678,
   },
   {
-    "Emoji": "6⃣",
+    Emoji: "6⃣",
     "Unicode codepoint": "0036-20E3",
-    "Occurrences": 911370
+    Occurrences: 911370,
   },
   {
-    "Emoji": "↪",
+    Emoji: "↪",
     "Unicode codepoint": "21AA",
-    "Occurrences": 894987
+    Occurrences: 894987,
   },
   {
-    "Emoji": "⁉",
+    Emoji: "⁉",
     "Unicode codepoint": 2049,
-    "Occurrences": 888531
+    Occurrences: 888531,
   },
   {
-    "Emoji": "🔨",
+    Emoji: "🔨",
     "Unicode codepoint": "1F528",
-    "Occurrences": 887572
+    Occurrences: 887572,
   },
   {
-    "Emoji": "💒",
+    Emoji: "💒",
     "Unicode codepoint": "1F492",
-    "Occurrences": 885645
+    Occurrences: 885645,
   },
   {
-    "Emoji": "🔌",
+    Emoji: "🔌",
     "Unicode codepoint": "1F50C",
-    "Occurrences": 880527
+    Occurrences: 880527,
   },
   {
-    "Emoji": "🔒",
+    Emoji: "🔒",
     "Unicode codepoint": "1F512",
-    "Occurrences": 877644
+    Occurrences: 877644,
   },
   {
-    "Emoji": "🇩🇪",
+    Emoji: "🇩🇪",
     "Unicode codepoint": "1F1E9-1F1EA",
-    "Occurrences": 874380
+    Occurrences: 874380,
   },
   {
-    "Emoji": "🇪🇸",
+    Emoji: "🇪🇸",
     "Unicode codepoint": "1F1EA-1F1F8",
-    "Occurrences": 862230
+    Occurrences: 862230,
   },
   {
-    "Emoji": "Ⓜ",
+    Emoji: "Ⓜ",
     "Unicode codepoint": "24C2",
-    "Occurrences": 856469
+    Occurrences: 856469,
   },
   {
-    "Emoji": "🐛",
+    Emoji: "🐛",
     "Unicode codepoint": "1F41B",
-    "Occurrences": 846198
+    Occurrences: 846198,
   },
   {
-    "Emoji": "🔜",
+    Emoji: "🔜",
     "Unicode codepoint": "1F51C",
-    "Occurrences": 845008
+    Occurrences: 845008,
   },
   {
-    "Emoji": "7⃣",
+    Emoji: "7⃣",
     "Unicode codepoint": "0037-20E3",
-    "Occurrences": 844936
+    Occurrences: 844936,
   },
   {
-    "Emoji": "🍣",
+    Emoji: "🍣",
     "Unicode codepoint": "1F363",
-    "Occurrences": 842073
+    Occurrences: 842073,
   },
   {
-    "Emoji": "🎯",
+    Emoji: "🎯",
     "Unicode codepoint": "1F3AF",
-    "Occurrences": 840101
+    Occurrences: 840101,
   },
   {
-    "Emoji": "🐹",
+    Emoji: "🐹",
     "Unicode codepoint": "1F439",
-    "Occurrences": 828787
+    Occurrences: 828787,
   },
   {
-    "Emoji": "🍚",
+    Emoji: "🍚",
     "Unicode codepoint": "1F35A",
-    "Occurrences": 828000
+    Occurrences: 828000,
   },
   {
-    "Emoji": "🌄",
+    Emoji: "🌄",
     "Unicode codepoint": "1F304",
-    "Occurrences": 825184
+    Occurrences: 825184,
   },
   {
-    "Emoji": "🚩",
+    Emoji: "🚩",
     "Unicode codepoint": "1F6A9",
-    "Occurrences": 820188
+    Occurrences: 820188,
   },
   {
-    "Emoji": "👖",
+    Emoji: "👖",
     "Unicode codepoint": "1F456",
-    "Occurrences": 811506
+    Occurrences: 811506,
   },
   {
-    "Emoji": "➰",
+    Emoji: "➰",
     "Unicode codepoint": "27B0",
-    "Occurrences": 804872
+    Occurrences: 804872,
   },
   {
-    "Emoji": "🍲",
+    Emoji: "🍲",
     "Unicode codepoint": "1F372",
-    "Occurrences": 800009
+    Occurrences: 800009,
   },
   {
-    "Emoji": "🏂",
+    Emoji: "🏂",
     "Unicode codepoint": "1F3C2",
-    "Occurrences": 795499
+    Occurrences: 795499,
   },
   {
-    "Emoji": "🍏",
+    Emoji: "🍏",
     "Unicode codepoint": "1F34F",
-    "Occurrences": 793897
+    Occurrences: 793897,
   },
   {
-    "Emoji": "👥",
+    Emoji: "👥",
     "Unicode codepoint": "1F465",
-    "Occurrences": 789744
+    Occurrences: 789744,
   },
   {
-    "Emoji": "🐞",
+    Emoji: "🐞",
     "Unicode codepoint": "1F41E",
-    "Occurrences": 787412
+    Occurrences: 787412,
   },
   {
-    "Emoji": "✴",
+    Emoji: "✴",
     "Unicode codepoint": 2734,
-    "Occurrences": 787170
+    Occurrences: 787170,
   },
   {
-    "Emoji": "📣",
+    Emoji: "📣",
     "Unicode codepoint": "1F4E3",
-    "Occurrences": 786964
+    Occurrences: 786964,
   },
   {
-    "Emoji": "🔱",
+    Emoji: "🔱",
     "Unicode codepoint": "1F531",
-    "Occurrences": 783113
+    Occurrences: 783113,
   },
   {
-    "Emoji": "🍖",
+    Emoji: "🍖",
     "Unicode codepoint": "1F356",
-    "Occurrences": 770921
+    Occurrences: 770921,
   },
   {
-    "Emoji": "👤",
+    Emoji: "👤",
     "Unicode codepoint": "1F464",
-    "Occurrences": 760381
+    Occurrences: 760381,
   },
   {
-    "Emoji": "💠",
+    Emoji: "💠",
     "Unicode codepoint": "1F4A0",
-    "Occurrences": 758193
+    Occurrences: 758193,
   },
   {
-    "Emoji": "🐚",
+    Emoji: "🐚",
     "Unicode codepoint": "1F41A",
-    "Occurrences": 746837
+    Occurrences: 746837,
   },
   {
-    "Emoji": "♋",
+    Emoji: "♋",
     "Unicode codepoint": "264B",
-    "Occurrences": 741232
+    Occurrences: 741232,
   },
   {
-    "Emoji": "🔺",
+    Emoji: "🔺",
     "Unicode codepoint": "1F53A",
-    "Occurrences": 740762
+    Occurrences: 740762,
   },
   {
-    "Emoji": "⤵",
+    Emoji: "⤵",
     "Unicode codepoint": 2935,
-    "Occurrences": 732586
+    Occurrences: 732586,
   },
   {
-    "Emoji": "↩",
+    Emoji: "↩",
     "Unicode codepoint": "21A9",
-    "Occurrences": 727692
+    Occurrences: 727692,
   },
   {
-    "Emoji": "🐊",
+    Emoji: "🐊",
     "Unicode codepoint": "1F40A",
-    "Occurrences": 721299
+    Occurrences: 721299,
   },
   {
-    "Emoji": "👔",
+    Emoji: "👔",
     "Unicode codepoint": "1F454",
-    "Occurrences": 720748
+    Occurrences: 720748,
   },
   {
-    "Emoji": "🌽",
+    Emoji: "🌽",
     "Unicode codepoint": "1F33D",
-    "Occurrences": 717276
+    Occurrences: 717276,
   },
   {
-    "Emoji": "✒",
+    Emoji: "✒",
     "Unicode codepoint": 2712,
-    "Occurrences": 715260
+    Occurrences: 715260,
   },
   {
-    "Emoji": "🅾",
+    Emoji: "🅾",
     "Unicode codepoint": "1F17E",
-    "Occurrences": 714404
+    Occurrences: 714404,
   },
   {
-    "Emoji": "🐓",
+    Emoji: "🐓",
     "Unicode codepoint": "1F413",
-    "Occurrences": 710722
+    Occurrences: 710722,
   },
   {
-    "Emoji": "🍨",
+    Emoji: "🍨",
     "Unicode codepoint": "1F368",
-    "Occurrences": 704005
+    Occurrences: 704005,
   },
   {
-    "Emoji": "🔸",
+    Emoji: "🔸",
     "Unicode codepoint": "1F538",
-    "Occurrences": 702196
+    Occurrences: 702196,
   },
   {
-    "Emoji": "🅱",
+    Emoji: "🅱",
     "Unicode codepoint": "1F171",
-    "Occurrences": 700283
+    Occurrences: 700283,
   },
   {
-    "Emoji": "🐌",
+    Emoji: "🐌",
     "Unicode codepoint": "1F40C",
-    "Occurrences": 700209
+    Occurrences: 700209,
   },
   {
-    "Emoji": "🐩",
+    Emoji: "🐩",
     "Unicode codepoint": "1F429",
-    "Occurrences": 699240
+    Occurrences: 699240,
   },
   {
-    "Emoji": "🗽",
+    Emoji: "🗽",
     "Unicode codepoint": "1F5FD",
-    "Occurrences": 698011
+    Occurrences: 698011,
   },
   {
-    "Emoji": "🌇",
+    Emoji: "🌇",
     "Unicode codepoint": "1F307",
-    "Occurrences": 692046
+    Occurrences: 692046,
   },
   {
-    "Emoji": "🏥",
+    Emoji: "🏥",
     "Unicode codepoint": "1F3E5",
-    "Occurrences": 690151
+    Occurrences: 690151,
   },
   {
-    "Emoji": "❇",
+    Emoji: "❇",
     "Unicode codepoint": 2747,
-    "Occurrences": 689856
+    Occurrences: 689856,
   },
   {
-    "Emoji": "🔄",
+    Emoji: "🔄",
     "Unicode codepoint": "1F504",
-    "Occurrences": 687604
+    Occurrences: 687604,
   },
   {
-    "Emoji": "💲",
+    Emoji: "💲",
     "Unicode codepoint": "1F4B2",
-    "Occurrences": 687373
+    Occurrences: 687373,
   },
   {
-    "Emoji": "💮",
+    Emoji: "💮",
     "Unicode codepoint": "1F4AE",
-    "Occurrences": 679464
+    Occurrences: 679464,
   },
   {
-    "Emoji": "🎎",
+    Emoji: "🎎",
     "Unicode codepoint": "1F38E",
-    "Occurrences": 679407
+    Occurrences: 679407,
   },
   {
-    "Emoji": "🍯",
+    Emoji: "🍯",
     "Unicode codepoint": "1F36F",
-    "Occurrences": 679005
+    Occurrences: 679005,
   },
   {
-    "Emoji": "🐜",
+    Emoji: "🐜",
     "Unicode codepoint": "1F41C",
-    "Occurrences": 677956
+    Occurrences: 677956,
   },
   {
-    "Emoji": "🚔",
+    Emoji: "🚔",
     "Unicode codepoint": "1F694",
-    "Occurrences": 676012
+    Occurrences: 676012,
   },
   {
-    "Emoji": "🔓",
+    Emoji: "🔓",
     "Unicode codepoint": "1F513",
-    "Occurrences": 672181
+    Occurrences: 672181,
   },
   {
-    "Emoji": "🚣",
+    Emoji: "🚣",
     "Unicode codepoint": "1F6A3",
-    "Occurrences": 665948
+    Occurrences: 665948,
   },
   {
-    "Emoji": "➕",
+    Emoji: "➕",
     "Unicode codepoint": 2795,
-    "Occurrences": 650204
+    Occurrences: 650204,
   },
   {
-    "Emoji": "🍛",
+    Emoji: "🍛",
     "Unicode codepoint": "1F35B",
-    "Occurrences": 645165
+    Occurrences: 645165,
   },
   {
-    "Emoji": "🚪",
+    Emoji: "🚪",
     "Unicode codepoint": "1F6AA",
-    "Occurrences": 643503
+    Occurrences: 643503,
   },
   {
-    "Emoji": "🎱",
+    Emoji: "🎱",
     "Unicode codepoint": "1F3B1",
-    "Occurrences": 636522
+    Occurrences: 636522,
   },
   {
-    "Emoji": "🐐",
+    Emoji: "🐐",
     "Unicode codepoint": "1F410",
-    "Occurrences": 635402
+    Occurrences: 635402,
   },
   {
-    "Emoji": "♈",
+    Emoji: "♈",
     "Unicode codepoint": 2648,
-    "Occurrences": 634982
+    Occurrences: 634982,
   },
   {
-    "Emoji": "🍅",
+    Emoji: "🍅",
     "Unicode codepoint": "1F345",
-    "Occurrences": 634183
+    Occurrences: 634183,
   },
   {
-    "Emoji": "🔁",
+    Emoji: "🔁",
     "Unicode codepoint": "1F501",
-    "Occurrences": 632023
+    Occurrences: 632023,
   },
   {
-    "Emoji": "🍮",
+    Emoji: "🍮",
     "Unicode codepoint": "1F36E",
-    "Occurrences": 629191
+    Occurrences: 629191,
   },
   {
-    "Emoji": "👷",
+    Emoji: "👷",
     "Unicode codepoint": "1F477",
-    "Occurrences": 628353
+    Occurrences: 628353,
   },
   {
-    "Emoji": "🏫",
+    Emoji: "🏫",
     "Unicode codepoint": "1F3EB",
-    "Occurrences": 625991
+    Occurrences: 625991,
   },
   {
-    "Emoji": "🐈",
+    Emoji: "🐈",
     "Unicode codepoint": "1F408",
-    "Occurrences": 618615
+    Occurrences: 618615,
   },
   {
-    "Emoji": "🎹",
+    Emoji: "🎹",
     "Unicode codepoint": "1F3B9",
-    "Occurrences": 612653
+    Occurrences: 612653,
   },
   {
-    "Emoji": "⛔",
+    Emoji: "⛔",
     "Unicode codepoint": "26D4",
-    "Occurrences": 611948
+    Occurrences: 611948,
   },
   {
-    "Emoji": "🔷",
+    Emoji: "🔷",
     "Unicode codepoint": "1F537",
-    "Occurrences": 611798
+    Occurrences: 611798,
   },
   {
-    "Emoji": "🚺",
+    Emoji: "🚺",
     "Unicode codepoint": "1F6BA",
-    "Occurrences": 608639
+    Occurrences: 608639,
   },
   {
-    "Emoji": "♒",
+    Emoji: "♒",
     "Unicode codepoint": 2652,
-    "Occurrences": 604419
+    Occurrences: 604419,
   },
   {
-    "Emoji": "👕",
+    Emoji: "👕",
     "Unicode codepoint": "1F455",
-    "Occurrences": 602781
+    Occurrences: 602781,
   },
   {
-    "Emoji": "🎲",
+    Emoji: "🎲",
     "Unicode codepoint": "1F3B2",
-    "Occurrences": 601329
+    Occurrences: 601329,
   },
   {
-    "Emoji": "👜",
+    Emoji: "👜",
     "Unicode codepoint": "1F45C",
-    "Occurrences": 599832
+    Occurrences: 599832,
   },
   {
-    "Emoji": "🕦",
+    Emoji: "🕦",
     "Unicode codepoint": "1F566",
-    "Occurrences": 598199
+    Occurrences: 598199,
   },
   {
-    "Emoji": "🏢",
+    Emoji: "🏢",
     "Unicode codepoint": "1F3E2",
-    "Occurrences": 592592
+    Occurrences: 592592,
   },
   {
-    "Emoji": "📍",
+    Emoji: "📍",
     "Unicode codepoint": "1F4CD",
-    "Occurrences": 592275
+    Occurrences: 592275,
   },
   {
-    "Emoji": "🐪",
+    Emoji: "🐪",
     "Unicode codepoint": "1F42A",
-    "Occurrences": 591089
+    Occurrences: 591089,
   },
   {
-    "Emoji": "♏",
+    Emoji: "♏",
     "Unicode codepoint": "264F",
-    "Occurrences": 590493
+    Occurrences: 590493,
   },
   {
-    "Emoji": "📹",
+    Emoji: "📹",
     "Unicode codepoint": "1F4F9",
-    "Occurrences": 587758
+    Occurrences: 587758,
   },
   {
-    "Emoji": "🚌",
+    Emoji: "🚌",
     "Unicode codepoint": "1F68C",
-    "Occurrences": 585308
+    Occurrences: 585308,
   },
   {
-    "Emoji": "🔲",
+    Emoji: "🔲",
     "Unicode codepoint": "1F532",
-    "Occurrences": 585109
+    Occurrences: 585109,
   },
   {
-    "Emoji": "🚽",
+    Emoji: "🚽",
     "Unicode codepoint": "1F6BD",
-    "Occurrences": 583467
+    Occurrences: 583467,
   },
   {
-    "Emoji": "🚼",
+    Emoji: "🚼",
     "Unicode codepoint": "1F6BC",
-    "Occurrences": 583009
+    Occurrences: 583009,
   },
   {
-    "Emoji": "🐉",
+    Emoji: "🐉",
     "Unicode codepoint": "1F409",
-    "Occurrences": 581624
+    Occurrences: 581624,
   },
   {
-    "Emoji": "⛵",
+    Emoji: "⛵",
     "Unicode codepoint": "26F5",
-    "Occurrences": 580902
+    Occurrences: 580902,
   },
   {
-    "Emoji": "🔶",
+    Emoji: "🔶",
     "Unicode codepoint": "1F536",
-    "Occurrences": 580569
+    Occurrences: 580569,
   },
   {
-    "Emoji": "🏩",
+    Emoji: "🏩",
     "Unicode codepoint": "1F3E9",
-    "Occurrences": 573856
+    Occurrences: 573856,
   },
   {
-    "Emoji": "📀",
+    Emoji: "📀",
     "Unicode codepoint": "1F4C0",
-    "Occurrences": 572051
+    Occurrences: 572051,
   },
   {
-    "Emoji": "🚂",
+    Emoji: "🚂",
     "Unicode codepoint": "1F682",
-    "Occurrences": 571822
+    Occurrences: 571822,
   },
   {
-    "Emoji": "🌆",
+    Emoji: "🌆",
     "Unicode codepoint": "1F306",
-    "Occurrences": 565558
+    Occurrences: 565558,
   },
   {
-    "Emoji": "㊙",
+    Emoji: "㊙",
     "Unicode codepoint": 3299,
-    "Occurrences": 565212
+    Occurrences: 565212,
   },
   {
-    "Emoji": "🐇",
+    Emoji: "🐇",
     "Unicode codepoint": "1F407",
-    "Occurrences": 564464
+    Occurrences: 564464,
   },
   {
-    "Emoji": "🌋",
+    Emoji: "🌋",
     "Unicode codepoint": "1F30B",
-    "Occurrences": 562467
+    Occurrences: 562467,
   },
   {
-    "Emoji": "㊗",
+    Emoji: "㊗",
     "Unicode codepoint": 3297,
-    "Occurrences": 552354
+    Occurrences: 552354,
   },
   {
-    "Emoji": "🔻",
+    Emoji: "🔻",
     "Unicode codepoint": "1F53B",
-    "Occurrences": 551453
+    Occurrences: 551453,
   },
   {
-    "Emoji": "🐕",
+    Emoji: "🐕",
     "Unicode codepoint": "1F415",
-    "Occurrences": 550453
+    Occurrences: 550453,
   },
   {
-    "Emoji": "🐫",
+    Emoji: "🐫",
     "Unicode codepoint": "1F42B",
-    "Occurrences": 547799
+    Occurrences: 547799,
   },
   {
-    "Emoji": "👞",
+    Emoji: "👞",
     "Unicode codepoint": "1F45E",
-    "Occurrences": 539891
+    Occurrences: 539891,
   },
   {
-    "Emoji": "♌",
+    Emoji: "♌",
     "Unicode codepoint": "264C",
-    "Occurrences": 538172
+    Occurrences: 538172,
   },
   {
-    "Emoji": "🎳",
+    Emoji: "🎳",
     "Unicode codepoint": "1F3B3",
-    "Occurrences": 534209
+    Occurrences: 534209,
   },
   {
-    "Emoji": "🌰",
+    Emoji: "🌰",
     "Unicode codepoint": "1F330",
-    "Occurrences": 531910
+    Occurrences: 531910,
   },
   {
-    "Emoji": "🎢",
+    Emoji: "🎢",
     "Unicode codepoint": "1F3A2",
-    "Occurrences": 530699
+    Occurrences: 530699,
   },
   {
-    "Emoji": "👒",
+    Emoji: "👒",
     "Unicode codepoint": "1F452",
-    "Occurrences": 528893
+    Occurrences: 528893,
   },
   {
-    "Emoji": "💳",
+    Emoji: "💳",
     "Unicode codepoint": "1F4B3",
-    "Occurrences": 526081
+    Occurrences: 526081,
   },
   {
-    "Emoji": "🗻",
+    Emoji: "🗻",
     "Unicode codepoint": "1F5FB",
-    "Occurrences": 524612
+    Occurrences: 524612,
   },
   {
-    "Emoji": "➖",
+    Emoji: "➖",
     "Unicode codepoint": 2796,
-    "Occurrences": 523828
+    Occurrences: 523828,
   },
   {
-    "Emoji": "🆔",
+    Emoji: "🆔",
     "Unicode codepoint": "1F194",
-    "Occurrences": 523285
+    Occurrences: 523285,
   },
   {
-    "Emoji": "♐",
+    Emoji: "♐",
     "Unicode codepoint": 2650,
-    "Occurrences": 510718
+    Occurrences: 510718,
   },
   {
-    "Emoji": "♊",
+    Emoji: "♊",
     "Unicode codepoint": "264A",
-    "Occurrences": 508289
+    Occurrences: 508289,
   },
   {
-    "Emoji": "〽",
+    Emoji: "〽",
     "Unicode codepoint": "303D",
-    "Occurrences": 504914
+    Occurrences: 504914,
   },
   {
-    "Emoji": "💈",
+    Emoji: "💈",
     "Unicode codepoint": "1F488",
-    "Occurrences": 503601
+    Occurrences: 503601,
   },
   {
-    "Emoji": "🐲",
+    Emoji: "🐲",
     "Unicode codepoint": "1F432",
-    "Occurrences": 501491
+    Occurrences: 501491,
   },
   {
-    "Emoji": "🐄",
+    Emoji: "🐄",
     "Unicode codepoint": "1F404",
-    "Occurrences": 499915
+    Occurrences: 499915,
   },
   {
-    "Emoji": "🌂",
+    Emoji: "🌂",
     "Unicode codepoint": "1F302",
-    "Occurrences": 494197
+    Occurrences: 494197,
   },
   {
-    "Emoji": "♓",
+    Emoji: "♓",
     "Unicode codepoint": 2653,
-    "Occurrences": 493689
+    Occurrences: 493689,
   },
   {
-    "Emoji": "♉",
+    Emoji: "♉",
     "Unicode codepoint": 2649,
-    "Occurrences": 489411
+    Occurrences: 489411,
   },
   {
-    "Emoji": "🚴",
+    Emoji: "🚴",
     "Unicode codepoint": "1F6B4",
-    "Occurrences": 489193
+    Occurrences: 489193,
   },
   {
-    "Emoji": "8⃣",
+    Emoji: "8⃣",
     "Unicode codepoint": "0038-20E3",
-    "Occurrences": 488756
+    Occurrences: 488756,
   },
   {
-    "Emoji": "🇯🇵",
+    Emoji: "🇯🇵",
     "Unicode codepoint": "1F1EF-1F1F5",
-    "Occurrences": 487249
+    Occurrences: 487249,
   },
   {
-    "Emoji": "♑",
+    Emoji: "♑",
     "Unicode codepoint": 2651,
-    "Occurrences": 484857
+    Occurrences: 484857,
   },
   {
-    "Emoji": "9⃣",
+    Emoji: "9⃣",
     "Unicode codepoint": "0039-20E3",
-    "Occurrences": 481581
+    Occurrences: 481581,
   },
   {
-    "Emoji": "👛",
+    Emoji: "👛",
     "Unicode codepoint": "1F45B",
-    "Occurrences": 481471
+    Occurrences: 481471,
   },
   {
-    "Emoji": "⏳",
+    Emoji: "⏳",
     "Unicode codepoint": "23F3",
-    "Occurrences": 478018
+    Occurrences: 478018,
   },
   {
-    "Emoji": "🍡",
+    Emoji: "🍡",
     "Unicode codepoint": "1F361",
-    "Occurrences": 474535
+    Occurrences: 474535,
   },
   {
-    "Emoji": "🚓",
+    Emoji: "🚓",
     "Unicode codepoint": "1F693",
-    "Occurrences": 473031
+    Occurrences: 473031,
   },
   {
-    "Emoji": "♍",
+    Emoji: "♍",
     "Unicode codepoint": "264D",
-    "Occurrences": 472453
+    Occurrences: 472453,
   },
   {
-    "Emoji": "🚖",
+    Emoji: "🚖",
     "Unicode codepoint": "1F696",
-    "Occurrences": 472257
+    Occurrences: 472257,
   },
   {
-    "Emoji": "🍐",
+    Emoji: "🍐",
     "Unicode codepoint": "1F350",
-    "Occurrences": 470510
+    Occurrences: 470510,
   },
   {
-    "Emoji": "🐏",
+    Emoji: "🐏",
     "Unicode codepoint": "1F40F",
-    "Occurrences": 468847
+    Occurrences: 468847,
   },
   {
-    "Emoji": "⛪",
+    Emoji: "⛪",
     "Unicode codepoint": "26EA",
-    "Occurrences": 465825
+    Occurrences: 465825,
   },
   {
-    "Emoji": "♎",
+    Emoji: "♎",
     "Unicode codepoint": "264E",
-    "Occurrences": 460278
+    Occurrences: 460278,
   },
   {
-    "Emoji": "🌉",
+    Emoji: "🌉",
     "Unicode codepoint": "1F309",
-    "Occurrences": 459513
+    Occurrences: 459513,
   },
   {
-    "Emoji": "🔔",
+    Emoji: "🔔",
     "Unicode codepoint": "1F514",
-    "Occurrences": 458283
+    Occurrences: 458283,
   },
   {
-    "Emoji": "📌",
+    Emoji: "📌",
     "Unicode codepoint": "1F4CC",
-    "Occurrences": 457552
+    Occurrences: 457552,
   },
   {
-    "Emoji": "💺",
+    Emoji: "💺",
     "Unicode codepoint": "1F4BA",
-    "Occurrences": 456800
+    Occurrences: 456800,
   },
   {
-    "Emoji": "📛",
+    Emoji: "📛",
     "Unicode codepoint": "1F4DB",
-    "Occurrences": 456469
+    Occurrences: 456469,
   },
   {
-    "Emoji": "🐅",
+    Emoji: "🐅",
     "Unicode codepoint": "1F405",
-    "Occurrences": 455490
+    Occurrences: 455490,
   },
   {
-    "Emoji": "🌐",
+    Emoji: "🌐",
     "Unicode codepoint": "1F310",
-    "Occurrences": 453169
+    Occurrences: 453169,
   },
   {
-    "Emoji": "❎",
+    Emoji: "❎",
     "Unicode codepoint": "274E",
-    "Occurrences": 451249
+    Occurrences: 451249,
   },
   {
-    "Emoji": "📴",
+    Emoji: "📴",
     "Unicode codepoint": "1F4F4",
-    "Occurrences": 449968
+    Occurrences: 449968,
   },
   {
-    "Emoji": "◾",
+    Emoji: "◾",
     "Unicode codepoint": "25FE",
-    "Occurrences": 449550
+    Occurrences: 449550,
   },
   {
-    "Emoji": "❔",
+    Emoji: "❔",
     "Unicode codepoint": 2754,
-    "Occurrences": 445265
+    Occurrences: 445265,
   },
   {
-    "Emoji": "🚢",
+    Emoji: "🚢",
     "Unicode codepoint": "1F6A2",
-    "Occurrences": 438753
+    Occurrences: 438753,
   },
   {
-    "Emoji": "📻",
+    Emoji: "📻",
     "Unicode codepoint": "1F4FB",
-    "Occurrences": 435589
+    Occurrences: 435589,
   },
   {
-    "Emoji": "🐗",
+    Emoji: "🐗",
     "Unicode codepoint": "1F417",
-    "Occurrences": 433926
+    Occurrences: 433926,
   },
   {
-    "Emoji": "🐀",
+    Emoji: "🐀",
     "Unicode codepoint": "1F400",
-    "Occurrences": 427336
+    Occurrences: 427336,
   },
   {
-    "Emoji": "💷",
+    Emoji: "💷",
     "Unicode codepoint": "1F4B7",
-    "Occurrences": 423765
+    Occurrences: 423765,
   },
   {
-    "Emoji": "🃏",
+    Emoji: "🃏",
     "Unicode codepoint": "1F0CF",
-    "Occurrences": 421943
+    Occurrences: 421943,
   },
   {
-    "Emoji": "📦",
+    Emoji: "📦",
     "Unicode codepoint": "1F4E6",
-    "Occurrences": 421712
+    Occurrences: 421712,
   },
   {
-    "Emoji": "🐖",
+    Emoji: "🐖",
     "Unicode codepoint": "1F416",
-    "Occurrences": 420619
+    Occurrences: 420619,
   },
   {
-    "Emoji": "ℹ",
+    Emoji: "ℹ",
     "Unicode codepoint": 2139,
-    "Occurrences": 419099
+    Occurrences: 419099,
   },
   {
-    "Emoji": "🏉",
+    Emoji: "🏉",
     "Unicode codepoint": "1F3C9",
-    "Occurrences": 414314
+    Occurrences: 414314,
   },
   {
-    "Emoji": "🏤",
+    Emoji: "🏤",
     "Unicode codepoint": "1F3E4",
-    "Occurrences": 412506
+    Occurrences: 412506,
   },
   {
-    "Emoji": "🇷🇺",
+    Emoji: "🇷🇺",
     "Unicode codepoint": "1F1F7-1F1FA",
-    "Occurrences": 411646
+    Occurrences: 411646,
   },
   {
-    "Emoji": "🎒",
+    Emoji: "🎒",
     "Unicode codepoint": "1F392",
-    "Occurrences": 409619
+    Occurrences: 409619,
   },
   {
-    "Emoji": "🗼",
+    Emoji: "🗼",
     "Unicode codepoint": "1F5FC",
-    "Occurrences": 407795
+    Occurrences: 407795,
   },
   {
-    "Emoji": "🌁",
+    Emoji: "🌁",
     "Unicode codepoint": "1F301",
-    "Occurrences": 404652
+    Occurrences: 404652,
   },
   {
-    "Emoji": "⏪",
+    Emoji: "⏪",
     "Unicode codepoint": "23EA",
-    "Occurrences": 403079
+    Occurrences: 403079,
   },
   {
-    "Emoji": "🎍",
+    Emoji: "🎍",
     "Unicode codepoint": "1F38D",
-    "Occurrences": 402021
+    Occurrences: 402021,
   },
   {
-    "Emoji": "🚦",
+    Emoji: "🚦",
     "Unicode codepoint": "1F6A6",
-    "Occurrences": 400910
+    Occurrences: 400910,
   },
   {
-    "Emoji": "🚑",
+    Emoji: "🚑",
     "Unicode codepoint": "1F691",
-    "Occurrences": 400666
+    Occurrences: 400666,
   },
   {
-    "Emoji": "🏇",
+    Emoji: "🏇",
     "Unicode codepoint": "1F3C7",
-    "Occurrences": 399997
+    Occurrences: 399997,
   },
   {
-    "Emoji": "👡",
+    Emoji: "👡",
     "Unicode codepoint": "1F461",
-    "Occurrences": 399643
+    Occurrences: 399643,
   },
   {
-    "Emoji": "👢",
+    Emoji: "👢",
     "Unicode codepoint": "1F462",
-    "Occurrences": 396254
+    Occurrences: 396254,
   },
   {
-    "Emoji": "#⃣",
+    Emoji: "#⃣",
     "Unicode codepoint": "0023-20E3",
-    "Occurrences": 389041
+    Occurrences: 389041,
   },
   {
-    "Emoji": "🎻",
+    Emoji: "🎻",
     "Unicode codepoint": "1F3BB",
-    "Occurrences": 385093
+    Occurrences: 385093,
   },
   {
-    "Emoji": "🎡",
+    Emoji: "🎡",
     "Unicode codepoint": "1F3A1",
-    "Occurrences": 381050
+    Occurrences: 381050,
   },
   {
-    "Emoji": "📓",
+    Emoji: "📓",
     "Unicode codepoint": "1F4D3",
-    "Occurrences": 380786
+    Occurrences: 380786,
   },
   {
-    "Emoji": "🎷",
+    Emoji: "🎷",
     "Unicode codepoint": "1F3B7",
-    "Occurrences": 380011
+    Occurrences: 380011,
   },
   {
-    "Emoji": "🎋",
+    Emoji: "🎋",
     "Unicode codepoint": "1F38B",
-    "Occurrences": 377583
+    Occurrences: 377583,
   },
   {
-    "Emoji": "📩",
+    Emoji: "📩",
     "Unicode codepoint": "1F4E9",
-    "Occurrences": 368737
+    Occurrences: 368737,
   },
   {
-    "Emoji": "⌛",
+    Emoji: "⌛",
     "Unicode codepoint": "231B",
-    "Occurrences": 365065
+    Occurrences: 365065,
   },
   {
-    "Emoji": "🔟",
+    Emoji: "🔟",
     "Unicode codepoint": "1F51F",
-    "Occurrences": 361872
+    Occurrences: 361872,
   },
   {
-    "Emoji": "🔛",
+    Emoji: "🔛",
     "Unicode codepoint": "1F51B",
-    "Occurrences": 358641
+    Occurrences: 358641,
   },
   {
-    "Emoji": "🎿",
+    Emoji: "🎿",
     "Unicode codepoint": "1F3BF",
-    "Occurrences": 356645
+    Occurrences: 356645,
   },
   {
-    "Emoji": "💽",
+    Emoji: "💽",
     "Unicode codepoint": "1F4BD",
-    "Occurrences": 354117
+    Occurrences: 354117,
   },
   {
-    "Emoji": "🚍",
+    Emoji: "🚍",
     "Unicode codepoint": "1F68D",
-    "Occurrences": 344885
+    Occurrences: 344885,
   },
   {
-    "Emoji": "🎏",
+    Emoji: "🎏",
     "Unicode codepoint": "1F38F",
-    "Occurrences": 340691
+    Occurrences: 340691,
   },
   {
-    "Emoji": "🔰",
+    Emoji: "🔰",
     "Unicode codepoint": "1F530",
-    "Occurrences": 340347
+    Occurrences: 340347,
   },
   {
-    "Emoji": "🚹",
+    Emoji: "🚹",
     "Unicode codepoint": "1F6B9",
-    "Occurrences": 339951
+    Occurrences: 339951,
   },
   {
-    "Emoji": "🏬",
+    Emoji: "🏬",
     "Unicode codepoint": "1F3EC",
-    "Occurrences": 339584
+    Occurrences: 339584,
   },
   {
-    "Emoji": "🍢",
+    Emoji: "🍢",
     "Unicode codepoint": "1F362",
-    "Occurrences": 338050
+    Occurrences: 338050,
   },
   {
-    "Emoji": "📒",
+    Emoji: "📒",
     "Unicode codepoint": "1F4D2",
-    "Occurrences": 337653
+    Occurrences: 337653,
   },
   {
-    "Emoji": "🐂",
+    Emoji: "🐂",
     "Unicode codepoint": "1F402",
-    "Occurrences": 336831
+    Occurrences: 336831,
   },
   {
-    "Emoji": "⛺",
+    Emoji: "⛺",
     "Unicode codepoint": "26FA",
-    "Occurrences": 336300
+    Occurrences: 336300,
   },
   {
-    "Emoji": "🍙",
+    Emoji: "🍙",
     "Unicode codepoint": "1F359",
-    "Occurrences": 335288
+    Occurrences: 335288,
   },
   {
-    "Emoji": "🚕",
+    Emoji: "🚕",
     "Unicode codepoint": "1F695",
-    "Occurrences": 332720
+    Occurrences: 332720,
   },
   {
-    "Emoji": "🎺",
+    Emoji: "🎺",
     "Unicode codepoint": "1F3BA",
-    "Occurrences": 329351
+    Occurrences: 329351,
   },
   {
-    "Emoji": "◼",
+    Emoji: "◼",
     "Unicode codepoint": "25FC",
-    "Occurrences": 327264
+    Occurrences: 327264,
   },
   {
-    "Emoji": "🐡",
+    Emoji: "🐡",
     "Unicode codepoint": "1F421",
-    "Occurrences": 325238
+    Occurrences: 325238,
   },
   {
-    "Emoji": "▫",
+    Emoji: "▫",
     "Unicode codepoint": "25AB",
-    "Occurrences": 318582
+    Occurrences: 318582,
   },
   {
-    "Emoji": "🔯",
+    Emoji: "🔯",
     "Unicode codepoint": "1F52F",
-    "Occurrences": 317688
+    Occurrences: 317688,
   },
   {
-    "Emoji": "🍈",
+    Emoji: "🍈",
     "Unicode codepoint": "1F348",
-    "Occurrences": 314795
+    Occurrences: 314795,
   },
   {
-    "Emoji": "🏰",
+    Emoji: "🏰",
     "Unicode codepoint": "1F3F0",
-    "Occurrences": 314499
+    Occurrences: 314499,
   },
   {
-    "Emoji": "🚁",
+    Emoji: "🚁",
     "Unicode codepoint": "1F681",
-    "Occurrences": 313277
+    Occurrences: 313277,
   },
   {
-    "Emoji": "🎌",
+    Emoji: "🎌",
     "Unicode codepoint": "1F38C",
-    "Occurrences": 311216
+    Occurrences: 311216,
   },
   {
-    "Emoji": "🐆",
+    Emoji: "🐆",
     "Unicode codepoint": "1F406",
-    "Occurrences": 309839
+    Occurrences: 309839,
   },
   {
-    "Emoji": "💼",
+    Emoji: "💼",
     "Unicode codepoint": "1F4BC",
-    "Occurrences": 308351
+    Occurrences: 308351,
   },
   {
-    "Emoji": "🎠",
+    Emoji: "🎠",
     "Unicode codepoint": "1F3A0",
-    "Occurrences": 301765
+    Occurrences: 301765,
   },
   {
-    "Emoji": "📅",
+    Emoji: "📅",
     "Unicode codepoint": "1F4C5",
-    "Occurrences": 301430
+    Occurrences: 301430,
   },
   {
-    "Emoji": "🔚",
+    Emoji: "🔚",
     "Unicode codepoint": "1F51A",
-    "Occurrences": 299555
+    Occurrences: 299555,
   },
   {
-    "Emoji": "💴",
+    Emoji: "💴",
     "Unicode codepoint": "1F4B4",
-    "Occurrences": 299016
+    Occurrences: 299016,
   },
   {
-    "Emoji": "🔅",
+    Emoji: "🔅",
     "Unicode codepoint": "1F505",
-    "Occurrences": 298214
+    Occurrences: 298214,
   },
   {
-    "Emoji": "👚",
+    Emoji: "👚",
     "Unicode codepoint": "1F45A",
-    "Occurrences": 297971
+    Occurrences: 297971,
   },
   {
-    "Emoji": "📶",
+    Emoji: "📶",
     "Unicode codepoint": "1F4F6",
-    "Occurrences": 297016
+    Occurrences: 297016,
   },
   {
-    "Emoji": "💶",
+    Emoji: "💶",
     "Unicode codepoint": "1F4B6",
-    "Occurrences": 294903
+    Occurrences: 294903,
   },
   {
-    "Emoji": "🆚",
+    Emoji: "🆚",
     "Unicode codepoint": "1F19A",
-    "Occurrences": 294141
+    Occurrences: 294141,
   },
   {
-    "Emoji": "🔦",
+    Emoji: "🔦",
     "Unicode codepoint": "1F526",
-    "Occurrences": 287654
+    Occurrences: 287654,
   },
   {
-    "Emoji": "🔳",
+    Emoji: "🔳",
     "Unicode codepoint": "1F533",
-    "Occurrences": 285460
+    Occurrences: 285460,
   },
   {
-    "Emoji": "🕛",
+    Emoji: "🕛",
     "Unicode codepoint": "1F55B",
-    "Occurrences": 283736
+    Occurrences: 283736,
   },
   {
-    "Emoji": "🚤",
+    Emoji: "🚤",
     "Unicode codepoint": "1F6A4",
-    "Occurrences": 283390
+    Occurrences: 283390,
   },
   {
-    "Emoji": "⤴",
+    Emoji: "⤴",
     "Unicode codepoint": 2934,
-    "Occurrences": 282089
+    Occurrences: 282089,
   },
   {
-    "Emoji": "🚒",
+    Emoji: "🚒",
     "Unicode codepoint": "1F692",
-    "Occurrences": 275688
+    Occurrences: 275688,
   },
   {
-    "Emoji": "📘",
+    Emoji: "📘",
     "Unicode codepoint": "1F4D8",
-    "Occurrences": 274451
+    Occurrences: 274451,
   },
   {
-    "Emoji": "🍠",
+    Emoji: "🍠",
     "Unicode codepoint": "1F360",
-    "Occurrences": 269631
+    Occurrences: 269631,
   },
   {
-    "Emoji": "🎪",
+    Emoji: "🎪",
     "Unicode codepoint": "1F3AA",
-    "Occurrences": 268545
+    Occurrences: 268545,
   },
   {
-    "Emoji": "🎽",
+    Emoji: "🎽",
     "Unicode codepoint": "1F3BD",
-    "Occurrences": 267913
+    Occurrences: 267913,
   },
   {
-    "Emoji": "⬜",
+    Emoji: "⬜",
     "Unicode codepoint": "2B1C",
-    "Occurrences": 267896
+    Occurrences: 267896,
   },
   {
-    "Emoji": "🚾",
+    Emoji: "🚾",
     "Unicode codepoint": "1F6BE",
-    "Occurrences": 254593
+    Occurrences: 254593,
   },
   {
-    "Emoji": "◻",
+    Emoji: "◻",
     "Unicode codepoint": "25FB",
-    "Occurrences": 252821
+    Occurrences: 252821,
   },
   {
-    "Emoji": "📰",
+    Emoji: "📰",
     "Unicode codepoint": "1F4F0",
-    "Occurrences": 251669
+    Occurrences: 251669,
   },
   {
-    "Emoji": "🉐",
+    Emoji: "🉐",
     "Unicode codepoint": "1F250",
-    "Occurrences": 248005
+    Occurrences: 248005,
   },
   {
-    "Emoji": "🕐",
+    Emoji: "🕐",
     "Unicode codepoint": "1F550",
-    "Occurrences": 247658
+    Occurrences: 247658,
   },
   {
-    "Emoji": "🚧",
+    Emoji: "🚧",
     "Unicode codepoint": "1F6A7",
-    "Occurrences": 246880
+    Occurrences: 246880,
   },
   {
-    "Emoji": "🐃",
+    Emoji: "🐃",
     "Unicode codepoint": "1F403",
-    "Occurrences": 241178
+    Occurrences: 241178,
   },
   {
-    "Emoji": "🔭",
+    Emoji: "🔭",
     "Unicode codepoint": "1F52D",
-    "Occurrences": 238148
+    Occurrences: 238148,
   },
   {
-    "Emoji": "🕑",
+    Emoji: "🕑",
     "Unicode codepoint": "1F551",
-    "Occurrences": 237771
+    Occurrences: 237771,
   },
   {
-    "Emoji": "🆖",
+    Emoji: "🆖",
     "Unicode codepoint": "1F196",
-    "Occurrences": 237650
+    Occurrences: 237650,
   },
   {
-    "Emoji": "📆",
+    Emoji: "📆",
     "Unicode codepoint": "1F4C6",
-    "Occurrences": 237248
+    Occurrences: 237248,
   },
   {
-    "Emoji": "🔍",
+    Emoji: "🔍",
     "Unicode codepoint": "1F50D",
-    "Occurrences": 236347
+    Occurrences: 236347,
   },
   {
-    "Emoji": "🏧",
+    Emoji: "🏧",
     "Unicode codepoint": "1F3E7",
-    "Occurrences": 236291
+    Occurrences: 236291,
   },
   {
-    "Emoji": "🕒",
+    Emoji: "🕒",
     "Unicode codepoint": "1F552",
-    "Occurrences": 235745
+    Occurrences: 235745,
   },
   {
-    "Emoji": "🚚",
+    Emoji: "🚚",
     "Unicode codepoint": "1F69A",
-    "Occurrences": 231695
+    Occurrences: 231695,
   },
   {
-    "Emoji": "🔩",
+    Emoji: "🔩",
     "Unicode codepoint": "1F529",
-    "Occurrences": 230785
+    Occurrences: 230785,
   },
   {
-    "Emoji": "🔎",
+    Emoji: "🔎",
     "Unicode codepoint": "1F50E",
-    "Occurrences": 228833
+    Occurrences: 228833,
   },
   {
-    "Emoji": "🈯",
+    Emoji: "🈯",
     "Unicode codepoint": "1F22F",
-    "Occurrences": 226233
+    Occurrences: 226233,
   },
   {
-    "Emoji": "📗",
+    Emoji: "📗",
     "Unicode codepoint": "1F4D7",
-    "Occurrences": 224231
+    Occurrences: 224231,
   },
   {
-    "Emoji": "🎑",
+    Emoji: "🎑",
     "Unicode codepoint": "1F391",
-    "Occurrences": 218285
+    Occurrences: 218285,
   },
   {
-    "Emoji": "📡",
+    Emoji: "📡",
     "Unicode codepoint": "1F4E1",
-    "Occurrences": 218043
+    Occurrences: 218043,
   },
   {
-    "Emoji": "🔇",
+    Emoji: "🔇",
     "Unicode codepoint": "1F507",
-    "Occurrences": 217147
+    Occurrences: 217147,
   },
   {
-    "Emoji": "🐁",
+    Emoji: "🐁",
     "Unicode codepoint": "1F401",
-    "Occurrences": 216999
+    Occurrences: 216999,
   },
   {
-    "Emoji": "🚭",
+    Emoji: "🚭",
     "Unicode codepoint": "1F6AD",
-    "Occurrences": 213177
+    Occurrences: 213177,
   },
   {
-    "Emoji": "🎦",
+    Emoji: "🎦",
     "Unicode codepoint": "1F3A6",
-    "Occurrences": 212567
+    Occurrences: 212567,
   },
   {
-    "Emoji": "🚃",
+    Emoji: "🚃",
     "Unicode codepoint": "1F683",
-    "Occurrences": 211934
+    Occurrences: 211934,
   },
   {
-    "Emoji": "👘",
+    Emoji: "👘",
     "Unicode codepoint": "1F458",
-    "Occurrences": 210774
+    Occurrences: 210774,
   },
   {
-    "Emoji": "🈳",
+    Emoji: "🈳",
     "Unicode codepoint": "1F233",
-    "Occurrences": 203519
+    Occurrences: 203519,
   },
   {
-    "Emoji": "🍶",
+    Emoji: "🍶",
     "Unicode codepoint": "1F376",
-    "Occurrences": 202298
+    Occurrences: 202298,
   },
   {
-    "Emoji": "📼",
+    Emoji: "📼",
     "Unicode codepoint": "1F4FC",
-    "Occurrences": 200846
+    Occurrences: 200846,
   },
   {
-    "Emoji": "🇰🇷",
+    Emoji: "🇰🇷",
     "Unicode codepoint": "1F1F0-1F1F7",
-    "Occurrences": 197663
+    Occurrences: 197663,
   },
   {
-    "Emoji": "🏨",
+    Emoji: "🏨",
     "Unicode codepoint": "1F3E8",
-    "Occurrences": 197316
+    Occurrences: 197316,
   },
   {
-    "Emoji": "🏮",
+    Emoji: "🏮",
     "Unicode codepoint": "1F3EE",
-    "Occurrences": 197220
+    Occurrences: 197220,
   },
   {
-    "Emoji": "📈",
+    Emoji: "📈",
     "Unicode codepoint": "1F4C8",
-    "Occurrences": 196350
+    Occurrences: 196350,
   },
   {
-    "Emoji": "🚜",
+    Emoji: "🚜",
     "Unicode codepoint": "1F69C",
-    "Occurrences": 195528
+    Occurrences: 195528,
   },
   {
-    "Emoji": "♿",
+    Emoji: "♿",
     "Unicode codepoint": "267F",
-    "Occurrences": 195378
+    Occurrences: 195378,
   },
   {
-    "Emoji": "🔽",
+    Emoji: "🔽",
     "Unicode codepoint": "1F53D",
-    "Occurrences": 194992
+    Occurrences: 194992,
   },
   {
-    "Emoji": "🏦",
+    Emoji: "🏦",
     "Unicode codepoint": "1F3E6",
-    "Occurrences": 194891
+    Occurrences: 194891,
   },
   {
-    "Emoji": "⛲",
+    Emoji: "⛲",
     "Unicode codepoint": "26F2",
-    "Occurrences": 191962
+    Occurrences: 191962,
   },
   {
-    "Emoji": "🎰",
+    Emoji: "🎰",
     "Unicode codepoint": "1F3B0",
-    "Occurrences": 190524
+    Occurrences: 190524,
   },
   {
-    "Emoji": "🚇",
+    Emoji: "🚇",
     "Unicode codepoint": "1F687",
-    "Occurrences": 188420
+    Occurrences: 188420,
   },
   {
-    "Emoji": "⏬",
+    Emoji: "⏬",
     "Unicode codepoint": "23EC",
-    "Occurrences": 187996
+    Occurrences: 187996,
   },
   {
-    "Emoji": "📮",
+    Emoji: "📮",
     "Unicode codepoint": "1F4EE",
-    "Occurrences": 187524
+    Occurrences: 187524,
   },
   {
-    "Emoji": "🚉",
+    Emoji: "🚉",
     "Unicode codepoint": "1F689",
-    "Occurrences": 186733
+    Occurrences: 186733,
   },
   {
-    "Emoji": "📜",
+    Emoji: "📜",
     "Unicode codepoint": "1F4DC",
-    "Occurrences": 185150
+    Occurrences: 185150,
   },
   {
-    "Emoji": "🚄",
+    Emoji: "🚄",
     "Unicode codepoint": "1F684",
-    "Occurrences": 182516
+    Occurrences: 182516,
   },
   {
-    "Emoji": "🔼",
+    Emoji: "🔼",
     "Unicode codepoint": "1F53C",
-    "Occurrences": 180663
+    Occurrences: 180663,
   },
   {
-    "Emoji": "📬",
+    Emoji: "📬",
     "Unicode codepoint": "1F4EC",
-    "Occurrences": 179496
+    Occurrences: 179496,
   },
   {
-    "Emoji": "📳",
+    Emoji: "📳",
     "Unicode codepoint": "1F4F3",
-    "Occurrences": 176125
+    Occurrences: 176125,
   },
   {
-    "Emoji": "🔧",
+    Emoji: "🔧",
     "Unicode codepoint": "1F527",
-    "Occurrences": 174110
+    Occurrences: 174110,
   },
   {
-    "Emoji": "⬛",
+    Emoji: "⬛",
     "Unicode codepoint": "2B1B",
-    "Occurrences": 170898
+    Occurrences: 170898,
   },
   {
-    "Emoji": "🕓",
+    Emoji: "🕓",
     "Unicode codepoint": "1F553",
-    "Occurrences": 170395
+    Occurrences: 170395,
   },
   {
-    "Emoji": "📋",
+    Emoji: "📋",
     "Unicode codepoint": "1F4CB",
-    "Occurrences": 169530
+    Occurrences: 169530,
   },
   {
-    "Emoji": "🚊",
+    Emoji: "🚊",
     "Unicode codepoint": "1F68A",
-    "Occurrences": 168433
+    Occurrences: 168433,
   },
   {
-    "Emoji": "📎",
+    Emoji: "📎",
     "Unicode codepoint": "1F4CE",
-    "Occurrences": 166133
+    Occurrences: 166133,
   },
   {
-    "Emoji": "🍘",
+    Emoji: "🍘",
     "Unicode codepoint": "1F358",
-    "Occurrences": 162529
+    Occurrences: 162529,
   },
   {
-    "Emoji": "🛁",
+    Emoji: "🛁",
     "Unicode codepoint": "1F6C1",
-    "Occurrences": 159413
+    Occurrences: 159413,
   },
   {
-    "Emoji": "🆎",
+    Emoji: "🆎",
     "Unicode codepoint": "1F18E",
-    "Occurrences": 158621
+    Occurrences: 158621,
   },
   {
-    "Emoji": "🈺",
+    Emoji: "🈺",
     "Unicode codepoint": "1F23A",
-    "Occurrences": 157242
+    Occurrences: 157242,
   },
   {
-    "Emoji": "📧",
+    Emoji: "📧",
     "Unicode codepoint": "1F4E7",
-    "Occurrences": 156978
+    Occurrences: 156978,
   },
   {
-    "Emoji": "📉",
+    Emoji: "📉",
     "Unicode codepoint": "1F4C9",
-    "Occurrences": 156518
+    Occurrences: 156518,
   },
   {
-    "Emoji": "👝",
+    Emoji: "👝",
     "Unicode codepoint": "1F45D",
-    "Occurrences": 156025
+    Occurrences: 156025,
   },
   {
-    "Emoji": "📵",
+    Emoji: "📵",
     "Unicode codepoint": "1F4F5",
-    "Occurrences": 155706
+    Occurrences: 155706,
   },
   {
-    "Emoji": "🚛",
+    Emoji: "🚛",
     "Unicode codepoint": "1F69B",
-    "Occurrences": 154286
+    Occurrences: 154286,
   },
   {
-    "Emoji": "🈶",
+    Emoji: "🈶",
     "Unicode codepoint": "1F236",
-    "Occurrences": 153930
+    Occurrences: 153930,
   },
   {
-    "Emoji": "🚷",
+    Emoji: "🚷",
     "Unicode codepoint": "1F6B7",
-    "Occurrences": 153861
+    Occurrences: 153861,
   },
   {
-    "Emoji": "🈸",
+    Emoji: "🈸",
     "Unicode codepoint": "1F238",
-    "Occurrences": 153495
+    Occurrences: 153495,
   },
   {
-    "Emoji": "🈷",
+    Emoji: "🈷",
     "Unicode codepoint": "1F237",
-    "Occurrences": 152753
+    Occurrences: 152753,
   },
   {
-    "Emoji": "🈚",
+    Emoji: "🈚",
     "Unicode codepoint": "1F21A",
-    "Occurrences": 150467
+    Occurrences: 150467,
   },
   {
-    "Emoji": "📄",
+    Emoji: "📄",
     "Unicode codepoint": "1F4C4",
-    "Occurrences": 149493
+    Occurrences: 149493,
   },
   {
-    "Emoji": "🚥",
+    Emoji: "🚥",
     "Unicode codepoint": "1F6A5",
-    "Occurrences": 148281
+    Occurrences: 148281,
   },
   {
-    "Emoji": "🕔",
+    Emoji: "🕔",
     "Unicode codepoint": "1F554",
-    "Occurrences": 148202
+    Occurrences: 148202,
   },
   {
-    "Emoji": "🔕",
+    Emoji: "🔕",
     "Unicode codepoint": "1F515",
-    "Occurrences": 146193
+    Occurrences: 146193,
   },
   {
-    "Emoji": "🅿",
+    Emoji: "🅿",
     "Unicode codepoint": "1F17F",
-    "Occurrences": 145737
+    Occurrences: 145737,
   },
   {
-    "Emoji": "🎴",
+    Emoji: "🎴",
     "Unicode codepoint": "1F3B4",
-    "Occurrences": 142529
+    Occurrences: 142529,
   },
   {
-    "Emoji": "🔂",
+    Emoji: "🔂",
     "Unicode codepoint": "1F502",
-    "Occurrences": 142314
+    Occurrences: 142314,
   },
   {
-    "Emoji": "🎫",
+    Emoji: "🎫",
     "Unicode codepoint": "1F3AB",
-    "Occurrences": 142081
+    Occurrences: 142081,
   },
   {
-    "Emoji": "🕘",
+    Emoji: "🕘",
     "Unicode codepoint": "1F558",
-    "Occurrences": 139629
+    Occurrences: 139629,
   },
   {
-    "Emoji": "🆑",
+    Emoji: "🆑",
     "Unicode codepoint": "1F191",
-    "Occurrences": 138896
+    Occurrences: 138896,
   },
   {
-    "Emoji": "◽",
+    Emoji: "◽",
     "Unicode codepoint": "25FD",
-    "Occurrences": 137872
+    Occurrences: 137872,
   },
   {
-    "Emoji": "🇨🇳",
+    Emoji: "🇨🇳",
     "Unicode codepoint": "1F1E8-1F1F3",
-    "Occurrences": 137697
+    Occurrences: 137697,
   },
   {
-    "Emoji": "🏯",
+    Emoji: "🏯",
     "Unicode codepoint": "1F3EF",
-    "Occurrences": 135915
+    Occurrences: 135915,
   },
   {
-    "Emoji": "🚐",
+    Emoji: "🚐",
     "Unicode codepoint": "1F690",
-    "Occurrences": 135602
+    Occurrences: 135602,
   },
   {
-    "Emoji": "🈲",
+    Emoji: "🈲",
     "Unicode codepoint": "1F232",
-    "Occurrences": 135169
+    Occurrences: 135169,
   },
   {
-    "Emoji": "🚅",
+    Emoji: "🚅",
     "Unicode codepoint": "1F685",
-    "Occurrences": 134787
+    Occurrences: 134787,
   },
   {
-    "Emoji": "🕙",
+    Emoji: "🕙",
     "Unicode codepoint": "1F559",
-    "Occurrences": 134287
+    Occurrences: 134287,
   },
   {
-    "Emoji": "🈵",
+    Emoji: "🈵",
     "Unicode codepoint": "1F235",
-    "Occurrences": 134078
+    Occurrences: 134078,
   },
   {
-    "Emoji": "🕗",
+    Emoji: "🕗",
     "Unicode codepoint": "1F557",
-    "Occurrences": 127322
+    Occurrences: 127322,
   },
   {
-    "Emoji": "🔬",
+    Emoji: "🔬",
     "Unicode codepoint": "1F52C",
-    "Occurrences": 126230
+    Occurrences: 126230,
   },
   {
-    "Emoji": "📑",
+    Emoji: "📑",
     "Unicode codepoint": "1F4D1",
-    "Occurrences": 123754
+    Occurrences: 123754,
   },
   {
-    "Emoji": "🀄",
+    Emoji: "🀄",
     "Unicode codepoint": "1F004",
-    "Occurrences": 123690
+    Occurrences: 123690,
   },
   {
-    "Emoji": "🔢",
+    Emoji: "🔢",
     "Unicode codepoint": "1F522",
-    "Occurrences": 123101
+    Occurrences: 123101,
   },
   {
-    "Emoji": "📃",
+    Emoji: "📃",
     "Unicode codepoint": "1F4C3",
-    "Occurrences": 122569
+    Occurrences: 122569,
   },
   {
-    "Emoji": "🏣",
+    Emoji: "🏣",
     "Unicode codepoint": "1F3E3",
-    "Occurrences": 122396
+    Occurrences: 122396,
   },
   {
-    "Emoji": "📥",
+    Emoji: "📥",
     "Unicode codepoint": "1F4E5",
-    "Occurrences": 120556
+    Occurrences: 120556,
   },
   {
-    "Emoji": "🈴",
+    Emoji: "🈴",
     "Unicode codepoint": "1F234",
-    "Occurrences": 117884
+    Occurrences: 117884,
   },
   {
-    "Emoji": "🗾",
+    Emoji: "🗾",
     "Unicode codepoint": "1F5FE",
-    "Occurrences": 117745
+    Occurrences: 117745,
   },
   {
-    "Emoji": "🚵",
+    Emoji: "🚵",
     "Unicode codepoint": "1F6B5",
-    "Occurrences": 116686
+    Occurrences: 116686,
   },
   {
-    "Emoji": "🏭",
+    Emoji: "🏭",
     "Unicode codepoint": "1F3ED",
-    "Occurrences": 115173
+    Occurrences: 115173,
   },
   {
-    "Emoji": "🕚",
+    Emoji: "🕚",
     "Unicode codepoint": "1F55A",
-    "Occurrences": 115097
+    Occurrences: 115097,
   },
   {
-    "Emoji": "🔖",
+    Emoji: "🔖",
     "Unicode codepoint": "1F516",
-    "Occurrences": 114640
+    Occurrences: 114640,
   },
   {
-    "Emoji": "💱",
+    Emoji: "💱",
     "Unicode codepoint": "1F4B1",
-    "Occurrences": 114488
+    Occurrences: 114488,
   },
   {
-    "Emoji": "📙",
+    Emoji: "📙",
     "Unicode codepoint": "1F4D9",
-    "Occurrences": 114416
+    Occurrences: 114416,
   },
   {
-    "Emoji": "➿",
+    Emoji: "➿",
     "Unicode codepoint": "27BF",
-    "Occurrences": 114405
+    Occurrences: 114405,
   },
   {
-    "Emoji": "📊",
+    Emoji: "📊",
     "Unicode codepoint": "1F4CA",
-    "Occurrences": 113356
+    Occurrences: 113356,
   },
   {
-    "Emoji": "📔",
+    Emoji: "📔",
     "Unicode codepoint": "1F4D4",
-    "Occurrences": 110826
+    Occurrences: 110826,
   },
   {
-    "Emoji": "🚻",
+    Emoji: "🚻",
     "Unicode codepoint": "1F6BB",
-    "Occurrences": 109086
+    Occurrences: 109086,
   },
   {
-    "Emoji": "📠",
+    Emoji: "📠",
     "Unicode codepoint": "1F4E0",
-    "Occurrences": 108525
+    Occurrences: 108525,
   },
   {
-    "Emoji": "💾",
+    Emoji: "💾",
     "Unicode codepoint": "1F4BE",
-    "Occurrences": 107202
+    Occurrences: 107202,
   },
   {
-    "Emoji": "🕖",
+    Emoji: "🕖",
     "Unicode codepoint": "1F556",
-    "Occurrences": 105992
+    Occurrences: 105992,
   },
   {
-    "Emoji": "🚸",
+    Emoji: "🚸",
     "Unicode codepoint": "1F6B8",
-    "Occurrences": 104066
+    Occurrences: 104066,
   },
   {
-    "Emoji": "📐",
+    Emoji: "📐",
     "Unicode codepoint": "1F4D0",
-    "Occurrences": 102431
+    Occurrences: 102431,
   },
   {
-    "Emoji": "🉑",
+    Emoji: "🉑",
     "Unicode codepoint": "1F251",
-    "Occurrences": 102321
+    Occurrences: 102321,
   },
   {
-    "Emoji": "📟",
+    Emoji: "📟",
     "Unicode codepoint": "1F4DF",
-    "Occurrences": 101094
+    Occurrences: 101094,
   },
   {
-    "Emoji": "💹",
+    Emoji: "💹",
     "Unicode codepoint": "1F4B9",
-    "Occurrences": 100282
+    Occurrences: 100282,
   },
   {
-    "Emoji": "🕕",
+    Emoji: "🕕",
     "Unicode codepoint": "1F555",
-    "Occurrences": 99676
+    Occurrences: 99676,
   },
   {
-    "Emoji": "🚎",
+    Emoji: "🚎",
     "Unicode codepoint": "1F68E",
-    "Occurrences": 99407
+    Occurrences: 99407,
   },
   {
-    "Emoji": "🚆",
+    Emoji: "🚆",
     "Unicode codepoint": "1F686",
-    "Occurrences": 97953
+    Occurrences: 97953,
   },
   {
-    "Emoji": "📏",
+    Emoji: "📏",
     "Unicode codepoint": "1F4CF",
-    "Occurrences": 96996
+    Occurrences: 96996,
   },
   {
-    "Emoji": "🔉",
+    Emoji: "🔉",
     "Unicode codepoint": "1F509",
-    "Occurrences": 94890
+    Occurrences: 94890,
   },
   {
-    "Emoji": "📨",
+    Emoji: "📨",
     "Unicode codepoint": "1F4E8",
-    "Occurrences": 92542
+    Occurrences: 92542,
   },
   {
-    "Emoji": "📯",
+    Emoji: "📯",
     "Unicode codepoint": "1F4EF",
-    "Occurrences": 91472
+    Occurrences: 91472,
   },
   {
-    "Emoji": "🕜",
+    Emoji: "🕜",
     "Unicode codepoint": "1F55C",
-    "Occurrences": 89994
+    Occurrences: 89994,
   },
   {
-    "Emoji": "🚰",
+    Emoji: "🚰",
     "Unicode codepoint": "1F6B0",
-    "Occurrences": 88660
+    Occurrences: 88660,
   },
   {
-    "Emoji": "📫",
+    Emoji: "📫",
     "Unicode codepoint": "1F4EB",
-    "Occurrences": 85032
+    Occurrences: 85032,
   },
   {
-    "Emoji": "🔏",
+    Emoji: "🔏",
     "Unicode codepoint": "1F50F",
-    "Occurrences": 84555
+    Occurrences: 84555,
   },
   {
-    "Emoji": "🔈",
+    Emoji: "🔈",
     "Unicode codepoint": "1F508",
-    "Occurrences": 83498
+    Occurrences: 83498,
   },
   {
-    "Emoji": "🈂",
+    Emoji: "🈂",
     "Unicode codepoint": "1F202",
-    "Occurrences": 81631
+    Occurrences: 81631,
   },
   {
-    "Emoji": "🚏",
+    Emoji: "🚏",
     "Unicode codepoint": "1F68F",
-    "Occurrences": 79648
+    Occurrences: 79648,
   },
   {
-    "Emoji": "📇",
+    Emoji: "📇",
     "Unicode codepoint": "1F4C7",
-    "Occurrences": 75443
+    Occurrences: 75443,
   },
   {
-    "Emoji": "🕤",
+    Emoji: "🕤",
     "Unicode codepoint": "1F564",
-    "Occurrences": 74081
+    Occurrences: 74081,
   },
   {
-    "Emoji": "🚋",
+    Emoji: "🚋",
     "Unicode codepoint": "1F68B",
-    "Occurrences": 73346
+    Occurrences: 73346,
   },
   {
-    "Emoji": "🕝",
+    Emoji: "🕝",
     "Unicode codepoint": "1F55D",
-    "Occurrences": 70662
+    Occurrences: 70662,
   },
   {
-    "Emoji": "🔤",
+    Emoji: "🔤",
     "Unicode codepoint": "1F524",
-    "Occurrences": 70505
+    Occurrences: 70505,
   },
   {
-    "Emoji": "🚈",
+    Emoji: "🚈",
     "Unicode codepoint": "1F688",
-    "Occurrences": 69839
+    Occurrences: 69839,
   },
   {
-    "Emoji": "🔀",
+    Emoji: "🔀",
     "Unicode codepoint": "1F500",
-    "Occurrences": 65986
+    Occurrences: 65986,
   },
   {
-    "Emoji": "🕧",
+    Emoji: "🕧",
     "Unicode codepoint": "1F567",
-    "Occurrences": 65618
+    Occurrences: 65618,
   },
   {
-    "Emoji": "🕥",
+    Emoji: "🕥",
     "Unicode codepoint": "1F565",
-    "Occurrences": 65028
+    Occurrences: 65028,
   },
   {
-    "Emoji": "🚝",
+    Emoji: "🚝",
     "Unicode codepoint": "1F69D",
-    "Occurrences": 63757
+    Occurrences: 63757,
   },
   {
-    "Emoji": "📂",
+    Emoji: "📂",
     "Unicode codepoint": "1F4C2",
-    "Occurrences": 62860
+    Occurrences: 62860,
   },
   {
-    "Emoji": "📁",
+    Emoji: "📁",
     "Unicode codepoint": "1F4C1",
-    "Occurrences": 61951
+    Occurrences: 61951,
   },
   {
-    "Emoji": "🔠",
+    Emoji: "🔠",
     "Unicode codepoint": "1F520",
-    "Occurrences": 58926
+    Occurrences: 58926,
   },
   {
-    "Emoji": "📪",
+    Emoji: "📪",
     "Unicode codepoint": "1F4EA",
-    "Occurrences": 57895
+    Occurrences: 57895,
   },
   {
-    "Emoji": "📤",
+    Emoji: "📤",
     "Unicode codepoint": "1F4E4",
-    "Occurrences": 57313
+    Occurrences: 57313,
   },
   {
-    "Emoji": "🕟",
+    Emoji: "🕟",
     "Unicode codepoint": "1F55F",
-    "Occurrences": 56305
+    Occurrences: 56305,
   },
   {
-    "Emoji": "⏫",
+    Emoji: "⏫",
     "Unicode codepoint": "23EB",
-    "Occurrences": 54001
+    Occurrences: 54001,
   },
   {
-    "Emoji": "🔣",
+    Emoji: "🔣",
     "Unicode codepoint": "1F523",
-    "Occurrences": 53896
+    Occurrences: 53896,
   },
   {
-    "Emoji": "⛎",
+    Emoji: "⛎",
     "Unicode codepoint": "26CE",
-    "Occurrences": 53829
+    Occurrences: 53829,
   },
   {
-    "Emoji": "🕞",
+    Emoji: "🕞",
     "Unicode codepoint": "1F55E",
-    "Occurrences": 51584
+    Occurrences: 51584,
   },
   {
-    "Emoji": "🕢",
+    Emoji: "🕢",
     "Unicode codepoint": "1F562",
-    "Occurrences": 49640
+    Occurrences: 49640,
   },
   {
-    "Emoji": "🚞",
+    Emoji: "🚞",
     "Unicode codepoint": "1F69E",
-    "Occurrences": 48653
+    Occurrences: 48653,
   },
   {
-    "Emoji": "🕠",
+    Emoji: "🕠",
     "Unicode codepoint": "1F560",
-    "Occurrences": 47973
+    Occurrences: 47973,
   },
   {
-    "Emoji": "🔡",
+    Emoji: "🔡",
     "Unicode codepoint": "1F521",
-    "Occurrences": 45713
+    Occurrences: 45713,
   },
   {
-    "Emoji": "📭",
+    Emoji: "📭",
     "Unicode codepoint": "1F4ED",
-    "Occurrences": 40206
+    Occurrences: 40206,
   },
   {
-    "Emoji": "🕣",
+    Emoji: "🕣",
     "Unicode codepoint": "1F563",
-    "Occurrences": 39078
+    Occurrences: 39078,
   },
   {
-    "Emoji": "➗",
+    Emoji: "➗",
     "Unicode codepoint": 2797,
-    "Occurrences": 39065
+    Occurrences: 39065,
   },
   {
-    "Emoji": "🚡",
+    Emoji: "🚡",
     "Unicode codepoint": "1F6A1",
-    "Occurrences": 38882
+    Occurrences: 38882,
   },
   {
-    "Emoji": "🚯",
+    Emoji: "🚯",
     "Unicode codepoint": "1F6AF",
-    "Occurrences": 37379
+    Occurrences: 37379,
   },
   {
-    "Emoji": "🕡",
+    Emoji: "🕡",
     "Unicode codepoint": "1F561",
-    "Occurrences": 37170
+    Occurrences: 37170,
   },
   {
-    "Emoji": "🈁",
+    Emoji: "🈁",
     "Unicode codepoint": "1F201",
-    "Occurrences": 36127
+    Occurrences: 36127,
   },
   {
-    "Emoji": "🚠",
+    Emoji: "🚠",
     "Unicode codepoint": "1F6A0",
-    "Occurrences": 29807
+    Occurrences: 29807,
   },
   {
-    "Emoji": "🚱",
+    Emoji: "🚱",
     "Unicode codepoint": "1F6B1",
-    "Occurrences": 25943
+    Occurrences: 25943,
   },
   {
-    "Emoji": "🚟",
+    Emoji: "🚟",
     "Unicode codepoint": "1F69F",
-    "Occurrences": 24751
+    Occurrences: 24751,
   },
   {
-    "Emoji": "🚳",
+    Emoji: "🚳",
     "Unicode codepoint": "1F6B3",
-    "Occurrences": 23934
+    Occurrences: 23934,
   },
   {
-    "Emoji": "🛂",
+    Emoji: "🛂",
     "Unicode codepoint": "1F6C2",
-    "Occurrences": 21400
+    Occurrences: 21400,
   },
   {
-    "Emoji": "🛄",
+    Emoji: "🛄",
     "Unicode codepoint": "1F6C4",
-    "Occurrences": 18949
+    Occurrences: 18949,
   },
   {
-    "Emoji": "🛃",
+    Emoji: "🛃",
     "Unicode codepoint": "1F6C3",
-    "Occurrences": 18834
-  }
-]
+    Occurrences: 18834,
+  },
+];
