@@ -3,148 +3,158 @@
  */
 
 function isVowel(c) {
-  var c2 = c.toLowerCase();
-  return c2 === "a" || c2 === "e" || c2 === "i" || c2 === "o" || c2 === "u";
-}
+	var c2 = c.toLowerCase();
+	return (c2 === 'a') || (c2 === 'e') || (c2 === 'i') || (c2 === 'o') || (c2 === 'u');
+};
 
 function isAlphaNum(c) {
-  return (
-    (c >= "a" && c <= "z") || (c >= "A" && c <= "Z") || (c >= "0" && c <= "9")
-  );
-}
+	return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9');
+};
 function escapeRegExp(str) {
-  return str.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+	return str.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
 }
 
 var baseEngModifiers = {
-  replace: function (s, params) {
-    //http://stackoverflow.com/questions/1144783/replacing-all-occurrences-of-a-string-in-javascript
-    return s.replace(new RegExp(escapeRegExp(params[0]), "g"), params[1]);
-  },
 
-  capitalizeAll: function (s) {
-    var s2 = "";
-    var capNext = true;
-    for (var i = 0; i < s.length; i++) {
-      if (!isAlphaNum(s.charAt(i))) {
-        capNext = true;
-        s2 += s.charAt(i);
-      } else {
-        if (!capNext) {
-          s2 += s.charAt(i);
-        } else {
-          s2 += s.charAt(i).toUpperCase();
-          capNext = false;
-        }
-      }
-    }
-    return s2;
-  },
+	replace : function(s, params) {
+		//http://stackoverflow.com/questions/1144783/replacing-all-occurrences-of-a-string-in-javascript
+		return s.replace(new RegExp(escapeRegExp(params[0]), 'g'), params[1]);
+	},
 
-  capitalize: function (s) {
-    return s.charAt(0).toUpperCase() + s.substring(1);
-  },
+	capitalizeAll : function(s) {
+		var s2 = "";
+		var capNext = true;
+		for (var i = 0; i < s.length; i++) {
 
-  ALLCAPS: function (s) {
-    return s.charAt(0).toUpperCase();
-  },
+			if (!isAlphaNum(s.charAt(i))) {
+				capNext = true;
+				s2 += s.charAt(i);
+			} else {
+				if (!capNext) {
+					s2 += s.charAt(i);
+				} else {
+					s2 += s.charAt(i).toUpperCase();
+					capNext = false;
+				}
 
-  a: function (s) {
-    if (s.length > 0) {
-      if (s.charAt(0).toLowerCase() === "u") {
-        if (s.length > 2) {
-          if (s.charAt(2).toLowerCase() === "i") return "a " + s;
-        }
-      }
+			}
+		}
+		return s2;
+	},
 
-      if (isVowel(s.charAt(0))) {
-        return "an " + s;
-      }
-    }
+	capitalize : function(s) {
+		return s.charAt(0).toUpperCase() + s.substring(1);
+	},
 
-    return "a " + s;
-  },
+	ALLCAPS : function(s) {
+		return s.charAt(0).toUpperCase();
+	},
 
-  firstS: function (s) {
-    console.log(s);
-    var s2 = s.split(" ");
+	a : function(s) {
+		if (s.length > 0) {
+			if (s.charAt(0).toLowerCase() === 'u') {
+				if (s.length > 2) {
+					if (s.charAt(2).toLowerCase() === 'i')
+						return "a " + s;
+				}
+			}
 
-    var finished = baseEngModifiers.s(s2[0]) + " " + s2.slice(1).join(" ");
-    console.log(finished);
-    return finished;
-  },
+			if (isVowel(s.charAt(0))) {
+				return "an " + s;
+			}
+		}
 
-  s: function (s) {
-    switch (s.charAt(s.length - 1)) {
-      case "s":
-        return s + "es";
-        break;
-      case "h":
-        return s + "es";
-        break;
-      case "x":
-        return s + "es";
-        break;
-      case "y":
-        if (!isVowel(s.charAt(s.length - 2)))
-          return s.substring(0, s.length - 1) + "ies";
-        else return s + "s";
-        break;
-      default:
-        return s + "s";
-    }
-  },
-  ed: function (s) {
-    switch (s.charAt(s.length - 1)) {
-      case "s":
-        return s + "ed";
-        break;
-      case "e":
-        return s + "d";
-        break;
-      case "h":
-        return s + "ed";
-        break;
-      case "x":
-        return s + "ed";
-        break;
-      case "y":
-        if (!isVowel(s.charAt(s.length - 2)))
-          return s.substring(0, s.length - 1) + "ied";
-        else return s + "d";
-        break;
-      default:
-        return s + "ed";
-    }
-  },
-  ing: function (s) {
-    switch (s.charAt(s.length - 1)) {
-      case "e":
-        return s[(0, s.length - 1)] + "ing";
-        break;
+		return "a " + s;
 
-      default:
-        return s + "ing";
-    }
-  },
-  er: function (s) {
-    switch (s.charAt(s.length - 1)) {
-      case "e":
-        return s[(0, s.length - 1)] + "er";
-        break;
+	},
 
-      default:
-        return s + "er";
-    }
-  },
-  est: function (s) {
-    switch (s.charAt(s.length - 1)) {
-      case "e":
-        return s[(0, s.length - 1)] + "est";
-        break;
+	firstS : function(s) {
+		console.log(s);
+		var s2 = s.split(" ");
 
-      default:
-        return s + "est";
-    }
-  },
+		var finished = baseEngModifiers.s(s2[0]) + " " + s2.slice(1).join(" ");
+		console.log(finished);
+		return finished;
+	},
+
+
+	s : function(s) {
+		switch (s.charAt(s.length -1)) {
+		case 's':
+			return s + "es";
+			break;
+		case 'h':
+			return s + "es";
+			break;
+		case 'x':
+			return s + "es";
+			break;
+		case 'y':
+			if (!isVowel(s.charAt(s.length - 2)))
+				return s.substring(0, s.length - 1) + "ies";
+			else
+				return s + "s";
+			break;
+		default:
+			return s + "s";
+		}
+	},
+	ed : function(s) {
+		switch (s.charAt(s.length -1)) {
+		case 's':
+			return s + "ed";
+			break;
+		case 'e':
+			return s + "d";
+			break;
+		case 'h':
+			return s + "ed";
+			break;
+		case 'x':
+			return s + "ed";
+			break;
+		case 'y':
+			if (!isVowel(s.charAt(s.length - 2)))
+				return s.substring(0, s.length - 1) + "ied";
+			else
+				return s + "d";
+			break;
+		default:
+			return s + "ed";
+		}
+	},
+	ing : function(s) {
+		switch (s.charAt(s.length -1)) {
+		
+		case 'e':
+			return s[0,s.length - 1] + "ing";
+			break;
+	
+		default:
+			return s + "ing";
+		}
+	},
+	er : function(s) {
+		switch (s.charAt(s.length -1)) {
+		
+		case 'e':
+			return s[0,s.length - 1] + "er";
+			break;
+	
+		default:
+			return s + "er";
+		}
+	},
+	est : function(s) {
+		switch (s.charAt(s.length -1)) {
+		
+		case 'e':
+			return s[0,s.length - 1] + "est";
+			break;
+	
+		default:
+			return s + "est";
+		}
+	}
 };
+
