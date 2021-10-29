@@ -1,6 +1,6 @@
-# CS396 - Generative Methods, Northwestern University
+# Generative Methods
 
-This repo contains my work for Generative Methods course at Northwestern University.
+This repo contains my work for Generative Methods (CS396) course at Northwestern University.
 My webpage for this course (created from svratch on assignment 1) can be found [here](https://yaelbenshalom.github.io/GenerativeMethods/index.html).
 
 
