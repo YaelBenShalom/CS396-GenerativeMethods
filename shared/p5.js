@@ -1,5 +1,5 @@
 /*! p5.js v1.2.0 December 19, 2020 */
-(function(f) {
+(function (f) {
   if (typeof exports === 'object' && typeof module !== 'undefined') {
     module.exports = f();
   } else if (typeof define === 'function' && define.amd) {
@@ -17,9 +17,9 @@
     }
     g.p5 = f();
   }
-})(function() {
+})(function () {
   var define, module, exports;
-  return (function() {
+  return (function () {
     function r(e, n, t) {
       function o(i, f) {
         if (!n[i]) {
@@ -33,7 +33,7 @@
           var p = (n[i] = { exports: {} });
           e[i][0].call(
             p.exports,
-            function(r) {
+            function (r) {
               var n = e[i][1][r];
               return o(n || r);
             },
@@ -55,7 +55,7 @@
   })()(
     {
       1: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           module.exports = {
             p5: {
               describe: {
@@ -15510,7 +15510,7 @@
         {}
       ],
       2: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _arrayWithHoles(arr) {
             if (Array.isArray(arr)) return arr;
           }
@@ -15520,7 +15520,7 @@
         {}
       ],
       3: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _arrayWithoutHoles(arr) {
             if (Array.isArray(arr)) {
               for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
@@ -15536,7 +15536,7 @@
         {}
       ],
       4: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _assertThisInitialized(self) {
             if (self === void 0) {
               throw new ReferenceError(
@@ -15552,7 +15552,7 @@
         {}
       ],
       5: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _classCallCheck(instance, Constructor) {
             if (!(instance instanceof Constructor)) {
               throw new TypeError('Cannot call a class as a function');
@@ -15564,7 +15564,7 @@
         {}
       ],
       6: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _defineProperties(target, props) {
             for (var i = 0; i < props.length; i++) {
               var descriptor = props[i];
@@ -15586,7 +15586,7 @@
         {}
       ],
       7: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _defineProperty(obj, key, value) {
             if (key in obj) {
               Object.defineProperty(obj, key, {
@@ -15607,13 +15607,13 @@
         {}
       ],
       8: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _getPrototypeOf(o) {
             module.exports = _getPrototypeOf = Object.setPrototypeOf
               ? Object.getPrototypeOf
               : function _getPrototypeOf(o) {
-                  return o.__proto__ || Object.getPrototypeOf(o);
-                };
+                return o.__proto__ || Object.getPrototypeOf(o);
+              };
             return _getPrototypeOf(o);
           }
 
@@ -15622,7 +15622,7 @@
         {}
       ],
       9: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           var setPrototypeOf = _dereq_('./setPrototypeOf');
 
           function _inherits(subClass, superClass) {
@@ -15645,7 +15645,7 @@
         { './setPrototypeOf': 16 }
       ],
       10: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _iterableToArray(iter) {
             if (
               Symbol.iterator in Object(iter) ||
@@ -15659,7 +15659,7 @@
         {}
       ],
       11: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _iterableToArrayLimit(arr, i) {
             var _arr = [];
             var _n = true;
@@ -15695,7 +15695,7 @@
         {}
       ],
       12: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _nonIterableRest() {
             throw new TypeError('Invalid attempt to destructure non-iterable instance');
           }
@@ -15705,7 +15705,7 @@
         {}
       ],
       13: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _nonIterableSpread() {
             throw new TypeError('Invalid attempt to spread non-iterable instance');
           }
@@ -15715,7 +15715,7 @@
         {}
       ],
       14: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           var defineProperty = _dereq_('./defineProperty');
 
           function _objectSpread(target) {
@@ -15725,13 +15725,13 @@
 
               if (typeof Object.getOwnPropertySymbols === 'function') {
                 ownKeys = ownKeys.concat(
-                  Object.getOwnPropertySymbols(source).filter(function(sym) {
+                  Object.getOwnPropertySymbols(source).filter(function (sym) {
                     return Object.getOwnPropertyDescriptor(source, sym).enumerable;
                   })
                 );
               }
 
-              ownKeys.forEach(function(key) {
+              ownKeys.forEach(function (key) {
                 defineProperty(target, key, source[key]);
               });
             }
@@ -15744,7 +15744,7 @@
         { './defineProperty': 7 }
       ],
       15: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           var _typeof = _dereq_('../helpers/typeof');
 
           var assertThisInitialized = _dereq_('./assertThisInitialized');
@@ -15762,7 +15762,7 @@
         { '../helpers/typeof': 19, './assertThisInitialized': 4 }
       ],
       16: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _setPrototypeOf(o, p) {
             module.exports = _setPrototypeOf =
               Object.setPrototypeOf ||
@@ -15779,7 +15779,7 @@
         {}
       ],
       17: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           var arrayWithHoles = _dereq_('./arrayWithHoles');
 
           var iterableToArrayLimit = _dereq_('./iterableToArrayLimit');
@@ -15795,7 +15795,7 @@
         { './arrayWithHoles': 2, './iterableToArrayLimit': 11, './nonIterableRest': 12 }
       ],
       18: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           var arrayWithoutHoles = _dereq_('./arrayWithoutHoles');
 
           var iterableToArray = _dereq_('./iterableToArray');
@@ -15811,7 +15811,7 @@
         { './arrayWithoutHoles': 3, './iterableToArray': 10, './nonIterableSpread': 13 }
       ],
       19: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           function _typeof2(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
               _typeof2 = function _typeof2(obj) {
@@ -15854,7 +15854,7 @@
         {}
       ],
       20: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
 
           exports.byteLength = byteLength;
@@ -15993,9 +15993,9 @@
               tmp = (uint8[len - 2] << 8) + uint8[len - 1];
               parts.push(
                 lookup[tmp >> 10] +
-                  lookup[(tmp >> 4) & 0x3f] +
-                  lookup[(tmp << 2) & 0x3f] +
-                  '='
+                lookup[(tmp >> 4) & 0x3f] +
+                lookup[(tmp << 2) & 0x3f] +
+                '='
               );
             }
 
@@ -16004,16 +16004,16 @@
         },
         {}
       ],
-      21: [function(_dereq_, module, exports) {}, {}],
+      21: [function (_dereq_, module, exports) { }, {}],
       22: [
-        function(_dereq_, module, exports) {
-          (function(Buffer) {
+        function (_dereq_, module, exports) {
+          (function (Buffer) {
             /*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
+            * The buffer module from node.js, for the browser.
+            *
+            * @author   Feross Aboukhadijeh <https://feross.org>
+            * @license  MIT
+            */
             /* eslint-disable no-proto */
 
             'use strict';
@@ -16037,14 +16037,6 @@
              *   === true    Use Uint8Array implementation (fastest)
              *   === false   Print warning and recommend using `buffer` v4.x which has an Object
              *               implementation (most compatible, even IE6)
-             *
-             * Browsers that support typed arrays are IE 10+, Firefox 4+, Chrome 7+, Safari 5.1+,
-             * Opera 11.6+, iOS 4.2+.
-             *
-             * We report that the browser does not support typed arrays if the are not subclassable
-             * using __proto__. Firefox 4-29 lacks support for adding new properties to `Uint8Array`
-             * (See: https://bugzilla.mozilla.org/show_bug.cgi?id=695438). IE 10 lacks support
-             * for __proto__ and has a buggy typed array implementation.
              */
             Buffer.TYPED_ARRAY_SUPPORT = typedArraySupport();
 
@@ -16055,7 +16047,7 @@
             ) {
               console.error(
                 'This browser lacks typed array (Uint8Array) support which is required by ' +
-                  '`buffer` v5.x. Use `buffer` v4.x if you require old browser support.'
+                '`buffer` v5.x. Use `buffer` v4.x if you require old browser support.'
               );
             }
 
@@ -16064,7 +16056,7 @@
               try {
                 var arr = new Uint8Array(1);
                 var proto = {
-                  foo: function() {
+                  foo: function () {
                     return 42;
                   }
                 };
@@ -16078,7 +16070,7 @@
 
             Object.defineProperty(Buffer.prototype, 'parent', {
               enumerable: true,
-              get: function() {
+              get: function () {
                 if (!Buffer.isBuffer(this)) return undefined;
                 return this.buffer;
               }
@@ -16086,7 +16078,7 @@
 
             Object.defineProperty(Buffer.prototype, 'offset', {
               enumerable: true,
-              get: function() {
+              get: function () {
                 if (!Buffer.isBuffer(this)) return undefined;
                 return this.byteOffset;
               }
@@ -16155,8 +16147,8 @@
               if (value == null) {
                 throw new TypeError(
                   'The first argument must be one of type string, Buffer, ArrayBuffer, Array, ' +
-                    'or Array-like Object. Received type ' +
-                    typeof value
+                  'or Array-like Object. Received type ' +
+                  typeof value
                 );
               }
 
@@ -16195,25 +16187,18 @@
 
               throw new TypeError(
                 'The first argument must be one of type string, Buffer, ArrayBuffer, Array, ' +
-                  'or Array-like Object. Received type ' +
-                  typeof value
+                'or Array-like Object. Received type ' +
+                typeof value
               );
             }
 
             /**
              * Functionally equivalent to Buffer(arg, encoding) but throws a TypeError
-             * if value is a number.
-             * Buffer.from(str[, encoding])
-             * Buffer.from(array)
-             * Buffer.from(buffer)
-             * Buffer.from(arrayBuffer[, byteOffset[, length]])
              **/
-            Buffer.from = function(value, encodingOrOffset, length) {
+            Buffer.from = function (value, encodingOrOffset, length) {
               return from(value, encodingOrOffset, length);
             };
 
-            // Note: Change prototype *after* Buffer.from is defined to workaround Chrome bug:
-            // https://github.com/feross/buffer/pull/148
             Object.setPrototypeOf(Buffer.prototype, Uint8Array.prototype);
             Object.setPrototypeOf(Buffer, Uint8Array);
 
@@ -16247,7 +16232,7 @@
              * Creates a new filled Buffer instance.
              * alloc(size[, fill[, encoding]])
              **/
-            Buffer.alloc = function(size, fill, encoding) {
+            Buffer.alloc = function (size, fill, encoding) {
               return alloc(size, fill, encoding);
             };
 
@@ -16259,13 +16244,13 @@
             /**
              * Equivalent to Buffer(num), by default creates a non-zero-filled Buffer instance.
              * */
-            Buffer.allocUnsafe = function(size) {
+            Buffer.allocUnsafe = function (size) {
               return allocUnsafe(size);
             };
             /**
              * Equivalent to SlowBuffer(num), by default creates a non-zero-filled Buffer instance.
              */
-            Buffer.allocUnsafeSlow = function(size) {
+            Buffer.allocUnsafeSlow = function (size) {
               return allocUnsafe(size);
             };
 
@@ -16352,14 +16337,12 @@
             }
 
             function checked(length) {
-              // Note: cannot use `length < K_MAX_LENGTH` here because that fails when
-              // length is NaN (which is otherwise coerced to zero.)
               if (length >= K_MAX_LENGTH) {
                 throw new RangeError(
                   'Attempt to allocate Buffer larger than maximum ' +
-                    'size: 0x' +
-                    K_MAX_LENGTH.toString(16) +
-                    ' bytes'
+                  'size: 0x' +
+                  K_MAX_LENGTH.toString(16) +
+                  ' bytes'
                 );
               }
               return length | 0;
@@ -16466,8 +16449,8 @@
               if (typeof string !== 'string') {
                 throw new TypeError(
                   'The "string" argument must be one of type string, Buffer, or ArrayBuffer. ' +
-                    'Received type ' +
-                    typeof string
+                  'Received type ' +
+                  typeof string
                 );
               }
 
@@ -16477,7 +16460,7 @@
 
               // Use a for loop to avoid recursion
               var loweredCase = false;
-              for (;;) {
+              for (; ;) {
                 switch (encoding) {
                   case 'ascii':
                   case 'latin1':
@@ -16668,8 +16651,8 @@
               if (!Buffer.isBuffer(target)) {
                 throw new TypeError(
                   'The "target" argument must be one of type Buffer or Uint8Array. ' +
-                    'Received type ' +
-                    typeof target
+                  'Received type ' +
+                  typeof target
                 );
               }
 
@@ -16964,7 +16947,7 @@
               if (!encoding) encoding = 'utf8';
 
               var loweredCase = false;
-              for (;;) {
+              for (; ;) {
                 switch (encoding) {
                   case 'hex':
                     return hexWrite(this, string, offset, length);
@@ -17946,7 +17929,7 @@
 
             // Create lookup table for `toString('hex')`
             // See: https://github.com/feross/buffer/issues/219
-            var hexSliceLookupTable = (function() {
+            var hexSliceLookupTable = (function () {
               var alphabet = '0123456789abcdef';
               var table = new Array(256);
               for (var i = 0; i < 16; ++i) {
@@ -17962,7 +17945,7 @@
         { 'base64-js': 20, buffer: 22, ieee754: 31 }
       ],
       23: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           // This file can be required in Browserify and Node.js for automatic polyfill
           // To use it:  require('es6-promise/auto');
           'use strict';
@@ -17971,23 +17954,22 @@
         { './': 24 }
       ],
       24: [
-        function(_dereq_, module, exports) {
-          (function(process, global) {
+        function (_dereq_, module, exports) {
+          (function (process, global) {
             /*!
- * @overview es6-promise - a tiny implementation of Promises/A+.
- * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
- * @license   Licensed under MIT license
- *            See https://raw.githubusercontent.com/stefanpenner/es6-promise/master/LICENSE
- * @version   v4.2.8+1e68dce6
- */
+            * @overview es6-promise - a tiny implementation of Promises/A+.
+            * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
+            * @license   Licensed under MIT license
+            * @version   v4.2.8+1e68dce6
+            */
 
-            (function(global, factory) {
+            (function (global, factory) {
               typeof exports === 'object' && typeof module !== 'undefined'
                 ? (module.exports = factory())
                 : typeof define === 'function' && define.amd
                   ? define(factory)
                   : (global.ES6Promise = factory());
-            })(this, function() {
+            })(this, function () {
               'use strict';
 
               function objectOrFunction(x) {
@@ -18003,7 +17985,7 @@
               if (Array.isArray) {
                 _isArray = Array.isArray;
               } else {
-                _isArray = function(x) {
+                _isArray = function (x) {
                   return Object.prototype.toString.call(x) === '[object Array]';
                 };
               }
@@ -18056,8 +18038,7 @@
               // node
               function useNextTick() {
                 // node version 0.10.x displays a deprecation warning when nextTick is used recursively
-                // see https://github.com/cujojs/when/issues/410 for details
-                return function() {
+                return function () {
                   return process.nextTick(flush);
                 };
               }
@@ -18065,7 +18046,7 @@
               // vertx
               function useVertxTimer() {
                 if (typeof vertxNext !== 'undefined') {
-                  return function() {
+                  return function () {
                     vertxNext(flush);
                   };
                 }
@@ -18079,7 +18060,7 @@
                 var node = document.createTextNode('');
                 observer.observe(node, { characterData: true });
 
-                return function() {
+                return function () {
                   node.data = iterations = ++iterations % 2;
                 };
               }
@@ -18088,7 +18069,7 @@
               function useMessageChannel() {
                 var channel = new MessageChannel();
                 channel.port1.onmessage = flush;
-                return function() {
+                return function () {
                   return channel.port2.postMessage(0);
                 };
               }
@@ -18097,7 +18078,7 @@
                 // Store setTimeout reference so es6-promise will be unaffected by
                 // other code modifying setTimeout (like sinon.useFakeTimers())
                 var globalSetTimeout = setTimeout;
-                return function() {
+                return function () {
                   return globalSetTimeout(flush, 1);
                 };
               }
@@ -18154,7 +18135,7 @@
 
                 if (_state) {
                   var callback = arguments[_state - 1];
-                  asap(function() {
+                  asap(function () {
                     return invokeCallback(_state, child, callback, parent._result);
                   });
                 } else {
@@ -18216,7 +18197,7 @@
                 .toString(36)
                 .substring(2);
 
-              function noop() {}
+              function noop() { }
 
               var PENDING = void 0;
               var FULFILLED = 1;
@@ -18241,12 +18222,12 @@
               }
 
               function handleForeignThenable(promise, thenable, then$$1) {
-                asap(function(promise) {
+                asap(function (promise) {
                   var sealed = false;
                   var error = tryThen(
                     then$$1,
                     thenable,
-                    function(value) {
+                    function (value) {
                       if (sealed) {
                         return;
                       }
@@ -18257,7 +18238,7 @@
                         fulfill(promise, value);
                       }
                     },
-                    function(reason) {
+                    function (reason) {
                       if (sealed) {
                         return;
                       }
@@ -18284,10 +18265,10 @@
                   subscribe(
                     thenable,
                     undefined,
-                    function(value) {
+                    function (value) {
                       return resolve(promise, value);
                     },
-                    function(reason) {
+                    function (reason) {
                       return reject(promise, reason);
                     }
                   );
@@ -18467,7 +18448,7 @@
                 return new Error('Array Methods must be provided an Array');
               }
 
-              var Enumerator = (function() {
+              var Enumerator = (function () {
                 function Enumerator(Constructor, input) {
                   this._instanceConstructor = Constructor;
                   this.promise = new Constructor(noop);
@@ -18532,7 +18513,7 @@
                       this._willSettleAt(promise, i);
                     } else {
                       this._willSettleAt(
-                        new c(function(resolve$$1) {
+                        new c(function (resolve$$1) {
                           return resolve$$1(entry);
                         }),
                         i
@@ -18567,10 +18548,10 @@
                   subscribe(
                     promise,
                     undefined,
-                    function(value) {
+                    function (value) {
                       return enumerator._settledAt(FULFILLED, i, value);
                     },
-                    function(reason) {
+                    function (reason) {
                       return enumerator._settledAt(REJECTED, i, reason);
                     }
                   );
@@ -18580,43 +18561,42 @@
               })();
 
               /**
-  `Promise.all` accepts an array of promises, and returns a new promise which
-  is fulfilled with an array of fulfillment values for the passed promises, or
-  rejected with the reason of the first passed promise to be rejected. It casts all
-  elements of the passed iterable to promises as it runs this algorithm.
+              `Promise.all` accepts an array of promises, and returns a new promise which
+              is fulfilled with an array of fulfillment values for the passed promises, or
+              rejected with the reason of the first passed promise to be rejected. It casts all
+              elements of the passed iterable to promises as it runs this algorithm.
 
-  @method all
-  @static
-  @param {Array} entries array of promises
-  @param {String} label optional string for labeling the promise.
-  Useful for tooling.
-  @return {Promise} promise that is fulfilled when all `promises` have been
-  fulfilled, or rejected if any of them become rejected.
-  @static
-*/
+              @method all
+              @static
+              @param {Array} entries array of promises
+              @param {String} label optional string for labeling the promise.
+              Useful for tooling.
+              @return {Promise} promise that is fulfilled when all `promises` have been
+              fulfilled, or rejected if any of them become rejected.
+              @static
+              */
               function all(entries) {
                 return new Enumerator(this, entries).promise;
               }
 
               /**
-
-  @method race
-  @static
-  @param {Array} promises array of promises to observe
-  Useful for tooling.
-  @return {Promise} a promise which settles in the same way as the first passed
-  promise to settle.
-*/
+              @method race
+              @static
+              @param {Array} promises array of promises to observe
+              Useful for tooling.
+              @return {Promise} a promise which settles in the same way as the first passed
+              promise to settle.
+              */
               function race(entries) {
                 /*jshint validthis:true */
                 var Constructor = this;
 
                 if (!isArray(entries)) {
-                  return new Constructor(function(_, reject) {
+                  return new Constructor(function (_, reject) {
                     return reject(new TypeError('You must pass an array to race.'));
                   });
                 } else {
-                  return new Constructor(function(resolve, reject) {
+                  return new Constructor(function (resolve, reject) {
                     var length = entries.length;
                     for (var i = 0; i < length; i++) {
                       Constructor.resolve(entries[i]).then(resolve, reject);
@@ -18626,39 +18606,14 @@
               }
 
               /**
-  `Promise.reject` returns a promise rejected with the passed `reason`.
-  It is shorthand for the following:
+              `Promise.reject` returns a promise rejected with the passed `reason`.
 
-  ```javascript
-  let promise = new Promise(function(resolve, reject){
-    reject(new Error('WHOOPS'));
-  });
-
-  promise.then(function(value){
-    // Code here doesn't run because the promise is rejected!
-  }, function(reason){
-    // reason.message === 'WHOOPS'
-  });
-  ```
-
-  Instead of writing the above, your code now simply becomes the following:
-
-  ```javascript
-  let promise = Promise.reject(new Error('WHOOPS'));
-
-  promise.then(function(value){
-    // Code here doesn't run because the promise is rejected!
-  }, function(reason){
-    // reason.message === 'WHOOPS'
-  });
-  ```
-
-  @method reject
-  @static
-  @param {Any} reason value that the returned promise will be rejected with.
-  Useful for tooling.
-  @return {Promise} a promise rejected with the given `reason`.
-*/
+              @method reject
+              @static
+              @param {Any} reason value that the returned promise will be rejected with.
+              Useful for tooling.
+              @return {Promise} a promise rejected with the given `reason`.
+              */
               function reject$1(reason) {
                 /*jshint validthis:true */
                 var Constructor = this;
@@ -18680,110 +18635,40 @@
               }
 
               /**
-  Promise objects represent the eventual result of an asynchronous operation. The
-  primary way of interacting with a promise is through its `then` method, which
-  registers callbacks to receive either a promise's eventual value or the reason
-  why the promise cannot be fulfilled.
+              Promise objects represent the eventual result of an asynchronous operation. The
+              primary way of interacting with a promise is through its `then` method, which
+              registers callbacks to receive either a promise's eventual value or the reason
+              why the promise cannot be fulfilled.
 
-  Terminology
-  -----------
+              Terminology
+              -----------
 
-  - `promise` is an object or function with a `then` method whose behavior conforms to this specification.
-  - `thenable` is an object or function that defines a `then` method.
-  - `value` is any legal JavaScript value (including undefined, a thenable, or a promise).
-  - `exception` is a value that is thrown using the throw statement.
-  - `reason` is a value that indicates why a promise was rejected.
-  - `settled` the final resting state of a promise, fulfilled or rejected.
+              - `promise` is an object or function with a `then` method whose behavior conforms to this specification.
+              - `thenable` is an object or function that defines a `then` method.
+              - `value` is any legal JavaScript value (including undefined, a thenable, or a promise).
+              - `exception` is a value that is thrown using the throw statement.
+              - `reason` is a value that indicates why a promise was rejected.
+              - `settled` the final resting state of a promise, fulfilled or rejected.
 
-  A promise can be in one of three states: pending, fulfilled, or rejected.
+              A promise can be in one of three states: pending, fulfilled, or rejected.
 
-  Promises that are fulfilled have a fulfillment value and are in the fulfilled
-  state.  Promises that are rejected have a rejection reason and are in the
-  rejected state.  A fulfillment value is never a thenable.
+              Promises that are fulfilled have a fulfillment value and are in the fulfilled
+              state.  Promises that are rejected have a rejection reason and are in the
+              rejected state.  A fulfillment value is never a thenable.
 
-  Promises can also be said to *resolve* a value.  If this value is also a
-  promise, then the original promise's settled state will match the value's
-  settled state.  So a promise that *resolves* a promise that rejects will
-  itself reject, and a promise that *resolves* a promise that fulfills will
-  itself fulfill.
+              Promises can also be said to *resolve* a value.  If this value is also a
+              promise, then the original promise's settled state will match the value's
+              settled state.  So a promise that *resolves* a promise that rejects will
+              itself reject, and a promise that *resolves* a promise that fulfills will
+              itself fulfill.
 
+              @class Promise
+              @param {Function} resolver
+              Useful for tooling.
+              @constructor
+              */
 
-  Basic Usage:
-  ------------
-
-  ```js
-  let promise = new Promise(function(resolve, reject) {
-    // on success
-    resolve(value);
-
-    // on failure
-    reject(reason);
-  });
-
-  promise.then(function(value) {
-    // on fulfillment
-  }, function(reason) {
-    // on rejection
-  });
-  ```
-
-  Advanced Usage:
-  ---------------
-
-  Promises shine when abstracting away asynchronous interactions such as
-  `XMLHttpRequest`s.
-
-  ```js
-  function getJSON(url) {
-    return new Promise(function(resolve, reject){
-      let xhr = new XMLHttpRequest();
-
-      xhr.open('GET', url);
-      xhr.onreadystatechange = handler;
-      xhr.responseType = 'json';
-      xhr.setRequestHeader('Accept', 'application/json');
-      xhr.send();
-
-      function handler() {
-        if (this.readyState === this.DONE) {
-          if (this.status === 200) {
-            resolve(this.response);
-          } else {
-            reject(new Error('getJSON: `' + url + '` failed with status: [' + this.status + ']'));
-          }
-        }
-      };
-    });
-  }
-
-  getJSON('/posts.json').then(function(json) {
-    // on fulfillment
-  }, function(reason) {
-    // on rejection
-  });
-  ```
-
-  Unlike callbacks, promises are great composable primitives.
-
-  ```js
-  Promise.all([
-    getJSON('/posts'),
-    getJSON('/comments')
-  ]).then(function(values){
-    values[0] // => postsJSON
-    values[1] // => commentsJSON
-
-    return values;
-  });
-  ```
-
-  @class Promise
-  @param {Function} resolver
-  Useful for tooling.
-  @constructor
-*/
-
-              var Promise$1 = (function() {
+              var Promise$1 = (function () {
                 function Promise(resolver) {
                   this[PROMISE_ID] = nextId();
                   this._result = this._state = undefined;
@@ -18798,39 +18683,22 @@
                 }
 
                 /**
-  The primary way of interacting with a promise is through its `then` method,
-  which registers callbacks to receive either a promise's eventual value or the
-  reason why the promise cannot be fulfilled.
-  @method then
-  @param {Function} onFulfilled
-  @param {Function} onRejected
-  Useful for tooling.
-  @return {Promise}
-  */
+                The primary way of interacting with a promise is through its `then` method,
+                which registers callbacks to receive either a promise's eventual value or the
+                reason why the promise cannot be fulfilled.
+                @method then
+                @param {Function} onFulfilled
+                @param {Function} onRejected
+                Useful for tooling.
+                @return {Promise}
+                */
 
                 /**
-  `catch` is simply sugar for `then(undefined, onRejection)` which makes it the same
-  as the catch block of a try/catch statement.
-  ```js
-  function findAuthor(){
-  throw new Error('couldn't find that author');
-  }
-  // synchronous
-  try {
-  findAuthor();
-  } catch(reason) {
-  // something went wrong
-  }
-  // async with promises
-  findAuthor().catch(function(reason){
-  // something went wrong
-  });
-  ```
-  @method catch
-  @param {Function} onRejection
-  Useful for tooling.
-  @return {Promise}
-  */
+                @method catch
+                @param {Function} onRejection
+                Useful for tooling.
+                @return {Promise}
+                */
 
                 Promise.prototype.catch = function _catch(onRejection) {
                   return this.then(null, onRejection);
@@ -18838,10 +18706,10 @@
 
                 /**
   
-    @method finally
-    @param {Function} callback
-    @return {Promise}
-  */
+                @method finally
+                @param {Function} callback
+                @return {Promise}
+                */
 
                 Promise.prototype.finally = function _finally(callback) {
                   var promise = this;
@@ -18849,13 +18717,13 @@
 
                   if (isFunction(callback)) {
                     return promise.then(
-                      function(value) {
-                        return constructor.resolve(callback()).then(function() {
+                      function (value) {
+                        return constructor.resolve(callback()).then(function () {
                           return value;
                         });
                       },
-                      function(reason) {
-                        return constructor.resolve(callback()).then(function() {
+                      function (reason) {
+                        return constructor.resolve(callback()).then(function () {
                           throw reason;
                         });
                       }
@@ -18932,8 +18800,8 @@
         { _process: 36 }
       ],
       25: [
-        function(_dereq_, module, exports) {
-          (function(global, factory) {
+        function (_dereq_, module, exports) {
+          (function (global, factory) {
             if (typeof define === 'function' && define.amd) {
               define(['exports', 'module'], factory);
             } else if (typeof exports !== 'undefined' && typeof module !== 'undefined') {
@@ -18945,7 +18813,7 @@
               factory(mod.exports, mod);
               global.fetchJsonp = mod.exports;
             }
-          })(this, function(exports, module) {
+          })(this, function (exports, module) {
             'use strict';
 
             var defaultOptions = {
@@ -18986,12 +18854,12 @@
 
               var timeoutId = undefined;
 
-              return new Promise(function(resolve, reject) {
+              return new Promise(function (resolve, reject) {
                 var callbackFunction =
                   options.jsonpCallbackFunction || generateCallbackFunction();
                 var scriptId = jsonpCallback + '_' + callbackFunction;
 
-                window[callbackFunction] = function(response) {
+                window[callbackFunction] = function (response) {
                   resolve({
                     ok: true,
                     // keep consistent with fetch API
@@ -19021,18 +18889,18 @@
                 jsonpScript.id = scriptId;
                 document.getElementsByTagName('head')[0].appendChild(jsonpScript);
 
-                timeoutId = setTimeout(function() {
+                timeoutId = setTimeout(function () {
                   reject(new Error('JSONP request to ' + _url + ' timed out'));
 
                   clearFunction(callbackFunction);
                   removeScript(scriptId);
-                  window[callbackFunction] = function() {
+                  window[callbackFunction] = function () {
                     clearFunction(callbackFunction);
                   };
                 }, timeout);
 
                 // Caught if got 404/500
-                jsonpScript.onerror = function() {
+                jsonpScript.onerror = function () {
                   reject(new Error('JSONP request to ' + _url + ' failed'));
 
                   clearFunction(callbackFunction);
@@ -19042,48 +18910,16 @@
               });
             }
 
-            // export as global function
-            /*
-  let local;
-  if (typeof global !== 'undefined') {
-    local = global;
-  } else if (typeof self !== 'undefined') {
-    local = self;
-  } else {
-    try {
-      local = Function('return this')();
-    } catch (e) {
-      throw new Error('polyfill failed because global object is unavailable in this environment');
-    }
-  }
-  local.fetchJsonp = fetchJsonp;
-  */
-
             module.exports = fetchJsonp;
           });
         },
         {}
       ],
       26: [
-        function(_dereq_, module, exports) {
-          /* FileSaver.js
- * A saveAs() FileSaver implementation.
- * 1.3.2
- * 2016-06-16 18:25:19
- *
- * By Eli Grey, http://eligrey.com
- * License: MIT
- *   See https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md
- */
-
-          /*global self */
-          /*jslint bitwise: true, indent: 4, laxbreak: true, laxcomma: true, smarttabs: true, plusplus: true */
-
-          /*! @source http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
-
+        function (_dereq_, module, exports) {
           var saveAs =
             saveAs ||
-            (function(view) {
+            (function (view) {
               'use strict';
               // IE <10 is explicitly unsupported
               if (
@@ -19095,27 +18931,27 @@
               }
               var doc = view.document,
                 // only get URL when necessary in case Blob.js hasn't overridden it yet
-                get_URL = function() {
+                get_URL = function () {
                   return view.URL || view.webkitURL || view;
                 },
                 save_link = doc.createElementNS('http://www.w3.org/1999/xhtml', 'a'),
                 can_use_save_link = 'download' in save_link,
-                click = function(node) {
+                click = function (node) {
                   var event = new MouseEvent('click');
                   node.dispatchEvent(event);
                 },
                 is_safari = /constructor/i.test(view.HTMLElement) || view.safari,
                 is_chrome_ios = /CriOS\/[\d]+/.test(navigator.userAgent),
-                throw_outside = function(ex) {
-                  (view.setImmediate || view.setTimeout)(function() {
+                throw_outside = function (ex) {
+                  (view.setImmediate || view.setTimeout)(function () {
                     throw ex;
                   }, 0);
                 },
                 force_saveable_type = 'application/octet-stream',
                 // the Blob API is fundamentally broken as there is no "downloadfinished" event to subscribe to
                 arbitrary_revoke_timeout = 1000 * 40, // in ms
-                revoke = function(file) {
-                  var revoker = function() {
+                revoke = function (file) {
+                  var revoker = function () {
                     if (typeof file === 'string') {
                       // file is an object URL
                       get_URL().revokeObjectURL(file);
@@ -19126,7 +18962,7 @@
                   };
                   setTimeout(revoker, arbitrary_revoke_timeout);
                 },
-                dispatch = function(filesaver, event_types, event) {
+                dispatch = function (filesaver, event_types, event) {
                   event_types = [].concat(event_types);
                   var i = event_types.length;
                   while (i--) {
@@ -19140,9 +18976,8 @@
                     }
                   }
                 },
-                auto_bom = function(blob) {
+                auto_bom = function (blob) {
                   // prepend BOM for UTF-8 XML and text/* types (including HTML)
-                  // note: your browser will automatically convert UTF-16 U+FEFF to EF BB BF
                   if (
                     /^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(
                       blob.type
@@ -19154,7 +18989,7 @@
                   }
                   return blob;
                 },
-                FileSaver = function(blob, name, no_auto_bom) {
+                FileSaver = function (blob, name, no_auto_bom) {
                   if (!no_auto_bom) {
                     blob = auto_bom(blob);
                   }
@@ -19163,21 +18998,21 @@
                     type = blob.type,
                     force = type === force_saveable_type,
                     object_url,
-                    dispatch_all = function() {
+                    dispatch_all = function () {
                       dispatch(filesaver, 'writestart progress write writeend'.split(' '));
                     },
                     // on any filesys errors revert to saving with object URLs
-                    fs_error = function() {
+                    fs_error = function () {
                       if ((is_chrome_ios || (force && is_safari)) && view.FileReader) {
                         // Safari doesn't allow downloading of blob urls
                         var reader = new FileReader();
-                        reader.onloadend = function() {
+                        reader.onloadend = function () {
                           var url = is_chrome_ios
                             ? reader.result
                             : reader.result.replace(
-                                /^data:[^;]*;/,
-                                'data:attachment/file;'
-                              );
+                              /^data:[^;]*;/,
+                              'data:attachment/file;'
+                            );
                           var popup = view.open(url, '_blank');
                           if (!popup) view.location.href = url;
                           url = undefined; // release reference before dispatching
@@ -19197,7 +19032,6 @@
                       } else {
                         var opened = view.open(object_url, '_blank');
                         if (!opened) {
-                          // Apple does not allow window.open, see https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/WorkingwithWindowsandTabs/WorkingwithWindowsandTabs.html
                           view.location.href = object_url;
                         }
                       }
@@ -19209,7 +19043,7 @@
 
                   if (can_use_save_link) {
                     object_url = get_URL().createObjectURL(blob);
-                    setTimeout(function() {
+                    setTimeout(function () {
                       save_link.href = object_url;
                       save_link.download = name;
                       click(save_link);
@@ -19223,12 +19057,12 @@
                   fs_error();
                 },
                 FS_proto = FileSaver.prototype,
-                saveAs = function(blob, name, no_auto_bom) {
+                saveAs = function (blob, name, no_auto_bom) {
                   return new FileSaver(blob, name || blob.name || 'download', no_auto_bom);
                 };
               // IE 10+ (native saveAs)
               if (typeof navigator !== 'undefined' && navigator.msSaveOrOpenBlob) {
-                return function(blob, name, no_auto_bom) {
+                return function (blob, name, no_auto_bom) {
                   name = name || blob.name || 'download';
 
                   if (!no_auto_bom) {
@@ -19238,7 +19072,7 @@
                 };
               }
 
-              FS_proto.abort = function() {};
+              FS_proto.abort = function () { };
               FS_proto.readyState = FS_proto.INIT = 0;
               FS_proto.WRITING = 1;
               FS_proto.DONE = 2;
@@ -19248,8 +19082,8 @@
               return saveAs;
             })(
               (typeof self !== 'undefined' && self) ||
-                (typeof window !== 'undefined' && window) ||
-                this.content
+              (typeof window !== 'undefined' && window) ||
+              this.content
             );
           // `self` is undefined in Firefox for Android content script context
           // while `this` is nsIContentFrameMessageManager
@@ -19262,7 +19096,7 @@
             define !== null &&
             define.amd !== null
           ) {
-            define('FileSaver.js', function() {
+            define('FileSaver.js', function () {
               return saveAs;
             });
           }
@@ -19270,7 +19104,7 @@
         {}
       ],
       27: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
 
           function _interopDefault(ex) {
@@ -19286,7 +19120,7 @@
           var each = arr.forEach;
           var slice = arr.slice;
           function defaults(obj) {
-            each.call(slice.call(arguments, 1), function(source) {
+            each.call(slice.call(arguments, 1), function (source) {
               if (source) {
                 for (var prop in source) {
                   if (obj[prop] === undefined) obj[prop] = source[prop];
@@ -19522,7 +19356,7 @@
 
           var Browser =
             /*#__PURE__*/
-            (function() {
+            (function () {
               function Browser(services) {
                 var options =
                   arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -19574,7 +19408,7 @@
 
                     if (!detectionOrder) detectionOrder = this.options.order;
                     var detected = [];
-                    detectionOrder.forEach(function(detectorName) {
+                    detectionOrder.forEach(function (detectorName) {
                       if (_this.detectors[detectorName]) {
                         var lookup = _this.detectors[detectorName].lookup(_this.options);
 
@@ -19583,7 +19417,7 @@
                       }
                     });
                     var found;
-                    detected.forEach(function(lng) {
+                    detected.forEach(function (lng) {
                       if (found) return;
 
                       var cleanedLng = _this.services.languageUtils.formatLanguageCode(lng);
@@ -19623,7 +19457,7 @@
                       this.options.excludeCacheFor.indexOf(lng) > -1
                     )
                       return;
-                    caches.forEach(function(cacheName) {
+                    caches.forEach(function (cacheName) {
                       if (_this2.detectors[cacheName])
                         _this2.detectors[cacheName].cacheUserLanguage(lng, _this2.options);
                     });
@@ -19644,19 +19478,19 @@
         }
       ],
       28: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           arguments[4][5][0].apply(exports, arguments);
         },
         { dup: 5 }
       ],
       29: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           arguments[4][6][0].apply(exports, arguments);
         },
         { dup: 6 }
       ],
       30: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
 
           function _interopDefault(ex) {
@@ -19710,7 +19544,7 @@
 
           var Logger =
             /*#__PURE__*/
-            (function() {
+            (function () {
               function Logger(concreteLogger) {
                 var options =
                   arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -19832,7 +19666,7 @@
 
           var EventEmitter =
             /*#__PURE__*/
-            (function() {
+            (function () {
               function EventEmitter() {
                 _classCallCheck(this, EventEmitter);
 
@@ -19845,7 +19679,7 @@
                   value: function on(events, listener) {
                     var _this = this;
 
-                    events.split(' ').forEach(function(event) {
+                    events.split(' ').forEach(function (event) {
                       _this.observers[event] = _this.observers[event] || [];
 
                       _this.observers[event].push(listener);
@@ -19863,7 +19697,7 @@
                       return;
                     }
 
-                    this.observers[event] = this.observers[event].filter(function(l) {
+                    this.observers[event] = this.observers[event].filter(function (l) {
                       return l !== listener;
                     });
                   }
@@ -19873,8 +19707,8 @@
                   value: function emit(event) {
                     for (
                       var _len = arguments.length,
-                        args = new Array(_len > 1 ? _len - 1 : 0),
-                        _key = 1;
+                      args = new Array(_len > 1 ? _len - 1 : 0),
+                      _key = 1;
                       _key < _len;
                       _key++
                     ) {
@@ -19883,7 +19717,7 @@
 
                     if (this.observers[event]) {
                       var cloned = [].concat(this.observers[event]);
-                      cloned.forEach(function(observer) {
+                      cloned.forEach(function (observer) {
                         observer.apply(void 0, args);
                       });
                     }
@@ -19891,7 +19725,7 @@
                     if (this.observers['*']) {
                       var _cloned = [].concat(this.observers['*']);
 
-                      _cloned.forEach(function(observer) {
+                      _cloned.forEach(function (observer) {
                         observer.apply(observer, [event].concat(args));
                       });
                     }
@@ -19906,7 +19740,7 @@
           function defer() {
             var res;
             var rej;
-            var promise = new Promise(function(resolve, reject) {
+            var promise = new Promise(function (resolve, reject) {
               res = resolve;
               rej = reject;
             });
@@ -19921,7 +19755,7 @@
             return '' + object;
           }
           function copy(a, s, t) {
-            a.forEach(function(m) {
+            a.forEach(function (m) {
               if (s[m]) t[m] = s[m];
             });
           }
@@ -20024,7 +19858,7 @@
 
           function escape(data) {
             if (typeof data === 'string') {
-              return data.replace(/[&<>"'\/]/g, function(s) {
+              return data.replace(/[&<>"'\/]/g, function (s) {
                 return _entityMap[s];
               });
             }
@@ -20034,7 +19868,7 @@
 
           var ResourceStore =
             /*#__PURE__*/
-            (function(_EventEmitter) {
+            (function (_EventEmitter) {
               _inherits(ResourceStore, _EventEmitter);
 
               function ResourceStore(data) {
@@ -20044,9 +19878,9 @@
                   arguments.length > 1 && arguments[1] !== undefined
                     ? arguments[1]
                     : {
-                        ns: ['translation'],
-                        defaultNS: 'translation'
-                      };
+                      ns: ['translation'],
+                      defaultNS: 'translation'
+                    };
 
                 _classCallCheck(this, ResourceStore);
 
@@ -20115,8 +19949,8 @@
                       arguments.length > 4 && arguments[4] !== undefined
                         ? arguments[4]
                         : {
-                            silent: false
-                          };
+                          silent: false
+                        };
                     var keySeparator = this.options.keySeparator;
                     if (keySeparator === undefined) keySeparator = '.';
                     var path = [lng, ns];
@@ -20141,8 +19975,8 @@
                       arguments.length > 3 && arguments[3] !== undefined
                         ? arguments[3]
                         : {
-                            silent: false
-                          };
+                          silent: false
+                        };
 
                     /* eslint no-restricted-syntax: 0 */
                     for (var m in resources) {
@@ -20165,8 +19999,8 @@
                       arguments.length > 5 && arguments[5] !== undefined
                         ? arguments[5]
                         : {
-                            silent: false
-                          };
+                          silent: false
+                        };
                     var path = [lng, ns];
 
                     if (lng.indexOf('.') > -1) {
@@ -20241,7 +20075,7 @@
             handle: function handle(processors, value, key, options, translator) {
               var _this = this;
 
-              processors.forEach(function(processor) {
+              processors.forEach(function (processor) {
                 if (_this.processors[processor])
                   value = _this.processors[processor].process(
                     value,
@@ -20258,7 +20092,7 @@
 
           var Translator =
             /*#__PURE__*/
-            (function(_EventEmitter) {
+            (function (_EventEmitter) {
               _inherits(Translator, _EventEmitter);
 
               function Translator(services) {
@@ -20312,8 +20146,8 @@
                       arguments.length > 1 && arguments[1] !== undefined
                         ? arguments[1]
                         : {
-                            interpolation: {}
-                          };
+                          interpolation: {}
+                        };
                     var resolved = this.resolve(key, options);
                     return resolved && resolved.res !== undefined;
                   }
@@ -20376,9 +20210,9 @@
                         : this.options.keySeparator; // get namespace(s)
 
                     var _this$extractFromKey = this.extractFromKey(
-                        keys[keys.length - 1],
-                        options
-                      ),
+                      keys[keys.length - 1],
+                      options
+                    ),
                       key = _this$extractFromKey.key,
                       namespaces = _this$extractFromKey.namespaces;
 
@@ -20434,11 +20268,11 @@
                         return this.options.returnedObjectHandler
                           ? this.options.returnedObjectHandler(resUsedKey, res, options)
                           : "key '"
-                              .concat(key, ' (')
-                              .concat(
-                                this.language,
-                                ")' returned an object instead of string."
-                              );
+                            .concat(key, ' (')
+                            .concat(
+                              this.language,
+                              ")' returned an object instead of string."
+                            );
                       } // if we got a separator we loop over children - else we just return object as is
                       // as having it set to false means no hierarchy so no lookup for nested values
 
@@ -20566,13 +20400,13 @@
                             typeof options.count !== 'string';
 
                           if (this.options.saveMissingPlurals && needsPluralHandling) {
-                            lngs.forEach(function(l) {
+                            lngs.forEach(function (l) {
                               var plurals = _this2.pluralResolver.getPluralFormsOfKey(
                                 l,
                                 key
                               );
 
-                              plurals.forEach(function(p) {
+                              plurals.forEach(function (p) {
                                 return send([l], p);
                               });
                             });
@@ -20647,7 +20481,7 @@
                       if (options.nest !== false)
                         res = this.interpolator.nest(
                           res,
-                          function() {
+                          function () {
                             return _this3.translate.apply(_this3, arguments);
                           },
                           options
@@ -20672,11 +20506,11 @@
                         key,
                         this.options && this.options.postProcessPassResolved
                           ? _objectSpread(
-                              {
-                                i18nResolved: resolved
-                              },
-                              options
-                            )
+                            {
+                              i18nResolved: resolved
+                            },
+                            options
+                          )
                           : options,
                         this
                       );
@@ -20703,7 +20537,7 @@
                     var usedNS;
                     if (typeof keys === 'string') keys = [keys]; // forEach possible key
 
-                    keys.forEach(function(k) {
+                    keys.forEach(function (k) {
                       if (_this4.isValidLookup(found)) return;
 
                       var extracted = _this4.extractFromKey(k, options);
@@ -20722,10 +20556,10 @@
                       var codes = options.lngs
                         ? options.lngs
                         : _this4.languageUtils.toResolveHierarchy(
-                            options.lng || _this4.language,
-                            options.fallbackLng
-                          );
-                      namespaces.forEach(function(ns) {
+                          options.lng || _this4.language,
+                          options.fallbackLng
+                        );
+                      namespaces.forEach(function (ns) {
                         if (_this4.isValidLookup(found)) return;
                         usedNS = ns;
 
@@ -20749,7 +20583,7 @@
                           );
                         }
 
-                        codes.forEach(function(code) {
+                        codes.forEach(function (code) {
                           if (_this4.isValidLookup(found)) return;
                           usedLng = code;
                           var finalKey = key;
@@ -20839,7 +20673,7 @@
 
           var LanguageUtil =
             /*#__PURE__*/
-            (function() {
+            (function () {
               function LanguageUtil(options) {
                 _classCallCheck(this, LanguageUtil);
 
@@ -20870,7 +20704,6 @@
                 {
                   key: 'formatLanguageCode',
                   value: function formatLanguageCode(code) {
-                    // http://www.iana.org/assignments/language-tags/language-tags.xhtml
                     if (typeof code === 'string' && code.indexOf('-') > -1) {
                       var specialCases = [
                         'hans',
@@ -20884,7 +20717,7 @@
                       var p = code.split('-');
 
                       if (this.options.lowerCaseLng) {
-                        p = p.map(function(part) {
+                        p = p.map(function (part) {
                           return part.toLowerCase();
                         });
                       } else if (p.length === 2) {
@@ -20981,7 +20814,7 @@
                       addCode(this.formatLanguageCode(code));
                     }
 
-                    fallbackCodes.forEach(function(fc) {
+                    fallbackCodes.forEach(function (fc) {
                       if (codes.indexOf(fc) < 0) addCode(_this.formatLanguageCode(fc));
                     });
                     return codes;
@@ -20996,122 +20829,19 @@
 
           var sets = [
             {
-              lngs: [
-                'ach',
-                'ak',
-                'am',
-                'arn',
-                'br',
-                'fil',
-                'gun',
-                'ln',
-                'mfe',
-                'mg',
-                'mi',
-                'oc',
-                'pt',
-                'pt-BR',
-                'tg',
-                'ti',
-                'tr',
-                'uz',
-                'wa'
+              lngs: ['ach', 'ak', 'am', 'arn', 'br', 'fil', 'gun', 'ln', 'mfe', 'mg', 'mi', 'oc', 'pt', 'pt-BR', 'tg', 'ti', 'tr', 'uz', 'wa'
               ],
               nr: [1, 2],
               fc: 1
             },
             {
-              lngs: [
-                'af',
-                'an',
-                'ast',
-                'az',
-                'bg',
-                'bn',
-                'ca',
-                'da',
-                'de',
-                'dev',
-                'el',
-                'en',
-                'eo',
-                'es',
-                'et',
-                'eu',
-                'fi',
-                'fo',
-                'fur',
-                'fy',
-                'gl',
-                'gu',
-                'ha',
-                'hi',
-                'hu',
-                'hy',
-                'ia',
-                'it',
-                'kn',
-                'ku',
-                'lb',
-                'mai',
-                'ml',
-                'mn',
-                'mr',
-                'nah',
-                'nap',
-                'nb',
-                'ne',
-                'nl',
-                'nn',
-                'no',
-                'nso',
-                'pa',
-                'pap',
-                'pms',
-                'ps',
-                'pt-PT',
-                'rm',
-                'sco',
-                'se',
-                'si',
-                'so',
-                'son',
-                'sq',
-                'sv',
-                'sw',
-                'ta',
-                'te',
-                'tk',
-                'ur',
-                'yo'
+              lngs: ['af', 'an', 'ast', 'az', 'bg', 'bn', 'ca', 'da', 'de', 'dev', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fi', 'fo', 'fur', 'fy', 'gl', 'gu', 'ha', 'hi', 'hu', 'hy', 'ia', 'it', 'kn', 'ku', 'lb', 'mai', 'ml', 'mn', 'mr', 'nah', 'nap', 'nb', 'ne', 'nl', 'nn', 'no', 'nso', 'pa', 'pap', 'pms', 'ps', 'pt-PT', 'rm', 'sco', 'se', 'si', 'so', 'son', 'sq', 'sv', 'sw', 'ta', 'te', 'tk', 'ur', 'yo'
               ],
               nr: [1, 2],
               fc: 2
             },
             {
-              lngs: [
-                'ay',
-                'bo',
-                'cgg',
-                'fa',
-                'id',
-                'ja',
-                'jbo',
-                'ka',
-                'kk',
-                'km',
-                'ko',
-                'ky',
-                'lo',
-                'ms',
-                'sah',
-                'su',
-                'th',
-                'tt',
-                'ug',
-                'vi',
-                'wo',
-                'zh'
+              lngs: ['ay', 'bo', 'cgg', 'fa', 'id', 'ja', 'jbo', 'ka', 'kk', 'km', 'ko', 'ky', 'lo', 'ms', 'sah', 'su', 'th', 'tt', 'ug', 'vi', 'wo', 'zh'
               ],
               nr: [1],
               fc: 3
@@ -21319,8 +21049,8 @@
 
           function createRules() {
             var rules = {};
-            sets.forEach(function(set) {
-              set.lngs.forEach(function(l) {
+            sets.forEach(function (set) {
+              set.lngs.forEach(function (l) {
                 rules[l] = {
                   numbers: set.nr,
                   plurals: _rulesPluralsTypes[set.fc]
@@ -21332,7 +21062,7 @@
 
           var PluralResolver =
             /*#__PURE__*/
-            (function() {
+            (function () {
               function PluralResolver(languageUtils) {
                 var options =
                   arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -21376,7 +21106,7 @@
                     var ret = [];
                     var rule = this.getRule(code);
                     if (!rule) return ret;
-                    rule.numbers.forEach(function(n) {
+                    rule.numbers.forEach(function (n) {
                       var suffix = _this.getSuffix(code, n);
 
                       ret.push(''.concat(key).concat(suffix));
@@ -21452,7 +21182,7 @@
 
           var Interpolator =
             /*#__PURE__*/
-            (function() {
+            (function () {
               function Interpolator() {
                 var options =
                   arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
@@ -21464,7 +21194,7 @@
 
                 this.format =
                   (options.interpolation && options.interpolation.format) ||
-                  function(value) {
+                  function (value) {
                     return value;
                   };
 
@@ -21734,7 +21464,7 @@
 
           var Connector =
             /*#__PURE__*/
-            (function(_EventEmitter) {
+            (function (_EventEmitter) {
               _inherits(Connector, _EventEmitter);
 
               function Connector(backend, store, services) {
@@ -21778,9 +21508,9 @@
                     var pending = [];
                     var toLoadLanguages = [];
                     var toLoadNamespaces = [];
-                    languages.forEach(function(lng) {
+                    languages.forEach(function (lng) {
                       var hasAllNamespaces = true;
-                      namespaces.forEach(function(ns) {
+                      namespaces.forEach(function (ns) {
                         var name = ''.concat(lng, '|').concat(ns);
 
                         if (!options.reload && _this2.store.hasResourceBundle(lng, ns)) {
@@ -21835,18 +21565,18 @@
 
                     var loaded = {}; // callback if ready
 
-                    this.queue.forEach(function(q) {
+                    this.queue.forEach(function (q) {
                       pushPath(q.loaded, [lng], ns);
                       remove(q.pending, name);
                       if (err) q.errors.push(err);
 
                       if (q.pending.length === 0 && !q.done) {
                         // only do once per loaded -> this.emit('loaded', q.loaded);
-                        Object.keys(q.loaded).forEach(function(l) {
+                        Object.keys(q.loaded).forEach(function (l) {
                           if (!loaded[l]) loaded[l] = [];
 
                           if (q.loaded[l].length) {
-                            q.loaded[l].forEach(function(ns) {
+                            q.loaded[l].forEach(function (ns) {
                               if (loaded[l].indexOf(ns) < 0) loaded[l].push(ns);
                             });
                           }
@@ -21865,7 +21595,7 @@
 
                     this.emit('loaded', loaded); // remove done load requests
 
-                    this.queue = this.queue.filter(function(q) {
+                    this.queue = this.queue.filter(function (q) {
                       return !q.done;
                     });
                   }
@@ -21884,14 +21614,14 @@
                     var callback = arguments.length > 5 ? arguments[5] : undefined;
                     if (!lng.length) return callback(null, {}); // noting to load
 
-                    return this.backend[fcName](lng, ns, function(err, data) {
+                    return this.backend[fcName](lng, ns, function (err, data) {
                       if (
                         err &&
                         data &&
                         /* = retryFlag */
                         tried < 5
                       ) {
-                        setTimeout(function() {
+                        setTimeout(function () {
                           _this3.read.call(
                             _this3,
                             lng,
@@ -21939,7 +21669,7 @@
                       return null; // pendings will trigger callback
                     }
 
-                    toLoad.toLoad.forEach(function(name) {
+                    toLoad.toLoad.forEach(function (name) {
                       _this4.loadOne(name);
                     });
                   }
@@ -21978,7 +21708,7 @@
                       lng = _name$split4[0],
                       ns = _name$split4[1];
 
-                    this.read(lng, ns, 'read', null, null, function(err, data) {
+                    this.read(lng, ns, 'read', null, null, function (err, data) {
                       if (err)
                         _this5.logger.warn(
                           ''
@@ -22113,7 +21843,7 @@
 
                 if (_typeof(args[2]) === 'object' || _typeof(args[3]) === 'object') {
                   var options = args[3] || args[2];
-                  Object.keys(options).forEach(function(key) {
+                  Object.keys(options).forEach(function (key) {
                     ret[key] = options[key];
                   });
                 }
@@ -22158,11 +21888,11 @@
             return options;
           }
 
-          function noop() {}
+          function noop() { }
 
           var I18n =
             /*#__PURE__*/
-            (function(_EventEmitter) {
+            (function (_EventEmitter) {
               _inherits(I18n, _EventEmitter);
 
               function I18n() {
@@ -22192,7 +21922,7 @@
                     return _possibleConstructorReturn(_this, _assertThisInitialized(_this));
                   }
 
-                  setTimeout(function() {
+                  setTimeout(function () {
                     _this.init(options, callback);
                   }, 0);
                 }
@@ -22264,11 +21994,11 @@
                         this.options
                       ); // pipe events from backendConnector
 
-                      s.backendConnector.on('*', function(event) {
+                      s.backendConnector.on('*', function (event) {
                         for (
                           var _len = arguments.length,
-                            args = new Array(_len > 1 ? _len - 1 : 0),
-                            _key = 1;
+                          args = new Array(_len > 1 ? _len - 1 : 0),
+                          _key = 1;
                           _key < _len;
                           _key++
                         ) {
@@ -22292,11 +22022,11 @@
 
                       this.translator = new Translator(this.services, this.options); // pipe events from translator
 
-                      this.translator.on('*', function(event) {
+                      this.translator.on('*', function (event) {
                         for (
                           var _len2 = arguments.length,
-                            args = new Array(_len2 > 1 ? _len2 - 1 : 0),
-                            _key2 = 1;
+                          args = new Array(_len2 > 1 ? _len2 - 1 : 0),
+                          _key2 = 1;
                           _key2 < _len2;
                           _key2++
                         ) {
@@ -22305,7 +22035,7 @@
 
                         _this2.emit.apply(_this2, [event].concat(args));
                       });
-                      this.modules.external.forEach(function(m) {
+                      this.modules.external.forEach(function (m) {
                         if (m.init) m.init(_this2);
                       });
                     } // append api
@@ -22320,8 +22050,8 @@
                       'getResourceBundle',
                       'getDataByLanguage'
                     ];
-                    storeApi.forEach(function(fcName) {
-                      _this2[fcName] = function() {
+                    storeApi.forEach(function (fcName) {
+                      _this2[fcName] = function () {
                         var _this2$store;
 
                         return (_this2$store = _this2.store)[fcName].apply(
@@ -22333,7 +22063,7 @@
                     var deferred = defer();
 
                     var load = function load() {
-                      _this2.changeLanguage(_this2.options.lng, function(err, t) {
+                      _this2.changeLanguage(_this2.options.lng, function (err, t) {
                         _this2.isInitialized = true;
 
                         _this2.logger.log('initialized', _this2.options);
@@ -22380,7 +22110,7 @@
 
                         var lngs = _this3.services.languageUtils.toResolveHierarchy(lng);
 
-                        lngs.forEach(function(l) {
+                        lngs.forEach(function (l) {
                           if (toLoad.indexOf(l) < 0) toLoad.push(l);
                         });
                       };
@@ -22390,7 +22120,7 @@
                         var fallbacks = this.services.languageUtils.getFallbackCodes(
                           this.options.fallbackLng
                         );
-                        fallbacks.forEach(function(l) {
+                        fallbacks.forEach(function (l) {
                           return append(l);
                         });
                       } else {
@@ -22398,7 +22128,7 @@
                       }
 
                       if (this.options.preload) {
-                        this.options.preload.forEach(function(l) {
+                        this.options.preload.forEach(function (l) {
                           return append(l);
                         });
                       }
@@ -22420,7 +22150,7 @@
                     if (!lngs) lngs = this.languages;
                     if (!ns) ns = this.options.ns;
                     if (!callback) callback = noop;
-                    this.services.backendConnector.reload(lngs, ns, function(err) {
+                    this.services.backendConnector.reload(lngs, ns, function (err) {
                       deferred.resolve(); // not rejecting on err (as err is only a loading translation failed warning)
 
                       callback(err);
@@ -22488,11 +22218,11 @@
                         _this4.isLanguageChangingTo = undefined;
                       }
 
-                      deferred.resolve(function() {
+                      deferred.resolve(function () {
                         return _this4.t.apply(_this4, arguments);
                       });
                       if (callback)
-                        callback(err, function() {
+                        callback(err, function () {
                           return _this4.t.apply(_this4, arguments);
                         });
                     };
@@ -22512,7 +22242,7 @@
                           _this4.services.languageDetector.cacheUserLanguage(l);
                       }
 
-                      _this4.loadResources(l, function(err) {
+                      _this4.loadResources(l, function (err) {
                         done(err, l);
                       });
                     };
@@ -22547,8 +22277,8 @@
                       if (_typeof(opts) !== 'object') {
                         for (
                           var _len3 = arguments.length,
-                            rest = new Array(_len3 > 2 ? _len3 - 2 : 0),
-                            _key3 = 2;
+                          rest = new Array(_len3 > 2 ? _len3 - 2 : 0),
+                          _key3 = 2;
                           _key3 < _len3;
                           _key3++
                         ) {
@@ -22635,7 +22365,7 @@
 
                     var lng = this.languages[0];
                     var fallbackLng = this.options ? this.options.fallbackLng : false;
-                    var lastLng = this.languages[this.languages.length - 1]; // we're in cimode so this shall pass
+                    var lastLng = this.languages[this.languages.length - 1];
 
                     if (lng.toLowerCase() === 'cimode') return true;
 
@@ -22646,10 +22376,8 @@
                       return loadState === -1 || loadState === 2;
                     }; // loaded -> SUCCESS
 
-                    if (this.hasResourceBundle(lng, ns)) return true; // were not loading at all -> SEMI SUCCESS
-
-                    if (!this.services.backendConnector.backend) return true; // failed loading ns - but at least fallback is not pending -> SEMI SUCCESS
-
+                    if (this.hasResourceBundle(lng, ns)) return true;
+                    if (!this.services.backendConnector.backend) return true;
                     if (
                       loadNotPending(lng, ns) &&
                       (!fallbackLng || loadNotPending(lastLng, ns))
@@ -22671,10 +22399,10 @@
                     }
 
                     if (typeof ns === 'string') ns = [ns];
-                    ns.forEach(function(n) {
+                    ns.forEach(function (n) {
                       if (_this7.options.ns.indexOf(n) < 0) _this7.options.ns.push(n);
                     });
-                    this.loadResources(function(err) {
+                    this.loadResources(function (err) {
                       deferred.resolve();
                       if (callback) callback(err);
                     });
@@ -22687,7 +22415,7 @@
                     var deferred = defer();
                     if (typeof lngs === 'string') lngs = [lngs];
                     var preloaded = this.options.preload || [];
-                    var newLngs = lngs.filter(function(lng) {
+                    var newLngs = lngs.filter(function (lng) {
                       return preloaded.indexOf(lng) < 0;
                     }); // Exit early if all given languages are already preloaded
 
@@ -22697,7 +22425,7 @@
                     }
 
                     this.options.preload = preloaded.concat(newLngs);
-                    this.loadResources(function(err) {
+                    this.loadResources(function (err) {
                       deferred.resolve();
                       if (callback) callback(err);
                     });
@@ -22713,67 +22441,7 @@
                           ? this.languages[0]
                           : this.language;
                     if (!lng) return 'rtl';
-                    var rtlLngs = [
-                      'ar',
-                      'shu',
-                      'sqr',
-                      'ssh',
-                      'xaa',
-                      'yhd',
-                      'yud',
-                      'aao',
-                      'abh',
-                      'abv',
-                      'acm',
-                      'acq',
-                      'acw',
-                      'acx',
-                      'acy',
-                      'adf',
-                      'ads',
-                      'aeb',
-                      'aec',
-                      'afb',
-                      'ajp',
-                      'apc',
-                      'apd',
-                      'arb',
-                      'arq',
-                      'ars',
-                      'ary',
-                      'arz',
-                      'auz',
-                      'avl',
-                      'ayh',
-                      'ayl',
-                      'ayn',
-                      'ayp',
-                      'bbz',
-                      'pga',
-                      'he',
-                      'iw',
-                      'ps',
-                      'pbt',
-                      'pbu',
-                      'pst',
-                      'prp',
-                      'prd',
-                      'ur',
-                      'ydd',
-                      'yds',
-                      'yih',
-                      'ji',
-                      'yi',
-                      'hbo',
-                      'men',
-                      'xmn',
-                      'fa',
-                      'jpr',
-                      'peo',
-                      'pes',
-                      'prs',
-                      'dv',
-                      'sam'
+                    var rtlLngs = ['ar', 'shu', 'sqr', 'ssh', 'xaa', 'yhd', 'yud', 'aao', 'abh', 'abv', 'acm', 'acq', 'acw', 'acx', 'acy', 'adf', 'ads', 'aeb', 'aec', 'afb', 'ajp', 'apc', 'apd', 'arb', 'arq', 'ars', 'ary', 'arz', 'auz', 'avl', 'ayh', 'ayl', 'ayn', 'ayp', 'bbz', 'pga', 'he', 'iw', 'ps', 'pbt', 'pbu', 'pst', 'prp', 'prd', 'ur', 'ydd', 'yds', 'yih', 'ji', 'yi', 'hbo', 'men', 'xmn', 'fa', 'jpr', 'peo', 'pes', 'prs', 'dv', 'sam'
                     ];
                     return rtlLngs.indexOf(
                       this.services.languageUtils.getLanguagePartFromCode(lng)
@@ -22814,15 +22482,15 @@
 
                     var clone = new I18n(mergedOptions);
                     var membersToCopy = ['store', 'services', 'language'];
-                    membersToCopy.forEach(function(m) {
+                    membersToCopy.forEach(function (m) {
                       clone[m] = _this8[m];
                     });
                     clone.translator = new Translator(clone.services, clone.options);
-                    clone.translator.on('*', function(event) {
+                    clone.translator.on('*', function (event) {
                       for (
                         var _len4 = arguments.length,
-                          args = new Array(_len4 > 1 ? _len4 - 1 : 0),
-                          _key4 = 1;
+                        args = new Array(_len4 > 1 ? _len4 - 1 : 0),
+                        _key4 = 1;
                         _key4 < _len4;
                         _key4++
                       ) {
@@ -22860,8 +22528,8 @@
         }
       ],
       31: [
-        function(_dereq_, module, exports) {
-          exports.read = function(buffer, offset, isLE, mLen, nBytes) {
+        function (_dereq_, module, exports) {
+          exports.read = function (buffer, offset, isLE, mLen, nBytes) {
             var e, m;
             var eLen = nBytes * 8 - mLen - 1;
             var eMax = (1 << eLen) - 1;
@@ -22876,12 +22544,12 @@
             e = s & ((1 << -nBits) - 1);
             s >>= -nBits;
             nBits += eLen;
-            for (; nBits > 0; e = e * 256 + buffer[offset + i], i += d, nBits -= 8) {}
+            for (; nBits > 0; e = e * 256 + buffer[offset + i], i += d, nBits -= 8) { }
 
             m = e & ((1 << -nBits) - 1);
             e >>= -nBits;
             nBits += mLen;
-            for (; nBits > 0; m = m * 256 + buffer[offset + i], i += d, nBits -= 8) {}
+            for (; nBits > 0; m = m * 256 + buffer[offset + i], i += d, nBits -= 8) { }
 
             if (e === 0) {
               e = 1 - eBias;
@@ -22894,7 +22562,7 @@
             return (s ? -1 : 1) * m * Math.pow(2, e - mLen);
           };
 
-          exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
+          exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
             var e, m, c;
             var eLen = nBytes * 8 - mLen - 1;
             var eMax = (1 << eLen) - 1;
@@ -22937,11 +22605,11 @@
               }
             }
 
-            for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
+            for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) { }
 
             e = (e << mLen) | m;
             eLen += mLen;
-            for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
+            for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) { }
 
             buffer[offset + i - d] |= s * 128;
           };
@@ -22949,36 +22617,36 @@
         {}
       ],
       32: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           /*
 
- Copyright 2000, Silicon Graphics, Inc. All Rights Reserved.
- Copyright 2015, Google Inc. All Rights Reserved.
+          Copyright 2000, Silicon Graphics, Inc. All Rights Reserved.
+          Copyright 2015, Google Inc. All Rights Reserved.
 
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to
- deal in the Software without restriction, including without limitation the
- rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
- sell copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
+          Permission is hereby granted, free of charge, to any person obtaining a copy
+          of this software and associated documentation files (the "Software"), to
+          deal in the Software without restriction, including without limitation the
+          rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+          sell copies of the Software, and to permit persons to whom the Software is
+          furnished to do so, subject to the following conditions:
 
- The above copyright notice including the dates of first publication and
- either this permission notice or a reference to http://oss.sgi.com/projects/FreeB/
- shall be included in all copies or substantial portions of the Software.
+          The above copyright notice including the dates of first publication and
+          either this permission notice or a reference to http://oss.sgi.com/projects/FreeB/
+          shall be included in all copies or substantial portions of the Software.
 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
- IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+          THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+          IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+          FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+          SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+          WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+          IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
- Original Code. The Original Code is: OpenGL Sample Implementation,
- Version 1.2.1, released January 26, 2000, developed by Silicon Graphics,
- Inc. The Original Code is Copyright (c) 1991-2000 Silicon Graphics, Inc.
- Copyright in any portions created by third parties is as indicated
- elsewhere herein. All Rights Reserved.
-*/
+          Original Code. The Original Code is: OpenGL Sample Implementation,
+          Version 1.2.1, released January 26, 2000, developed by Silicon Graphics,
+          Inc. The Original Code is Copyright (c) 1991-2000 Silicon Graphics, Inc.
+          Copyright in any portions created by third parties is as indicated
+          elsewhere herein. All Rights Reserved.
+          */
           'use strict';
           var n;
           function t(a, b) {
@@ -23043,10 +22711,10 @@
               d = !1;
             a !== b &&
               (b.a !== a.a && ((d = !0), F(b.a, a.a)),
-              b.d !== a.d && ((c = !0), G(b.d, a.d)),
-              H(b, a),
-              d || (C(b, a.a), (a.a.c = a)),
-              c || (D(b, a.d), (a.d.a = a)));
+                b.d !== a.d && ((c = !0), G(b.d, a.d)),
+                H(b, a),
+                d || (C(b, a.a), (a.a.c = a)),
+                c || (D(b, a.d), (a.d.a = a)));
           }
           function I(a) {
             var b = a.b,
@@ -23234,7 +22902,7 @@
           }
           function T(a, b, c) {
             a = b;
-            for (b = b.a; a !== c; ) {
+            for (b = b.a; a !== c;) {
               a.c = !1;
               var d = S(a),
                 e = d.a;
@@ -23257,7 +22925,7 @@
             var g = !0;
             do la(a, b, c.b), (c = c.c);
             while (c !== d);
-            for (null === e && (e = S(b).a.b.c); ; ) {
+            for (null === e && (e = S(b).a.b.c); ;) {
               d = S(b);
               c = d.a.b;
               if (c.a !== e.a) break;
@@ -23320,7 +22988,7 @@
                   k[f] = c.b;
                   c.b = f;
                 } else
-                  for (c.c[-(f + 1)] = null; 0 < c.a && null === c.c[c.d[c.a - 1]]; ) --c.a;
+                  for (c.c[-(f + 1)] = null; 0 < c.a && null === c.c[c.d[c.a - 1]];) --c.a;
                 ta(a, J(e), d);
               }
             } else {
@@ -23432,8 +23100,8 @@
             return !1;
           }
           function ra(a, b) {
-            for (var c = S(b); ; ) {
-              for (; c.b; ) (b = c), (c = S(c));
+            for (var c = S(b); ;) {
+              for (; c.b;) (b = c), (c = S(c));
               if (!b.b && ((c = b), (b = R(b)), null === b || !b.b)) break;
               b.b = !1;
               var d = b.a,
@@ -23480,7 +23148,7 @@
           }
           function ya(a, b) {
             a.a = b;
-            for (var c = b.c; null === c.i; )
+            for (var c = b.c; null === c.i;)
               if (((c = c.c), c === b.c)) {
                 var c = a,
                   d = b,
@@ -23497,8 +23165,8 @@
                 if (0 === x(e.b.a, d, e.a))
                   (e = f.a),
                     t(e.a, d) ||
-                      t(e.b.a, d) ||
-                      (K(e.b), f.c && (I(e.c), (f.c = !1)), E(d.c, e), ya(c, d));
+                    t(e.b.a, d) ||
+                    (K(e.b), f.c && (I(e.c), (f.c = !1)), E(d.c, e), ya(c, d));
                 else {
                   var k = u(g.b.a, e.b.a) ? f : h,
                     h = void 0;
@@ -23586,10 +23254,10 @@
           }
           var Y = 0;
           n = X.prototype;
-          n.x = function() {
+          n.x = function () {
             Z(this, Y);
           };
-          n.B = function(a, b) {
+          n.B = function (a, b) {
             switch (a) {
               case 100142:
                 return;
@@ -23613,7 +23281,7 @@
             }
             V(this, 100901);
           };
-          n.y = function(a) {
+          n.y = function (a) {
             switch (a) {
               case 100142:
                 return 0;
@@ -23626,12 +23294,12 @@
             }
             return !1;
           };
-          n.A = function(a, b, c) {
+          n.A = function (a, b, c) {
             this.j[0] = a;
             this.j[1] = b;
             this.j[2] = c;
           };
-          n.z = function(a, b) {
+          n.z = function (a, b) {
             var c = b ? b : null;
             switch (a) {
               case 100100:
@@ -23665,7 +23333,7 @@
                 V(this, 100900);
             }
           };
-          n.C = function(a, b) {
+          n.C = function (a, b) {
             var c = !1,
               d = [0, 0, 0];
             Z(this, 2);
@@ -23686,22 +23354,22 @@
             c.b.f = -1;
             this.q = c;
           };
-          n.u = function(a) {
+          n.u = function (a) {
             Z(this, Y);
             this.d = 1;
             this.b = new Ca();
             this.c = a;
           };
-          n.t = function() {
+          n.t = function () {
             Z(this, 1);
             this.d = 2;
             this.q = null;
           };
-          n.v = function() {
+          n.v = function () {
             Z(this, 2);
             this.d = 1;
           };
-          n.w = function() {
+          n.w = function () {
             Z(this, 1);
             this.d = Y;
             var a = this.j[0],
@@ -23712,11 +23380,11 @@
             if (0 === a && 0 === b && 0 === c) {
               for (
                 var b = [-2 * 1e150, -2 * 1e150, -2 * 1e150],
-                  f = [2 * 1e150, 2 * 1e150, 2 * 1e150],
-                  c = [],
-                  g = [],
-                  d = this.b.c,
-                  a = d.e;
+                f = [2 * 1e150, 2 * 1e150, 2 * 1e150],
+                c = [],
+                g = [],
+                d = this.b.c,
+                a = d.e;
                 a !== d;
                 a = a.e
               )
@@ -23770,9 +23438,9 @@
             for (a = e.h; a !== e; a = d)
               if (
                 ((d = a.h),
-                (b = a.e),
-                t(a.a, a.b.a) && a.e.e !== a && (ta(this, b, a), I(a), (a = b), (b = a.e)),
-                b.e === a)
+                  (b = a.e),
+                  t(a.a, a.b.a) && a.e.e !== a && (ta(this, b, a), I(a), (a = b), (b = a.e)),
+                  b.e === a)
               ) {
                 if (b !== a) {
                   if (b === d || b === d.b) d = d.h;
@@ -23787,8 +23455,8 @@
             Ea(e);
             this.f = new Aa(this);
             za(this, -O);
-            for (za(this, O); null !== (e = Fa(this.e)); ) {
-              for (;;) {
+            for (za(this, O); null !== (e = Fa(this.e));) {
+              for (; ;) {
                 a: if (((a = this.e), 0 === a.a)) d = Ga(a.b);
                 else if (
                   ((d = a.c[a.d[a.a - 1]]), 0 !== a.b.a && ((a = Ga(a.b)), u(a, d)))
@@ -23803,7 +23471,7 @@
               ya(this, e);
             }
             this.a = this.f.a.a.b.a.a;
-            for (e = 0; null !== (d = this.f.a.a.b); ) d.h || ++e, Q(d);
+            for (e = 0; null !== (d = this.f.a.a.b);) d.h || ++e, Q(d);
             this.f = null;
             e = this.e;
             e.b = null;
@@ -23823,17 +23491,17 @@
                     for (a = a.a; u(a.b.a, a.a); a = a.c.b);
                     for (; u(a.a, a.b.a); a = a.e);
                     b = a.c.b;
-                    for (c = void 0; a.e !== b; )
+                    for (c = void 0; a.e !== b;)
                       if (u(a.b.a, b.a)) {
-                        for (; b.e !== a && (ca(b.e) || 0 >= x(b.a, b.b.a, b.e.b.a)); )
+                        for (; b.e !== a && (ca(b.e) || 0 >= x(b.a, b.b.a, b.e.b.a));)
                           (c = L(b.e, b)), (b = c.b);
                         b = b.c.b;
                       } else {
-                        for (; b.e !== a && (da(a.c.b) || 0 <= x(a.b.a, a.a, a.c.b.a)); )
+                        for (; b.e !== a && (da(a.c.b) || 0 <= x(a.b.a, a.a, a.c.b.a));)
                           (c = L(a, a.c.b)), (a = c.b);
                         a = a.e;
                       }
-                    for (; b.e.e !== a; ) (c = L(b.e, b)), (b = c.b);
+                    for (; b.e.e !== a;) (c = L(b.e, b)), (b = c.b);
                   }
               if (this.h || this.i || this.k || this.l)
                 if (this.m)
@@ -23858,7 +23526,7 @@
                       do
                         d &&
                           ((f = g.b.d.c ? 0 : 1),
-                          b !== f && ((b = f), this.l && this.l(!!b, this.c))),
+                            b !== f && ((b = f), this.l && this.l(!!b, this.c))),
                           this.k && this.k(g.a.d, this.c),
                           (g = g.e);
                       while (g !== c.a);
@@ -23877,7 +23545,7 @@
                         (c = g.e),
                         (g.d = null),
                         null === g.b.d &&
-                          (g.c === g ? F(g.a, null) : ((g.a.c = g.c), H(g, J(g))),
+                        (g.c === g ? F(g.a, null) : ((g.a.c = g.c), H(g, J(g))),
                           (f = g.b),
                           f.c === f ? F(f.a, null) : ((f.a.c = f.c), H(f, J(f))),
                           fa(g));
@@ -23896,7 +23564,7 @@
           };
           function Z(a, b) {
             if (a.d !== b)
-              for (; a.d !== b; )
+              for (; a.d !== b;)
                 if (a.d < b)
                   switch (a.d) {
                     case Y:
@@ -23959,8 +23627,8 @@
             a.d = [];
             for (var b = 0; b < a.a; b++) a.d[b] = b;
             a.d.sort(
-              (function(a) {
-                return function(b, e) {
+              (function (a) {
+                return function (b, e) {
                   return u(a[b], a[e]) ? 1 : -1;
                 };
               })(a.c)
@@ -24023,15 +23691,15 @@
               f = c[e];
             0 < a.a &&
               ((b[1] = b[a.a]),
-              (d[b[1]] = 1),
-              (c[e] = null),
-              (d[e] = a.b),
-              (a.b = e),
-              0 < --a.a && W(a, 1));
+                (d[b[1]] = 1),
+                (c[e] = null),
+                (d[e] = a.b),
+                (a.b = e),
+                0 < --a.a && W(a, 1));
             return f;
           }
           function W(a, b) {
-            for (var c = a.d, d = a.e, e = a.c, f = b, g = c[f]; ; ) {
+            for (var c = a.d, d = a.e, e = a.c, f = b, g = c[f]; ;) {
               var h = f << 1;
               h < a.a && u(d[c[h + 1]], d[c[h]]) && (h += 1);
               var k = c[h];
@@ -24046,7 +23714,7 @@
             }
           }
           function va(a, b) {
-            for (var c = a.d, d = a.e, e = a.c, f = b, g = c[f]; ; ) {
+            for (var c = a.d, d = a.e, e = a.c, f = b, g = c[f]; ;) {
               var h = f >> 1,
                 k = c[h];
               if (0 === h || u(d[k], d[g])) {
@@ -24131,7 +23799,7 @@
         {}
       ],
       33: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           // (c) Dean McNamee <dean@gmail.com>, 2013.
           //
           // https://github.com/deanm/omggif
@@ -24210,16 +23878,14 @@
             }
 
             // - Logical Screen Descriptor.
-            // NOTE(deanm): w/h apparently ignored by implementations, but set anyway.
             buf[p++] = width & 0xff;
             buf[p++] = (width >> 8) & 0xff;
             buf[p++] = height & 0xff;
             buf[p++] = (height >> 8) & 0xff;
-            // NOTE: Indicates 0-bpp original color resolution (unused?).
             buf[p++] =
-              (global_palette !== null ? 0x80 : 0) | gp_num_colors_pow2; // Global Color Table Flag. // NOTE: No sort flag (unused?).
-            buf[p++] = background; // Background Color Index.
-            buf[p++] = 0; // Pixel aspect ratio (unused?).
+              (global_palette !== null ? 0x80 : 0) | gp_num_colors_pow2;
+            buf[p++] = background; // Background Color Index
+            buf[p++] = 0; // Pixel aspect ratio
 
             // - Global Color Table
             if (global_palette !== null) {
@@ -24261,7 +23927,7 @@
 
             var ended = false;
 
-            this.addFrame = function(x, y, w, h, indexed_pixels, opts) {
+            this.addFrame = function (x, y, w, h, indexed_pixels, opts) {
               if (ended === true) {
                 --p;
                 ended = false;
@@ -24307,8 +23973,6 @@
               //           restore the area overwritten by the graphic with
               //           what was there prior to rendering the graphic.
               //  4-7 -    To be defined.
-              // NOTE(deanm): Dispose background doesn't really work, apparently most
-              // browsers ignore the background palette index and clear to transparency.
               var disposal = opts.disposal === undefined ? 0 : opts.disposal;
               if (disposal < 0 || disposal > 3)
                 // 4-7 is reserved.
@@ -24368,7 +24032,7 @@
               return p;
             };
 
-            this.end = function() {
+            this.end = function () {
               if (ended === false) {
                 buf[p++] = 0x3b; // Trailer.
                 ended = true;
@@ -24376,16 +24040,16 @@
               return p;
             };
 
-            this.getOutputBuffer = function() {
+            this.getOutputBuffer = function () {
               return buf;
             };
-            this.setOutputBuffer = function(v) {
+            this.setOutputBuffer = function (v) {
               buf = v;
             };
-            this.getOutputBufferPosition = function() {
+            this.getOutputBufferPosition = function () {
               return p;
             };
-            this.setOutputBufferPosition = function(v) {
+            this.setOutputBufferPosition = function (v) {
               p = v;
             };
           }
@@ -24426,43 +24090,6 @@
               emit_bytes_to_buffer(8);
             }
 
-            // I am not an expert on the topic, and I don't want to write a thesis.
-            // However, it is good to outline here the basic algorithm and the few data
-            // structures and optimizations here that make this implementation fast.
-            // The basic idea behind LZW is to build a table of previously seen runs
-            // addressed by a short id (herein called output code).  All data is
-            // referenced by a code, which represents one or more values from the
-            // original input stream.  All input bytes can be referenced as the same
-            // value as an output code.  So if you didn't want any compression, you
-            // could more or less just output the original bytes as codes (there are
-            // some details to this, but it is the idea).  In order to achieve
-            // compression, values greater then the input range (codes can be up to
-            // 12-bit while input only 8-bit) represent a sequence of previously seen
-            // inputs.  The decompressor is able to build the same mapping while
-            // decoding, so there is always a shared common knowledge between the
-            // encoding and decoder, which is also important for "timing" aspects like
-            // how to handle variable bit width code encoding.
-            //
-            // One obvious but very important consequence of the table system is there
-            // is always a unique id (at most 12-bits) to map the runs.  'A' might be
-            // 4, then 'AA' might be 10, 'AAA' 11, 'AAAA' 12, etc.  This relationship
-            // can be used for an effecient lookup strategy for the code mapping.  We
-            // need to know if a run has been seen before, and be able to map that run
-            // to the output code.  Since we start with known unique ids (input bytes),
-            // and then from those build more unique ids (table entries), we can
-            // continue this chain (almost like a linked list) to always have small
-            // integer values that represent the current byte chains in the encoder.
-            // This means instead of tracking the input bytes (AAAABCD) to know our
-            // current state, we can track the table entry for AAAABC (it is guaranteed
-            // to exist by the nature of the algorithm) and the next character D.
-            // Therefor the tuple of (table_entry, byte) is guaranteed to also be
-            // unique.  This allows us to create a simple lookup key for mapping input
-            // sequences to codes (table indices) without having to store or search
-            // any of the code sequences.  So if 'AAAA' has a table entry of 12, the
-            // tuple of ('AAAA', K) for any input byte K will be unique, and can be our
-            // key.  This leads to a integer value at most 20-bits, which can always
-            // fit in an SMI value and be used as a fast sparse array / object key.
-
             // Output code for the current contents of the index buffer.
             var ib_code = index_stream[0] & code_mask; // Load first input index.
             var code_table = {}; // Key'd on our 20-bit "tuple".
@@ -24477,15 +24104,6 @@
 
               // Check if we have to create a new code table entry.
               if (cur_code === undefined) {
-                // We don't have buffer + k.
-                // Emit index buffer (without k).
-                // This is an inline version of emit_code, because this is the core
-                // writing routine of the compressor (and V8 cannot inline emit_code
-                // because it is a closure here in a different context).  Additionally
-                // we can call emit_byte_to_buffer less often, because we can have
-                // 30-bits (from our 31-bit signed SMI), and we know our codes will only
-                // be 12-bits, so can safely have 18-bits there without overflow.
-                // emit_code(ib_code);
                 cur |= ib_code << cur_shift;
                 cur_shift += cur_code_size;
                 while (cur_shift >= 8) {
@@ -24718,21 +24336,21 @@
               }
             }
 
-            this.numFrames = function() {
+            this.numFrames = function () {
               return frames.length;
             };
 
-            this.loopCount = function() {
+            this.loopCount = function () {
               return loop_count;
             };
 
-            this.frameInfo = function(frame_num) {
+            this.frameInfo = function (frame_num) {
               if (frame_num < 0 || frame_num >= frames.length)
                 throw new Error('Frame index out of range.');
               return frames[frame_num];
             };
 
-            this.decodeAndBlitFrameBGRA = function(frame_num, pixels) {
+            this.decodeAndBlitFrameBGRA = function (frame_num, pixels) {
               var frame = this.frameInfo(frame_num);
               var num_pixels = frame.width * frame.height;
               var index_stream = new Uint8Array(num_pixels); // At most 8-bit indices.
@@ -24743,10 +24361,6 @@
                 num_pixels
               );
               var palette_offset = frame.palette_offset;
-
-              // NOTE(deanm): It seems to be much faster to compare index to 256 than
-              // to === null.  Not sure why, but CompareStub_EQ_STRICT shows up high in
-              // the profile, not sure if it's related to using a Uint8Array.
               var trans = frame.transparent_index;
               if (trans === null) trans = 256;
 
@@ -24804,7 +24418,7 @@
             };
 
             // I will go to copy and paste hell one day...
-            this.decodeAndBlitFrameRGBA = function(frame_num, pixels) {
+            this.decodeAndBlitFrameRGBA = function (frame_num, pixels) {
               var frame = this.frameInfo(frame_num);
               var num_pixels = frame.width * frame.height;
               var index_stream = new Uint8Array(num_pixels); // At most 8-bit indices.
@@ -24815,10 +24429,6 @@
                 num_pixels
               );
               var palette_offset = frame.palette_offset;
-
-              // NOTE(deanm): It seems to be much faster to compare index to 256 than
-              // to === null.  Not sure why, but CompareStub_EQ_STRICT shows up high in
-              // the profile, not sure if it's related to using a Uint8Array.
               var trans = frame.transparent_index;
               if (trans === null) trans = 256;
 
@@ -24884,8 +24494,6 @@
             var next_code = eoi_code + 1;
 
             var cur_code_size = min_code_size + 1; // Number of bits per code.
-            // NOTE: This shares the same name as the encoder, but has a different
-            // meaning here.  Here this masks each code coming from the code stream.
             var code_mask = (1 << cur_code_size) - 1;
             var cur_shift = 0;
             var cur = 0;
@@ -25008,40 +24616,40 @@
           try {
             exports.GifWriter = GifWriter;
             exports.GifReader = GifReader;
-          } catch (e) {}
+          } catch (e) { }
         },
         {}
       ],
       34: [
-        function(_dereq_, module, exports) {
-          (function(Buffer) {
+        function (_dereq_, module, exports) {
+          (function (Buffer) {
             /**
              * https://opentype.js.org v0.9.0 | (c) Frederik De Bleser and other contributors | MIT License | Uses tiny-inflate by Devon Govett and string.prototype.codepointat polyfill by Mathias Bynens
              */
 
-            (function(global, factory) {
+            (function (global, factory) {
               typeof exports === 'object' && typeof module !== 'undefined'
                 ? factory(exports)
                 : typeof define === 'function' && define.amd
                   ? define(['exports'], factory)
                   : factory((global.opentype = {}));
-            })(this, function(exports) {
+            })(this, function (exports) {
               'use strict';
 
               /*! https://mths.be/codepointat v0.2.0 by @mathias */
               if (!String.prototype.codePointAt) {
-                (function() {
-                  var defineProperty = (function() {
+                (function () {
+                  var defineProperty = (function () {
                     // IE 8 only supports `Object.defineProperty` on DOM elements
                     try {
                       var object = {};
                       var $defineProperty = Object.defineProperty;
                       var result =
                         $defineProperty(object, object, object) && $defineProperty;
-                    } catch (error) {}
+                    } catch (error) { }
                     return result;
                   })();
-                  var codePointAt = function(position) {
+                  var codePointAt = function (position) {
                     if (this == null) {
                       throw TypeError();
                     }
@@ -25069,7 +24677,6 @@
                       second = string.charCodeAt(index + 1);
                       if (second >= 0xdc00 && second <= 0xdfff) {
                         // low surrogate
-                        // https://mathiasbynens.be/notes/javascript-encoding#surrogate-formulae
                         return (first - 0xd800) * 0x400 + second - 0xdc00 + 0x10000;
                       }
                     }
@@ -25109,8 +24716,8 @@
               }
 
               /* --------------------------------------------------- *
-	 * -- uninitialized global data (static structures) -- *
-	 * --------------------------------------------------- */
+              * -- uninitialized global data (static structures) -- *
+              * --------------------------------------------------- */
 
               var sltree = new Tree();
               var sdtree = new Tree();
@@ -25124,26 +24731,7 @@
               var dist_base = new Uint16Array(30);
 
               /* special ordering of code length codes */
-              var clcidx = new Uint8Array([
-                16,
-                17,
-                18,
-                0,
-                8,
-                7,
-                9,
-                6,
-                10,
-                5,
-                11,
-                4,
-                12,
-                3,
-                13,
-                2,
-                14,
-                1,
-                15
+              var clcidx = new Uint8Array([16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15
               ]);
 
               /* used by tinf_decode_trees, avoids allocations every call */
@@ -25151,8 +24739,8 @@
               var lengths = new Uint8Array(288 + 32);
 
               /* ----------------------- *
-	 * -- utility functions -- *
-	 * ----------------------- */
+              * -- utility functions -- *
+              * ----------------------- */
 
               /* build extra bits and base tables */
               function tinf_build_bits_base(bits, base, delta, first) {
@@ -25244,8 +24832,8 @@
               }
 
               /* ---------------------- *
-	 * -- decode functions -- *
-	 * ---------------------- */
+              * -- decode functions -- *
+              * ---------------------- */
 
               /* get one bit from source stream */
               function tinf_getbit(d) {
@@ -25337,7 +24925,7 @@
                 tinf_build_tree(code_tree, lengths, 0, 19);
 
                 /* decode code lengths for the dynamic trees */
-                for (num = 0; num < hlit + hdist; ) {
+                for (num = 0; num < hlit + hdist;) {
                   var sym = tinf_decode_symbol(d, code_tree);
 
                   switch (sym) {
@@ -25373,8 +24961,8 @@
               }
 
               /* ----------------------------- *
-	 * -- block inflate functions -- *
-	 * ----------------------------- */
+              * -- block inflate functions -- *
+              * ----------------------------- */
 
               /* given a stream and two trees, inflate a block of data */
               function tinf_inflate_block_data(d, lt, dt) {
@@ -25495,8 +25083,8 @@
               }
 
               /* -------------------- *
-	 * -- initialization -- *
-	 * -------------------- */
+              * -- initialization -- *
+              * -------------------- */
 
               /* build fixed huffman trees */
               tinf_build_fixed_trees(sltree, sdtree);
@@ -25525,8 +25113,6 @@
                * A bounding box is an enclosing box that describes the smallest measure within which all the points lie.
                * It is used to calculate the bounding box of a glyph or text path.
                *
-               * On initialization, x1/y1/x2/y2 will be NaN. Check if the bounding box is empty using `isEmpty()`.
-               *
                * @exports opentype.BoundingBox
                * @class
                * @constructor
@@ -25541,7 +25127,7 @@
               /**
                * Returns true if the bounding box is empty, that is, no points have been added to the box yet.
                */
-              BoundingBox.prototype.isEmpty = function() {
+              BoundingBox.prototype.isEmpty = function () {
                 return isNaN(this.x1) || isNaN(this.y1) || isNaN(this.x2) || isNaN(this.y2);
               };
 
@@ -25551,7 +25137,7 @@
                * @param {number} x - The X coordinate of the point.
                * @param {number} y - The Y coordinate of the point.
                */
-              BoundingBox.prototype.addPoint = function(x, y) {
+              BoundingBox.prototype.addPoint = function (x, y) {
                 if (typeof x === 'number') {
                   if (isNaN(this.x1) || isNaN(this.x2)) {
                     this.x1 = x;
@@ -25584,7 +25170,7 @@
                * This function is used internally inside of addBezier.
                * @param {number} x - The X coordinate of the point.
                */
-              BoundingBox.prototype.addX = function(x) {
+              BoundingBox.prototype.addX = function (x) {
                 this.addPoint(x, null);
               };
 
@@ -25594,7 +25180,7 @@
                * This function is used internally inside of addBezier.
                * @param {number} y - The Y coordinate of the point.
                */
-              BoundingBox.prototype.addY = function(y) {
+              BoundingBox.prototype.addY = function (y) {
                 this.addPoint(null, y);
               };
 
@@ -25610,11 +25196,8 @@
                * @param {number} x - The ending X coordinate.
                * @param {number} y - The ending Y coordinate.
                */
-              BoundingBox.prototype.addBezier = function(x0, y0, x1, y1, x2, y2, x, y) {
+              BoundingBox.prototype.addBezier = function (x0, y0, x1, y1, x2, y2, x, y) {
                 var this$1 = this;
-
-                // This code is based on http://nishiohirokazu.blogspot.com/2009/06/how-to-calculate-bezier-curves-bounding.html
-                // and https://github.com/icons8/svg-path-bounding-box
 
                 var p0 = [x0, y0];
                 var p1 = [x1, y1];
@@ -25680,7 +25263,7 @@
                * @param {number} x - The ending X coordinate.
                * @param {number} y - The ending Y coordinate.
                */
-              BoundingBox.prototype.addQuad = function(x0, y0, x1, y1, x, y) {
+              BoundingBox.prototype.addQuad = function (x0, y0, x1, y1, x, y) {
                 var cp1x = x0 + 2 / 3 * (x1 - x0);
                 var cp1y = y0 + 2 / 3 * (y1 - y0);
                 var cp2x = cp1x + 1 / 3 * (x - x0);
@@ -25708,7 +25291,7 @@
                * @param  {number} x
                * @param  {number} y
                */
-              Path.prototype.moveTo = function(x, y) {
+              Path.prototype.moveTo = function (x, y) {
                 this.commands.push({
                   type: 'M',
                   x: x,
@@ -25720,7 +25303,7 @@
                * @param  {number} x
                * @param  {number} y
                */
-              Path.prototype.lineTo = function(x, y) {
+              Path.prototype.lineTo = function (x, y) {
                 this.commands.push({
                   type: 'L',
                   x: x,
@@ -25754,7 +25337,7 @@
                * @param  {number} y - y of path point
                * @see curveTo
                */
-              Path.prototype.curveTo = Path.prototype.bezierCurveTo = function(
+              Path.prototype.curveTo = Path.prototype.bezierCurveTo = function (
                 x1,
                 y1,
                 x2,
@@ -25794,7 +25377,7 @@
                * @param  {number} x - x of path point
                * @param  {number} y - y of path point
                */
-              Path.prototype.quadTo = Path.prototype.quadraticCurveTo = function(
+              Path.prototype.quadTo = Path.prototype.quadraticCurveTo = function (
                 x1,
                 y1,
                 x,
@@ -25820,7 +25403,7 @@
                * @function close
                * @memberof opentype.Path.prototype
                */
-              Path.prototype.close = Path.prototype.closePath = function() {
+              Path.prototype.close = Path.prototype.closePath = function () {
                 this.commands.push({
                   type: 'Z'
                 });
@@ -25830,7 +25413,7 @@
                * Add the given path or list of commands to the commands of this path.
                * @param  {Array} pathOrCommands - another opentype.Path, an opentype.BoundingBox, or an array of commands.
                */
-              Path.prototype.extend = function(pathOrCommands) {
+              Path.prototype.extend = function (pathOrCommands) {
                 if (pathOrCommands.commands) {
                   pathOrCommands = pathOrCommands.commands;
                 } else if (pathOrCommands instanceof BoundingBox) {
@@ -25850,7 +25433,7 @@
                * Calculate the bounding box of the path.
                * @returns {opentype.BoundingBox}
                */
-              Path.prototype.getBoundingBox = function() {
+              Path.prototype.getBoundingBox = function () {
                 var this$1 = this;
 
                 var box = new BoundingBox();
@@ -25909,7 +25492,7 @@
                * Draw the path to a 2D context.
                * @param {CanvasRenderingContext2D} ctx - A 2D drawing context.
                */
-              Path.prototype.draw = function(ctx) {
+              Path.prototype.draw = function (ctx) {
                 var this$1 = this;
 
                 ctx.beginPath();
@@ -25942,11 +25525,10 @@
 
               /**
                * Convert the Path to a string of path data instructions
-               * See http://www.w3.org/TR/SVG/paths.html#PathData
                * @param  {number} [decimalPlaces=2] - The amount of decimal places for floating-point values
                * @return {string}
                */
-              Path.prototype.toPathData = function(decimalPlaces) {
+              Path.prototype.toPathData = function (decimalPlaces) {
                 var this$1 = this;
 
                 decimalPlaces = decimalPlaces !== undefined ? decimalPlaces : 2;
@@ -25999,7 +25581,7 @@
                * @param  {number} [decimalPlaces=2] - The amount of decimal places for floating-point values
                * @return {string}
                */
-              Path.prototype.toSVG = function(decimalPlaces) {
+              Path.prototype.toSVG = function (decimalPlaces) {
                 var svg = '<path d="';
                 svg += this.toPathData(decimalPlaces);
                 svg += '"';
@@ -26025,7 +25607,7 @@
                * @param  {number} [decimalPlaces=2] - The amount of decimal places for floating-point values
                * @return {SVGPathElement}
                */
-              Path.prototype.toDOMElement = function(decimalPlaces) {
+              Path.prototype.toDOMElement = function (decimalPlaces) {
                 var temporaryPath = this.toPathData(decimalPlaces);
                 var newPath = document.createElementNS(
                   'http://www.w3.org/2000/svg',
@@ -26075,7 +25657,7 @@
 
               // Return a function that always returns the same value.
               function constant(v) {
-                return function() {
+                return function () {
                   return v;
                 };
               }
@@ -26087,7 +25669,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.BYTE = function(v) {
+              encode.BYTE = function (v) {
                 check.argument(
                   v >= 0 && v <= 255,
                   'Byte value should be between 0 and 255.'
@@ -26105,7 +25687,7 @@
                * @param {string}
                * @returns {Array}
                */
-              encode.CHAR = function(v) {
+              encode.CHAR = function (v) {
                 return [v.charCodeAt(0)];
               };
 
@@ -26120,7 +25702,7 @@
                * @param {string}
                * @returns {Array}
                */
-              encode.CHARARRAY = function(v) {
+              encode.CHARARRAY = function (v) {
                 var b = [];
                 for (var i = 0; i < v.length; i += 1) {
                   b[i] = v.charCodeAt(i);
@@ -26133,7 +25715,7 @@
                * @param {Array}
                * @returns {number}
                */
-              sizeOf.CHARARRAY = function(v) {
+              sizeOf.CHARARRAY = function (v) {
                 return v.length;
               };
 
@@ -26142,7 +25724,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.USHORT = function(v) {
+              encode.USHORT = function (v) {
                 return [(v >> 8) & 0xff, v & 0xff];
               };
 
@@ -26157,7 +25739,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.SHORT = function(v) {
+              encode.SHORT = function (v) {
                 // Two's complement
                 if (v >= LIMIT16) {
                   v = -(2 * LIMIT16 - v);
@@ -26177,7 +25759,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.UINT24 = function(v) {
+              encode.UINT24 = function (v) {
                 return [(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff];
               };
 
@@ -26192,7 +25774,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.ULONG = function(v) {
+              encode.ULONG = function (v) {
                 return [(v >> 24) & 0xff, (v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff];
               };
 
@@ -26207,7 +25789,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.LONG = function(v) {
+              encode.LONG = function (v) {
                 // Two's complement
                 if (v >= LIMIT32) {
                   v = -(2 * LIMIT32 - v);
@@ -26236,7 +25818,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.LONGDATETIME = function(v) {
+              encode.LONGDATETIME = function (v) {
                 return [
                   0,
                   0,
@@ -26260,7 +25842,7 @@
                * @param {string}
                * @returns {Array}
                */
-              encode.TAG = function(v) {
+              encode.TAG = function (v) {
                 check.argument(v.length === 4, 'Tag should be exactly 4 ASCII characters.');
                 return [v.charCodeAt(0), v.charCodeAt(1), v.charCodeAt(2), v.charCodeAt(3)];
               };
@@ -26291,7 +25873,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.NUMBER = function(v) {
+              encode.NUMBER = function (v) {
                 if (v >= -107 && v <= 107) {
                   return [v + 139];
                 } else if (v >= 108 && v <= 1131) {
@@ -26311,7 +25893,7 @@
                * @param {number}
                * @returns {number}
                */
-              sizeOf.NUMBER = function(v) {
+              sizeOf.NUMBER = function (v) {
                 return encode.NUMBER(v).length;
               };
 
@@ -26321,7 +25903,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.NUMBER16 = function(v) {
+              encode.NUMBER16 = function (v) {
                 return [28, (v >> 8) & 0xff, v & 0xff];
               };
 
@@ -26338,7 +25920,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.NUMBER32 = function(v) {
+              encode.NUMBER32 = function (v) {
                 return [29, (v >> 24) & 0xff, (v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff];
               };
 
@@ -26352,7 +25934,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.REAL = function(v) {
+              encode.REAL = function (v) {
                 var value = v.toString();
 
                 // Some numbers use an epsilon to encode the value. (e.g. JavaScript will store 0.0000001 as 1e-7)
@@ -26390,7 +25972,7 @@
                * @param {number}
                * @returns {number}
                */
-              sizeOf.REAL = function(v) {
+              sizeOf.REAL = function (v) {
                 return encode.REAL(v).length;
               };
 
@@ -26406,7 +25988,7 @@
                * @param {number} numBytes
                * @returns {string}
                */
-              decode.UTF8 = function(data, offset, numBytes) {
+              decode.UTF8 = function (data, offset, numBytes) {
                 var codePoints = [];
                 var numChars = numBytes;
                 for (var j = 0; j < numChars; j++, offset += 1) {
@@ -26422,7 +26004,7 @@
                * @param {number} numBytes
                * @returns {string}
                */
-              decode.UTF16 = function(data, offset, numBytes) {
+              decode.UTF16 = function (data, offset, numBytes) {
                 var codePoints = [];
                 var numChars = numBytes / 2;
                 for (var j = 0; j < numChars; j++, offset += 2) {
@@ -26437,7 +26019,7 @@
                * @param {string}
                * @returns {Array}
                */
-              encode.UTF16 = function(v) {
+              encode.UTF16 = function (v) {
                 var b = [];
                 for (var i = 0; i < v.length; i += 1) {
                   var codepoint = v.charCodeAt(i);
@@ -26452,7 +26034,7 @@
                * @param {string}
                * @returns {number}
                */
-              sizeOf.UTF16 = function(v) {
+              sizeOf.UTF16 = function (v) {
                 return v.length * 2;
               };
 
@@ -26521,7 +26103,7 @@
                * @param {string} encoding
                * @returns {string}
                */
-              decode.MACSTRING = function(dataView, offset, dataLength, encoding) {
+              decode.MACSTRING = function (dataView, offset, dataLength, encoding) {
                 var table = eightBitMacEncodings[encoding];
                 if (table === undefined) {
                   return undefined;
@@ -26548,7 +26130,7 @@
               // encoding Macintosh strings is only rarely needed in typical applications.
               var macEncodingTableCache = typeof WeakMap === 'function' && new WeakMap();
               var macEncodingCacheKeys;
-              var getMacEncodingTable = function(encoding) {
+              var getMacEncodingTable = function (encoding) {
                 // Since we use encoding as a cache key for WeakMap, it has to be
                 // a String object and not a literal. And at least on NodeJS 2.10.1,
                 // WeakMap requires that the same String instance is passed for cache hits.
@@ -26602,7 +26184,7 @@
                * @param {string} encoding
                * @returns {Array}
                */
-              encode.MACSTRING = function(str, encoding) {
+              encode.MACSTRING = function (str, encoding) {
                 var table = getMacEncodingTable(encoding);
                 if (table === undefined) {
                   return undefined;
@@ -26634,7 +26216,7 @@
                * @param {string} encoding
                * @returns {number}
                */
-              sizeOf.MACSTRING = function(str, encoding) {
+              sizeOf.MACSTRING = function (str, encoding) {
                 var b = encode.MACSTRING(str, encoding);
                 if (b !== undefined) {
                   return b.length;
@@ -26737,7 +26319,7 @@
                * @param {Array}
                * @return {Array}
                */
-              encode.VARDELTAS = function(deltas) {
+              encode.VARDELTAS = function (deltas) {
                 var pos = 0;
                 var result = [];
                 while (pos < deltas.length) {
@@ -26759,7 +26341,7 @@
                * @param {Array} l
                * @returns {Array}
                */
-              encode.INDEX = function(l) {
+              encode.INDEX = function (l) {
                 //var offset, offsets, offsetEncoder, encodedOffsets, encodedOffset, data,
                 //    i, v;
                 // Because we have to know which data type to use to encode the offsets,
@@ -26805,7 +26387,7 @@
                * @param {Array}
                * @returns {number}
                */
-              sizeOf.INDEX = function(v) {
+              sizeOf.INDEX = function (v) {
                 return encode.INDEX(v).length;
               };
 
@@ -26816,7 +26398,7 @@
                * @param {Object} m
                * @returns {Array}
                */
-              encode.DICT = function(m) {
+              encode.DICT = function (m) {
                 var d = [];
                 var keys = Object.keys(m);
                 var length = keys.length;
@@ -26837,7 +26419,7 @@
                * @param {Object}
                * @returns {number}
                */
-              sizeOf.DICT = function(m) {
+              sizeOf.DICT = function (m) {
                 return encode.DICT(m).length;
               };
 
@@ -26845,7 +26427,7 @@
                * @param {number}
                * @returns {Array}
                */
-              encode.OPERATOR = function(v) {
+              encode.OPERATOR = function (v) {
                 if (v < 1200) {
                   return [v];
                 } else {
@@ -26858,7 +26440,7 @@
                * @param {string}
                * @returns {Array}
                */
-              encode.OPERAND = function(v, type) {
+              encode.OPERAND = function (v, type) {
                 var d = [];
                 if (Array.isArray(type)) {
                   for (var i = 0; i < type.length; i += 1) {
@@ -26899,8 +26481,7 @@
                * @param {Array}
                * @returns {Array}
                */
-              encode.CHARSTRING = function(ops) {
-                // See encode.MACSTRING for why we don't do "if (wmm && wmm.has(ops))".
+              encode.CHARSTRING = function (ops) {
                 if (wmm) {
                   var cachedValue = wmm.get(ops);
                   if (cachedValue !== undefined) {
@@ -26927,7 +26508,7 @@
                * @param {Array}
                * @returns {number}
                */
-              sizeOf.CHARSTRING = function(ops) {
+              sizeOf.CHARSTRING = function (ops) {
                 return encode.CHARSTRING(ops).length;
               };
 
@@ -26938,7 +26519,7 @@
                * @param {Object}
                * @returns {Array}
                */
-              encode.OBJECT = function(v) {
+              encode.OBJECT = function (v) {
                 var encodingFunction = encode[v.type];
                 check.argument(
                   encodingFunction !== undefined,
@@ -26951,7 +26532,7 @@
                * @param {Object}
                * @returns {number}
                */
-              sizeOf.OBJECT = function(v) {
+              sizeOf.OBJECT = function (v) {
                 var sizeOfFunction = sizeOf[v.type];
                 check.argument(
                   sizeOfFunction !== undefined,
@@ -26967,7 +26548,7 @@
                * @param {opentype.Table}
                * @returns {Array}
                */
-              encode.TABLE = function(table) {
+              encode.TABLE = function (table) {
                 var d = [];
                 var length = table.fields.length;
                 var subtables = [];
@@ -26979,10 +26560,10 @@
                   check.argument(
                     encodingFunction !== undefined,
                     'No encoding function for field type ' +
-                      field.type +
-                      ' (' +
-                      field.name +
-                      ')'
+                    field.type +
+                    ' (' +
+                    field.name +
+                    ')'
                   );
                   var value = table[field.name];
                   if (value === undefined) {
@@ -27016,7 +26597,7 @@
                * @param {opentype.Table}
                * @returns {number}
                */
-              sizeOf.TABLE = function(table) {
+              sizeOf.TABLE = function (table) {
                 var numBytes = 0;
                 var length = table.fields.length;
 
@@ -27026,10 +26607,10 @@
                   check.argument(
                     sizeOfFunction !== undefined,
                     'No sizeOf function for field type ' +
-                      field.type +
-                      ' (' +
-                      field.name +
-                      ')'
+                    field.type +
+                    ' (' +
+                    field.name +
+                    ')'
                   );
                   var value = table[field.name];
                   if (value === undefined) {
@@ -27051,11 +26632,11 @@
               sizeOf.RECORD = sizeOf.TABLE;
 
               // Merge in a list of bytes.
-              encode.LITERAL = function(v) {
+              encode.LITERAL = function (v) {
                 return v;
               };
 
-              sizeOf.LITERAL = function(v) {
+              sizeOf.LITERAL = function (v) {
                 return v.length;
               };
 
@@ -27095,7 +26676,7 @@
                * Encodes the table and returns an array of bytes
                * @return {Array}
                */
-              Table.prototype.encode = function() {
+              Table.prototype.encode = function () {
                 return encode.TABLE(this);
               };
 
@@ -27103,7 +26684,7 @@
                * Get the size of the table.
                * @return {number}
                */
-              Table.prototype.sizeOf = function() {
+              Table.prototype.sizeOf = function () {
                 return sizeOf.TABLE(this);
               };
 
@@ -27181,14 +26762,14 @@
                 Table.call(
                   this,
                   'scriptListTable',
-                  recordList('scriptRecord', scriptListTable, function(scriptRecord, i) {
+                  recordList('scriptRecord', scriptListTable, function (scriptRecord, i) {
                     var script = scriptRecord.script;
                     var defaultLangSys = script.defaultLangSys;
                     check.assert(
                       !!defaultLangSys,
                       'Unable to write GSUB: script ' +
-                        scriptRecord.tag +
-                        ' has no default language system.'
+                      scriptRecord.tag +
+                      ' has no default language system.'
                     );
                     return [
                       { name: 'scriptTag' + i, type: 'TAG', value: scriptRecord.tag },
@@ -27216,7 +26797,7 @@
                               )
                             }
                           ].concat(
-                            recordList('langSys', script.langSysRecords, function(
+                            recordList('langSys', script.langSysRecords, function (
                               langSysRecord,
                               i
                             ) {
@@ -27267,7 +26848,7 @@
                 Table.call(
                   this,
                   'featureListTable',
-                  recordList('featureRecord', featureListTable, function(featureRecord, i) {
+                  recordList('featureRecord', featureListTable, function (featureRecord, i) {
                     var feature = featureRecord.feature;
                     return [
                       { name: 'featureTag' + i, type: 'TAG', value: featureRecord.tag },
@@ -27304,13 +26885,13 @@
                 Table.call(
                   this,
                   'lookupListTable',
-                  tableList('lookup', lookupListTable, function(lookupTable) {
+                  tableList('lookup', lookupListTable, function (lookupTable) {
                     var subtableCallback = subtableMakers[lookupTable.lookupType];
                     check.assert(
                       !!subtableCallback,
                       'Unable to write GSUB lookup type ' +
-                        lookupTable.lookupType +
-                        ' tables.'
+                      lookupTable.lookupType +
+                      ' tables.'
                     );
                     return new Table(
                       'lookupTable',
@@ -27443,13 +27024,13 @@
                 this.relativeOffset = 0;
               }
 
-              Parser.prototype.parseByte = function() {
+              Parser.prototype.parseByte = function () {
                 var v = this.data.getUint8(this.offset + this.relativeOffset);
                 this.relativeOffset += 1;
                 return v;
               };
 
-              Parser.prototype.parseChar = function() {
+              Parser.prototype.parseChar = function () {
                 var v = this.data.getInt8(this.offset + this.relativeOffset);
                 this.relativeOffset += 1;
                 return v;
@@ -27457,7 +27038,7 @@
 
               Parser.prototype.parseCard8 = Parser.prototype.parseByte;
 
-              Parser.prototype.parseUShort = function() {
+              Parser.prototype.parseUShort = function () {
                 var v = this.data.getUint16(this.offset + this.relativeOffset);
                 this.relativeOffset += 2;
                 return v;
@@ -27467,19 +27048,19 @@
               Parser.prototype.parseSID = Parser.prototype.parseUShort;
               Parser.prototype.parseOffset16 = Parser.prototype.parseUShort;
 
-              Parser.prototype.parseShort = function() {
+              Parser.prototype.parseShort = function () {
                 var v = this.data.getInt16(this.offset + this.relativeOffset);
                 this.relativeOffset += 2;
                 return v;
               };
 
-              Parser.prototype.parseF2Dot14 = function() {
+              Parser.prototype.parseF2Dot14 = function () {
                 var v = this.data.getInt16(this.offset + this.relativeOffset) / 16384;
                 this.relativeOffset += 2;
                 return v;
               };
 
-              Parser.prototype.parseULong = function() {
+              Parser.prototype.parseULong = function () {
                 var v = getULong(this.data, this.offset + this.relativeOffset);
                 this.relativeOffset += 4;
                 return v;
@@ -27487,13 +27068,13 @@
 
               Parser.prototype.parseOffset32 = Parser.prototype.parseULong;
 
-              Parser.prototype.parseFixed = function() {
+              Parser.prototype.parseFixed = function () {
                 var v = getFixed(this.data, this.offset + this.relativeOffset);
                 this.relativeOffset += 4;
                 return v;
               };
 
-              Parser.prototype.parseString = function(length) {
+              Parser.prototype.parseString = function (length) {
                 var dataView = this.data;
                 var offset = this.offset + this.relativeOffset;
                 var string = '';
@@ -27505,7 +27086,7 @@
                 return string;
               };
 
-              Parser.prototype.parseTag = function() {
+              Parser.prototype.parseTag = function () {
                 return this.parseString(4);
               };
 
@@ -27513,7 +27094,7 @@
               // JavaScript and unix timestamps traditionally use 32 bits, so we
               // only take the last 32 bits.
               // + Since until 2038 those bits will be filled by zeros we can ignore them.
-              Parser.prototype.parseLongDateTime = function() {
+              Parser.prototype.parseLongDateTime = function () {
                 var v = getULong(this.data, this.offset + this.relativeOffset + 4);
                 // Subtract seconds between 01/01/1904 and 01/01/1970
                 // to convert Apple Mac timestamp to Standard Unix timestamp
@@ -27522,7 +27103,7 @@
                 return v;
               };
 
-              Parser.prototype.parseVersion = function(minorBase) {
+              Parser.prototype.parseVersion = function (minorBase) {
                 var major = getUShort(this.data, this.offset + this.relativeOffset);
 
                 // How to interpret the minor version is very vague in the spec. 0x5000 is 5, 0x1000 is 1
@@ -27536,7 +27117,7 @@
                 return major + minor / minorBase / 10;
               };
 
-              Parser.prototype.skip = function(type, amount) {
+              Parser.prototype.skip = function (type, amount) {
                 if (amount === undefined) {
                   amount = 1;
                 }
@@ -27547,7 +27128,7 @@
               ///// Parsing lists and records ///////////////////////////////
 
               // Parse a list of 32 bit unsigned integers.
-              Parser.prototype.parseULongList = function(count) {
+              Parser.prototype.parseULongList = function (count) {
                 if (count === undefined) {
                   count = this.parseULong();
                 }
@@ -27565,7 +27146,7 @@
 
               // Parse a list of 16 bit unsigned integers. The length of the list can be read on the stream
               // or provided as an argument.
-              Parser.prototype.parseOffset16List = Parser.prototype.parseUShortList = function(
+              Parser.prototype.parseOffset16List = Parser.prototype.parseUShortList = function (
                 count
               ) {
                 if (count === undefined) {
@@ -27584,7 +27165,7 @@
               };
 
               // Parses a list of 16 bit signed integers.
-              Parser.prototype.parseShortList = function(count) {
+              Parser.prototype.parseShortList = function (count) {
                 var list = new Array(count);
                 var dataView = this.data;
                 var offset = this.offset + this.relativeOffset;
@@ -27598,7 +27179,7 @@
               };
 
               // Parses a list of bytes.
-              Parser.prototype.parseByteList = function(count) {
+              Parser.prototype.parseByteList = function (count) {
                 var list = new Array(count);
                 var dataView = this.data;
                 var offset = this.offset + this.relativeOffset;
@@ -27615,7 +27196,7 @@
                * Record count is optional, if omitted it is read from the stream.
                * itemCallback is one of the Parser methods.
                */
-              Parser.prototype.parseList = function(count, itemCallback) {
+              Parser.prototype.parseList = function (count, itemCallback) {
                 var this$1 = this;
 
                 if (!itemCallback) {
@@ -27629,7 +27210,7 @@
                 return list;
               };
 
-              Parser.prototype.parseList32 = function(count, itemCallback) {
+              Parser.prototype.parseList32 = function (count, itemCallback) {
                 var this$1 = this;
 
                 if (!itemCallback) {
@@ -27647,7 +27228,7 @@
                * Parse a list of records.
                * Record count is optional, if omitted it is read from the stream.
                */
-              Parser.prototype.parseRecordList = function(count, recordDescription) {
+              Parser.prototype.parseRecordList = function (count, recordDescription) {
                 var this$1 = this;
 
                 // If the count argument is absent, read it in the stream.
@@ -27669,7 +27250,7 @@
                 return records;
               };
 
-              Parser.prototype.parseRecordList32 = function(count, recordDescription) {
+              Parser.prototype.parseRecordList32 = function (count, recordDescription) {
                 var this$1 = this;
 
                 // If the count argument is absent, read it in the stream.
@@ -27692,7 +27273,7 @@
               };
 
               // Parse a data structure into an object
-              Parser.prototype.parseStruct = function(description) {
+              Parser.prototype.parseStruct = function (description) {
                 var this$1 = this;
 
                 if (typeof description === 'function') {
@@ -27714,7 +27295,7 @@
                * https://docs.microsoft.com/en-us/typography/opentype/spec/gpos#value-record
                * valueFormat is optional, if omitted it is read from the stream.
                */
-              Parser.prototype.parseValueRecord = function(valueFormat) {
+              Parser.prototype.parseValueRecord = function (valueFormat) {
                 if (valueFormat === undefined) {
                   valueFormat = this.parseUShort();
                 }
@@ -27765,7 +27346,7 @@
                * https://docs.microsoft.com/en-us/typography/opentype/spec/gpos#value-record
                * valueFormat and valueCount are read from the stream.
                */
-              Parser.prototype.parseValueRecordList = function() {
+              Parser.prototype.parseValueRecordList = function () {
                 var this$1 = this;
 
                 var valueFormat = this.parseUShort();
@@ -27777,7 +27358,7 @@
                 return values;
               };
 
-              Parser.prototype.parsePointer = function(description) {
+              Parser.prototype.parsePointer = function (description) {
                 var structOffset = this.parseOffset16();
                 if (structOffset > 0) {
                   // NULL offset => return undefined
@@ -27788,7 +27369,7 @@
                 return undefined;
               };
 
-              Parser.prototype.parsePointer32 = function(description) {
+              Parser.prototype.parsePointer32 = function (description) {
                 var structOffset = this.parseOffset32();
                 if (structOffset > 0) {
                   // NULL offset => return undefined
@@ -27805,7 +27386,7 @@
                * If itemCallback is not provided, a list of list of UShort is assumed.
                * If provided, itemCallback is called on each item and must parse the item.
                */
-              Parser.prototype.parseListOfLists = function(itemCallback) {
+              Parser.prototype.parseListOfLists = function (itemCallback) {
                 var this$1 = this;
 
                 var offsets = this.parseOffset16List();
@@ -27842,7 +27423,7 @@
               // Parse a coverage table in a GSUB, GPOS or GDEF table.
               // https://www.microsoft.com/typography/OTSPEC/chapter2.htm
               // parser.offset must point to the start of the table containing the coverage.
-              Parser.prototype.parseCoverage = function() {
+              Parser.prototype.parseCoverage = function () {
                 var this$1 = this;
 
                 var startOffset = this.offset + this.relativeOffset;
@@ -27874,7 +27455,7 @@
 
               // Parse a Class Definition Table in a GSUB, GPOS or GDEF table.
               // https://www.microsoft.com/typography/OTSPEC/chapter2.htm
-              Parser.prototype.parseClassDef = function() {
+              Parser.prototype.parseClassDef = function () {
                 var startOffset = this.offset + this.relativeOffset;
                 var format = this.parseUShort();
                 if (format === 1) {
@@ -27901,38 +27482,38 @@
               ///// Static methods ///////////////////////////////////
               // These convenience methods can be used as callbacks and should be called with "this" context set to a Parser instance.
 
-              Parser.list = function(count, itemCallback) {
-                return function() {
+              Parser.list = function (count, itemCallback) {
+                return function () {
                   return this.parseList(count, itemCallback);
                 };
               };
 
-              Parser.list32 = function(count, itemCallback) {
-                return function() {
+              Parser.list32 = function (count, itemCallback) {
+                return function () {
                   return this.parseList32(count, itemCallback);
                 };
               };
 
-              Parser.recordList = function(count, recordDescription) {
-                return function() {
+              Parser.recordList = function (count, recordDescription) {
+                return function () {
                   return this.parseRecordList(count, recordDescription);
                 };
               };
 
-              Parser.recordList32 = function(count, recordDescription) {
-                return function() {
+              Parser.recordList32 = function (count, recordDescription) {
+                return function () {
                   return this.parseRecordList32(count, recordDescription);
                 };
               };
 
-              Parser.pointer = function(description) {
-                return function() {
+              Parser.pointer = function (description) {
+                return function () {
                   return this.parsePointer(description);
                 };
               };
 
-              Parser.pointer32 = function(description) {
-                return function() {
+              Parser.pointer32 = function (description) {
+                return function () {
                   return this.parsePointer32(description);
                 };
               };
@@ -27956,7 +27537,7 @@
                 featureIndexes: Parser.uShortList
               };
 
-              Parser.prototype.parseScriptList = function() {
+              Parser.prototype.parseScriptList = function () {
                 return (
                   this.parsePointer(
                     Parser.recordList({
@@ -27973,7 +27554,7 @@
                 );
               };
 
-              Parser.prototype.parseFeatureList = function() {
+              Parser.prototype.parseFeatureList = function () {
                 return (
                   this.parsePointer(
                     Parser.recordList({
@@ -27987,11 +27568,11 @@
                 );
               };
 
-              Parser.prototype.parseLookupList = function(lookupTableParsers) {
+              Parser.prototype.parseLookupList = function (lookupTableParsers) {
                 return (
                   this.parsePointer(
                     Parser.list(
-                      Parser.pointer(function() {
+                      Parser.pointer(function () {
                         var lookupType = this.parseUShort();
                         check.argument(
                           1 <= lookupType && lookupType <= 9,
@@ -28015,9 +27596,9 @@
                 );
               };
 
-              Parser.prototype.parseFeatureVariationsList = function() {
+              Parser.prototype.parseFeatureVariationsList = function () {
                 return (
-                  this.parsePointer32(function() {
+                  this.parsePointer32(function () {
                     var majorVersion = this.parseUShort();
                     var minorVersion = this.parseUShort();
                     check.argument(
@@ -28178,8 +27759,8 @@
                 } else {
                   throw new Error(
                     'Only format 4 and 12 cmap tables are supported (found format ' +
-                      cmap.format +
-                      ').'
+                    cmap.format +
+                    ').'
                   );
                 }
 
@@ -28233,7 +27814,7 @@
                 if (!isPlan0Only) {
                   cmapTable = cmapTable.concat([
                     // CMAP 12 header
-                    { name: 'cmap12PlatformID', type: 'USHORT', value: 3 }, // We encode only for PlatformID = 3 (Windows) because it is supported everywhere
+                    { name: 'cmap12PlatformID', type: 'USHORT', value: 3 },
                     { name: 'cmap12EncodingID', type: 'USHORT', value: 10 },
                     { name: 'cmap12Offset', type: 'ULONG', value: 0 }
                   ]);
@@ -28259,7 +27840,7 @@
                     addSegment(t, glyph.unicodes[j], i);
                   }
 
-                  t.segments = t.segments.sort(function(a, b) {
+                  t.segments = t.segments.sort(function (a, b) {
                     return a.start - b.start;
                   });
                 }
@@ -28282,8 +27863,6 @@
 
                 // Reminder this loop is not following the specification at 100%
                 // The specification -> find suites of characters and make a group
-                // Here we're doing one group for each letter
-                // Doing as the spec can save 8 times (or more) space
                 for (i = 0; i < segCount; i += 1) {
                   var segment = t.segments[i];
 
@@ -28322,7 +27901,6 @@
                   }
 
                   // CMAP 12
-                  // Skip Terminator Segment
                   if (!isPlan0Only && segment.glyphIndex !== undefined) {
                     cmap12Groups = cmap12Groups.concat({
                       name: 'cmap12Start_' + i,
@@ -28359,14 +27937,7 @@
                 t.fields = t.fields.concat(idRangeOffsets);
                 t.fields = t.fields.concat(glyphIds);
 
-                t.cmap4Length =
-                  14 + // Subtable header
-                  endCounts.length * 2 +
-                  2 + // reservedPad
-                  startCounts.length * 2 +
-                  idDeltas.length * 2 +
-                  idRangeOffsets.length * 2 +
-                  glyphIds.length * 2;
+                t.cmap4Length = 14 + endCounts.length * 2 + 2 + startCounts.length * 2 + idDeltas.length * 2 + idRangeOffsets.length * 2 + glyphIds.length * 2;
 
                 if (!isPlan0Only) {
                   // CMAP 12 Subtable
@@ -28393,1178 +27964,20 @@
 
               // Glyph encoding
 
-              var cffStandardStrings = [
-                '.notdef',
-                'space',
-                'exclam',
-                'quotedbl',
-                'numbersign',
-                'dollar',
-                'percent',
-                'ampersand',
-                'quoteright',
-                'parenleft',
-                'parenright',
-                'asterisk',
-                'plus',
-                'comma',
-                'hyphen',
-                'period',
-                'slash',
-                'zero',
-                'one',
-                'two',
-                'three',
-                'four',
-                'five',
-                'six',
-                'seven',
-                'eight',
-                'nine',
-                'colon',
-                'semicolon',
-                'less',
-                'equal',
-                'greater',
-                'question',
-                'at',
-                'A',
-                'B',
-                'C',
-                'D',
-                'E',
-                'F',
-                'G',
-                'H',
-                'I',
-                'J',
-                'K',
-                'L',
-                'M',
-                'N',
-                'O',
-                'P',
-                'Q',
-                'R',
-                'S',
-                'T',
-                'U',
-                'V',
-                'W',
-                'X',
-                'Y',
-                'Z',
-                'bracketleft',
-                'backslash',
-                'bracketright',
-                'asciicircum',
-                'underscore',
-                'quoteleft',
-                'a',
-                'b',
-                'c',
-                'd',
-                'e',
-                'f',
-                'g',
-                'h',
-                'i',
-                'j',
-                'k',
-                'l',
-                'm',
-                'n',
-                'o',
-                'p',
-                'q',
-                'r',
-                's',
-                't',
-                'u',
-                'v',
-                'w',
-                'x',
-                'y',
-                'z',
-                'braceleft',
-                'bar',
-                'braceright',
-                'asciitilde',
-                'exclamdown',
-                'cent',
-                'sterling',
-                'fraction',
-                'yen',
-                'florin',
-                'section',
-                'currency',
-                'quotesingle',
-                'quotedblleft',
-                'guillemotleft',
-                'guilsinglleft',
-                'guilsinglright',
-                'fi',
-                'fl',
-                'endash',
-                'dagger',
-                'daggerdbl',
-                'periodcentered',
-                'paragraph',
-                'bullet',
-                'quotesinglbase',
-                'quotedblbase',
-                'quotedblright',
-                'guillemotright',
-                'ellipsis',
-                'perthousand',
-                'questiondown',
-                'grave',
-                'acute',
-                'circumflex',
-                'tilde',
-                'macron',
-                'breve',
-                'dotaccent',
-                'dieresis',
-                'ring',
-                'cedilla',
-                'hungarumlaut',
-                'ogonek',
-                'caron',
-                'emdash',
-                'AE',
-                'ordfeminine',
-                'Lslash',
-                'Oslash',
-                'OE',
-                'ordmasculine',
-                'ae',
-                'dotlessi',
-                'lslash',
-                'oslash',
-                'oe',
-                'germandbls',
-                'onesuperior',
-                'logicalnot',
-                'mu',
-                'trademark',
-                'Eth',
-                'onehalf',
-                'plusminus',
-                'Thorn',
-                'onequarter',
-                'divide',
-                'brokenbar',
-                'degree',
-                'thorn',
-                'threequarters',
-                'twosuperior',
-                'registered',
-                'minus',
-                'eth',
-                'multiply',
-                'threesuperior',
-                'copyright',
-                'Aacute',
-                'Acircumflex',
-                'Adieresis',
-                'Agrave',
-                'Aring',
-                'Atilde',
-                'Ccedilla',
-                'Eacute',
-                'Ecircumflex',
-                'Edieresis',
-                'Egrave',
-                'Iacute',
-                'Icircumflex',
-                'Idieresis',
-                'Igrave',
-                'Ntilde',
-                'Oacute',
-                'Ocircumflex',
-                'Odieresis',
-                'Ograve',
-                'Otilde',
-                'Scaron',
-                'Uacute',
-                'Ucircumflex',
-                'Udieresis',
-                'Ugrave',
-                'Yacute',
-                'Ydieresis',
-                'Zcaron',
-                'aacute',
-                'acircumflex',
-                'adieresis',
-                'agrave',
-                'aring',
-                'atilde',
-                'ccedilla',
-                'eacute',
-                'ecircumflex',
-                'edieresis',
-                'egrave',
-                'iacute',
-                'icircumflex',
-                'idieresis',
-                'igrave',
-                'ntilde',
-                'oacute',
-                'ocircumflex',
-                'odieresis',
-                'ograve',
-                'otilde',
-                'scaron',
-                'uacute',
-                'ucircumflex',
-                'udieresis',
-                'ugrave',
-                'yacute',
-                'ydieresis',
-                'zcaron',
-                'exclamsmall',
-                'Hungarumlautsmall',
-                'dollaroldstyle',
-                'dollarsuperior',
-                'ampersandsmall',
-                'Acutesmall',
-                'parenleftsuperior',
-                'parenrightsuperior',
-                '266 ff',
-                'onedotenleader',
-                'zerooldstyle',
-                'oneoldstyle',
-                'twooldstyle',
-                'threeoldstyle',
-                'fouroldstyle',
-                'fiveoldstyle',
-                'sixoldstyle',
-                'sevenoldstyle',
-                'eightoldstyle',
-                'nineoldstyle',
-                'commasuperior',
-                'threequartersemdash',
-                'periodsuperior',
-                'questionsmall',
-                'asuperior',
-                'bsuperior',
-                'centsuperior',
-                'dsuperior',
-                'esuperior',
-                'isuperior',
-                'lsuperior',
-                'msuperior',
-                'nsuperior',
-                'osuperior',
-                'rsuperior',
-                'ssuperior',
-                'tsuperior',
-                'ff',
-                'ffi',
-                'ffl',
-                'parenleftinferior',
-                'parenrightinferior',
-                'Circumflexsmall',
-                'hyphensuperior',
-                'Gravesmall',
-                'Asmall',
-                'Bsmall',
-                'Csmall',
-                'Dsmall',
-                'Esmall',
-                'Fsmall',
-                'Gsmall',
-                'Hsmall',
-                'Ismall',
-                'Jsmall',
-                'Ksmall',
-                'Lsmall',
-                'Msmall',
-                'Nsmall',
-                'Osmall',
-                'Psmall',
-                'Qsmall',
-                'Rsmall',
-                'Ssmall',
-                'Tsmall',
-                'Usmall',
-                'Vsmall',
-                'Wsmall',
-                'Xsmall',
-                'Ysmall',
-                'Zsmall',
-                'colonmonetary',
-                'onefitted',
-                'rupiah',
-                'Tildesmall',
-                'exclamdownsmall',
-                'centoldstyle',
-                'Lslashsmall',
-                'Scaronsmall',
-                'Zcaronsmall',
-                'Dieresissmall',
-                'Brevesmall',
-                'Caronsmall',
-                'Dotaccentsmall',
-                'Macronsmall',
-                'figuredash',
-                'hypheninferior',
-                'Ogoneksmall',
-                'Ringsmall',
-                'Cedillasmall',
-                'questiondownsmall',
-                'oneeighth',
-                'threeeighths',
-                'fiveeighths',
-                'seveneighths',
-                'onethird',
-                'twothirds',
-                'zerosuperior',
-                'foursuperior',
-                'fivesuperior',
-                'sixsuperior',
-                'sevensuperior',
-                'eightsuperior',
-                'ninesuperior',
-                'zeroinferior',
-                'oneinferior',
-                'twoinferior',
-                'threeinferior',
-                'fourinferior',
-                'fiveinferior',
-                'sixinferior',
-                'seveninferior',
-                'eightinferior',
-                'nineinferior',
-                'centinferior',
-                'dollarinferior',
-                'periodinferior',
-                'commainferior',
-                'Agravesmall',
-                'Aacutesmall',
-                'Acircumflexsmall',
-                'Atildesmall',
-                'Adieresissmall',
-                'Aringsmall',
-                'AEsmall',
-                'Ccedillasmall',
-                'Egravesmall',
-                'Eacutesmall',
-                'Ecircumflexsmall',
-                'Edieresissmall',
-                'Igravesmall',
-                'Iacutesmall',
-                'Icircumflexsmall',
-                'Idieresissmall',
-                'Ethsmall',
-                'Ntildesmall',
-                'Ogravesmall',
-                'Oacutesmall',
-                'Ocircumflexsmall',
-                'Otildesmall',
-                'Odieresissmall',
-                'OEsmall',
-                'Oslashsmall',
-                'Ugravesmall',
-                'Uacutesmall',
-                'Ucircumflexsmall',
-                'Udieresissmall',
-                'Yacutesmall',
-                'Thornsmall',
-                'Ydieresissmall',
-                '001.000',
-                '001.001',
-                '001.002',
-                '001.003',
-                'Black',
-                'Bold',
-                'Book',
-                'Light',
-                'Medium',
-                'Regular',
-                'Roman',
-                'Semibold'
+              var cffStandardStrings = ['.notdef', 'space', 'exclam', 'quotedbl', 'numbersign', 'dollar', 'percent', 'ampersand', 'quoteright', 'parenleft', 'parenright', 'asterisk', 'plus', 'comma', 'hyphen', 'period', 'slash', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'colon', 'semicolon', 'less', 'equal', 'greater', 'question', 'at', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'bracketleft', 'backslash', 'bracketright', 'asciicircum', 'underscore', 'quoteleft', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'braceleft', 'bar', 'braceright', 'asciitilde', 'exclamdown', 'cent', 'sterling', 'fraction', 'yen', 'florin', 'section', 'currency', 'quotesingle', 'quotedblleft', 'guillemotleft', 'guilsinglleft', 'guilsinglright', 'fi', 'fl', 'endash', 'dagger', 'daggerdbl', 'periodcentered', 'paragraph', 'bullet', 'quotesinglbase', 'quotedblbase', 'quotedblright', 'guillemotright', 'ellipsis', 'perthousand', 'questiondown', 'grave', 'acute', 'circumflex', 'tilde', 'macron', 'breve', 'dotaccent', 'dieresis', 'ring', 'cedilla', 'hungarumlaut', 'ogonek', 'caron', 'emdash', 'AE', 'ordfeminine', 'Lslash', 'Oslash', 'OE', 'ordmasculine', 'ae', 'dotlessi', 'lslash', 'oslash', 'oe', 'germandbls', 'onesuperior', 'logicalnot', 'mu', 'trademark', 'Eth', 'onehalf', 'plusminus', 'Thorn', 'onequarter', 'divide', 'brokenbar', 'degree', 'thorn', 'threequarters', 'twosuperior', 'registered', 'minus', 'eth', 'multiply', 'threesuperior', 'copyright', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'Ccedilla', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'Ntilde', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Otilde', 'Scaron', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'Yacute', 'Ydieresis', 'Zcaron', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ccedilla', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'ntilde', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'otilde', 'scaron', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'yacute', 'ydieresis', 'zcaron', 'exclamsmall', 'Hungarumlautsmall', 'dollaroldstyle', 'dollarsuperior', 'ampersandsmall', 'Acutesmall', 'parenleftsuperior', 'parenrightsuperior', '266 ff', 'onedotenleader', 'zerooldstyle', 'oneoldstyle', 'twooldstyle', 'threeoldstyle', 'fouroldstyle', 'fiveoldstyle', 'sixoldstyle', 'sevenoldstyle', 'eightoldstyle', 'nineoldstyle', 'commasuperior', 'threequartersemdash', 'periodsuperior', 'questionsmall', 'asuperior', 'bsuperior', 'centsuperior', 'dsuperior', 'esuperior', 'isuperior', 'lsuperior', 'msuperior', 'nsuperior', 'osuperior', 'rsuperior', 'ssuperior', 'tsuperior', 'ff', 'ffi', 'ffl', 'parenleftinferior', 'parenrightinferior', 'Circumflexsmall', 'hyphensuperior', 'Gravesmall', 'Asmall', 'Bsmall', 'Csmall', 'Dsmall', 'Esmall', 'Fsmall', 'Gsmall', 'Hsmall', 'Ismall', 'Jsmall', 'Ksmall', 'Lsmall', 'Msmall', 'Nsmall', 'Osmall', 'Psmall', 'Qsmall', 'Rsmall', 'Ssmall', 'Tsmall', 'Usmall', 'Vsmall', 'Wsmall', 'Xsmall', 'Ysmall', 'Zsmall', 'colonmonetary', 'onefitted', 'rupiah', 'Tildesmall', 'exclamdownsmall', 'centoldstyle', 'Lslashsmall', 'Scaronsmall', 'Zcaronsmall', 'Dieresissmall', 'Brevesmall', 'Caronsmall', 'Dotaccentsmall', 'Macronsmall', 'figuredash', 'hypheninferior', 'Ogoneksmall', 'Ringsmall', 'Cedillasmall', 'questiondownsmall', 'oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'onethird', 'twothirds', 'zerosuperior', 'foursuperior', 'fivesuperior', 'sixsuperior', 'sevensuperior', 'eightsuperior', 'ninesuperior', 'zeroinferior', 'oneinferior', 'twoinferior', 'threeinferior', 'fourinferior', 'fiveinferior', 'sixinferior', 'seveninferior', 'eightinferior', 'nineinferior', 'centinferior', 'dollarinferior', 'periodinferior', 'commainferior', 'Agravesmall', 'Aacutesmall', 'Acircumflexsmall', 'Atildesmall', 'Adieresissmall', 'Aringsmall', 'AEsmall', 'Ccedillasmall', 'Egravesmall', 'Eacutesmall', 'Ecircumflexsmall', 'Edieresissmall', 'Igravesmall', 'Iacutesmall', 'Icircumflexsmall', 'Idieresissmall', 'Ethsmall', 'Ntildesmall', 'Ogravesmall', 'Oacutesmall', 'Ocircumflexsmall', 'Otildesmall', 'Odieresissmall', 'OEsmall', 'Oslashsmall', 'Ugravesmall', 'Uacutesmall', 'Ucircumflexsmall', 'Udieresissmall', 'Yacutesmall', 'Thornsmall', 'Ydieresissmall', '001.000', '001.001', '001.002', '001.003', 'Black', 'Bold', 'Book', 'Light', 'Medium', 'Regular', 'Roman', 'Semibold'
               ];
 
-              var cffStandardEncoding = [
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                'space',
-                'exclam',
-                'quotedbl',
-                'numbersign',
-                'dollar',
-                'percent',
-                'ampersand',
-                'quoteright',
-                'parenleft',
-                'parenright',
-                'asterisk',
-                'plus',
-                'comma',
-                'hyphen',
-                'period',
-                'slash',
-                'zero',
-                'one',
-                'two',
-                'three',
-                'four',
-                'five',
-                'six',
-                'seven',
-                'eight',
-                'nine',
-                'colon',
-                'semicolon',
-                'less',
-                'equal',
-                'greater',
-                'question',
-                'at',
-                'A',
-                'B',
-                'C',
-                'D',
-                'E',
-                'F',
-                'G',
-                'H',
-                'I',
-                'J',
-                'K',
-                'L',
-                'M',
-                'N',
-                'O',
-                'P',
-                'Q',
-                'R',
-                'S',
-                'T',
-                'U',
-                'V',
-                'W',
-                'X',
-                'Y',
-                'Z',
-                'bracketleft',
-                'backslash',
-                'bracketright',
-                'asciicircum',
-                'underscore',
-                'quoteleft',
-                'a',
-                'b',
-                'c',
-                'd',
-                'e',
-                'f',
-                'g',
-                'h',
-                'i',
-                'j',
-                'k',
-                'l',
-                'm',
-                'n',
-                'o',
-                'p',
-                'q',
-                'r',
-                's',
-                't',
-                'u',
-                'v',
-                'w',
-                'x',
-                'y',
-                'z',
-                'braceleft',
-                'bar',
-                'braceright',
-                'asciitilde',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                'exclamdown',
-                'cent',
-                'sterling',
-                'fraction',
-                'yen',
-                'florin',
-                'section',
-                'currency',
-                'quotesingle',
-                'quotedblleft',
-                'guillemotleft',
-                'guilsinglleft',
-                'guilsinglright',
-                'fi',
-                'fl',
-                '',
-                'endash',
-                'dagger',
-                'daggerdbl',
-                'periodcentered',
-                '',
-                'paragraph',
-                'bullet',
-                'quotesinglbase',
-                'quotedblbase',
-                'quotedblright',
-                'guillemotright',
-                'ellipsis',
-                'perthousand',
-                '',
-                'questiondown',
-                '',
-                'grave',
-                'acute',
-                'circumflex',
-                'tilde',
-                'macron',
-                'breve',
-                'dotaccent',
-                'dieresis',
-                '',
-                'ring',
-                'cedilla',
-                '',
-                'hungarumlaut',
-                'ogonek',
-                'caron',
-                'emdash',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                'AE',
-                '',
-                'ordfeminine',
-                '',
-                '',
-                '',
-                '',
-                'Lslash',
-                'Oslash',
-                'OE',
-                'ordmasculine',
-                '',
-                '',
-                '',
-                '',
-                '',
-                'ae',
-                '',
-                '',
-                '',
-                'dotlessi',
-                '',
-                '',
-                'lslash',
-                'oslash',
-                'oe',
-                'germandbls'
+              var cffStandardEncoding = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'space', 'exclam', 'quotedbl', 'numbersign', 'dollar', 'percent', 'ampersand', 'quoteright', 'parenleft', 'parenright', 'asterisk', 'plus', 'comma', 'hyphen', 'period', 'slash', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'colon', 'semicolon', 'less', 'equal', 'greater', 'question', 'at', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'bracketleft', 'backslash', 'bracketright', 'asciicircum', 'underscore', 'quoteleft', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'braceleft', 'bar', 'braceright', 'asciitilde', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'exclamdown', 'cent', 'sterling', 'fraction', 'yen', 'florin', 'section', 'currency', 'quotesingle', 'quotedblleft', 'guillemotleft', 'guilsinglleft', 'guilsinglright', 'fi', 'fl', '', 'endash', 'dagger', 'daggerdbl', 'periodcentered', '', 'paragraph', 'bullet', 'quotesinglbase', 'quotedblbase', 'quotedblright', 'guillemotright', 'ellipsis', 'perthousand', '', 'questiondown', '', 'grave', 'acute', 'circumflex', 'tilde', 'macron', 'breve', 'dotaccent', 'dieresis', '', 'ring', 'cedilla', '', 'hungarumlaut', 'ogonek', 'caron', 'emdash', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'AE', '', 'ordfeminine', '', '', '', '', 'Lslash', 'Oslash', 'OE', 'ordmasculine', '', '', '', '', '', 'ae', '', '', '', 'dotlessi', '', '', 'lslash', 'oslash', 'oe', 'germandbls'
               ];
 
-              var cffExpertEncoding = [
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                'space',
-                'exclamsmall',
-                'Hungarumlautsmall',
-                '',
-                'dollaroldstyle',
-                'dollarsuperior',
-                'ampersandsmall',
-                'Acutesmall',
-                'parenleftsuperior',
-                'parenrightsuperior',
-                'twodotenleader',
-                'onedotenleader',
-                'comma',
-                'hyphen',
-                'period',
-                'fraction',
-                'zerooldstyle',
-                'oneoldstyle',
-                'twooldstyle',
-                'threeoldstyle',
-                'fouroldstyle',
-                'fiveoldstyle',
-                'sixoldstyle',
-                'sevenoldstyle',
-                'eightoldstyle',
-                'nineoldstyle',
-                'colon',
-                'semicolon',
-                'commasuperior',
-                'threequartersemdash',
-                'periodsuperior',
-                'questionsmall',
-                '',
-                'asuperior',
-                'bsuperior',
-                'centsuperior',
-                'dsuperior',
-                'esuperior',
-                '',
-                '',
-                'isuperior',
-                '',
-                '',
-                'lsuperior',
-                'msuperior',
-                'nsuperior',
-                'osuperior',
-                '',
-                '',
-                'rsuperior',
-                'ssuperior',
-                'tsuperior',
-                '',
-                'ff',
-                'fi',
-                'fl',
-                'ffi',
-                'ffl',
-                'parenleftinferior',
-                '',
-                'parenrightinferior',
-                'Circumflexsmall',
-                'hyphensuperior',
-                'Gravesmall',
-                'Asmall',
-                'Bsmall',
-                'Csmall',
-                'Dsmall',
-                'Esmall',
-                'Fsmall',
-                'Gsmall',
-                'Hsmall',
-                'Ismall',
-                'Jsmall',
-                'Ksmall',
-                'Lsmall',
-                'Msmall',
-                'Nsmall',
-                'Osmall',
-                'Psmall',
-                'Qsmall',
-                'Rsmall',
-                'Ssmall',
-                'Tsmall',
-                'Usmall',
-                'Vsmall',
-                'Wsmall',
-                'Xsmall',
-                'Ysmall',
-                'Zsmall',
-                'colonmonetary',
-                'onefitted',
-                'rupiah',
-                'Tildesmall',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                '',
-                'exclamdownsmall',
-                'centoldstyle',
-                'Lslashsmall',
-                '',
-                '',
-                'Scaronsmall',
-                'Zcaronsmall',
-                'Dieresissmall',
-                'Brevesmall',
-                'Caronsmall',
-                '',
-                'Dotaccentsmall',
-                '',
-                '',
-                'Macronsmall',
-                '',
-                '',
-                'figuredash',
-                'hypheninferior',
-                '',
-                '',
-                'Ogoneksmall',
-                'Ringsmall',
-                'Cedillasmall',
-                '',
-                '',
-                '',
-                'onequarter',
-                'onehalf',
-                'threequarters',
-                'questiondownsmall',
-                'oneeighth',
-                'threeeighths',
-                'fiveeighths',
-                'seveneighths',
-                'onethird',
-                'twothirds',
-                '',
-                '',
-                'zerosuperior',
-                'onesuperior',
-                'twosuperior',
-                'threesuperior',
-                'foursuperior',
-                'fivesuperior',
-                'sixsuperior',
-                'sevensuperior',
-                'eightsuperior',
-                'ninesuperior',
-                'zeroinferior',
-                'oneinferior',
-                'twoinferior',
-                'threeinferior',
-                'fourinferior',
-                'fiveinferior',
-                'sixinferior',
-                'seveninferior',
-                'eightinferior',
-                'nineinferior',
-                'centinferior',
-                'dollarinferior',
-                'periodinferior',
-                'commainferior',
-                'Agravesmall',
-                'Aacutesmall',
-                'Acircumflexsmall',
-                'Atildesmall',
-                'Adieresissmall',
-                'Aringsmall',
-                'AEsmall',
-                'Ccedillasmall',
-                'Egravesmall',
-                'Eacutesmall',
-                'Ecircumflexsmall',
-                'Edieresissmall',
-                'Igravesmall',
-                'Iacutesmall',
-                'Icircumflexsmall',
-                'Idieresissmall',
-                'Ethsmall',
-                'Ntildesmall',
-                'Ogravesmall',
-                'Oacutesmall',
-                'Ocircumflexsmall',
-                'Otildesmall',
-                'Odieresissmall',
-                'OEsmall',
-                'Oslashsmall',
-                'Ugravesmall',
-                'Uacutesmall',
-                'Ucircumflexsmall',
-                'Udieresissmall',
-                'Yacutesmall',
-                'Thornsmall',
-                'Ydieresissmall'
+              var cffExpertEncoding = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'space', 'exclamsmall', 'Hungarumlautsmall', '', 'dollaroldstyle', 'dollarsuperior', 'ampersandsmall', 'Acutesmall', 'parenleftsuperior', 'parenrightsuperior', 'twodotenleader', 'onedotenleader', 'comma', 'hyphen', 'period', 'fraction', 'zerooldstyle', 'oneoldstyle', 'twooldstyle', 'threeoldstyle', 'fouroldstyle', 'fiveoldstyle', 'sixoldstyle', 'sevenoldstyle', 'eightoldstyle', 'nineoldstyle', 'colon', 'semicolon', 'commasuperior', 'threequartersemdash', 'periodsuperior', 'questionsmall', '', 'asuperior', 'bsuperior', 'centsuperior', 'dsuperior', 'esuperior', '', '', 'isuperior', '', '', 'lsuperior', 'msuperior', 'nsuperior', 'osuperior', '', '', 'rsuperior', 'ssuperior', 'tsuperior', '', 'ff', 'fi', 'fl', 'ffi', 'ffl', 'parenleftinferior', '', 'parenrightinferior', 'Circumflexsmall', 'hyphensuperior', 'Gravesmall', 'Asmall', 'Bsmall', 'Csmall', 'Dsmall', 'Esmall', 'Fsmall', 'Gsmall', 'Hsmall', 'Ismall', 'Jsmall', 'Ksmall', 'Lsmall', 'Msmall', 'Nsmall', 'Osmall', 'Psmall', 'Qsmall', 'Rsmall', 'Ssmall', 'Tsmall', 'Usmall', 'Vsmall', 'Wsmall', 'Xsmall', 'Ysmall', 'Zsmall', 'colonmonetary', 'onefitted', 'rupiah', 'Tildesmall', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'exclamdownsmall', 'centoldstyle', 'Lslashsmall', '', '', 'Scaronsmall', 'Zcaronsmall', 'Dieresissmall', 'Brevesmall', 'Caronsmall', '', 'Dotaccentsmall', '', '', 'Macronsmall', '', '', 'figuredash', 'hypheninferior', '', '', 'Ogoneksmall', 'Ringsmall', 'Cedillasmall', '', '', '', 'onequarter', 'onehalf', 'threequarters', 'questiondownsmall', 'oneeighth', 'threeeighths', 'fiveeighths', 'seveneighths', 'onethird', 'twothirds', '', '', 'zerosuperior', 'onesuperior', 'twosuperior', 'threesuperior', 'foursuperior', 'fivesuperior', 'sixsuperior', 'sevensuperior', 'eightsuperior', 'ninesuperior', 'zeroinferior', 'oneinferior', 'twoinferior', 'threeinferior', 'fourinferior', 'fiveinferior', 'sixinferior', 'seveninferior', 'eightinferior', 'nineinferior', 'centinferior', 'dollarinferior', 'periodinferior', 'commainferior', 'Agravesmall', 'Aacutesmall', 'Acircumflexsmall', 'Atildesmall', 'Adieresissmall', 'Aringsmall', 'AEsmall', 'Ccedillasmall', 'Egravesmall', 'Eacutesmall', 'Ecircumflexsmall', 'Edieresissmall', 'Igravesmall', 'Iacutesmall', 'Icircumflexsmall', 'Idieresissmall', 'Ethsmall', 'Ntildesmall', 'Ogravesmall', 'Oacutesmall', 'Ocircumflexsmall', 'Otildesmall', 'Odieresissmall', 'OEsmall', 'Oslashsmall', 'Ugravesmall', 'Uacutesmall', 'Ucircumflexsmall', 'Udieresissmall', 'Yacutesmall', 'Thornsmall', 'Ydieresissmall'
               ];
 
-              var standardNames = [
-                '.notdef',
-                '.null',
-                'nonmarkingreturn',
-                'space',
-                'exclam',
-                'quotedbl',
-                'numbersign',
-                'dollar',
-                'percent',
-                'ampersand',
-                'quotesingle',
-                'parenleft',
-                'parenright',
-                'asterisk',
-                'plus',
-                'comma',
-                'hyphen',
-                'period',
-                'slash',
-                'zero',
-                'one',
-                'two',
-                'three',
-                'four',
-                'five',
-                'six',
-                'seven',
-                'eight',
-                'nine',
-                'colon',
-                'semicolon',
-                'less',
-                'equal',
-                'greater',
-                'question',
-                'at',
-                'A',
-                'B',
-                'C',
-                'D',
-                'E',
-                'F',
-                'G',
-                'H',
-                'I',
-                'J',
-                'K',
-                'L',
-                'M',
-                'N',
-                'O',
-                'P',
-                'Q',
-                'R',
-                'S',
-                'T',
-                'U',
-                'V',
-                'W',
-                'X',
-                'Y',
-                'Z',
-                'bracketleft',
-                'backslash',
-                'bracketright',
-                'asciicircum',
-                'underscore',
-                'grave',
-                'a',
-                'b',
-                'c',
-                'd',
-                'e',
-                'f',
-                'g',
-                'h',
-                'i',
-                'j',
-                'k',
-                'l',
-                'm',
-                'n',
-                'o',
-                'p',
-                'q',
-                'r',
-                's',
-                't',
-                'u',
-                'v',
-                'w',
-                'x',
-                'y',
-                'z',
-                'braceleft',
-                'bar',
-                'braceright',
-                'asciitilde',
-                'Adieresis',
-                'Aring',
-                'Ccedilla',
-                'Eacute',
-                'Ntilde',
-                'Odieresis',
-                'Udieresis',
-                'aacute',
-                'agrave',
-                'acircumflex',
-                'adieresis',
-                'atilde',
-                'aring',
-                'ccedilla',
-                'eacute',
-                'egrave',
-                'ecircumflex',
-                'edieresis',
-                'iacute',
-                'igrave',
-                'icircumflex',
-                'idieresis',
-                'ntilde',
-                'oacute',
-                'ograve',
-                'ocircumflex',
-                'odieresis',
-                'otilde',
-                'uacute',
-                'ugrave',
-                'ucircumflex',
-                'udieresis',
-                'dagger',
-                'degree',
-                'cent',
-                'sterling',
-                'section',
-                'bullet',
-                'paragraph',
-                'germandbls',
-                'registered',
-                'copyright',
-                'trademark',
-                'acute',
-                'dieresis',
-                'notequal',
-                'AE',
-                'Oslash',
-                'infinity',
-                'plusminus',
-                'lessequal',
-                'greaterequal',
-                'yen',
-                'mu',
-                'partialdiff',
-                'summation',
-                'product',
-                'pi',
-                'integral',
-                'ordfeminine',
-                'ordmasculine',
-                'Omega',
-                'ae',
-                'oslash',
-                'questiondown',
-                'exclamdown',
-                'logicalnot',
-                'radical',
-                'florin',
-                'approxequal',
-                'Delta',
-                'guillemotleft',
-                'guillemotright',
-                'ellipsis',
-                'nonbreakingspace',
-                'Agrave',
-                'Atilde',
-                'Otilde',
-                'OE',
-                'oe',
-                'endash',
-                'emdash',
-                'quotedblleft',
-                'quotedblright',
-                'quoteleft',
-                'quoteright',
-                'divide',
-                'lozenge',
-                'ydieresis',
-                'Ydieresis',
-                'fraction',
-                'currency',
-                'guilsinglleft',
-                'guilsinglright',
-                'fi',
-                'fl',
-                'daggerdbl',
-                'periodcentered',
-                'quotesinglbase',
-                'quotedblbase',
-                'perthousand',
-                'Acircumflex',
-                'Ecircumflex',
-                'Aacute',
-                'Edieresis',
-                'Egrave',
-                'Iacute',
-                'Icircumflex',
-                'Idieresis',
-                'Igrave',
-                'Oacute',
-                'Ocircumflex',
-                'apple',
-                'Ograve',
-                'Uacute',
-                'Ucircumflex',
-                'Ugrave',
-                'dotlessi',
-                'circumflex',
-                'tilde',
-                'macron',
-                'breve',
-                'dotaccent',
-                'ring',
-                'cedilla',
-                'hungarumlaut',
-                'ogonek',
-                'caron',
-                'Lslash',
-                'lslash',
-                'Scaron',
-                'scaron',
-                'Zcaron',
-                'zcaron',
-                'brokenbar',
-                'Eth',
-                'eth',
-                'Yacute',
-                'yacute',
-                'Thorn',
-                'thorn',
-                'minus',
-                'multiply',
-                'onesuperior',
-                'twosuperior',
-                'threesuperior',
-                'onehalf',
-                'onequarter',
-                'threequarters',
-                'franc',
-                'Gbreve',
-                'gbreve',
-                'Idotaccent',
-                'Scedilla',
-                'scedilla',
-                'Cacute',
-                'cacute',
-                'Ccaron',
-                'ccaron',
-                'dcroat'
+              var standardNames = ['.notdef', '.null', 'nonmarkingreturn', 'space', 'exclam', 'quotedbl', 'numbersign', 'dollar', 'percent', 'ampersand', 'quotesingle', 'parenleft', 'parenright', 'asterisk', 'plus', 'comma', 'hyphen', 'period', 'slash', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'colon', 'semicolon', 'less', 'equal', 'greater', 'question', 'at', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'bracketleft', 'backslash', 'bracketright', 'asciicircum', 'underscore', 'grave', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'braceleft', 'bar', 'braceright', 'asciitilde', 'Adieresis', 'Aring', 'Ccedilla', 'Eacute', 'Ntilde', 'Odieresis', 'Udieresis', 'aacute', 'agrave', 'acircumflex', 'adieresis', 'atilde', 'aring', 'ccedilla', 'eacute', 'egrave', 'ecircumflex', 'edieresis', 'iacute', 'igrave', 'icircumflex', 'idieresis', 'ntilde', 'oacute', 'ograve', 'ocircumflex', 'odieresis', 'otilde', 'uacute', 'ugrave', 'ucircumflex', 'udieresis', 'dagger', 'degree', 'cent', 'sterling', 'section', 'bullet', 'paragraph', 'germandbls', 'registered', 'copyright', 'trademark', 'acute', 'dieresis', 'notequal', 'AE', 'Oslash', 'infinity', 'plusminus', 'lessequal', 'greaterequal', 'yen', 'mu', 'partialdiff', 'summation', 'product', 'pi', 'integral', 'ordfeminine', 'ordmasculine', 'Omega', 'ae', 'oslash', 'questiondown', 'exclamdown', 'logicalnot', 'radical', 'florin', 'approxequal', 'Delta', 'guillemotleft', 'guillemotright', 'ellipsis', 'nonbreakingspace', 'Agrave', 'Atilde', 'Otilde', 'OE', 'oe', 'endash', 'emdash', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'divide', 'lozenge', 'ydieresis', 'Ydieresis', 'fraction', 'currency', 'guilsinglleft', 'guilsinglright', 'fi', 'fl', 'daggerdbl', 'periodcentered', 'quotesinglbase', 'quotedblbase', 'perthousand', 'Acircumflex', 'Ecircumflex', 'Aacute', 'Edieresis', 'Egrave', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'Oacute', 'Ocircumflex', 'apple', 'Ograve', 'Uacute', 'Ucircumflex', 'Ugrave', 'dotlessi', 'circumflex', 'tilde', 'macron', 'breve', 'dotaccent', 'ring', 'cedilla', 'hungarumlaut', 'ogonek', 'caron', 'Lslash', 'lslash', 'Scaron', 'scaron', 'Zcaron', 'zcaron', 'brokenbar', 'Eth', 'eth', 'Yacute', 'yacute', 'Thorn', 'thorn', 'minus', 'multiply', 'onesuperior', 'twosuperior', 'threesuperior', 'onehalf', 'onequarter', 'threequarters', 'franc', 'Gbreve', 'gbreve', 'Idotaccent', 'Scedilla', 'scedilla', 'Cacute', 'cacute', 'Ccaron', 'ccaron', 'dcroat'
               ];
 
               /**
                * This is the encoding used for fonts created from scratch.
-               * It loops through all glyphs and finds the appropriate unicode value.
-               * Since it's linear time, other encodings will be faster.
                * @exports opentype.DefaultEncoding
                * @class
                * @constructor
@@ -29574,7 +27987,7 @@
                 this.font = font;
               }
 
-              DefaultEncoding.prototype.charToGlyphIndex = function(c) {
+              DefaultEncoding.prototype.charToGlyphIndex = function (c) {
                 var code = c.codePointAt(0);
                 var glyphs = this.font.glyphs;
                 if (glyphs) {
@@ -29604,7 +28017,7 @@
                * @param  {string} c - the character
                * @return {number} The glyph index.
                */
-              CmapEncoding.prototype.charToGlyphIndex = function(c) {
+              CmapEncoding.prototype.charToGlyphIndex = function (c) {
                 return this.cmap.glyphIndexMap[c.codePointAt(0)] || 0;
               };
 
@@ -29624,7 +28037,7 @@
                * @param  {string} s - The character
                * @return {number} The index.
                */
-              CffEncoding.prototype.charToGlyphIndex = function(s) {
+              CffEncoding.prototype.charToGlyphIndex = function (s) {
                 var code = s.codePointAt(0);
                 var charName = this.encoding[code];
                 return this.charset.indexOf(charName);
@@ -29676,7 +28089,7 @@
                * @param  {string} name - The glyph name
                * @return {number} The index
                */
-              GlyphNames.prototype.nameToGlyphIndex = function(name) {
+              GlyphNames.prototype.nameToGlyphIndex = function (name) {
                 return this.names.indexOf(name);
               };
 
@@ -29684,7 +28097,7 @@
                * @param  {number} gid
                * @return {string}
                */
-              GlyphNames.prototype.glyphIndexToName = function(gid) {
+              GlyphNames.prototype.glyphIndexToName = function (gid) {
                 return this.names[gid];
               };
 
@@ -29738,7 +28151,7 @@
                 return {
                   configurable: true,
 
-                  get: function() {
+                  get: function () {
                     if (typeof _path === 'function') {
                       _path = _path();
                     }
@@ -29746,7 +28159,7 @@
                     return _path;
                   },
 
-                  set: function(p) {
+                  set: function (p) {
                     _path = p;
                   }
                 };
@@ -29784,7 +28197,7 @@
               /**
                * @param  {GlyphOptions}
                */
-              Glyph.prototype.bindConstructorValues = function(options) {
+              Glyph.prototype.bindConstructorValues = function (options) {
                 this.index = options.index || 0;
 
                 // These three values cannot be deferred for memory optimization:
@@ -29826,7 +28239,7 @@
               /**
                * @param {number}
                */
-              Glyph.prototype.addUnicode = function(unicode) {
+              Glyph.prototype.addUnicode = function (unicode) {
                 if (this.unicodes.length === 0) {
                   this.unicode = unicode;
                 }
@@ -29838,7 +28251,7 @@
                * Calculate the minimum bounding box for this glyph.
                * @return {opentype.BoundingBox}
                */
-              Glyph.prototype.getBoundingBox = function() {
+              Glyph.prototype.getBoundingBox = function () {
                 return this.path.getBoundingBox();
               };
 
@@ -29851,7 +28264,7 @@
                * @param  {opentype.Font} if hinting is to be used, the font
                * @return {opentype.Path}
                */
-              Glyph.prototype.getPath = function(x, y, fontSize, options, font) {
+              Glyph.prototype.getPath = function (x, y, fontSize, options, font) {
                 x = x !== undefined ? x : 0;
                 y = y !== undefined ? y : 0;
                 fontSize = fontSize !== undefined ? fontSize : 72;
@@ -29925,7 +28338,7 @@
                * provide raw access to the TrueType glyph outlines.
                * @return {Array}
                */
-              Glyph.prototype.getContours = function() {
+              Glyph.prototype.getContours = function () {
                 var this$1 = this;
 
                 if (this.points === undefined) {
@@ -29954,7 +28367,7 @@
                * Calculate the xMin/yMin/xMax/yMax/lsb/rsb for a Glyph.
                * @return {Object}
                */
-              Glyph.prototype.getMetrics = function() {
+              Glyph.prototype.getMetrics = function () {
                 var commands = this.path.commands;
                 var xCoords = [];
                 var yCoords = [];
@@ -30015,7 +28428,7 @@
                * @param  {number} [fontSize=72] - Font size in pixels. We scale the glyph units by `1 / unitsPerEm * fontSize`.
                * @param  {Object=} options - xScale, yScale to stretch the glyph.
                */
-              Glyph.prototype.draw = function(ctx, x, y, fontSize, options) {
+              Glyph.prototype.draw = function (ctx, x, y, fontSize, options) {
                 this.getPath(x, y, fontSize, options).draw(ctx);
               };
 
@@ -30027,7 +28440,7 @@
                * @param  {number} [y=0] - Vertical position of the *baseline* of the text.
                * @param  {number} [fontSize=72] - Font size in pixels. We scale the glyph units by `1 / unitsPerEm * fontSize`.
                */
-              Glyph.prototype.drawPoints = function(ctx, x, y, fontSize) {
+              Glyph.prototype.drawPoints = function (ctx, x, y, fontSize) {
                 function drawCircles(l, x, y, scale) {
                   var PI_SQ = Math.PI * 2;
                   ctx.beginPath();
@@ -30079,7 +28492,7 @@
                * @param  {number} [y=0] - Vertical position of the *baseline* of the text.
                * @param  {number} [fontSize=72] - Font size in pixels. We scale the glyph units by `1 / unitsPerEm * fontSize`.
                */
-              Glyph.prototype.drawMetrics = function(ctx, x, y, fontSize) {
+              Glyph.prototype.drawMetrics = function (ctx, x, y, fontSize) {
                 var scale;
                 x = x !== undefined ? x : 0;
                 y = y !== undefined ? y : 0;
@@ -30123,12 +28536,12 @@
               // Define a property on the glyph that depends on the path being loaded.
               function defineDependentProperty(glyph, externalName, internalName) {
                 Object.defineProperty(glyph, externalName, {
-                  get: function() {
+                  get: function () {
                     // Request the path property to make sure the path is loaded.
                     glyph.path; // jshint ignore:line
                     return glyph[internalName];
                   },
-                  set: function(newValue) {
+                  set: function (newValue) {
                     glyph[internalName] = newValue;
                   },
                   enumerable: true,
@@ -30163,7 +28576,7 @@
                * @param  {number} index
                * @return {opentype.Glyph}
                */
-              GlyphSet.prototype.get = function(index) {
+              GlyphSet.prototype.get = function (index) {
                 if (typeof this.glyphs[index] === 'function') {
                   this.glyphs[index] = this.glyphs[index]();
                 }
@@ -30175,7 +28588,7 @@
                * @param  {number} index
                * @param  {Object}
                */
-              GlyphSet.prototype.push = function(index, loader) {
+              GlyphSet.prototype.push = function (index, loader) {
                 this.glyphs[index] = loader;
                 this.length++;
               };
@@ -30204,10 +28617,10 @@
                * @return {opentype.Glyph}
                */
               function ttfGlyphLoader(font, index, parseGlyph, data, position, buildPath) {
-                return function() {
+                return function () {
                   var glyph = new Glyph({ index: index, font: font });
 
-                  glyph.path = function() {
+                  glyph.path = function () {
                     parseGlyph(glyph, data, position);
                     var path = buildPath(font.glyphs, glyph);
                     path.unitsPerEm = font.unitsPerEm;
@@ -30231,10 +28644,10 @@
                * @return {opentype.Glyph}
                */
               function cffGlyphLoader(font, index, parseCFFCharstring, charstring) {
-                return function() {
+                return function () {
                   var glyph = new Glyph({ index: index, font: font });
 
-                  glyph.path = function() {
+                  glyph.path = function () {
                     var path = parseCFFCharstring(font, glyph, charstring);
                     path.unitsPerEm = font.unitsPerEm;
                     return path;
@@ -30275,7 +28688,6 @@
               }
 
               // Subroutines are encoded using the negative half of the number space.
-              // See type 2 chapter 4.7 "Subroutine operators".
               function calcCFFSubroutineBias(subrs) {
                 var bias;
                 if (subrs.length < 1240) {
@@ -30607,10 +29019,8 @@
               //
               //    _subrs []        array of local CFF subroutines from Private DICT
               //    _subrsBias       bias value computed from number of subroutines
-              //                      (see calcCFFSubroutineBias() and parseCFFCharstring())
               //    _defaultWidthX   default widths for CFF characters
               //    _nominalWidthX   bias added to width embedded within glyph description
-              //
               //    _privateDict     saved copy of parsed Private DICT from Top DICT
               function gatherCFFTopDicts(data, start, cffIndex, strings) {
                 var topDictArray = [];
@@ -30645,7 +29055,6 @@
 
               // Parse the CFF charset table, which contains internal names for all the glyphs.
               // This function will return a list of glyph names.
-              // See Adobe TN #5176 chapter 13, "Charsets".
               function parseCFFCharset(data, start, nGlyphs, strings) {
                 var sid;
                 var count;
@@ -30687,7 +29096,6 @@
               }
 
               // Parse the CFF encoding data. Only one encoding can be specified per font.
-              // See Adobe TN #5176 chapter 12, "Encodings".
               function parseCFFEncoding(data, start, charset) {
                 var code;
                 var enc = {};
@@ -31154,10 +29562,10 @@
                     if (fdIndex >= fdArrayCount) {
                       throw new Error(
                         'CFF table CID Font FDSelect has bad FD index value ' +
-                          fdIndex +
-                          ' (FD count ' +
-                          fdArrayCount +
-                          ')'
+                        fdIndex +
+                        ' (FD count ' +
+                        fdArrayCount +
+                        ')'
                       );
                     }
                     fdSelect.push(fdIndex);
@@ -31169,7 +29577,7 @@
                   if (first !== 0) {
                     throw new Error(
                       'CFF Table CID Font FDSelect format 3 range has bad initial GID ' +
-                        first
+                      first
                     );
                   }
                   var next;
@@ -31179,10 +29587,10 @@
                     if (fdIndex >= fdArrayCount) {
                       throw new Error(
                         'CFF table CID Font FDSelect has bad FD index value ' +
-                          fdIndex +
-                          ' (FD count ' +
-                          fdArrayCount +
-                          ')'
+                        fdIndex +
+                        ' (FD count ' +
+                        fdArrayCount +
+                        ')'
                       );
                     }
                     if (next > nGlyphs) {
@@ -31232,7 +29640,7 @@
                 if (topDictArray.length !== 1) {
                   throw new Error(
                     "CFF table has too many fonts in 'FontSet' - count of fonts NameIndex.length = " +
-                      topDictArray.length
+                    topDictArray.length
                   );
                 }
 
@@ -31836,8 +30244,6 @@
 
               var ltag = { make: makeLtagTable, parse: parseLtagTable };
 
-              // The `maxp` table establishes the memory requirements for the font.
-
               // Parse the maximum profile `maxp` table.
               function parseMaxpTable(data, start) {
                 var maxp = {};
@@ -31872,162 +30278,16 @@
 
               var maxp = { parse: parseMaxpTable, make: makeMaxpTable };
 
-              // The `name` naming table.
-
               // NameIDs for the name table.
               var nameTableNames = [
-                'copyright', // 0
-                'fontFamily', // 1
-                'fontSubfamily', // 2
-                'uniqueID', // 3
-                'fullName', // 4
-                'version', // 5
-                'postScriptName', // 6
-                'trademark', // 7
-                'manufacturer', // 8
-                'designer', // 9
-                'description', // 10
-                'manufacturerURL', // 11
-                'designerURL', // 12
-                'license', // 13
-                'licenseURL', // 14
-                'reserved', // 15
-                'preferredFamily', // 16
-                'preferredSubfamily', // 17
-                'compatibleFullName', // 18
-                'sampleText', // 19
-                'postScriptFindFontName', // 20
-                'wwsFamily', // 21
-                'wwsSubfamily' // 22
+                'copyright', 'fontFamily', 'fontSubfamily', 'uniqueID', 'fullName', 'version', 'postScriptName', 'trademark', 'manufacturer', 'designer', 'description', 'manufacturerURL', 'designerURL', 'license', 'licenseURL', 'reserved', 'preferredFamily', 'preferredSubfamily', 'compatibleFullName', 'sampleText', 'postScriptFindFontName', 'wwsFamily', 'wwsSubfamily'
               ];
 
               var macLanguages = {
-                0: 'en',
-                1: 'fr',
-                2: 'de',
-                3: 'it',
-                4: 'nl',
-                5: 'sv',
-                6: 'es',
-                7: 'da',
-                8: 'pt',
-                9: 'no',
-                10: 'he',
-                11: 'ja',
-                12: 'ar',
-                13: 'fi',
-                14: 'el',
-                15: 'is',
-                16: 'mt',
-                17: 'tr',
-                18: 'hr',
-                19: 'zh-Hant',
-                20: 'ur',
-                21: 'hi',
-                22: 'th',
-                23: 'ko',
-                24: 'lt',
-                25: 'pl',
-                26: 'hu',
-                27: 'es',
-                28: 'lv',
-                29: 'se',
-                30: 'fo',
-                31: 'fa',
-                32: 'ru',
-                33: 'zh',
-                34: 'nl-BE',
-                35: 'ga',
-                36: 'sq',
-                37: 'ro',
-                38: 'cz',
-                39: 'sk',
-                40: 'si',
-                41: 'yi',
-                42: 'sr',
-                43: 'mk',
-                44: 'bg',
-                45: 'uk',
-                46: 'be',
-                47: 'uz',
-                48: 'kk',
-                49: 'az-Cyrl',
-                50: 'az-Arab',
-                51: 'hy',
-                52: 'ka',
-                53: 'mo',
-                54: 'ky',
-                55: 'tg',
-                56: 'tk',
-                57: 'mn-CN',
-                58: 'mn',
-                59: 'ps',
-                60: 'ks',
-                61: 'ku',
-                62: 'sd',
-                63: 'bo',
-                64: 'ne',
-                65: 'sa',
-                66: 'mr',
-                67: 'bn',
-                68: 'as',
-                69: 'gu',
-                70: 'pa',
-                71: 'or',
-                72: 'ml',
-                73: 'kn',
-                74: 'ta',
-                75: 'te',
-                76: 'si',
-                77: 'my',
-                78: 'km',
-                79: 'lo',
-                80: 'vi',
-                81: 'id',
-                82: 'tl',
-                83: 'ms',
-                84: 'ms-Arab',
-                85: 'am',
-                86: 'ti',
-                87: 'om',
-                88: 'so',
-                89: 'sw',
-                90: 'rw',
-                91: 'rn',
-                92: 'ny',
-                93: 'mg',
-                94: 'eo',
-                128: 'cy',
-                129: 'eu',
-                130: 'ca',
-                131: 'la',
-                132: 'qu',
-                133: 'gn',
-                134: 'ay',
-                135: 'tt',
-                136: 'ug',
-                137: 'dz',
-                138: 'jv',
-                139: 'su',
-                140: 'gl',
-                141: 'af',
-                142: 'br',
-                143: 'iu',
-                144: 'gd',
-                145: 'gv',
-                146: 'ga',
-                147: 'to',
-                148: 'el-polyton',
-                149: 'kl',
-                150: 'az',
-                151: 'nn'
+                0: 'en', 1: 'fr', 2: 'de', 3: 'it', 4: 'nl', 5: 'sv', 6: 'es', 7: 'da', 8: 'pt', 9: 'no', 10: 'he', 11: 'ja', 12: 'ar', 13: 'fi', 14: 'el', 15: 'is', 16: 'mt', 17: 'tr', 18: 'hr', 19: 'zh-Hant', 20: 'ur', 21: 'hi', 22: 'th', 23: 'ko', 24: 'lt', 25: 'pl', 26: 'hu', 27: 'es', 28: 'lv', 29: 'se', 30: 'fo', 31: 'fa', 32: 'ru', 33: 'zh', 34: 'nl-BE', 35: 'ga', 36: 'sq', 37: 'ro', 38: 'cz', 39: 'sk', 40: 'si', 41: 'yi', 42: 'sr', 43: 'mk', 44: 'bg', 45: 'uk', 46: 'be', 47: 'uz', 48: 'kk', 49: 'az-Cyrl', 50: 'az-Arab', 51: 'hy', 52: 'ka', 53: 'mo', 54: 'ky', 55: 'tg', 56: 'tk', 57: 'mn-CN', 58: 'mn', 59: 'ps', 60: 'ks', 61: 'ku', 62: 'sd', 63: 'bo', 64: 'ne', 65: 'sa', 66: 'mr', 67: 'bn', 68: 'as', 69: 'gu', 70: 'pa', 71: 'or', 72: 'ml', 73: 'kn', 74: 'ta', 75: 'te', 76: 'si', 77: 'my', 78: 'km', 79: 'lo', 80: 'vi', 81: 'id', 82: 'tl', 83: 'ms', 84: 'ms-Arab', 85: 'am', 86: 'ti', 87: 'om', 88: 'so', 89: 'sw', 90: 'rw', 91: 'rn', 92: 'ny', 93: 'mg', 94: 'eo', 128: 'cy', 129: 'eu', 130: 'ca', 131: 'la', 132: 'qu', 133: 'gn', 134: 'ay', 135: 'tt', 136: 'ug', 137: 'dz', 138: 'jv', 139: 'su', 140: 'gl', 141: 'af', 142: 'br', 143: 'iu', 144: 'gd', 145: 'gv', 146: 'ga', 147: 'to', 148: 'el-polyton', 149: 'kl', 150: 'az', 151: 'nn'
               };
 
               // MacOS language ID → MacOS script ID
-              //
-              // Note that the script ID is not sufficient to determine what encoding
-              // to use in TrueType files. For some languages, MacOS used a modification
-              // of a mainstream script.
               var macLanguageToScript = {
                 0: 0, // langEnglish → smRoman
                 1: 0, // langFrench → smRoman
@@ -32157,220 +30417,7 @@
               // IANA language subtag registry for IETF BCP 47.
 
               var windowsLanguages = {
-                0x0436: 'af',
-                0x041c: 'sq',
-                0x0484: 'gsw',
-                0x045e: 'am',
-                0x1401: 'ar-DZ',
-                0x3c01: 'ar-BH',
-                0x0c01: 'ar',
-                0x0801: 'ar-IQ',
-                0x2c01: 'ar-JO',
-                0x3401: 'ar-KW',
-                0x3001: 'ar-LB',
-                0x1001: 'ar-LY',
-                0x1801: 'ary',
-                0x2001: 'ar-OM',
-                0x4001: 'ar-QA',
-                0x0401: 'ar-SA',
-                0x2801: 'ar-SY',
-                0x1c01: 'aeb',
-                0x3801: 'ar-AE',
-                0x2401: 'ar-YE',
-                0x042b: 'hy',
-                0x044d: 'as',
-                0x082c: 'az-Cyrl',
-                0x042c: 'az',
-                0x046d: 'ba',
-                0x042d: 'eu',
-                0x0423: 'be',
-                0x0845: 'bn',
-                0x0445: 'bn-IN',
-                0x201a: 'bs-Cyrl',
-                0x141a: 'bs',
-                0x047e: 'br',
-                0x0402: 'bg',
-                0x0403: 'ca',
-                0x0c04: 'zh-HK',
-                0x1404: 'zh-MO',
-                0x0804: 'zh',
-                0x1004: 'zh-SG',
-                0x0404: 'zh-TW',
-                0x0483: 'co',
-                0x041a: 'hr',
-                0x101a: 'hr-BA',
-                0x0405: 'cs',
-                0x0406: 'da',
-                0x048c: 'prs',
-                0x0465: 'dv',
-                0x0813: 'nl-BE',
-                0x0413: 'nl',
-                0x0c09: 'en-AU',
-                0x2809: 'en-BZ',
-                0x1009: 'en-CA',
-                0x2409: 'en-029',
-                0x4009: 'en-IN',
-                0x1809: 'en-IE',
-                0x2009: 'en-JM',
-                0x4409: 'en-MY',
-                0x1409: 'en-NZ',
-                0x3409: 'en-PH',
-                0x4809: 'en-SG',
-                0x1c09: 'en-ZA',
-                0x2c09: 'en-TT',
-                0x0809: 'en-GB',
-                0x0409: 'en',
-                0x3009: 'en-ZW',
-                0x0425: 'et',
-                0x0438: 'fo',
-                0x0464: 'fil',
-                0x040b: 'fi',
-                0x080c: 'fr-BE',
-                0x0c0c: 'fr-CA',
-                0x040c: 'fr',
-                0x140c: 'fr-LU',
-                0x180c: 'fr-MC',
-                0x100c: 'fr-CH',
-                0x0462: 'fy',
-                0x0456: 'gl',
-                0x0437: 'ka',
-                0x0c07: 'de-AT',
-                0x0407: 'de',
-                0x1407: 'de-LI',
-                0x1007: 'de-LU',
-                0x0807: 'de-CH',
-                0x0408: 'el',
-                0x046f: 'kl',
-                0x0447: 'gu',
-                0x0468: 'ha',
-                0x040d: 'he',
-                0x0439: 'hi',
-                0x040e: 'hu',
-                0x040f: 'is',
-                0x0470: 'ig',
-                0x0421: 'id',
-                0x045d: 'iu',
-                0x085d: 'iu-Latn',
-                0x083c: 'ga',
-                0x0434: 'xh',
-                0x0435: 'zu',
-                0x0410: 'it',
-                0x0810: 'it-CH',
-                0x0411: 'ja',
-                0x044b: 'kn',
-                0x043f: 'kk',
-                0x0453: 'km',
-                0x0486: 'quc',
-                0x0487: 'rw',
-                0x0441: 'sw',
-                0x0457: 'kok',
-                0x0412: 'ko',
-                0x0440: 'ky',
-                0x0454: 'lo',
-                0x0426: 'lv',
-                0x0427: 'lt',
-                0x082e: 'dsb',
-                0x046e: 'lb',
-                0x042f: 'mk',
-                0x083e: 'ms-BN',
-                0x043e: 'ms',
-                0x044c: 'ml',
-                0x043a: 'mt',
-                0x0481: 'mi',
-                0x047a: 'arn',
-                0x044e: 'mr',
-                0x047c: 'moh',
-                0x0450: 'mn',
-                0x0850: 'mn-CN',
-                0x0461: 'ne',
-                0x0414: 'nb',
-                0x0814: 'nn',
-                0x0482: 'oc',
-                0x0448: 'or',
-                0x0463: 'ps',
-                0x0415: 'pl',
-                0x0416: 'pt',
-                0x0816: 'pt-PT',
-                0x0446: 'pa',
-                0x046b: 'qu-BO',
-                0x086b: 'qu-EC',
-                0x0c6b: 'qu',
-                0x0418: 'ro',
-                0x0417: 'rm',
-                0x0419: 'ru',
-                0x243b: 'smn',
-                0x103b: 'smj-NO',
-                0x143b: 'smj',
-                0x0c3b: 'se-FI',
-                0x043b: 'se',
-                0x083b: 'se-SE',
-                0x203b: 'sms',
-                0x183b: 'sma-NO',
-                0x1c3b: 'sms',
-                0x044f: 'sa',
-                0x1c1a: 'sr-Cyrl-BA',
-                0x0c1a: 'sr',
-                0x181a: 'sr-Latn-BA',
-                0x081a: 'sr-Latn',
-                0x046c: 'nso',
-                0x0432: 'tn',
-                0x045b: 'si',
-                0x041b: 'sk',
-                0x0424: 'sl',
-                0x2c0a: 'es-AR',
-                0x400a: 'es-BO',
-                0x340a: 'es-CL',
-                0x240a: 'es-CO',
-                0x140a: 'es-CR',
-                0x1c0a: 'es-DO',
-                0x300a: 'es-EC',
-                0x440a: 'es-SV',
-                0x100a: 'es-GT',
-                0x480a: 'es-HN',
-                0x080a: 'es-MX',
-                0x4c0a: 'es-NI',
-                0x180a: 'es-PA',
-                0x3c0a: 'es-PY',
-                0x280a: 'es-PE',
-                0x500a: 'es-PR',
-
-                // Microsoft has defined two different language codes for
-                // “Spanish with modern sorting” and “Spanish with traditional
-                // sorting”. This makes sense for collation APIs, and it would be
-                // possible to express this in BCP 47 language tags via Unicode
-                // extensions (eg., es-u-co-trad is Spanish with traditional
-                // sorting). However, for storing names in fonts, the distinction
-                // does not make sense, so we give “es” in both cases.
-                0x0c0a: 'es',
-                0x040a: 'es',
-
-                0x540a: 'es-US',
-                0x380a: 'es-UY',
-                0x200a: 'es-VE',
-                0x081d: 'sv-FI',
-                0x041d: 'sv',
-                0x045a: 'syr',
-                0x0428: 'tg',
-                0x085f: 'tzm',
-                0x0449: 'ta',
-                0x0444: 'tt',
-                0x044a: 'te',
-                0x041e: 'th',
-                0x0451: 'bo',
-                0x041f: 'tr',
-                0x0442: 'tk',
-                0x0480: 'ug',
-                0x0422: 'uk',
-                0x042e: 'hsb',
-                0x0420: 'ur',
-                0x0843: 'uz-Cyrl',
-                0x0443: 'uz',
-                0x042a: 'vi',
-                0x0452: 'cy',
-                0x0488: 'wo',
-                0x0485: 'sah',
-                0x0478: 'ii',
-                0x046a: 'yo'
+                0x0436: 'af', 0x041c: 'sq', 0x0484: 'gsw', 0x045e: 'am', 0x1401: 'ar-DZ', 0x3c01: 'ar-BH', 0x0c01: 'ar', 0x0801: 'ar-IQ', 0x2c01: 'ar-JO', 0x3401: 'ar-KW', 0x3001: 'ar-LB', 0x1001: 'ar-LY', 0x1801: 'ary', 0x2001: 'ar-OM', 0x4001: 'ar-QA', 0x0401: 'ar-SA', 0x2801: 'ar-SY', 0x1c01: 'aeb', 0x3801: 'ar-AE', 0x2401: 'ar-YE', 0x042b: 'hy', 0x044d: 'as', 0x082c: 'az-Cyrl', 0x042c: 'az', 0x046d: 'ba', 0x042d: 'eu', 0x0423: 'be', 0x0845: 'bn', 0x0445: 'bn-IN', 0x201a: 'bs-Cyrl', 0x141a: 'bs', 0x047e: 'br', 0x0402: 'bg', 0x0403: 'ca', 0x0c04: 'zh-HK', 0x1404: 'zh-MO', 0x0804: 'zh', 0x1004: 'zh-SG', 0x0404: 'zh-TW', 0x0483: 'co', 0x041a: 'hr', 0x101a: 'hr-BA', 0x0405: 'cs', 0x0406: 'da', 0x048c: 'prs', 0x0465: 'dv', 0x0813: 'nl-BE', 0x0413: 'nl', 0x0c09: 'en-AU', 0x2809: 'en-BZ', 0x1009: 'en-CA', 0x2409: 'en-029', 0x4009: 'en-IN', 0x1809: 'en-IE', 0x2009: 'en-JM', 0x4409: 'en-MY', 0x1409: 'en-NZ', 0x3409: 'en-PH', 0x4809: 'en-SG', 0x1c09: 'en-ZA', 0x2c09: 'en-TT', 0x0809: 'en-GB', 0x0409: 'en', 0x3009: 'en-ZW', 0x0425: 'et', 0x0438: 'fo', 0x0464: 'fil', 0x040b: 'fi', 0x080c: 'fr-BE', 0x0c0c: 'fr-CA', 0x040c: 'fr', 0x140c: 'fr-LU', 0x180c: 'fr-MC', 0x100c: 'fr-CH', 0x0462: 'fy', 0x0456: 'gl', 0x0437: 'ka', 0x0c07: 'de-AT', 0x0407: 'de', 0x1407: 'de-LI', 0x1007: 'de-LU', 0x0807: 'de-CH', 0x0408: 'el', 0x046f: 'kl', 0x0447: 'gu', 0x0468: 'ha', 0x040d: 'he', 0x0439: 'hi', 0x040e: 'hu', 0x040f: 'is', 0x0470: 'ig', 0x0421: 'id', 0x045d: 'iu', 0x085d: 'iu-Latn', 0x083c: 'ga', 0x0434: 'xh', 0x0435: 'zu', 0x0410: 'it', 0x0810: 'it-CH', 0x0411: 'ja', 0x044b: 'kn', 0x043f: 'kk', 0x0453: 'km', 0x0486: 'quc', 0x0487: 'rw', 0x0441: 'sw', 0x0457: 'kok', 0x0412: 'ko', 0x0440: 'ky', 0x0454: 'lo', 0x0426: 'lv', 0x0427: 'lt', 0x082e: 'dsb', 0x046e: 'lb', 0x042f: 'mk', 0x083e: 'ms-BN', 0x043e: 'ms', 0x044c: 'ml', 0x043a: 'mt', 0x0481: 'mi', 0x047a: 'arn', 0x044e: 'mr', 0x047c: 'moh', 0x0450: 'mn', 0x0850: 'mn-CN', 0x0461: 'ne', 0x0414: 'nb', 0x0814: 'nn', 0x0482: 'oc', 0x0448: 'or', 0x0463: 'ps', 0x0415: 'pl', 0x0416: 'pt', 0x0816: 'pt-PT', 0x0446: 'pa', 0x046b: 'qu-BO', 0x086b: 'qu-EC', 0x0c6b: 'qu', 0x0418: 'ro', 0x0417: 'rm', 0x0419: 'ru', 0x243b: 'smn', 0x103b: 'smj-NO', 0x143b: 'smj', 0x0c3b: 'se-FI', 0x043b: 'se', 0x083b: 'se-SE', 0x203b: 'sms', 0x183b: 'sma-NO', 0x1c3b: 'sms', 0x044f: 'sa', 0x1c1a: 'sr-Cyrl-BA', 0x0c1a: 'sr', 0x181a: 'sr-Latn-BA', 0x081a: 'sr-Latn', 0x046c: 'nso', 0x0432: 'tn', 0x045b: 'si', 0x041b: 'sk', 0x0424: 'sl', 0x2c0a: 'es-AR', 0x400a: 'es-BO', 0x340a: 'es-CL', 0x240a: 'es-CO', 0x140a: 'es-CR', 0x1c0a: 'es-DO', 0x300a: 'es-EC', 0x440a: 'es-SV', 0x100a: 'es-GT', 0x480a: 'es-HN', 0x080a: 'es-MX', 0x4c0a: 'es-NI', 0x180a: 'es-PA', 0x3c0a: 'es-PY', 0x280a: 'es-PE', 0x500a: 'es-PR', 0x0c0a: 'es', 0x040a: 'es', 0x540a: 'es-US', 0x380a: 'es-UY', 0x200a: 'es-VE', 0x081d: 'sv-FI', 0x041d: 'sv', 0x045a: 'syr', 0x0428: 'tg', 0x085f: 'tzm', 0x0449: 'ta', 0x0444: 'tt', 0x044a: 'te', 0x041e: 'th', 0x0451: 'bo', 0x041f: 'tr', 0x0442: 'tk', 0x0480: 'ug', 0x0422: 'uk', 0x042e: 'hsb', 0x0420: 'ur', 0x0843: 'uz-Cyrl', 0x0443: 'uz', 0x042a: 'vi', 0x0452: 'cy', 0x0488: 'wo', 0x0485: 'sah', 0x0478: 'ii', 0x046a: 'yo'
               };
 
               function getLanguageCode(platformID, languageID, ltag) {
@@ -32434,8 +30481,6 @@
               // cases, which override macScriptEncodings. For writing MacOS naming
               // tables, we need to emit a MacOS script ID. Therefore, we cannot
               // merge macScriptEncodings into macLanguageEncodings.
-              //
-              // http://unicode.org/Public/MAPPINGS/VENDORS/APPLE/Readme.txt
               var macLanguageEncodings = {
                 15: 'x-mac-icelandic', // langIcelandic
                 17: 'x-mac-turkish', // langTurkish
@@ -32476,8 +30521,6 @@
               }
 
               // Parse the naming `name` table.
-              // FIXME: Format 1 additional fields are not supported yet.
-              // ltag is the content of the `ltag' table, such as ['en', 'zh-Hans', 'de-CH-1904'].
               function parseNameTable(data, start, ltag) {
                 var name = {};
                 var p = new parse.Parser(data, start);
@@ -32520,7 +30563,6 @@
 
                 var langTagCount = 0;
                 if (format === 1) {
-                  // FIXME: Also handle Microsoft's 'name' table 1.
                   langTagCount = p.parseUShort();
                 }
 
@@ -32557,7 +30599,6 @@
               }
 
               // Finds the position of needle in haystack, or -1 if not there.
-              // Like String.indexOf(), but for arrays.
               function findSubArray(needle, haystack) {
                 var needleLength = needle.length;
                 var limit = haystack.length - needleLength + 1;
@@ -32608,8 +30649,8 @@
                   if (isNaN(nameID)) {
                     throw new Error(
                       'Name table entry "' +
-                        key +
-                        '" does not exist, see nameTableNames for complete list.'
+                      key +
+                      '" does not exist, see nameTableNames for complete list.'
                     );
                   }
 
@@ -32629,20 +30670,6 @@
                   for (var lang in translations) {
                     var text = translations[lang];
 
-                    // For MacOS, we try to emit the name in the form that was introduced
-                    // in the initial version of the TrueType spec (in the late 1980s).
-                    // However, this can fail for various reasons: the requested BCP 47
-                    // language code might not have an old-style Mac equivalent;
-                    // we might not have a codec for the needed character encoding;
-                    // or the name might contain characters that cannot be expressed
-                    // in the old-style Macintosh encoding. In case of failure, we emit
-                    // the name in a more modern fashion (Unicode encoding with BCP 47
-                    // language tags) that is recognized by MacOS 10.5, released in 2009.
-                    // If fonts were only read by operating systems, we could simply
-                    // emit all names in the modern form; this would be much easier.
-                    // However, there are many applications and libraries that read
-                    // 'name' tables directly, and these will usually only recognize
-                    // the ancient form (silently skipping the unrecognized names).
                     var macPlatform = 1; // Macintosh
                     var macLanguage = macLanguageIds[lang];
                     var macScript = macLanguageToScript[macLanguage];
@@ -32690,7 +30717,7 @@
                   }
                 }
 
-                nameRecords.sort(function(a, b) {
+                nameRecords.sort(function (a, b) {
                   return (
                     a.platformID - b.platformID ||
                     a.encodingID - b.encodingID ||
@@ -32983,8 +31010,6 @@
                 getUnicodeRange: getUnicodeRange
               };
 
-              // The `post` table stores additional PostScript information, such as glyph names.
-
               // Parse the PostScript `post` table
               function parsePostTable(data, start) {
                 var post = {};
@@ -33024,7 +31049,6 @@
                     for (var i$2 = 0; i$2 < post.numberOfGlyphs; i$2++) {
                       post.offset[i$2] = p.parseChar();
                     }
-
                     break;
                 }
                 return post;
@@ -33046,11 +31070,8 @@
 
               var post = { parse: parsePostTable, make: makePostTable };
 
-              // The `GSUB` table contains ligatures, among other things.
-
               var subtableParsers = new Array(9); // subtableParsers[0] is unused
 
-              // https://www.microsoft.com/typography/OTSPEC/GSUB.htm#SS
               subtableParsers[1] = function parseLookup1() {
                 var start = this.offset + this.relativeOffset;
                 var substFormat = this.parseUShort();
@@ -33073,7 +31094,6 @@
                 );
               };
 
-              // https://www.microsoft.com/typography/OTSPEC/GSUB.htm#MS
               subtableParsers[2] = function parseLookup2() {
                 var substFormat = this.parseUShort();
                 check.argument(
@@ -33087,7 +31107,6 @@
                 };
               };
 
-              // https://www.microsoft.com/typography/OTSPEC/GSUB.htm#AS
               subtableParsers[3] = function parseLookup3() {
                 var substFormat = this.parseUShort();
                 check.argument(
@@ -33101,7 +31120,6 @@
                 };
               };
 
-              // https://www.microsoft.com/typography/OTSPEC/GSUB.htm#LS
               subtableParsers[4] = function parseLookup4() {
                 var substFormat = this.parseUShort();
                 check.argument(
@@ -33111,7 +31129,7 @@
                 return {
                   substFormat: substFormat,
                   coverage: this.parsePointer(Parser.coverage),
-                  ligatureSets: this.parseListOfLists(function() {
+                  ligatureSets: this.parseListOfLists(function () {
                     return {
                       ligGlyph: this.parseUShort(),
                       components: this.parseUShortList(this.parseUShort() - 1)
@@ -33125,7 +31143,6 @@
                 lookupListIndex: Parser.uShort
               };
 
-              // https://www.microsoft.com/typography/OTSPEC/GSUB.htm#CSF
               subtableParsers[5] = function parseLookup5() {
                 var start = this.offset + this.relativeOffset;
                 var substFormat = this.parseUShort();
@@ -33134,7 +31151,7 @@
                   return {
                     substFormat: substFormat,
                     coverage: this.parsePointer(Parser.coverage),
-                    ruleSets: this.parseListOfLists(function() {
+                    ruleSets: this.parseListOfLists(function () {
                       var glyphCount = this.parseUShort();
                       var substCount = this.parseUShort();
                       return {
@@ -33148,7 +31165,7 @@
                     substFormat: substFormat,
                     coverage: this.parsePointer(Parser.coverage),
                     classDef: this.parsePointer(Parser.classDef),
-                    classSets: this.parseListOfLists(function() {
+                    classSets: this.parseListOfLists(function () {
                       var glyphCount = this.parseUShort();
                       var substCount = this.parseUShort();
                       return {
@@ -33180,7 +31197,7 @@
                   return {
                     substFormat: 1,
                     coverage: this.parsePointer(Parser.coverage),
-                    chainRuleSets: this.parseListOfLists(function() {
+                    chainRuleSets: this.parseListOfLists(function () {
                       return {
                         backtrack: this.parseUShortList(),
                         input: this.parseUShortList(this.parseShort() - 1),
@@ -33196,7 +31213,7 @@
                     backtrackClassDef: this.parsePointer(Parser.classDef),
                     inputClassDef: this.parsePointer(Parser.classDef),
                     lookaheadClassDef: this.parsePointer(Parser.classDef),
-                    chainClassSet: this.parseListOfLists(function() {
+                    chainClassSet: this.parseListOfLists(function () {
                       return {
                         backtrack: this.parseUShortList(),
                         input: this.parseUShortList(this.parseShort() - 1),
@@ -33328,7 +31345,7 @@
                       value: new table.Coverage(subtable.coverage)
                     }
                   ].concat(
-                    table.tableList('altSet', subtable.alternateSets, function(
+                    table.tableList('altSet', subtable.alternateSets, function (
                       alternateSet
                     ) {
                       return new table.Table(
@@ -33355,10 +31372,10 @@
                       value: new table.Coverage(subtable.coverage)
                     }
                   ].concat(
-                    table.tableList('ligSet', subtable.ligatureSets, function(ligatureSet) {
+                    table.tableList('ligSet', subtable.ligatureSets, function (ligatureSet) {
                       return new table.Table(
                         'ligatureSetTable',
-                        table.tableList('ligature', ligatureSet, function(ligature) {
+                        table.tableList('ligature', ligatureSet, function (ligature) {
                           return new table.Table(
                             'ligatureTable',
                             [
@@ -33569,7 +31586,7 @@
                 }
 
                 // Table records need to be sorted alphabetically.
-                recordFields.sort(function(r1, r2) {
+                recordFields.sort(function (r1, r2) {
                   if (r1.value.tag > r2.value.tag) {
                     return 1;
                   } else {
@@ -33720,10 +31737,6 @@
                   ulUnicodeRange3: ulUnicodeRange3,
                   ulUnicodeRange4: ulUnicodeRange4,
                   fsSelection: font.tables.os2.fsSelection, // REGULAR
-                  // See http://typophile.com/node/13081 for more info on vertical metrics.
-                  // We get metrics for typical characters (such as "x" for xHeight).
-                  // We provide some fallback characters if characters are unavailable: their
-                  // ordering was chosen experimentally.
                   sTypoAscender: globals.ascender,
                   sTypoDescender: globals.descender,
                   sTypoLineGap: 0,
@@ -33950,7 +31963,7 @@
                  * @param  {boolean} create - Whether to create a new one.
                  * @return {Object} The GSUB or GPOS table.
                  */
-                getTable: function(create) {
+                getTable: function (create) {
                   var layout = this.font.tables[this.tableName];
                   if (!layout && create) {
                     layout = this.font.tables[this.tableName] = this.createDefaultTable();
@@ -33963,12 +31976,12 @@
                  * @instance
                  * @return {Array}
                  */
-                getScriptNames: function() {
+                getScriptNames: function () {
                   var layout = this.getTable();
                   if (!layout) {
                     return [];
                   }
-                  return layout.scripts.map(function(script) {
+                  return layout.scripts.map(function (script) {
                     return script.tag;
                   });
                 },
@@ -33979,7 +31992,7 @@
                  * If not, returns 'latn' if it exists.
                  * If neither exist, returns undefined.
                  */
-                getDefaultScriptName: function() {
+                getDefaultScriptName: function () {
                   var layout = this.getTable();
                   if (!layout) {
                     return;
@@ -34006,7 +32019,7 @@
                  * @param {boolean} create - forces the creation of this script table if it doesn't exist.
                  * @return {Object} An object with tag and script properties.
                  */
-                getScriptTable: function(script, create) {
+                getScriptTable: function (script, create) {
                   var layout = this.getTable(create);
                   if (layout) {
                     script = script || 'DFLT';
@@ -34040,7 +32053,7 @@
                  * @param {boolean} create - forces the creation of this langSysTable if it doesn't exist.
                  * @return {Object}
                  */
-                getLangSysTable: function(script, language, create) {
+                getLangSysTable: function (script, language, create) {
                   var scriptTable = this.getScriptTable(script, create);
                   if (scriptTable) {
                     if (!language || language === 'dflt' || language === 'DFLT') {
@@ -34073,7 +32086,7 @@
                  * @param {boolean} create - forces the creation of the feature table if it doesn't exist.
                  * @return {Object}
                  */
-                getFeatureTable: function(script, language, feature, create) {
+                getFeatureTable: function (script, language, feature, create) {
                   var langSysTable = this.getLangSysTable(script, language, create);
                   if (langSysTable) {
                     var featureRecord;
@@ -34115,7 +32128,7 @@
                  * @param {boolean} create - forces the creation of the lookup table if it doesn't exist, with no subtables.
                  * @return {Object[]}
                  */
-                getLookupTables: function(script, language, feature, lookupType, create) {
+                getLookupTables: function (script, language, feature, lookupType, create) {
                   var featureTable = this.getFeatureTable(
                     script,
                     language,
@@ -34157,7 +32170,7 @@
                  * @param {number} glyphIndex - the index of the glyph to find
                  * @returns {number} -1 if not found
                  */
-                getGlyphClass: function(classDefTable, glyphIndex) {
+                getGlyphClass: function (classDefTable, glyphIndex) {
                   switch (classDefTable.format) {
                     case 1:
                       if (
@@ -34180,7 +32193,7 @@
                  * @param {number} glyphIndex - the index of the glyph to find
                  * @returns {number} -1 if not found
                  */
-                getCoverageIndex: function(coverageTable, glyphIndex) {
+                getCoverageIndex: function (coverageTable, glyphIndex) {
                   switch (coverageTable.format) {
                     case 1:
                       var index = binSearch(coverageTable.glyphs, glyphIndex);
@@ -34199,7 +32212,7 @@
                  * @param  {Object} coverageTable
                  * @return {Array}
                  */
-                expandCoverage: function(coverageTable) {
+                expandCoverage: function (coverageTable) {
                   if (coverageTable.format === 1) {
                     return coverageTable.glyphs;
                   } else {
@@ -34236,7 +32249,7 @@
               /**
                * Init some data for faster and easier access later.
                */
-              Position.prototype.init = function() {
+              Position.prototype.init = function () {
                 var script = this.getDefaultScriptName();
                 this.defaultKerningTables = this.getKerningTables(script);
               };
@@ -34248,7 +32261,7 @@
                * @param {integer} rightIndex - right glyph index
                * @returns {integer}
                */
-              Position.prototype.getKerningValue = function(
+              Position.prototype.getKerningValue = function (
                 kerningLookups,
                 leftIndex,
                 rightIndex
@@ -34293,7 +32306,7 @@
                * @param {string} [language='dflt']
                * @return {object[]} The list of kerning lookup tables (may be empty), or undefined if there is no GPOS table (and we should use the kern table)
                */
-              Position.prototype.getKerningTables = function(script, language) {
+              Position.prototype.getKerningTables = function (script, language) {
                 if (this.font.tables.gpos) {
                   return this.getLookupTables(script, language, 'kern', 2);
                 }
@@ -34348,7 +32361,7 @@
                * Create a default GSUB table.
                * @return {Object} gsub - The GSUB table.
                */
-              Substitution.prototype.createDefaultTable = function() {
+              Substitution.prototype.createDefaultTable = function () {
                 // Generate a default empty GSUB table with just a DFLT script and dflt lang sys.
                 return {
                   version: 1,
@@ -34377,7 +32390,7 @@
                * @param {string} feature - 4-character feature name ('aalt', 'salt', 'ss01'...)
                * @return {Array} substitutions - The list of substitutions.
                */
-              Substitution.prototype.getSingle = function(feature, script, language) {
+              Substitution.prototype.getSingle = function (feature, script, language) {
                 var this$1 = this;
 
                 var substitutions = [];
@@ -34412,7 +32425,7 @@
                * @param {string} feature - 4-character feature name ('aalt', 'salt'...)
                * @return {Array} alternates - The list of alternates
                */
-              Substitution.prototype.getAlternates = function(feature, script, language) {
+              Substitution.prototype.getAlternates = function (feature, script, language) {
                 var this$1 = this;
 
                 var alternates = [];
@@ -34439,7 +32452,7 @@
                * @param {string} [language='dflt']
                * @return {Array} ligatures - The list of ligatures.
                */
-              Substitution.prototype.getLigatures = function(feature, script, language) {
+              Substitution.prototype.getLigatures = function (feature, script, language) {
                 var this$1 = this;
 
                 var ligatures = [];
@@ -34474,7 +32487,7 @@
                * @param {string} [script='DFLT']
                * @param {string} [language='dflt']
                */
-              Substitution.prototype.addSingle = function(
+              Substitution.prototype.addSingle = function (
                 feature,
                 substitution,
                 script,
@@ -34496,7 +32509,7 @@
                 check.assert(
                   subtable.coverage.format === 1,
                   'Ligature: unable to modify coverage table format ' +
-                    subtable.coverage.format
+                  subtable.coverage.format
                 );
                 var coverageGlyph = substitution.sub;
                 var pos = this.binSearch(subtable.coverage.glyphs, coverageGlyph);
@@ -34515,7 +32528,7 @@
                * @param {string} [script='DFLT']
                * @param {string} [language='dflt']
                */
-              Substitution.prototype.addAlternate = function(
+              Substitution.prototype.addAlternate = function (
                 feature,
                 substitution,
                 script,
@@ -34537,7 +32550,7 @@
                 check.assert(
                   subtable.coverage.format === 1,
                   'Ligature: unable to modify coverage table format ' +
-                    subtable.coverage.format
+                  subtable.coverage.format
                 );
                 var coverageGlyph = substitution.sub;
                 var pos = this.binSearch(subtable.coverage.glyphs, coverageGlyph);
@@ -34557,7 +32570,7 @@
                * @param {string} [script='DFLT']
                * @param {string} [language='dflt']
                */
-              Substitution.prototype.addLigature = function(
+              Substitution.prototype.addLigature = function (
                 feature,
                 ligature,
                 script,
@@ -34583,7 +32596,7 @@
                 check.assert(
                   subtable.coverage.format === 1,
                   'Ligature: unable to modify coverage table format ' +
-                    subtable.coverage.format
+                  subtable.coverage.format
                 );
                 var coverageGlyph = ligature.sub[0];
                 var ligComponents = ligature.sub.slice(1);
@@ -34618,7 +32631,7 @@
                * @param {string} [language='dflt']
                * @return {Array} substitutions - The list of substitutions.
                */
-              Substitution.prototype.getFeature = function(feature, script, language) {
+              Substitution.prototype.getFeature = function (feature, script, language) {
                 if (/ss\d\d/.test(feature)) {
                   // ss01 - ss20
                   return this.getSingle(feature, script, language);
@@ -34644,7 +32657,7 @@
                * @param {string} [script='DFLT']
                * @param {string} [language='dflt']
                */
-              Substitution.prototype.add = function(feature, sub, script, language) {
+              Substitution.prototype.add = function (feature, sub, script, language) {
                 if (/ss\d\d/.test(feature)) {
                   // ss01 - ss20
                   return this.addSingle(feature, sub, script, language);
@@ -35048,49 +33061,20 @@
               var glyf = { getPath: getPath, parse: parseGlyfTable };
 
               /* A TrueType font hinting interpreter.
-	*
-	* (c) 2017 Axel Kittenberger
-	*
-	* This interpreter has been implemented according to this documentation:
-	* https://developer.apple.com/fonts/TrueType-Reference-Manual/RM05/Chap5.html
-	*
-	* According to the documentation F24DOT6 values are used for pixels.
-	* That means calculation is 1/64 pixel accurate and uses integer operations.
-	* However, Javascript has floating point operations by default and only
-	* those are available. One could make a case to simulate the 1/64 accuracy
-	* exactly by truncating after every division operation
-	* (for example with << 0) to get pixel exactly results as other TrueType
-	* implementations. It may make sense since some fonts are pixel optimized
-	* by hand using DELTAP instructions. The current implementation doesn't
-	* and rather uses full floating point precision.
-	*
-	* xScale, yScale and rotation is currently ignored.
-	*
-	* A few non-trivial instructions are missing as I didn't encounter yet
-	* a font that used them to test a possible implementation.
-	*
-	* Some fonts seem to use undocumented features regarding the twilight zone.
-	* Only some of them are implemented as they were encountered.
-	*
-	* The exports.DEBUG statements are removed on the minified distribution file.
-	*/
-
+              */
               var instructionTable;
               var exec;
               var execGlyph;
               var execComponent;
 
               /*
-	* Creates a hinting object.
-	*
-	* There ought to be exactly one
-	* for each truetype font that is used for hinting.
-	*/
+              * Creates a hinting object.
+              */
               function Hinting(font) {
                 // the font this hinting object is for
                 this.font = font;
 
-                this.getCommands = function(hPoints) {
+                this.getCommands = function (hPoints) {
                   return glyf.getPath(hPoints).commands;
                 };
 
@@ -35108,52 +33092,52 @@
               }
 
               /*
-	* Not rounding.
-	*/
+              * Not rounding.
+              */
               function roundOff(v) {
                 return v;
               }
 
               /*
-	* Rounding to grid.
-	*/
+              * Rounding to grid.
+              */
               function roundToGrid(v) {
                 //Rounding in TT is supposed to "symmetrical around zero"
                 return Math.sign(v) * Math.round(Math.abs(v));
               }
 
               /*
-	* Rounding to double grid.
-	*/
+              * Rounding to double grid.
+              */
               function roundToDoubleGrid(v) {
                 return Math.sign(v) * Math.round(Math.abs(v * 2)) / 2;
               }
 
               /*
-	* Rounding to half grid.
-	*/
+              * Rounding to half grid.
+              */
               function roundToHalfGrid(v) {
                 return Math.sign(v) * (Math.round(Math.abs(v) + 0.5) - 0.5);
               }
 
               /*
-	* Rounding to up to grid.
-	*/
+              * Rounding to up to grid.
+              */
               function roundUpToGrid(v) {
                 return Math.sign(v) * Math.ceil(Math.abs(v));
               }
 
               /*
-	* Rounding to down to grid.
-	*/
+              * Rounding to down to grid.
+              */
               function roundDownToGrid(v) {
                 return Math.sign(v) * Math.floor(Math.abs(v));
               }
 
               /*
-	* Super rounding.
-	*/
-              var roundSuper = function(v) {
+              * Super rounding.
+              */
+              var roundSuper = function (v) {
                 var period = this.srPeriod;
                 var phase = this.srPhase;
                 var threshold = this.srThreshold;
@@ -35170,7 +33154,6 @@
 
                 v += phase;
 
-                // according to http://xgridfit.sourceforge.net/round.html
                 if (v < 0) {
                   return phase * sign;
                 }
@@ -35179,8 +33162,8 @@
               };
 
               /*
-	* Unit vector of x-axis.
-	*/
+              * Unit vector of x-axis.
+              */
               var xUnitVector = {
                 x: 1,
 
@@ -35190,16 +33173,14 @@
 
                 // Gets the projected distance between two points.
                 // o1/o2 ... if true, respective original position is used.
-                distance: function(p1, p2, o1, o2) {
+                distance: function (p1, p2, o1, o2) {
                   return (o1 ? p1.xo : p1.x) - (o2 ? p2.xo : p2.x);
                 },
 
                 // Moves point p so the moved position has the same relative
                 // position to the moved positions of rp1 and rp2 than the
                 // original positions had.
-                //
-                // See APPENDIX on INTERPOLATE at the bottom of this file.
-                interpolate: function(p, rp1, rp2, pv) {
+                interpolate: function (p, rp1, rp2, pv) {
                   var do1;
                   var do2;
                   var doa1;
@@ -35248,14 +33229,12 @@
                 // Sets the point 'p' relative to point 'rp'
                 // by the distance 'd'.
                 //
-                // See APPENDIX on SETRELATIVE at the bottom of this file.
-                //
                 // p   ... point to set
                 // rp  ... reference point
                 // d   ... distance on projection vector
                 // pv  ... projection vector (undefined = this)
                 // org ... if true, uses the original position of rp as reference.
-                setRelative: function(p, rp, d, pv, org) {
+                setRelative: function (p, rp, d, pv, org) {
                   if (!pv || pv === this) {
                     p.x = (org ? rp.xo : rp.x) + d;
                     return;
@@ -35273,24 +33252,24 @@
                 slope: 0,
 
                 // Touches the point p.
-                touch: function(p) {
+                touch: function (p) {
                   p.xTouched = true;
                 },
 
                 // Tests if a point p is touched.
-                touched: function(p) {
+                touched: function (p) {
                   return p.xTouched;
                 },
 
                 // Untouches the point p.
-                untouch: function(p) {
+                untouch: function (p) {
                   p.xTouched = false;
                 }
               };
 
               /*
-	* Unit vector of y-axis.
-	*/
+              * Unit vector of y-axis.
+              */
               var yUnitVector = {
                 x: 0,
 
@@ -35300,16 +33279,14 @@
 
                 // Gets the projected distance between two points.
                 // o1/o2 ... if true, respective original position is used.
-                distance: function(p1, p2, o1, o2) {
+                distance: function (p1, p2, o1, o2) {
                   return (o1 ? p1.yo : p1.y) - (o2 ? p2.yo : p2.y);
                 },
 
                 // Moves point p so the moved position has the same relative
                 // position to the moved positions of rp1 and rp2 than the
                 // original positions had.
-                //
-                // See APPENDIX on INTERPOLATE at the bottom of this file.
-                interpolate: function(p, rp1, rp2, pv) {
+                interpolate: function (p, rp1, rp2, pv) {
                   var do1;
                   var do2;
                   var doa1;
@@ -35358,14 +33335,12 @@
                 // Sets the point 'p' relative to point 'rp'
                 // by the distance 'd'
                 //
-                // See APPENDIX on SETRELATIVE at the bottom of this file.
-                //
                 // p   ... point to set
                 // rp  ... reference point
                 // d   ... distance on projection vector
                 // pv  ... projection vector (undefined = this)
                 // org ... if true, uses the original position of rp as reference.
-                setRelative: function(p, rp, d, pv, org) {
+                setRelative: function (p, rp, d, pv, org) {
                   if (!pv || pv === this) {
                     p.y = (org ? rp.yo : rp.y) + d;
                     return;
@@ -35383,17 +33358,17 @@
                 slope: Number.POSITIVE_INFINITY,
 
                 // Touches the point p.
-                touch: function(p) {
+                touch: function (p) {
                   p.yTouched = true;
                 },
 
                 // Tests if a point p is touched.
-                touched: function(p) {
+                touched: function (p) {
                   return p.yTouched;
                 },
 
                 // Untouches the point p.
-                untouch: function(p) {
+                untouch: function (p) {
                   p.yTouched = false;
                 }
               };
@@ -35402,8 +33377,8 @@
               Object.freeze(yUnitVector);
 
               /*
-	* Creates a unit vector that is not x- or y-axis.
-	*/
+              * Creates a unit vector that is not x- or y-axis.
+              */
               function UnitVector(x, y) {
                 this.x = x;
                 this.y = y;
@@ -35414,10 +33389,10 @@
               }
 
               /*
-	* Gets the projected distance between two points.
-	* o1/o2 ... if true, respective original position is used.
-	*/
-              UnitVector.prototype.distance = function(p1, p2, o1, o2) {
+              * Gets the projected distance between two points.
+              * o1/o2 ... if true, respective original position is used.
+              */
+              UnitVector.prototype.distance = function (p1, p2, o1, o2) {
                 return (
                   this.x * xUnitVector.distance(p1, p2, o1, o2) +
                   this.y * yUnitVector.distance(p1, p2, o1, o2)
@@ -35425,13 +33400,11 @@
               };
 
               /*
-	* Moves point p so the moved position has the same relative
-	* position to the moved positions of rp1 and rp2 than the
-	* original positions had.
-	*
-	* See APPENDIX on INTERPOLATE at the bottom of this file.
-	*/
-              UnitVector.prototype.interpolate = function(p, rp1, rp2, pv) {
+              * Moves point p so the moved position has the same relative
+              * position to the moved positions of rp1 and rp2 than the
+              * original positions had.
+              */
+              UnitVector.prototype.interpolate = function (p, rp1, rp2, pv) {
                 var dm1;
                 var dm2;
                 var do1;
@@ -35457,18 +33430,15 @@
               };
 
               /*
-	* Sets the point 'p' relative to point 'rp'
-	* by the distance 'd'
-	*
-	* See APPENDIX on SETRELATIVE at the bottom of this file.
-	*
-	* p   ...  point to set
-	* rp  ... reference point
-	* d   ... distance on projection vector
-	* pv  ... projection vector (undefined = this)
-	* org ... if true, uses the original position of rp as reference.
-	*/
-              UnitVector.prototype.setRelative = function(p, rp, d, pv, org) {
+              * Sets the point 'p' relative to point 'rp' by the distance 'd'
+              *
+              * p   ...  point to set
+              * rp  ... reference point
+              * d   ... distance on projection vector
+              * pv  ... projection vector (undefined = this)
+              * org ... if true, uses the original position of rp as reference.
+              */
+              UnitVector.prototype.setRelative = function (p, rp, d, pv, org) {
                 pv = pv || this;
 
                 var rpx = org ? rp.xo : rp.x;
@@ -35487,16 +33457,16 @@
               };
 
               /*
-	* Touches the point p.
-	*/
-              UnitVector.prototype.touch = function(p) {
+              * Touches the point p.
+              */
+              UnitVector.prototype.touch = function (p) {
                 p.xTouched = true;
                 p.yTouched = true;
               };
 
               /*
-	* Returns a unit vector with x/y coordinates.
-	*/
+              * Returns a unit vector with x/y coordinates.
+              */
               function getUnitVector(x, y) {
                 var d = Math.sqrt(x * x + y * y);
 
@@ -35513,8 +33483,8 @@
               }
 
               /*
-	* Creates a point in the hinting engine.
-	*/
+  * Creates a point in the hinting engine.
+  */
               function HPoint(x, y, lastPointOfContour, onCurve) {
                 this.x = this.xo = Math.round(x * 64) / 64; // hinted x value and original x-value
                 this.y = this.yo = Math.round(y * 64) / 64; // hinted y value and original y-value
@@ -35530,11 +33500,9 @@
               }
 
               /*
-	* Returns the next touched point on the contour.
-	*
-	* v  ... unit vector to test touch axis.
-	*/
-              HPoint.prototype.nextTouched = function(v) {
+              * Returns the next touched point on the contour.
+              */
+              HPoint.prototype.nextTouched = function (v) {
                 var p = this.nextPointOnContour;
 
                 while (!v.touched(p) && p !== this) {
@@ -35545,11 +33513,9 @@
               };
 
               /*
-	* Returns the previous touched point on the contour
-	*
-	* v  ... unit vector to test touch axis.
-	*/
-              HPoint.prototype.prevTouched = function(v) {
+              * Returns the previous touched point on the contour
+              */
+              HPoint.prototype.prevTouched = function (v) {
                 var p = this.prevPointOnContour;
 
                 while (!v.touched(p) && p !== this) {
@@ -35559,19 +33525,11 @@
                 return p;
               };
 
-              /*
-	* The zero point.
-	*/
               var HPZero = Object.freeze(new HPoint(0, 0));
 
               /*
-	* The default state of the interpreter.
-	*
-	* Note: Freezing the defaultState and then deriving from it
-	* makes the V8 Javascript engine going awkward,
-	* so this is avoided, albeit the defaultState shouldn't
-	* ever change.
-	*/
+              * The default state of the interpreter.
+              */
               var defaultState = {
                 cvCutIn: 17 / 16, // control value cut in
                 deltaBase: 9,
@@ -35582,11 +33540,8 @@
               };
 
               /*
-	* The current state of the interpreter.
-	*
-	* env  ... 'fpgm' or 'prep' or 'glyf'
-	* prog ... the program
-	*/
+              * The current state of the interpreter.
+              */
               function State(env, prog) {
                 this.env = env;
                 this.stack = [];
@@ -35604,16 +33559,9 @@
               }
 
               /*
-	* Executes a glyph program.
-	*
-	* This does the hinting for each glyph.
-	*
-	* Returns an array of moved points.
-	*
-	* glyph: the glyph to hint
-	* ppem: the size the glyph is rendered for
-	*/
-              Hinting.prototype.exec = function(glyph, ppem) {
+              * Executes a glyph program.
+              */
+              Hinting.prototype.exec = function (glyph, ppem) {
                 if (typeof ppem !== 'number') {
                   throw new Error('Point size is not a number!');
                 }
@@ -35707,9 +33655,9 @@
               };
 
               /*
-	* Executes the hinting program for a glyph.
-	*/
-              execGlyph = function(glyph, prepState) {
+              * Executes the hinting program for a glyph.
+              */
+              execGlyph = function (glyph, prepState) {
                 // original point positions
                 var xScale = prepState.ppem / prepState.font.unitsPerEm;
                 var yScale = xScale;
@@ -35768,11 +33716,8 @@
                     state = new State('glyf', glyph.instructions);
 
                     state.gZone = state.z0 = state.z1 = state.z2 = gZone;
-
                     state.contours = contours;
 
-                    // note: HPZero cannot be used here, since
-                    //       the point might be modified
                     gZone.push(
                       new HPoint(0, 0),
                       new HPoint(Math.round(glyph.advanceWidth * xScale), 0)
@@ -35793,10 +33738,10 @@
               };
 
               /*
-	* Executes the hinting program for a component of a multi-component glyph
-	* or of the glyph itself for a non-component glyph.
-	*/
-              execComponent = function(glyph, state, xScale, yScale) {
+  * Executes the hinting program for a component of a multi-component glyph
+  * or of the glyph itself for a non-component glyph.
+  */
+              execComponent = function (glyph, state, xScale, yScale) {
                 var points = glyph.points || [];
                 var pLen = points.length;
                 var gZone = (state.gZone = state.z0 = state.z1 = state.z2 = []);
@@ -35869,9 +33814,9 @@
               };
 
               /*
-	* Executes the program loaded in state.
-	*/
-              exec = function(state) {
+  * Executes the program loaded in state.
+  */
+              exec = function (state) {
                 var prog = state.prog;
 
                 if (!prog) {
@@ -35897,54 +33842,54 @@
 
                   // very extensive debugging for each step
                   /*
-	        if (exports.DEBUG) {
-	            var da;
-	            if (state.gZone) {
-	                da = [];
-	                for (let i = 0; i < state.gZone.length; i++)
-	                {
-	                    da.push(i + ' ' +
-	                        state.gZone[i].x * 64 + ' ' +
-	                        state.gZone[i].y * 64 + ' ' +
-	                        (state.gZone[i].xTouched ? 'x' : '') +
-	                        (state.gZone[i].yTouched ? 'y' : '')
-	                    );
-	                }
-	                console.log('GZ', da);
-	            }
+          if (exports.DEBUG) {
+              var da;
+              if (state.gZone) {
+                  da = [];
+                  for (let i = 0; i < state.gZone.length; i++)
+                  {
+                      da.push(i + ' ' +
+                          state.gZone[i].x * 64 + ' ' +
+                          state.gZone[i].y * 64 + ' ' +
+                          (state.gZone[i].xTouched ? 'x' : '') +
+                          (state.gZone[i].yTouched ? 'y' : '')
+                      );
+                  }
+                  console.log('GZ', da);
+              }
 
-	            if (state.tZone) {
-	                da = [];
-	                for (let i = 0; i < state.tZone.length; i++) {
-	                    da.push(i + ' ' +
-	                        state.tZone[i].x * 64 + ' ' +
-	                        state.tZone[i].y * 64 + ' ' +
-	                        (state.tZone[i].xTouched ? 'x' : '') +
-	                        (state.tZone[i].yTouched ? 'y' : '')
-	                    );
-	                }
-	                console.log('TZ', da);
-	            }
+              if (state.tZone) {
+                  da = [];
+                  for (let i = 0; i < state.tZone.length; i++) {
+                      da.push(i + ' ' +
+                          state.tZone[i].x * 64 + ' ' +
+                          state.tZone[i].y * 64 + ' ' +
+                          (state.tZone[i].xTouched ? 'x' : '') +
+                          (state.tZone[i].yTouched ? 'y' : '')
+                      );
+                  }
+                  console.log('TZ', da);
+              }
 
-	            if (state.stack.length > 10) {
-	                console.log(
-	                    state.stack.length,
-	                    '...', state.stack.slice(state.stack.length - 10)
-	                );
-	            } else {
-	                console.log(state.stack.length, state.stack);
-	            }
-	        }
-	        */
+              if (state.stack.length > 10) {
+                  console.log(
+                      state.stack.length,
+                      '...', state.stack.slice(state.stack.length - 10)
+                  );
+              } else {
+                  console.log(state.stack.length, state.stack);
+              }
+          }
+          */
                 }
               };
 
               /*
-	* Initializes the twilight zone.
-	*
-	* This is only done if a SZPx instruction
-	* refers to the twilight zone.
-	*/
+  * Initializes the twilight zone.
+  *
+  * This is only done if a SZPx instruction
+  * refers to the twilight zone.
+  */
               function initTZone(state) {
                 var tZone = (state.tZone = new Array(state.gZone.length));
 
@@ -35955,9 +33900,9 @@
               }
 
               /*
-	* Skips the instruction pointer ahead over an IF/ELSE block.
-	* handleElse .. if true breaks on matching ELSE
-	*/
+  * Skips the instruction pointer ahead over an IF/ELSE block.
+  * handleElse .. if true breaks on matching ELSE
+  */
               function skip(state, handleElse) {
                 var prog = state.prog;
                 var ip = state.ip;
@@ -35994,8 +33939,8 @@
               }
 
               /*----------------------------------------------------------*
-	*          And then a lot of instructions...                *
-	*----------------------------------------------------------*/
+  *          And then a lot of instructions...                *
+  *----------------------------------------------------------*/
 
               // SVTCA[a] Set freedom and projection Vectors To Coordinate Axis
               // 0x00-0x01
@@ -36572,7 +34517,7 @@
                   console.log(state.step, 'FDEF[]', fn);
                 }
 
-                while (prog[++ip] !== 0x2d) {}
+                while (prog[++ip] !== 0x2d) { }
 
                 state.ip = ip;
                 state.funcs[fn] = prog.slice(ipBegin + 1, ip);
@@ -36666,9 +34611,9 @@
                     console.log(
                       state.step,
                       (state.loop > 1 ? 'loop ' + (state.loop - loop) + ': ' : '') +
-                        'SHP[' +
-                        (a ? 'rp1' : 'rp2') +
-                        ']',
+                      'SHP[' +
+                      (a ? 'rp1' : 'rp2') +
+                      ']',
                       pi
                     );
                   }
@@ -36757,7 +34702,7 @@
                     console.log(
                       state.step,
                       (state.loop > 1 ? 'loop ' + (state.loop - loop) + ': ' : '') +
-                        'SHPIX[]',
+                      'SHPIX[]',
                       pi,
                       d
                     );
@@ -36850,7 +34795,7 @@
                     console.log(
                       state.step,
                       (state.loop > 1 ? 'loop ' + (state.loop - loop) + ': ' : '') +
-                        'ALIGNRP[]',
+                      'ALIGNRP[]',
                       pi
                     );
                   }
@@ -37861,11 +35806,11 @@
                   console.log(
                     state.step,
                     (indirect ? 'MIRP[' : 'MDRP[') +
-                      (setRp0 ? 'M' : 'm') +
-                      (keepD ? '>' : '_') +
-                      (ro ? 'R' : '_') +
-                      (dt === 0 ? 'Gr' : dt === 1 ? 'Bl' : dt === 2 ? 'Wh' : '') +
-                      ']',
+                    (setRp0 ? 'M' : 'm') +
+                    (keepD ? '>' : '_') +
+                    (ro ? 'R' : '_') +
+                    (dt === 0 ? 'Gr' : dt === 1 ? 'Bl' : dt === 2 ? 'Wh' : '') +
+                    ']',
                     indirect ? cvte + '(' + state.cvt[cvte] + ',' + cv + ')' : '',
                     pi,
                     '(d =',
@@ -37884,8 +35829,8 @@
               }
 
               /*
-	* The instruction table.
-	*/
+              * The instruction table.
+              */
               instructionTable = [
                 /* 0x00 */ SVTCA.bind(undefined, yUnitVector),
                 /* 0x01 */ SVTCA.bind(undefined, xUnitVector),
@@ -38145,10 +36090,9 @@
                 /* 0xFF */ MDRP_MIRP.bind(undefined, 1, 1, 1, 1, 3)
               ];
 
-              // This code is based on Array.from implementation for strings in https://github.com/mathiasbynens/Array.from
               var arrayFromString =
                 Array.from ||
-                function(s) {
+                function (s) {
                   return (
                     s.match(/[\uD800-\uDBFF][\uDC00-\uDFFF]?|[^\uD800-\uDFFF]|./g) || []
                   );
@@ -38265,7 +36209,7 @@
                 this.tables = this.tables || {};
 
                 Object.defineProperty(this, 'hinting', {
-                  get: function() {
+                  get: function () {
                     if (this._hinting) {
                       return this._hinting;
                     }
@@ -38281,33 +36225,28 @@
                * @param  {string}
                * @return {Boolean}
                */
-              Font.prototype.hasChar = function(c) {
+              Font.prototype.hasChar = function (c) {
                 return this.encoding.charToGlyphIndex(c) !== null;
               };
 
               /**
                * Convert the given character to a single glyph index.
-               * Note that this function assumes that there is a one-to-one mapping between
-               * the given character and a glyph; for complex scripts this might not be the case.
                * @param  {string}
                * @return {Number}
                */
-              Font.prototype.charToGlyphIndex = function(s) {
+              Font.prototype.charToGlyphIndex = function (s) {
                 return this.encoding.charToGlyphIndex(s);
               };
 
               /**
                * Convert the given character to a single Glyph object.
-               * Note that this function assumes that there is a one-to-one mapping between
-               * the given character and a glyph; for complex scripts this might not be the case.
                * @param  {string}
                * @return {opentype.Glyph}
                */
-              Font.prototype.charToGlyph = function(c) {
+              Font.prototype.charToGlyph = function (c) {
                 var glyphIndex = this.charToGlyphIndex(c);
                 var glyph = this.glyphs.get(glyphIndex);
                 if (!glyph) {
-                  // .notdef
                   glyph = this.glyphs.get(0);
                 }
 
@@ -38316,14 +36255,11 @@
 
               /**
                * Convert the given text to a list of Glyph objects.
-               * Note that there is no strict one-to-one mapping between characters and
-               * glyphs, so the list of returned glyphs can be larger or smaller than the
-               * length of the given string.
                * @param  {string}
                * @param  {GlyphRenderOptions} [options]
                * @return {opentype.Glyph[]}
                */
-              Font.prototype.stringToGlyphs = function(s, options) {
+              Font.prototype.stringToGlyphs = function (s, options) {
                 var this$1 = this;
 
                 options = options || this.defaultRenderOptions;
@@ -38380,7 +36316,7 @@
                * @param  {string}
                * @return {Number}
                */
-              Font.prototype.nameToGlyphIndex = function(name) {
+              Font.prototype.nameToGlyphIndex = function (name) {
                 return this.glyphNames.nameToGlyphIndex(name);
               };
 
@@ -38388,7 +36324,7 @@
                * @param  {string}
                * @return {opentype.Glyph}
                */
-              Font.prototype.nameToGlyph = function(name) {
+              Font.prototype.nameToGlyph = function (name) {
                 var glyphIndex = this.nameToGlyphIndex(name);
                 var glyph = this.glyphs.get(glyphIndex);
                 if (!glyph) {
@@ -38403,7 +36339,7 @@
                * @param  {Number}
                * @return {String}
                */
-              Font.prototype.glyphIndexToName = function(gid) {
+              Font.prototype.glyphIndexToName = function (gid) {
                 if (!this.glyphNames.glyphIndexToName) {
                   return '';
                 }
@@ -38416,13 +36352,11 @@
                * and the right glyph (or its index). If no kerning pair is found, return 0.
                * The kerning value gets added to the advance width when calculating the spacing
                * between glyphs.
-               * For GPOS kerning, this method uses the default script and language, which covers
-               * most use cases. To have greater control, use font.position.getKerningValue .
                * @param  {opentype.Glyph} leftGlyph
                * @param  {opentype.Glyph} rightGlyph
                * @return {Number}
                */
-              Font.prototype.getKerningValue = function(leftGlyph, rightGlyph) {
+              Font.prototype.getKerningValue = function (leftGlyph, rightGlyph) {
                 leftGlyph = leftGlyph.index || leftGlyph;
                 rightGlyph = rightGlyph.index || rightGlyph;
                 var gposKerning = this.position.defaultKerningTables;
@@ -38437,12 +36371,9 @@
                * @typedef GlyphRenderOptions
                * @type Object
                * @property {string} [script] - script used to determine which features to apply. By default, 'DFLT' or 'latn' is used.
-               *                               See https://www.microsoft.com/typography/otspec/scripttags.htm
                * @property {string} [language='dflt'] - language system used to determine which features to apply.
-               *                                        See https://www.microsoft.com/typography/developers/opentype/languagetags.aspx
                * @property {boolean} [kerning=true] - whether to include kerning values
                * @property {object} [features] - OpenType Layout feature tags. Used to enable or disable the features of the given script/language system.
-               *                                 See https://www.microsoft.com/typography/otspec/featuretags.htm
                */
               Font.prototype.defaultRenderOptions = {
                 kerning: true,
@@ -38462,7 +36393,7 @@
                * @param  {GlyphRenderOptions=} options
                * @param  {Function} callback
                */
-              Font.prototype.forEachGlyph = function(
+              Font.prototype.forEachGlyph = function (
                 text,
                 x,
                 y,
@@ -38495,10 +36426,10 @@
                     // Here we only use the xAdvance value.
                     var kerningValue = kerningLookups
                       ? this$1.position.getKerningValue(
-                          kerningLookups,
-                          glyph.index,
-                          glyphs[i + 1].index
-                        )
+                        kerningLookups,
+                        glyph.index,
+                        glyphs[i + 1].index
+                      )
                       : this$1.getKerningValue(glyph, glyphs[i + 1]);
                     x += kerningValue * fontScale;
                   }
@@ -38521,9 +36452,9 @@
                * @param  {GlyphRenderOptions=} options
                * @return {opentype.Path}
                */
-              Font.prototype.getPath = function(text, x, y, fontSize, options) {
+              Font.prototype.getPath = function (text, x, y, fontSize, options) {
                 var fullPath = new Path();
-                this.forEachGlyph(text, x, y, fontSize, options, function(
+                this.forEachGlyph(text, x, y, fontSize, options, function (
                   glyph,
                   gX,
                   gY,
@@ -38544,9 +36475,9 @@
                * @param  {GlyphRenderOptions=} options
                * @return {opentype.Path[]}
                */
-              Font.prototype.getPaths = function(text, x, y, fontSize, options) {
+              Font.prototype.getPaths = function (text, x, y, fontSize, options) {
                 var glyphPaths = [];
-                this.forEachGlyph(text, x, y, fontSize, options, function(
+                this.forEachGlyph(text, x, y, fontSize, options, function (
                   glyph,
                   gX,
                   gY,
@@ -38574,8 +36505,8 @@
                * @param  {GlyphRenderOptions=} options
                * @return advance width
                */
-              Font.prototype.getAdvanceWidth = function(text, fontSize, options) {
-                return this.forEachGlyph(text, 0, 0, fontSize, options, function() {});
+              Font.prototype.getAdvanceWidth = function (text, fontSize, options) {
+                return this.forEachGlyph(text, 0, 0, fontSize, options, function () { });
               };
 
               /**
@@ -38587,7 +36518,7 @@
                * @param  {number} [fontSize=72] - Font size in pixels. We scale the glyph units by `1 / unitsPerEm * fontSize`.
                * @param  {GlyphRenderOptions=} options
                */
-              Font.prototype.draw = function(ctx, text, x, y, fontSize, options) {
+              Font.prototype.draw = function (ctx, text, x, y, fontSize, options) {
                 this.getPath(text, x, y, fontSize, options).draw(ctx);
               };
 
@@ -38601,8 +36532,8 @@
                * @param {number} [fontSize=72] - Font size in pixels. We scale the glyph units by `1 / unitsPerEm * fontSize`.
                * @param {GlyphRenderOptions=} options
                */
-              Font.prototype.drawPoints = function(ctx, text, x, y, fontSize, options) {
-                this.forEachGlyph(text, x, y, fontSize, options, function(
+              Font.prototype.drawPoints = function (ctx, text, x, y, fontSize, options) {
+                this.forEachGlyph(text, x, y, fontSize, options, function (
                   glyph,
                   gX,
                   gY,
@@ -38624,8 +36555,8 @@
                * @param {number} [fontSize=72] - Font size in pixels. We scale the glyph units by `1 / unitsPerEm * fontSize`.
                * @param {GlyphRenderOptions=} options
                */
-              Font.prototype.drawMetrics = function(ctx, text, x, y, fontSize, options) {
-                this.forEachGlyph(text, x, y, fontSize, options, function(
+              Font.prototype.drawMetrics = function (ctx, text, x, y, fontSize, options) {
+                this.forEachGlyph(text, x, y, fontSize, options, function (
                   glyph,
                   gX,
                   gY,
@@ -38639,7 +36570,7 @@
                * @param  {string}
                * @return {string}
                */
-              Font.prototype.getEnglishName = function(name) {
+              Font.prototype.getEnglishName = function (name) {
                 var translations = this.names[name];
                 if (translations) {
                   return translations.en;
@@ -38649,10 +36580,10 @@
               /**
                * Validate
                */
-              Font.prototype.validate = function() {
+              Font.prototype.validate = function () {
                 var _this = this;
 
-                function assert(predicate, message) {}
+                function assert(predicate, message) { }
 
                 function assertNamePresent(name) {
                   var englishName = _this.getEnglishName(name);
@@ -38678,13 +36609,13 @@
                * This structure contains all the necessary tables and metadata to create a binary OTF file.
                * @return {opentype.Table}
                */
-              Font.prototype.toTables = function() {
+              Font.prototype.toTables = function () {
                 return sfnt.fontToTable(this);
               };
               /**
                * @deprecated Font.toBuffer is deprecated. Use Font.toArrayBuffer instead.
                */
-              Font.prototype.toBuffer = function() {
+              Font.prototype.toBuffer = function () {
                 console.warn(
                   'Font.toBuffer is deprecated. Use Font.toArrayBuffer instead.'
                 );
@@ -38694,7 +36625,7 @@
                * Converts a `opentype.Font` into an `ArrayBuffer`
                * @return {ArrayBuffer}
                */
-              Font.prototype.toArrayBuffer = function() {
+              Font.prototype.toArrayBuffer = function () {
                 var sfntTable = this.toTables();
                 var bytes = sfntTable.encode();
                 var buffer = new ArrayBuffer(bytes.length);
@@ -38709,7 +36640,7 @@
               /**
                * Initiate a download of the OpenType font.
                */
-              Font.prototype.download = function(fileName) {
+              Font.prototype.download = function (fileName) {
                 var familyName = this.getEnglishName('fontFamily');
                 var styleName = this.getEnglishName('fontSubfamily');
                 fileName =
@@ -38722,16 +36653,16 @@
                   window.requestFileSystem(
                     window.TEMPORARY,
                     arrayBuffer.byteLength,
-                    function(fs) {
-                      fs.root.getFile(fileName, { create: true }, function(fileEntry) {
-                        fileEntry.createWriter(function(writer) {
+                    function (fs) {
+                      fs.root.getFile(fileName, { create: true }, function (fileEntry) {
+                        fileEntry.createWriter(function (writer) {
                           var dataView = new DataView(arrayBuffer);
                           var blob = new Blob([dataView], { type: 'font/opentype' });
                           writer.write(blob);
 
                           writer.addEventListener(
                             'writeend',
-                            function() {
+                            function () {
                               // Navigating to the file will download it.
                               location.href = fileEntry.toURL();
                             },
@@ -38740,7 +36671,7 @@
                         });
                       });
                     },
-                    function(err) {
+                    function (err) {
                       throw new Error(err.name + ': ' + err.message);
                     }
                   );
@@ -38991,7 +36922,7 @@
                     valueFormat2: valueFormat2,
                     pairSets: this.parseList(
                       Parser.pointer(
-                        Parser.list(function() {
+                        Parser.list(function () {
                           return {
                             // pairValueRecord
                             secondGlyph: this.parseUShort(),
@@ -39019,7 +36950,7 @@
                     class2Count: class2Count,
                     classRecords: this.parseList(
                       class1Count,
-                      Parser.list(class2Count, function() {
+                      Parser.list(class2Count, function () {
                         return {
                           value1: this.parseValueRecord(valueFormat1),
                           value2: this.parseValueRecord(valueFormat2)
@@ -39220,7 +37151,7 @@
                */
               function loadFromFile(path, callback) {
                 var fs = _dereq_('fs');
-                fs.readFile(path, function(err, buffer) {
+                fs.readFile(path, function (err, buffer) {
                   if (err) {
                     return callback(err.message);
                   }
@@ -39238,7 +37169,7 @@
                 var request = new XMLHttpRequest();
                 request.open('get', url, true);
                 request.responseType = 'arraybuffer';
-                request.onload = function() {
+                request.onload = function () {
                   if (request.response) {
                     return callback(null, request.response);
                   } else {
@@ -39246,7 +37177,7 @@
                   }
                 };
 
-                request.onerror = function() {
+                request.onerror = function () {
                   callback('Font could not be loaded');
                 };
 
@@ -39339,8 +37270,8 @@
                   if (outBuffer.byteLength !== tableEntry.length) {
                     throw new Error(
                       'Decompression error: ' +
-                        tableEntry.tag +
-                        " decompressed length doesn't match recorded length"
+                      tableEntry.tag +
+                      " decompressed length doesn't match recorded length"
                     );
                   }
 
@@ -39588,7 +37519,7 @@
               function load(url, callback) {
                 var isNode$$1 = typeof window === 'undefined';
                 var loadFn = isNode$$1 ? loadFromFile : loadFromUrl;
-                loadFn(url, function(err, arrayBuffer) {
+                loadFn(url, function (err, arrayBuffer) {
                   if (err) {
                     return callback(err);
                   }
@@ -39631,8 +37562,8 @@
         { buffer: 22, fs: 21 }
       ],
       35: [
-        function(_dereq_, module, exports) {
-          (function(process) {
+        function (_dereq_, module, exports) {
+          (function (process) {
             // .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
             // backported and transplited with Babel, with backwards-compat fixes
 
@@ -39689,7 +37620,7 @@
 
             // path.resolve([from ...], to)
             // posix version
-            exports.resolve = function() {
+            exports.resolve = function () {
               var resolvedPath = '',
                 resolvedAbsolute = false;
 
@@ -39712,7 +37643,7 @@
 
               // Normalize the path
               resolvedPath = normalizeArray(
-                filter(resolvedPath.split('/'), function(p) {
+                filter(resolvedPath.split('/'), function (p) {
                   return !!p;
                 }),
                 !resolvedAbsolute
@@ -39723,13 +37654,13 @@
 
             // path.normalize(path)
             // posix version
-            exports.normalize = function(path) {
+            exports.normalize = function (path) {
               var isAbsolute = exports.isAbsolute(path),
                 trailingSlash = substr(path, -1) === '/';
 
               // Normalize the path
               path = normalizeArray(
-                filter(path.split('/'), function(p) {
+                filter(path.split('/'), function (p) {
                   return !!p;
                 }),
                 !isAbsolute
@@ -39746,15 +37677,15 @@
             };
 
             // posix version
-            exports.isAbsolute = function(path) {
+            exports.isAbsolute = function (path) {
               return path.charAt(0) === '/';
             };
 
             // posix version
-            exports.join = function() {
+            exports.join = function () {
               var paths = Array.prototype.slice.call(arguments, 0);
               return exports.normalize(
-                filter(paths, function(p, index) {
+                filter(paths, function (p, index) {
                   if (typeof p !== 'string') {
                     throw new TypeError('Arguments to path.join must be strings');
                   }
@@ -39765,7 +37696,7 @@
 
             // path.relative(from, to)
             // posix version
-            exports.relative = function(from, to) {
+            exports.relative = function (from, to) {
               from = exports.resolve(from).substr(1);
               to = exports.resolve(to).substr(1);
 
@@ -39809,7 +37740,7 @@
             exports.sep = '/';
             exports.delimiter = ':';
 
-            exports.dirname = function(path) {
+            exports.dirname = function (path) {
               if (typeof path !== 'string') path = path + '';
               if (path.length === 0) return '.';
               var code = path.charCodeAt(0);
@@ -39868,7 +37799,7 @@
 
             // Uses a mixed approach for backwards-compatibility, as ext behavior changed
             // in new Node.js versions, so only basename() above is backported here
-            exports.basename = function(path, ext) {
+            exports.basename = function (path, ext) {
               var f = basename(path);
               if (ext && f.substr(-1 * ext.length) === ext) {
                 f = f.substr(0, f.length - ext.length);
@@ -39876,7 +37807,7 @@
               return f;
             };
 
-            exports.extname = function(path) {
+            exports.extname = function (path) {
               if (typeof path !== 'string') path = path + '';
               var startDot = -1;
               var startPart = 0;
@@ -39938,19 +37869,19 @@
             // String.prototype.substr - negative index don't work in IE8
             var substr =
               'ab'.substr(-1) === 'b'
-                ? function(str, start, len) {
-                    return str.substr(start, len);
-                  }
-                : function(str, start, len) {
-                    if (start < 0) start = str.length + start;
-                    return str.substr(start, len);
-                  };
+                ? function (str, start, len) {
+                  return str.substr(start, len);
+                }
+                : function (str, start, len) {
+                  if (start < 0) start = str.length + start;
+                  return str.substr(start, len);
+                };
           }.call(this, _dereq_('_process')));
         },
         { _process: 36 }
       ],
       36: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           // shim for using process in browser
           var process = (module.exports = {});
 
@@ -39968,7 +37899,7 @@
           function defaultClearTimeout() {
             throw new Error('clearTimeout has not been defined');
           }
-          (function() {
+          (function () {
             try {
               if (typeof setTimeout === 'function') {
                 cachedSetTimeout = setTimeout;
@@ -40085,7 +38016,7 @@
             runClearTimeout(timeout);
           }
 
-          process.nextTick = function(fun) {
+          process.nextTick = function (fun) {
             var args = new Array(arguments.length - 1);
             if (arguments.length > 1) {
               for (var i = 1; i < arguments.length; i++) {
@@ -40103,7 +38034,7 @@
             this.fun = fun;
             this.array = array;
           }
-          Item.prototype.run = function() {
+          Item.prototype.run = function () {
             this.fun.apply(null, this.array);
           };
           process.title = 'browser';
@@ -40113,7 +38044,7 @@
           process.version = ''; // empty string to avoid regexp issues
           process.versions = {};
 
-          function noop() {}
+          function noop() { }
 
           process.on = noop;
           process.addListener = noop;
@@ -40125,29 +38056,29 @@
           process.prependListener = noop;
           process.prependOnceListener = noop;
 
-          process.listeners = function(name) {
+          process.listeners = function (name) {
             return [];
           };
 
-          process.binding = function(name) {
+          process.binding = function (name) {
             throw new Error('process.binding is not supported');
           };
 
-          process.cwd = function() {
+          process.cwd = function () {
             return '/';
           };
-          process.chdir = function(dir) {
+          process.chdir = function (dir) {
             throw new Error('process.chdir is not supported');
           };
-          process.umask = function() {
+          process.umask = function () {
             return 0;
           };
         },
         {}
       ],
       37: [
-        function(_dereq_, module, exports) {
-          (function(self) {
+        function (_dereq_, module, exports) {
+          (function (self) {
             'use strict';
 
             if (self.fetch) {
@@ -40160,7 +38091,7 @@
               blob:
                 'FileReader' in self &&
                 'Blob' in self &&
-                (function() {
+                (function () {
                   try {
                     new Blob();
                     return true;
@@ -40185,13 +38116,13 @@
                 '[object Float64Array]'
               ];
 
-              var isDataView = function(obj) {
+              var isDataView = function (obj) {
                 return obj && DataView.prototype.isPrototypeOf(obj);
               };
 
               var isArrayBufferView =
                 ArrayBuffer.isView ||
-                function(obj) {
+                function (obj) {
                   return (
                     obj && viewClasses.indexOf(Object.prototype.toString.call(obj)) > -1
                   );
@@ -40218,14 +38149,14 @@
             // Build a destructive iterator for the value list
             function iteratorFor(items) {
               var iterator = {
-                next: function() {
+                next: function () {
                   var value = items.shift();
                   return { done: value === undefined, value: value };
                 }
               };
 
               if (support.iterable) {
-                iterator[Symbol.iterator] = function() {
+                iterator[Symbol.iterator] = function () {
                   return iterator;
                 };
               }
@@ -40237,45 +38168,45 @@
               this.map = {};
 
               if (headers instanceof Headers) {
-                headers.forEach(function(value, name) {
+                headers.forEach(function (value, name) {
                   this.append(name, value);
                 }, this);
               } else if (Array.isArray(headers)) {
-                headers.forEach(function(header) {
+                headers.forEach(function (header) {
                   this.append(header[0], header[1]);
                 }, this);
               } else if (headers) {
-                Object.getOwnPropertyNames(headers).forEach(function(name) {
+                Object.getOwnPropertyNames(headers).forEach(function (name) {
                   this.append(name, headers[name]);
                 }, this);
               }
             }
 
-            Headers.prototype.append = function(name, value) {
+            Headers.prototype.append = function (name, value) {
               name = normalizeName(name);
               value = normalizeValue(value);
               var oldValue = this.map[name];
               this.map[name] = oldValue ? oldValue + ',' + value : value;
             };
 
-            Headers.prototype['delete'] = function(name) {
+            Headers.prototype['delete'] = function (name) {
               delete this.map[normalizeName(name)];
             };
 
-            Headers.prototype.get = function(name) {
+            Headers.prototype.get = function (name) {
               name = normalizeName(name);
               return this.has(name) ? this.map[name] : null;
             };
 
-            Headers.prototype.has = function(name) {
+            Headers.prototype.has = function (name) {
               return this.map.hasOwnProperty(normalizeName(name));
             };
 
-            Headers.prototype.set = function(name, value) {
+            Headers.prototype.set = function (name, value) {
               this.map[normalizeName(name)] = normalizeValue(value);
             };
 
-            Headers.prototype.forEach = function(callback, thisArg) {
+            Headers.prototype.forEach = function (callback, thisArg) {
               for (var name in this.map) {
                 if (this.map.hasOwnProperty(name)) {
                   callback.call(thisArg, this.map[name], name, this);
@@ -40283,25 +38214,25 @@
               }
             };
 
-            Headers.prototype.keys = function() {
+            Headers.prototype.keys = function () {
               var items = [];
-              this.forEach(function(value, name) {
+              this.forEach(function (value, name) {
                 items.push(name);
               });
               return iteratorFor(items);
             };
 
-            Headers.prototype.values = function() {
+            Headers.prototype.values = function () {
               var items = [];
-              this.forEach(function(value) {
+              this.forEach(function (value) {
                 items.push(value);
               });
               return iteratorFor(items);
             };
 
-            Headers.prototype.entries = function() {
+            Headers.prototype.entries = function () {
               var items = [];
-              this.forEach(function(value, name) {
+              this.forEach(function (value, name) {
                 items.push([name, value]);
               });
               return iteratorFor(items);
@@ -40319,11 +38250,11 @@
             }
 
             function fileReaderReady(reader) {
-              return new Promise(function(resolve, reject) {
-                reader.onload = function() {
+              return new Promise(function (resolve, reject) {
+                reader.onload = function () {
                   resolve(reader.result);
                 };
-                reader.onerror = function() {
+                reader.onerror = function () {
                   reject(reader.error);
                 };
               });
@@ -40366,7 +38297,7 @@
             function Body() {
               this.bodyUsed = false;
 
-              this._initBody = function(body) {
+              this._initBody = function (body) {
                 this._bodyInit = body;
                 if (!body) {
                   this._bodyText = '';
@@ -40412,7 +38343,7 @@
               };
 
               if (support.blob) {
-                this.blob = function() {
+                this.blob = function () {
                   var rejected = consumed(this);
                   if (rejected) {
                     return rejected;
@@ -40429,7 +38360,7 @@
                   }
                 };
 
-                this.arrayBuffer = function() {
+                this.arrayBuffer = function () {
                   if (this._bodyArrayBuffer) {
                     return consumed(this) || Promise.resolve(this._bodyArrayBuffer);
                   } else {
@@ -40438,7 +38369,7 @@
                 };
               }
 
-              this.text = function() {
+              this.text = function () {
                 var rejected = consumed(this);
                 if (rejected) {
                   return rejected;
@@ -40456,12 +38387,12 @@
               };
 
               if (support.formData) {
-                this.formData = function() {
+                this.formData = function () {
                   return this.text().then(decode);
                 };
               }
 
-              this.json = function() {
+              this.json = function () {
                 return this.text().then(JSON.parse);
               };
 
@@ -40513,7 +38444,7 @@
               this._initBody(body);
             }
 
-            Request.prototype.clone = function() {
+            Request.prototype.clone = function () {
               return new Request(this, { body: this._bodyInit });
             };
 
@@ -40522,7 +38453,7 @@
               body
                 .trim()
                 .split('&')
-                .forEach(function(bytes) {
+                .forEach(function (bytes) {
                   if (bytes) {
                     var split = bytes.split('=');
                     var name = split.shift().replace(/\+/g, ' ');
@@ -40538,7 +38469,7 @@
               // Replace instances of \r\n and \n followed by at least one space or horizontal tab with a space
               // https://tools.ietf.org/html/rfc7230#section-3.2
               var preProcessedHeaders = rawHeaders.replace(/\r?\n[\t ]+/g, ' ');
-              preProcessedHeaders.split(/\r?\n/).forEach(function(line) {
+              preProcessedHeaders.split(/\r?\n/).forEach(function (line) {
                 var parts = line.split(':');
                 var key = parts.shift().trim();
                 if (key) {
@@ -40567,7 +38498,7 @@
 
             Body.call(Response.prototype);
 
-            Response.prototype.clone = function() {
+            Response.prototype.clone = function () {
               return new Response(this._bodyInit, {
                 status: this.status,
                 statusText: this.statusText,
@@ -40576,7 +38507,7 @@
               });
             };
 
-            Response.error = function() {
+            Response.error = function () {
               var response = new Response(null, { status: 0, statusText: '' });
               response.type = 'error';
               return response;
@@ -40584,7 +38515,7 @@
 
             var redirectStatuses = [301, 302, 303, 307, 308];
 
-            Response.redirect = function(url, status) {
+            Response.redirect = function (url, status) {
               if (redirectStatuses.indexOf(status) === -1) {
                 throw new RangeError('Invalid status code');
               }
@@ -40596,12 +38527,12 @@
             self.Request = Request;
             self.Response = Response;
 
-            self.fetch = function(input, init) {
-              return new Promise(function(resolve, reject) {
+            self.fetch = function (input, init) {
+              return new Promise(function (resolve, reject) {
                 var request = new Request(input, init);
                 var xhr = new XMLHttpRequest();
 
-                xhr.onload = function() {
+                xhr.onload = function () {
                   var options = {
                     status: xhr.status,
                     statusText: xhr.statusText,
@@ -40615,11 +38546,11 @@
                   resolve(new Response(body, options));
                 };
 
-                xhr.onerror = function() {
+                xhr.onerror = function () {
                   reject(new TypeError('Network request failed'));
                 };
 
-                xhr.ontimeout = function() {
+                xhr.ontimeout = function () {
                   reject(new TypeError('Network request failed'));
                 };
 
@@ -40635,7 +38566,7 @@
                   xhr.responseType = 'blob';
                 }
 
-                request.headers.forEach(function(value, name) {
+                request.headers.forEach(function (value, name) {
                   xhr.setRequestHeader(name, value);
                 });
 
@@ -40650,7 +38581,7 @@
         {}
       ],
       38: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -41457,7 +39388,7 @@
           }
 
           //gets rgba and returs a color name
-          _main.default.prototype._rgbColorName = function(arg) {
+          _main.default.prototype._rgbColorName = function (arg) {
             //conversts rgba to hsb
             var hsb = _color_conversion.default._rgbaToHSBA(arg);
             //stores hsb in global variable
@@ -41471,7 +39402,7 @@
         { '../color/color_conversion': 44, '../core/main': 59 }
       ],
       39: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -41516,7 +39447,7 @@
            * @method describe
            * @param  {String} text      description of the canvas
            * @param  {Constant} [display] either LABEL or FALLBACK (Optional)
-           */ _main.default.prototype.describe = function(text, display) {
+           */ _main.default.prototype.describe = function (text, display) {
             _main.default._validateParameters('describe', arguments);
             if (typeof text !== 'string') {
               return;
@@ -41586,7 +39517,7 @@
            * @param  {Constant} [display] either LABEL or FALLBACK (Optional)
            */
 
-          _main.default.prototype.describeElement = function(name, text, display) {
+          _main.default.prototype.describeElement = function (name, text, display) {
             _main.default._validateParameters('describeElement', arguments);
             if (typeof text !== 'string' || typeof name !== 'string') {
               return;
@@ -41671,12 +39602,11 @@
    */
 
           //creates HTML structure for canvas descriptions
-          _main.default.prototype._describeHTML = function(type, text) {
+          _main.default.prototype._describeHTML = function (type, text) {
             var cnvId = this.canvas.id;
             if (type === 'fallback') {
               //if there is no description container
               if (!this.dummyDOM.querySelector('#'.concat(cnvId + descContainer))) {
-                //if there are no accessible outputs (see textOutput() and gridOutput())
                 var html = '<div id="'
                   .concat(cnvId)
                   .concat(
@@ -41719,7 +39649,6 @@
                   .concat(labelContainer, '" class="p5Label"><p id="')
                   .concat(cnvId)
                   .concat(labelDescId, '"></p></div>');
-                //if there are no accessible outputs (see textOutput() and gridOutput())
                 if (
                   !this.dummyDOM.querySelector('#'.concat(cnvId, 'accessibleOutputLabel'))
                 ) {
@@ -41774,12 +39703,11 @@
           }
 
           //creates HTML structure for element descriptions
-          _main.default.prototype._describeElementHTML = function(type, name, text) {
+          _main.default.prototype._describeElementHTML = function (type, name, text) {
             var cnvId = this.canvas.id;
             if (type === 'fallback') {
               //if there is no description container
               if (!this.dummyDOM.querySelector('#'.concat(cnvId + descContainer))) {
-                //if there are no accessible outputs (see textOutput() and gridOutput())
                 var html = '<div id="'
                   .concat(cnvId)
                   .concat(
@@ -41838,7 +39766,6 @@
               //and adds the description of the element in adjecent cell.
               //if there is no label description container
               if (!this.dummyDOM.querySelector('#'.concat(cnvId + labelContainer))) {
-                //if there are no accessible outputs (see textOutput() and gridOutput())
                 var _html2 = '<div id="'
                   .concat(cnvId)
                   .concat(labelContainer, '" class="p5Label"><table id="')
@@ -41891,7 +39818,7 @@
         { '../core/main': 59 }
       ],
       40: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -41906,7 +39833,7 @@
            * @requires core
            */
           //updates gridOutput
-          _main.default.prototype._updateGridOutput = function(idT) {
+          _main.default.prototype._updateGridOutput = function (idT) {
             //if html structure is not there yet
             if (!this.dummyDOM.querySelector('#'.concat(idT, '_summary'))) {
               return;
@@ -41947,9 +39874,9 @@
             var shapeNumber = 0;
             var table = '';
             //create an array of arrays 10*10 of empty cells
-            var cells = Array.apply(null, Array(10)).map(function() {});
+            var cells = Array.apply(null, Array(10)).map(function () { });
             for (var r in cells) {
-              cells[r] = Array.apply(null, Array(10)).map(function() {});
+              cells[r] = Array.apply(null, Array(10)).map(function () { });
             }
             for (var x in ingredients) {
               for (var y in ingredients[x]) {
@@ -42065,7 +39992,7 @@
         { '../core/main': 59 }
       ],
       41: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -42099,7 +40026,7 @@
            * @method textOutput
            * @param  {Constant} [display] either FALLBACK or LABEL (Optional)
            *
-           */ _main.default.prototype.textOutput = function(display) {
+           */ _main.default.prototype.textOutput = function (display) {
             _main.default._validateParameters('textOutput', arguments);
             //if textOutput is already true
             if (this._accessibleOutputs.text) {
@@ -42148,7 +40075,7 @@
            * @param  {Constant} [display] either FALLBACK or LABEL (Optional)
            */
 
-          _main.default.prototype.gridOutput = function(display) {
+          _main.default.prototype.gridOutput = function (display) {
             _main.default._validateParameters('gridOutput', arguments);
             //if gridOutput is already true
             if (this._accessibleOutputs.grid) {
@@ -42168,7 +40095,7 @@
           };
 
           //helper function returns true when accessible outputs are true
-          _main.default.prototype._addAccsOutput = function() {
+          _main.default.prototype._addAccsOutput = function () {
             //if there are no accessible outputs create object with all false
             if (!this._accessibleOutputs) {
               this._accessibleOutputs = {
@@ -42182,7 +40109,7 @@
           };
 
           //helper function that creates html structure for accessible outputs
-          _main.default.prototype._createOutput = function(type, display) {
+          _main.default.prototype._createOutput = function (type, display) {
             var cnvId = this.canvas.id;
             //if there are no ingredients create object. this object stores data for the outputs
             if (!this.ingredients) {
@@ -42202,7 +40129,6 @@
               cIdT = cnvId + type;
               container = cnvId + 'accessibleOutput';
               if (!this.dummyDOM.querySelector('#'.concat(container))) {
-                //if there is no canvas description (see describe() and describeElement())
                 if (!this.dummyDOM.querySelector('#'.concat(cnvId, '_Description'))) {
                   //create html structure inside of canvas
                   this.dummyDOM.querySelector(
@@ -42229,7 +40155,6 @@
               cIdT = cnvId + type + display;
               container = cnvId + 'accessibleOutput' + display;
               if (!this.dummyDOM.querySelector('#'.concat(container))) {
-                //if there is no canvas description label (see describe() and describeElement())
                 if (!this.dummyDOM.querySelector('#'.concat(cnvId, '_Label'))) {
                   //create html structure adjacent to canvas
                   this.dummyDOM
@@ -42308,7 +40233,7 @@
 
           //this function is called at the end of setup and draw if using
           //accessibleOutputs and calls update functions of outputs
-          _main.default.prototype._updateAccsOutput = function() {
+          _main.default.prototype._updateAccsOutput = function () {
             var cnvId = this.canvas.id;
             //if the shapes are not the same as before
             if (JSON.stringify(this.ingredients.shapes) !== this.ingredients.pShapes) {
@@ -42331,7 +40256,7 @@
 
           //helper function that resets all ingredients when background is called
           //and saves background color name
-          _main.default.prototype._accsBackground = function(args) {
+          _main.default.prototype._accsBackground = function (args) {
             //save current shapes as string in pShapes
             this.ingredients.pShapes = JSON.stringify(this.ingredients.shapes);
             //empty shapes JSON
@@ -42344,7 +40269,7 @@
           };
 
           //helper function that gets fill and stroke of shapes
-          _main.default.prototype._accsCanvasColors = function(f, args) {
+          _main.default.prototype._accsCanvasColors = function (f, args) {
             if (f === 'fill') {
               //update fill different
               if (this.ingredients.colors.fillRGBA !== args) {
@@ -42361,7 +40286,7 @@
           };
 
           //builds ingredients.shapes used for building outputs
-          _main.default.prototype._accsOutput = function(f, args) {
+          _main.default.prototype._accsOutput = function (f, args) {
             if (f === 'ellipse' && args[2] === args[3]) {
               f = 'circle';
             } else if (f === 'rectangle' && args[2] === args[3]) {
@@ -42539,9 +40464,9 @@
               objectArea =
                 Math.abs(
                   (shapeArgs[6] + shapeArgs[0]) * (shapeArgs[7] - shapeArgs[1]) +
-                    (shapeArgs[0] + shapeArgs[2]) * (shapeArgs[1] - shapeArgs[3]) +
-                    (shapeArgs[2] + shapeArgs[4]) * (shapeArgs[3] - shapeArgs[5]) +
-                    (shapeArgs[4] + shapeArgs[6]) * (shapeArgs[5] - shapeArgs[7])
+                  (shapeArgs[0] + shapeArgs[2]) * (shapeArgs[1] - shapeArgs[3]) +
+                  (shapeArgs[2] + shapeArgs[4]) * (shapeArgs[3] - shapeArgs[5]) +
+                  (shapeArgs[4] + shapeArgs[6]) * (shapeArgs[5] - shapeArgs[7])
                 ) / 2;
             } else if (objectType === 'rectangle' || objectType === 'square') {
               objectArea = shapeArgs[2] * shapeArgs[3];
@@ -42549,8 +40474,8 @@
               objectArea =
                 Math.abs(
                   shapeArgs[0] * (shapeArgs[3] - shapeArgs[5]) +
-                    shapeArgs[2] * (shapeArgs[5] - shapeArgs[1]) +
-                    shapeArgs[4] * (shapeArgs[1] - shapeArgs[3])
+                  shapeArgs[2] * (shapeArgs[5] - shapeArgs[1]) +
+                  shapeArgs[4] * (shapeArgs[1] - shapeArgs[3])
                 ) / 2;
               // (Ax( By −  Cy) + Bx(Cy − Ay) + Cx(Ay − By ))/2
             }
@@ -42563,7 +40488,7 @@
         { '../core/main': 59 }
       ],
       42: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -42578,7 +40503,7 @@
            * @requires core
            */
           //updates textOutput
-          _main.default.prototype._updateTextOutput = function(idT) {
+          _main.default.prototype._updateTextOutput = function (idT) {
             //if html structure is not there yet
             if (!this.dummyDOM.querySelector('#'.concat(idT, '_summary'))) {
               return;
@@ -42702,7 +40627,7 @@
         { '../core/main': 59 }
       ],
       43: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           var _main = _interopRequireDefault(_dereq_('./core/main'));
           _dereq_('./core/constants');
@@ -42890,7 +40815,7 @@
         }
       ],
       44: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -42913,7 +40838,7 @@
            */ _main.default.ColorConversion = {};
           /**
            * Convert an HSBA array to HSLA.
-           */ _main.default.ColorConversion._hsbaToHSLA = function(hsba) {
+           */ _main.default.ColorConversion._hsbaToHSLA = function (hsba) {
             var hue = hsba[0];
             var sat = hsba[1];
             var val = hsba[2]; // Calculate lightness.
@@ -42935,7 +40860,7 @@
           /**
            * Convert an HSBA array to RGBA.
            */
-          _main.default.ColorConversion._hsbaToRGBA = function(hsba) {
+          _main.default.ColorConversion._hsbaToRGBA = function (hsba) {
             var hue = hsba[0] * 6; // We will split hue into 6 sectors.
             var sat = hsba[1];
             var val = hsba[2];
@@ -42990,7 +40915,7 @@
           /**
            * Convert an HSLA array to HSBA.
            */
-          _main.default.ColorConversion._hslaToHSBA = function(hsla) {
+          _main.default.ColorConversion._hslaToHSBA = function (hsla) {
             var hue = hsla[0];
             var sat = hsla[1];
             var li = hsla[2];
@@ -43018,7 +40943,7 @@
            * components, and pick a convenient third one ('zest') so that we don't need
            * to calculate formal HSBA saturation.
            */
-          _main.default.ColorConversion._hslaToRGBA = function(hsla) {
+          _main.default.ColorConversion._hslaToRGBA = function (hsla) {
             var hue = hsla[0] * 6; // We will split hue into 6 sectors.
             var sat = hsla[1];
             var li = hsla[2];
@@ -43077,7 +41002,7 @@
           /**
            * Convert an RGBA array to HSBA.
            */
-          _main.default.ColorConversion._rgbaToHSBA = function(rgba) {
+          _main.default.ColorConversion._rgbaToHSBA = function (rgba) {
             var red = rgba[0];
             var green = rgba[1];
             var blue = rgba[2];
@@ -43116,7 +41041,7 @@
           /**
            * Convert an RGBA array to HSLA.
            */
-          _main.default.ColorConversion._rgbaToHSLA = function(rgba) {
+          _main.default.ColorConversion._rgbaToHSLA = function (rgba) {
             var red = rgba[0];
             var green = rgba[1];
             var blue = rgba[2];
@@ -43163,7 +41088,7 @@
         { '../core/main': 59 }
       ],
       45: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -43247,7 +41172,7 @@
            * @param {p5.Color|Number[]|String} color <a href="#/p5.Color">p5.Color</a> object, color components,
            *                                         or CSS color
            * @return {Number} the alpha value
-           */ _main.default.prototype.alpha = function(c) {
+           */ _main.default.prototype.alpha = function (c) {
             _main.default._validateParameters('alpha', arguments);
             return this.color(c)._getAlpha();
           };
@@ -43260,7 +41185,7 @@
            *                                         or CSS color
            * @return {Number} the blue value
            */
-          _main.default.prototype.blue = function(c) {
+          _main.default.prototype.blue = function (c) {
             _main.default._validateParameters('blue', arguments);
             return this.color(c)._getBlue();
           };
@@ -43273,7 +41198,7 @@
            *                                         or CSS color
            * @return {Number} the brightness value
            */
-          _main.default.prototype.brightness = function(c) {
+          _main.default.prototype.brightness = function (c) {
             _main.default._validateParameters('brightness', arguments);
             return this.color(c)._getBrightness();
           };
@@ -43284,17 +41209,6 @@
            * current <a href="#/p5/colorMode">colorMode()</a>. The default mode is RGB values from 0 to 255
            * and, therefore, the function call color(255, 204, 0) will return a
            * bright yellow color.
-           *
-           * Note that if only one value is provided to <a href="#/p5/color">color()</a>, it will be interpreted
-           * as a grayscale value. Add a second value, and it will be used for alpha
-           * transparency. When three values are specified, they are interpreted as
-           * either RGB or HSB values. Adding a fourth value applies alpha
-           * transparency.
-           *
-           * If a single string argument is provided, RGB, RGBA and Hex CSS color
-           * strings and all named color strings are supported. In this case, an alpha
-           * number value as a second argument is not supported, the RGBA form should be
-           * used.
            *
            * @method color
            * @param  {Number} gray number specifying value between white and black.
@@ -43333,7 +41247,7 @@
            * @param  {p5.Color}     color
            * @return {p5.Color}
            */
-          _main.default.prototype.color = function() {
+          _main.default.prototype.color = function () {
             _main.default._validateParameters('color', arguments);
             if (arguments[0] instanceof _main.default.Color) {
               return arguments[0]; // Do nothing if argument is already a color object.
@@ -43351,7 +41265,7 @@
            *                                         or CSS color
            * @return {Number} the green value
            */
-          _main.default.prototype.green = function(c) {
+          _main.default.prototype.green = function (c) {
             _main.default._validateParameters('green', arguments);
             return this.color(c)._getGreen();
           };
@@ -43370,7 +41284,7 @@
            *                                         or CSS color
            * @return {Number} the hue
            */
-          _main.default.prototype.hue = function(c) {
+          _main.default.prototype.hue = function (c) {
             _main.default._validateParameters('hue', arguments);
             return this.color(c)._getHue();
           };
@@ -43393,7 +41307,7 @@
            * @return {p5.Color}     interpolated color
            */
 
-          _main.default.prototype.lerpColor = function(c1, c2, amt) {
+          _main.default.prototype.lerpColor = function (c1, c2, amt) {
             _main.default._validateParameters('lerpColor', arguments);
             var mode = this._colorMode;
             var maxes = this._colorMaxes;
@@ -43401,10 +41315,10 @@
             var fromArray, toArray;
 
             if (mode === constants.RGB) {
-              fromArray = c1.levels.map(function(level) {
+              fromArray = c1.levels.map(function (level) {
                 return level / 255;
               });
-              toArray = c2.levels.map(function(level) {
+              toArray = c2.levels.map(function (level) {
                 return level / 255;
               });
             } else if (mode === constants.HSB) {
@@ -43427,7 +41341,7 @@
             // Define lerp here itself if user isn't using math module.
             // Maintains the definition as found in math/calculation.js
             if (typeof this.lerp === 'undefined') {
-              this.lerp = function(start, stop, amt) {
+              this.lerp = function (start, stop, amt) {
                 return amt * (stop - start) + start;
               };
             }
@@ -43455,7 +41369,7 @@
            *                                         or CSS color
            * @return {Number} the lightness
            */
-          _main.default.prototype.lightness = function(c) {
+          _main.default.prototype.lightness = function (c) {
             _main.default._validateParameters('lightness', arguments);
             return this.color(c)._getLightness();
           };
@@ -43468,7 +41382,7 @@
            *                                         or CSS color
            * @return {Number} the red value
            */
-          _main.default.prototype.red = function(c) {
+          _main.default.prototype.red = function (c) {
             _main.default._validateParameters('red', arguments);
             return this.color(c)._getRed();
           };
@@ -43486,7 +41400,7 @@
            *                                         or CSS color
            * @return {Number} the saturation value
            */
-          _main.default.prototype.saturation = function(c) {
+          _main.default.prototype.saturation = function (c) {
             _main.default._validateParameters('saturation', arguments);
             return this.color(c)._getSaturation();
           };
@@ -43503,7 +41417,7 @@
         }
       ],
       46: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -43594,7 +41508,7 @@
            *
            * @class p5.Color
            * @constructor
-           */ _main.default.Color = function(pInst, vals) {
+           */ _main.default.Color = function (pInst, vals) {
             // Record color mode and maxes at time of construction.
             this._storeModeAndMaxes(pInst._colorMode, pInst._colorMaxes); // Calculate normalized RGBA values.
             if (
@@ -43625,7 +41539,7 @@
            * 'rgb%' 'hsb%' 'hsl%' 'rgba%' 'hsba%' and 'hsla%' format as percentages.
            * @return {String} the formatted string
            */
-          _main.default.Color.prototype.toString = function(format) {
+          _main.default.Color.prototype.toString = function (format) {
             var a = this.levels;
             var f = this._array;
             var alpha = f[3]; // String representation uses normalized alpha
@@ -43806,7 +41720,7 @@
            * @method setRed
            * @param {Number} red the new red value
            */
-          _main.default.Color.prototype.setRed = function(new_red) {
+          _main.default.Color.prototype.setRed = function (new_red) {
             this._array[0] = new_red / this.maxes[constants.RGB][0];
             this._calculateLevels();
           };
@@ -43817,7 +41731,7 @@
            * @method setGreen
            * @param {Number} green the new green value
            **/
-          _main.default.Color.prototype.setGreen = function(new_green) {
+          _main.default.Color.prototype.setGreen = function (new_green) {
             this._array[1] = new_green / this.maxes[constants.RGB][1];
             this._calculateLevels();
           };
@@ -43828,7 +41742,7 @@
            * @method setBlue
            * @param {Number} blue the new blue value
            **/
-          _main.default.Color.prototype.setBlue = function(new_blue) {
+          _main.default.Color.prototype.setBlue = function (new_blue) {
             this._array[2] = new_blue / this.maxes[constants.RGB][2];
             this._calculateLevels();
           };
@@ -43839,13 +41753,13 @@
            * @method setAlpha
            * @param {Number} alpha the new alpha value
            **/
-          _main.default.Color.prototype.setAlpha = function(new_alpha) {
+          _main.default.Color.prototype.setAlpha = function (new_alpha) {
             this._array[3] = new_alpha / this.maxes[this.mode][3];
             this._calculateLevels();
           };
 
           // calculates and stores the closest screen levels
-          _main.default.Color.prototype._calculateLevels = function() {
+          _main.default.Color.prototype._calculateLevels = function () {
             var array = this._array;
             // (loop backwards for performance)
             var levels = (this.levels = new Array(array.length));
@@ -43854,37 +41768,37 @@
             }
           };
 
-          _main.default.Color.prototype._getAlpha = function() {
+          _main.default.Color.prototype._getAlpha = function () {
             return this._array[3] * this.maxes[this.mode][3];
           };
 
           // stores the color mode and maxes in this instance of Color
           // for later use (by _parseInputs())
-          _main.default.Color.prototype._storeModeAndMaxes = function(new_mode, new_maxes) {
+          _main.default.Color.prototype._storeModeAndMaxes = function (new_mode, new_maxes) {
             this.mode = new_mode;
             this.maxes = new_maxes;
           };
 
-          _main.default.Color.prototype._getMode = function() {
+          _main.default.Color.prototype._getMode = function () {
             return this.mode;
           };
 
-          _main.default.Color.prototype._getMaxes = function() {
+          _main.default.Color.prototype._getMaxes = function () {
             return this.maxes;
           };
 
-          _main.default.Color.prototype._getBlue = function() {
+          _main.default.Color.prototype._getBlue = function () {
             return this._array[2] * this.maxes[constants.RGB][2];
           };
 
-          _main.default.Color.prototype._getBrightness = function() {
+          _main.default.Color.prototype._getBrightness = function () {
             if (!this.hsba) {
               this.hsba = _color_conversion.default._rgbaToHSBA(this._array);
             }
             return this.hsba[2] * this.maxes[constants.HSB][2];
           };
 
-          _main.default.Color.prototype._getGreen = function() {
+          _main.default.Color.prototype._getGreen = function () {
             return this._array[1] * this.maxes[constants.RGB][1];
           };
 
@@ -43894,7 +41808,7 @@
            * an HSB color object, but will default to the HSL-normalized saturation
            * otherwise.
            */
-          _main.default.Color.prototype._getHue = function() {
+          _main.default.Color.prototype._getHue = function () {
             if (this.mode === constants.HSB) {
               if (!this.hsba) {
                 this.hsba = _color_conversion.default._rgbaToHSBA(this._array);
@@ -43908,14 +41822,14 @@
             }
           };
 
-          _main.default.Color.prototype._getLightness = function() {
+          _main.default.Color.prototype._getLightness = function () {
             if (!this.hsla) {
               this.hsla = _color_conversion.default._rgbaToHSLA(this._array);
             }
             return this.hsla[2] * this.maxes[constants.HSL][2];
           };
 
-          _main.default.Color.prototype._getRed = function() {
+          _main.default.Color.prototype._getRed = function () {
             return this._array[0] * this.maxes[constants.RGB][0];
           };
 
@@ -43924,7 +41838,7 @@
            * the HSB saturation when supplied with an HSB color object, but will default
            * to the HSL saturation otherwise.
            */
-          _main.default.Color.prototype._getSaturation = function() {
+          _main.default.Color.prototype._getSaturation = function () {
             if (this.mode === constants.HSB) {
               if (!this.hsba) {
                 this.hsba = _color_conversion.default._rgbaToHSBA(this._array);
@@ -44096,9 +42010,6 @@
            * These regular expressions are used to build up the patterns for matching
            * viable CSS color strings: fragmenting the regexes in this way increases the
            * legibility and comprehensibility of the code.
-           *
-           * Note that RGB values of .9 are not parsed by IE, but are supported here for
-           * color string consistency.
            */
           var WHITESPACE = /\s*/; // Match zero or more whitespace characters.
           var INTEGER = /(\d{1,3})/; // Match integers: 79, 255, etc.
@@ -44251,7 +42162,7 @@
            *                          arguments
            * @return {Number[]}       a color formatted as [r, g, b, a]
            */
-          _main.default.Color._parseInputs = function(r, g, b, a) {
+          _main.default.Color._parseInputs = function (r, g, b, a) {
             var numArgs = arguments.length;
             var mode = this.mode;
             var maxes = this.maxes[mode];
@@ -44304,7 +42215,7 @@
                 // #rgb
                 results = colorPatterns.HEX3.exec(str)
                   .slice(1)
-                  .map(function(color) {
+                  .map(function (color) {
                     return parseInt(color + color, 16) / 255;
                   });
                 results[3] = 1;
@@ -44313,7 +42224,7 @@
                 // #rrggbb
                 results = colorPatterns.HEX6.exec(str)
                   .slice(1)
-                  .map(function(color) {
+                  .map(function (color) {
                     return parseInt(color, 16) / 255;
                   });
                 results[3] = 1;
@@ -44322,7 +42233,7 @@
                 // #rgba
                 results = colorPatterns.HEX4.exec(str)
                   .slice(1)
-                  .map(function(color) {
+                  .map(function (color) {
                     return parseInt(color + color, 16) / 255;
                   });
                 return results;
@@ -44330,7 +42241,7 @@
                 // #rrggbbaa
                 results = colorPatterns.HEX8.exec(str)
                   .slice(1)
-                  .map(function(color) {
+                  .map(function (color) {
                     return parseInt(color, 16) / 255;
                   });
                 return results;
@@ -44338,7 +42249,7 @@
                 // rgb(R,G,B)
                 results = colorPatterns.RGB.exec(str)
                   .slice(1)
-                  .map(function(color) {
+                  .map(function (color) {
                     return color / 255;
                   });
                 results[3] = 1;
@@ -44347,7 +42258,7 @@
                 // rgb(R%,G%,B%)
                 results = colorPatterns.RGB_PERCENT.exec(str)
                   .slice(1)
-                  .map(function(color) {
+                  .map(function (color) {
                     return parseFloat(color) / 100;
                   });
                 results[3] = 1;
@@ -44356,7 +42267,7 @@
                 // rgba(R,G,B,A)
                 results = colorPatterns.RGBA.exec(str)
                   .slice(1)
-                  .map(function(color, idx) {
+                  .map(function (color, idx) {
                     if (idx === 3) {
                       return parseFloat(color);
                     }
@@ -44367,7 +42278,7 @@
                 // rgba(R%,G%,B%,A%)
                 results = colorPatterns.RGBA_PERCENT.exec(str)
                   .slice(1)
-                  .map(function(color, idx) {
+                  .map(function (color, idx) {
                     if (idx === 3) {
                       return parseFloat(color);
                     }
@@ -44381,7 +42292,7 @@
                 // hsl(H,S,L)
                 results = colorPatterns.HSL.exec(str)
                   .slice(1)
-                  .map(function(color, idx) {
+                  .map(function (color, idx) {
                     if (idx === 0) {
                       return parseInt(color, 10) / 360;
                     }
@@ -44392,7 +42303,7 @@
                 // hsla(H,S,L,A)
                 results = colorPatterns.HSLA.exec(str)
                   .slice(1)
-                  .map(function(color, idx) {
+                  .map(function (color, idx) {
                     if (idx === 0) {
                       return parseInt(color, 10) / 360;
                     } else if (idx === 3) {
@@ -44401,7 +42312,7 @@
                     return parseInt(color, 10) / 100;
                   });
               }
-              results = results.map(function(value) {
+              results = results.map(function (value) {
                 return Math.max(Math.min(value, 1), 0);
               });
               if (results.length) {
@@ -44413,7 +42324,7 @@
                 // hsb(H,S,B)
                 results = colorPatterns.HSB.exec(str)
                   .slice(1)
-                  .map(function(color, idx) {
+                  .map(function (color, idx) {
                     if (idx === 0) {
                       return parseInt(color, 10) / 360;
                     }
@@ -44424,7 +42335,7 @@
                 // hsba(H,S,B,A)
                 results = colorPatterns.HSBA.exec(str)
                   .slice(1)
-                  .map(function(color, idx) {
+                  .map(function (color, idx) {
                     if (idx === 0) {
                       return parseInt(color, 10) / 360;
                     } else if (idx === 3) {
@@ -44465,7 +42376,7 @@
               }
 
               // Constrain components to the range [0,1].
-              results = results.map(function(value) {
+              results = results.map(function (value) {
                 return Math.max(Math.min(value, 1), 0);
               });
             } else {
@@ -44480,7 +42391,7 @@
         { '../core/constants': 48, '../core/main': 59, './color_conversion': 44 }
       ],
       47: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -44619,7 +42530,7 @@
            * @param  {Number}  [a]
            * @chainable
            */
-          _main.default.prototype.background = function() {
+          _main.default.prototype.background = function () {
             var _this$_renderer;
             (_this$_renderer = this._renderer).background.apply(_this$_renderer, arguments);
             return this;
@@ -44638,7 +42549,7 @@
            * @chainable
            */
 
-          _main.default.prototype.clear = function() {
+          _main.default.prototype.clear = function () {
             this._renderer.clear();
             return this;
           };
@@ -44651,9 +42562,6 @@
            * using the RGB color model. This is equivalent to setting colorMode(RGB, 255).
            * Setting colorMode(HSB) lets you use the HSB system instead. By default, this
            * is colorMode(HSB, 360, 100, 100, 1). You can also use HSL.
-           *
-           * Note: existing color objects remember the mode that they were created in,
-           * so you can change modes as you like without affecting their appearance.
            *
            * @method colorMode
            * @param {Constant} mode   either RGB, HSB or HSL, corresponding to
@@ -44675,7 +42583,7 @@
            * @param {Number} [maxA]   range for the alpha
            * @chainable
            */
-          _main.default.prototype.colorMode = function(mode, max1, max2, max3, maxA) {
+          _main.default.prototype.colorMode = function (mode, max1, max2, max3, maxA) {
             _main.default._validateParameters('colorMode', arguments);
             if (
               mode === constants.RGB ||
@@ -44746,7 +42654,7 @@
            * @param  {p5.Color}      color   the fill color
            * @chainable
            */
-          _main.default.prototype.fill = function() {
+          _main.default.prototype.fill = function () {
             var _this$_renderer2;
             this._renderer._setProperty('_fillSet', true);
             this._renderer._setProperty('_doFill', true);
@@ -44761,7 +42669,7 @@
            * @method noFill
            * @chainable
            */
-          _main.default.prototype.noFill = function() {
+          _main.default.prototype.noFill = function () {
             this._renderer._setProperty('_doFill', false);
             return this;
           };
@@ -44773,7 +42681,7 @@
            * @method noStroke
            * @chainable
            */
-          _main.default.prototype.noStroke = function() {
+          _main.default.prototype.noStroke = function () {
             this._renderer._setProperty('_doStroke', false);
             return this;
           };
@@ -44829,7 +42737,7 @@
            * @chainable
            */
 
-          _main.default.prototype.stroke = function() {
+          _main.default.prototype.stroke = function () {
             var _this$_renderer3;
             this._renderer._setProperty('_strokeSet', true);
             this._renderer._setProperty('_doStroke', true);
@@ -44856,7 +42764,7 @@
            *
            * @chainable
            */
-          _main.default.prototype.erase = function() {
+          _main.default.prototype.erase = function () {
             var opacityFill =
               arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 255;
             var opacityStroke =
@@ -44876,7 +42784,7 @@
            * @chainable
            */
 
-          _main.default.prototype.noErase = function() {
+          _main.default.prototype.noErase = function () {
             this._renderer.noErase();
             return this;
           };
@@ -44886,7 +42794,7 @@
         { '../core/constants': 48, '../core/main': 59, './p5.Color': 46 }
       ],
       48: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.FILL = exports.STROKE = exports.CURVE = exports.BEZIER = exports.QUADRATIC = exports.LINEAR = exports._CTX_MIDDLE = exports._DEFAULT_LEADMULT = exports._DEFAULT_TEXT_FILL = exports.BOLDITALIC = exports.BOLD = exports.ITALIC = exports.NORMAL = exports.BLUR = exports.ERODE = exports.DILATE = exports.POSTERIZE = exports.INVERT = exports.OPAQUE = exports.GRAY = exports.THRESHOLD = exports.BURN = exports.DODGE = exports.SOFT_LIGHT = exports.HARD_LIGHT = exports.OVERLAY = exports.REPLACE = exports.SCREEN = exports.MULTIPLY = exports.EXCLUSION = exports.SUBTRACT = exports.DIFFERENCE = exports.LIGHTEST = exports.DARKEST = exports.ADD = exports.REMOVE = exports.BLEND = exports.UP_ARROW = exports.TAB = exports.SHIFT = exports.RIGHT_ARROW = exports.RETURN = exports.OPTION = exports.LEFT_ARROW = exports.ESCAPE = exports.ENTER = exports.DOWN_ARROW = exports.DELETE = exports.CONTROL = exports.BACKSPACE = exports.ALT = exports.AUTO = exports.HSL = exports.HSB = exports.RGB = exports.MITER = exports.BEVEL = exports.ROUND = exports.SQUARE = exports.PROJECT = exports.PIE = exports.CHORD = exports.OPEN = exports.CLOSE = exports.TESS = exports.QUAD_STRIP = exports.QUADS = exports.TRIANGLE_STRIP = exports.TRIANGLE_FAN = exports.TRIANGLES = exports.LINE_LOOP = exports.LINE_STRIP = exports.LINES = exports.POINTS = exports.BASELINE = exports.BOTTOM = exports.TOP = exports.CENTER = exports.LEFT = exports.RIGHT = exports.RADIUS = exports.CORNERS = exports.CORNER = exports.RAD_TO_DEG = exports.DEG_TO_RAD = exports.RADIANS = exports.DEGREES = exports.TWO_PI = exports.TAU = exports.QUARTER_PI = exports.PI = exports.HALF_PI = exports.WAIT = exports.TEXT = exports.MOVE = exports.HAND = exports.CROSS = exports.ARROW = exports.WEBGL = exports.P2D = void 0;
@@ -45562,7 +43470,7 @@
         {}
       ],
       49: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -45649,15 +43557,10 @@
            * the function. Individual elements can be separated with quotes ("") and joined
            * with the addition operator (+).
            *
-           * Note that calling print() without any arguments invokes the window.print()
-           * function which opens the browser's print dialog. To print a blank line
-           * to console you can write print('\n').
-           *
            * @method print
-           * @param {Any} contents any combination of Number, String, Object, Boolean,
-           *                       Array to print
+           * @param {Any} contents any combination of Number, String, Object, Boolean, Array to print
            */
-          _main.default.prototype.print = function() {
+          _main.default.prototype.print = function () {
             if (!arguments.length) {
               _windowPrint();
             } else {
@@ -45707,16 +43610,11 @@
            * must be less than the dimensions of the image.
            *
            * @method cursor
-           * @param {String|Constant} type Built-In: either ARROW, CROSS, HAND, MOVE, TEXT and WAIT
-           *                               Native CSS properties: 'grab', 'progress', 'cell' etc.
-           *                               External: path for cursor's images
-           *                               (Allowed File extensions: .cur, .gif, .jpg, .jpeg, .png)
-           *                               For more information on Native CSS cursors and url visit:
-           *                               https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+           * @param {String|Constant} type Built-In: either ARROW, CROSS, HAND, MOVE, TEXT and WAIT Native CSS properties: 'grab', 'progress', 'cell' etc.
            * @param {Number}          [x]  the horizontal active spot of the cursor (must be less than 32)
            * @param {Number}          [y]  the vertical active spot of the cursor (must be less than 32)
            */
-          _main.default.prototype.cursor = function(type, x, y) {
+          _main.default.prototype.cursor = function (type, x, y) {
             var cursor = 'auto';
             var canvas = this._curElement.elt;
             if (standardCursors.includes(type)) {
@@ -45725,8 +43623,6 @@
             } else if (typeof type === 'string') {
               var coords = '';
               if (x && y && typeof x === 'number' && typeof y === 'number') {
-                // Note that x and y values must be unit-less positive integers < 32
-                // https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
                 coords = ''.concat(x, ' ').concat(y);
               }
               if (
@@ -45756,7 +43652,7 @@
            * @method frameRate
            * @return {Number}       current frameRate
            */
-          _main.default.prototype.frameRate = function(fps) {
+          _main.default.prototype.frameRate = function (fps) {
             _main.default._validateParameters('frameRate', arguments);
             if (typeof fps !== 'number' || fps < 0) {
               return this._frameRate;
@@ -45775,7 +43671,7 @@
            * @private
            * @return {Number} current frameRate
            */
-          _main.default.prototype.getFrameRate = function() {
+          _main.default.prototype.getFrameRate = function () {
             return this.frameRate();
           };
 
@@ -45784,7 +43680,7 @@
            * @private
            * @param {Number} [fps] number of frames to be displayed every second
            */
-          _main.default.prototype.setFrameRate = function(fps) {
+          _main.default.prototype.setFrameRate = function (fps) {
             return this.frameRate(fps);
           };
 
@@ -45793,7 +43689,7 @@
            *
            * @method noCursor
            */
-          _main.default.prototype.noCursor = function() {
+          _main.default.prototype.noCursor = function () {
             this._curElement.elt.style.cursor = 'none';
           };
 
@@ -45843,7 +43739,7 @@
            *
            * @method windowResized
            */
-          _main.default.prototype._onresize = function(e) {
+          _main.default.prototype._onresize = function (e) {
             this._setProperty('windowWidth', getWindowWidth());
             this._setProperty('windowHeight', getWindowHeight());
             var context = this._isGlobal ? window : this;
@@ -45886,7 +43782,6 @@
           /**
            * System variable that stores the height of the drawing canvas. This value
            * is set by the second parameter of the <a href="#/p5/createCanvas">createCanvas()</a> function.
-
            * @property {Number} height
            * @readOnly
            */
@@ -45895,15 +43790,14 @@
           /**
            * If argument is given, sets the sketch to fullscreen or not based on the
            * value of the argument. If no argument is given, returns the current
-           * fullscreen state. Note that due to browser restrictions this can only
-           * be called on user input.
+           * fullscreen state.
            *
            * @method fullscreen
            * @param  {Boolean} [val] whether the sketch should be in fullscreen mode
            * or not
            * @return {Boolean} current fullscreen state
            */
-          _main.default.prototype.fullscreen = function(val) {
+          _main.default.prototype.fullscreen = function (val) {
             _main.default._validateParameters('fullscreen', arguments);
             // no arguments, return fullscreen or not
             if (typeof val === 'undefined') {
@@ -45937,7 +43831,7 @@
            * @method pixelDensity
            * @returns {Number} current pixel density of the sketch
            */
-          _main.default.prototype.pixelDensity = function(val) {
+          _main.default.prototype.pixelDensity = function (val) {
             _main.default._validateParameters('pixelDensity', arguments);
             var returnValue;
             if (typeof val === 'number') {
@@ -45958,7 +43852,7 @@
            * @method displayDensity
            * @returns {Number} current pixel density of the display
            */
-          _main.default.prototype.displayDensity = function() {
+          _main.default.prototype.displayDensity = function () {
             return window.devicePixelRatio;
           };
 
@@ -45999,7 +43893,7 @@
            * @method getURL
            * @return {String} url
            */
-          _main.default.prototype.getURL = function() {
+          _main.default.prototype.getURL = function () {
             return location.href;
           };
           /**
@@ -46007,8 +43901,8 @@
            * @method getURLPath
            * @return {String[]} path components
            */
-          _main.default.prototype.getURLPath = function() {
-            return location.pathname.split('/').filter(function(v) {
+          _main.default.prototype.getURLPath = function () {
+            return location.pathname.split('/').filter(function (v) {
               return v !== '';
             });
           };
@@ -46017,7 +43911,7 @@
            * @method getURLParams
            * @return {Object} URL params
            */
-          _main.default.prototype.getURLParams = function() {
+          _main.default.prototype.getURLParams = function () {
             var re = /[?&]([^&=]+)(?:[&=])([^&=]+)/gim;
             var m;
             var v = {};
@@ -46035,7 +43929,7 @@
         { './constants': 48, './main': 59 }
       ],
       50: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0; // Different browsers may use different error strings for the same error.
@@ -46105,7 +43999,7 @@
         {}
       ],
       51: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -46179,7 +44073,6 @@
           }
 
           // p5.js blue, p5.js orange, auto dark green; fallback p5.js darkened magenta
-          // See testColors below for all the color codes and names
           var typeColors = ['#2D7BB6', '#EE9900', '#4DB200', '#C83C00'];
           var misusedAtTopLevelCode = null;
           var defineMisusedAtTopLevelCode = null;
@@ -46192,7 +44085,7 @@
           var ENABLE_FES_STYLING = false;
 
           if (typeof IS_MINIFIED !== 'undefined') {
-            _main.default._friendlyError = _main.default._checkForUserDefinedFunctions = _main.default._fesErrorMonitor = function() {};
+            _main.default._friendlyError = _main.default._checkForUserDefinedFunctions = _main.default._fesErrorMonitor = function () { };
           } else {
             var doFriendlyWelcome = false; // TEMP until we get it all working LM
 
@@ -46263,12 +44156,12 @@
 
               console.log(
                 '    _ \n' +
-                  ' /\\| |/\\ \n' +
-                  " \\ ` ' /  \n" +
-                  ' / , . \\  \n' +
-                  ' \\/|_|\\/ ' +
-                  '\n\n' +
-                  welcomeMessage
+                ' /\\| |/\\ \n' +
+                " \\ ` ' /  \n" +
+                ' / , . \\  \n' +
+                ' \\/|_|\\/ ' +
+                '\n\n' +
+                welcomeMessage
               );
             };
 
@@ -46361,7 +44254,7 @@
              * @param  {String} [method] name of method
              * @param  {Number|String} [color]   CSS color string or error type (Optional)
              */
-            _main.default._friendlyError = function(message, method, color) {
+            _main.default._friendlyError = function (message, method, color) {
               report(message, method, color);
             };
 
@@ -46371,7 +44264,7 @@
              * @method _friendlyAutoplayError
              * @private
              */
-            _main.default._friendlyAutoplayError = function(src) {
+            _main.default._friendlyAutoplayError = function (src) {
               var message = (0, _internationalization.translator)('fes.autoplay', {
                 src: src,
                 link: 'https://developer.mozilla.org/docs/Web/Media/Autoplay_guide'
@@ -46454,7 +44347,7 @@
 
               var fxns = {};
               // lowercasename -> actualName mapping
-              fnNames.forEach(function(symbol) {
+              fnNames.forEach(function (symbol) {
                 fxns[symbol.toLowerCase()] = symbol;
               });
 
@@ -46511,7 +44404,7 @@
               var min = 999999;
               // compute the levenshtein distance for the symbol against all known
               // public p5 properties. Find the property with the minimum distance
-              misusedAtTopLevelCode.forEach(function(symbol) {
+              misusedAtTopLevelCode.forEach(function (symbol) {
                 var dist = computeEditDistance(errSym, symbol.name);
                 if (distanceMap[dist]) distanceMap[dist].push(symbol);
                 else distanceMap[dist] = [symbol];
@@ -46524,7 +44417,7 @@
 
               // Show a message only if the caught symbol and the matched property name
               // differ in their name ( either letter difference or difference of case )
-              var matchedSymbols = distanceMap[min].filter(function(symbol) {
+              var matchedSymbols = distanceMap[min].filter(function (symbol) {
                 return symbol.name !== errSym;
               });
 
@@ -46568,7 +44461,7 @@
                   // suggestion on its own line, the function name followed by a link to
                   // reference documentation
                   var suggestions = matchedSymbols
-                    .map(function(symbol) {
+                    .map(function (symbol) {
                       var message =
                         '▶️ ' + symbol.name + (symbol.type === 'function' ? '()' : '');
                       return mapToReference(message, symbol.name);
@@ -46613,7 +44506,7 @@
                   : console.log.bind(console);
               if (friendlyStack.length > 1) {
                 var stacktraceMsg = '';
-                friendlyStack.forEach(function(frame, idx) {
+                friendlyStack.forEach(function (frame, idx) {
                   var location = ''
                     .concat(frame.fileName, ':')
                     .concat(frame.lineNumber, ':')
@@ -46666,7 +44559,7 @@
               // cannot process a stacktrace that doesn't exist
               if (!stacktrace) return [false, null];
 
-              stacktrace.forEach(function(frame) {
+              stacktrace.forEach(function (frame) {
                 frame.functionName = frame.functionName || '';
               });
 
@@ -46705,11 +44598,11 @@
                 // Then we filter out all frames which belong to the file that contains
                 // the p5 library
                 friendlyStack = friendlyStack
-                  .map(function(frame, index) {
+                  .map(function (frame, index) {
                     frame.frameIndex = index;
                     return frame;
                   })
-                  .filter(function(frame) {
+                  .filter(function (frame) {
                     return frame.fileName !== p5FileName;
                   });
 
@@ -46944,9 +44837,9 @@
                             symbol: errSym,
                             location: locationObj
                               ? (0, _internationalization.translator)(
-                                  'fes.location',
-                                  locationObj
-                                )
+                                'fes.location',
+                                locationObj
+                              )
                               : ''
                           }
                         )
@@ -46975,9 +44868,9 @@
                         obj: splitSym.slice(0, splitSym.length - 1).join('.'),
                         location: locationObj
                           ? (0, _internationalization.translator)(
-                              'fes.location',
-                              locationObj
-                            )
+                            'fes.location',
+                            locationObj
+                          )
                           : ''
                       };
 
@@ -47022,38 +44915,12 @@
               _main.default._fesErrorMonitor,
               false
             );
-
-            /**
-             * Prints out all the colors in the color pallete with white text.
-             * For color blindness testing.
-             */
-            /* function testColors() {
-                                                                                              const str = 'A box of biscuits, a box of mixed biscuits and a biscuit mixer';
-                                                                                              report(str, 'print', '#ED225D'); // p5.js magenta
-                                                                                              report(str, 'print', '#2D7BB6'); // p5.js blue
-                                                                                              report(str, 'print', '#EE9900'); // p5.js orange
-                                                                                              report(str, 'print', '#A67F59'); // p5.js light brown
-                                                                                              report(str, 'print', '#704F21'); // p5.js gold
-                                                                                              report(str, 'print', '#1CC581'); // auto cyan
-                                                                                              report(str, 'print', '#FF6625'); // auto orange
-                                                                                              report(str, 'print', '#79EB22'); // auto green
-                                                                                              report(str, 'print', '#B40033'); // p5.js darkened magenta
-                                                                                              report(str, 'print', '#084B7F'); // p5.js darkened blue
-                                                                                              report(str, 'print', '#945F00'); // p5.js darkened orange
-                                                                                              report(str, 'print', '#6B441D'); // p5.js darkened brown
-                                                                                              report(str, 'print', '#2E1B00'); // p5.js darkened gold
-                                                                                              report(str, 'print', '#008851'); // auto dark cyan
-                                                                                              report(str, 'print', '#C83C00'); // auto dark orange
-                                                                                              report(str, 'print', '#4DB200'); // auto dark green
-                                                                                            } */
           }
 
           // This is a lazily-defined list of p5 symbols that may be
           // misused by beginners at top-level code, outside of setup/draw. We'd like
           // to detect these errors and help the user by suggesting they move them
           // into setup/draw.
-          //
-          // For more details, see https://github.com/processing/p5.js/issues/1121.
           misusedAtTopLevelCode = null;
           var FAQ_URL =
             'https://github.com/processing/p5.js/wiki/p5.js-overview#why-cant-i-assign-variables-using-p5-functions-and-variables-before-setup';
@@ -47063,7 +44930,7 @@
 
             var getSymbols = function getSymbols(obj) {
               return Object.getOwnPropertyNames(obj)
-                .filter(function(name) {
+                .filter(function (name) {
                   if (name[0] === '_') {
                     return false;
                   }
@@ -47075,7 +44942,7 @@
 
                   return true;
                 })
-                .map(function(name) {
+                .map(function (name) {
                   var type;
 
                   if (typeof obj[name] === 'function') {
@@ -47101,7 +44968,7 @@
             // This will ultimately ensure that we report the most specific error
             // possible to the user, e.g. advising them about HALF_PI instead of PI
             // when their code misuses the former.
-            misusedAtTopLevelCode.sort(function(a, b) {
+            misusedAtTopLevelCode.sort(function (a, b) {
               return b.name.length - a.name.length;
             });
           };
@@ -47117,15 +44984,8 @@
 
             // If we find that we're logging lots of false positives, we can
             // uncomment the following code to avoid displaying anything if the
-            // user's code isn't likely to be using p5's global mode. (Note that
-            // setup/draw are more likely to be defined due to JS function hoisting.)
-
-            misusedAtTopLevelCode.some(function(symbol) {
-              // Note that while just checking for the occurrence of the
-              // symbol name in the error message could result in false positives,
-              // a more rigorous test is difficult because different browsers
-              // log different messages, and the format of those messages may
-              // change over time.
+            // user's code isn't likely to be using p5's global mode
+            misusedAtTopLevelCode.some(function (symbol) {
               if (
                 e.message &&
                 e.message.match('\\W?'.concat(symbol.name, '\\W')) !== null
@@ -47166,7 +45026,7 @@
             // global (non-instance mode) p5 APIs are used at the top-level
             // scope of a file, so we'll unbind our error listener now to make
             // sure we don't log false positives later.
-            window.addEventListener('load', function() {
+            window.addEventListener('load', function () {
               window.removeEventListener('error', helpForMisusedAtTopLevelCode, false);
             });
           }
@@ -47181,7 +45041,7 @@
         }
       ],
       52: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -47198,7 +45058,7 @@
            * This file contains the part of the FES responsible for dealing with
            * file load errors
            */ if (typeof IS_MINIFIED !== 'undefined') {
-            _main.default._friendlyFileLoadError = function() {};
+            _main.default._friendlyFileLoadError = function () { };
           } else {
             // mapping used by `_friendlyFileLoadError`
             var fileLoadErrorCases = function fileLoadErrorCases(num, filePath) {
@@ -47319,7 +45179,7 @@
              * @param  {Number} errorType
              * @param  {String} filePath
              */
-            _main.default._friendlyFileLoadError = function(errorType, filePath) {
+            _main.default._friendlyFileLoadError = function (errorType, filePath) {
               var _fileLoadErrorCases = fileLoadErrorCases(errorType, filePath),
                 message = _fileLoadErrorCases.message,
                 method = _fileLoadErrorCases.method;
@@ -47332,7 +45192,7 @@
         { '../internationalization': 57, '../main': 59 }
       ],
       53: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -47344,23 +45204,6 @@
            * @for p5
            * @requires core
            */
-          // minor modifications. The license for the same and the code is included below
-          // Copyright (c) 2017 Eric Wendelin and other contributors
-          // Permission is hereby granted, free of charge, to any person obtaining a copy of
-          // this software and associated documentation files (the "Software"), to deal in
-          // the Software without restriction, including without limitation the rights to
-          // use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-          // of the Software, and to permit persons to whom the Software is furnished to do
-          // so, subject to the following conditions:
-          // The above copyright notice and this permission notice shall be included in all
-          // copies or substantial portions of the Software.
-          // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-          // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-          // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-          // AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-          // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-          // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-          // SOFTWARE.
           function ErrorStackParser() {
             'use strict';
 
@@ -47403,11 +45246,11 @@
               },
 
               parseV8OrIE: function ErrorStackParser$$parseV8OrIE(error) {
-                var filtered = error.stack.split('\n').filter(function(line) {
+                var filtered = error.stack.split('\n').filter(function (line) {
                   return !!line.match(CHROME_IE_STACK_REGEXP);
                 }, this);
 
-                return filtered.map(function(line) {
+                return filtered.map(function (line) {
                   if (line.indexOf('(eval ') > -1) {
                     // Throw away eval information until we implement stacktrace.js/stackframe#8
                     line = line
@@ -47448,11 +45291,11 @@
               },
 
               parseFFOrSafari: function ErrorStackParser$$parseFFOrSafari(error) {
-                var filtered = error.stack.split('\n').filter(function(line) {
+                var filtered = error.stack.split('\n').filter(function (line) {
                   return !line.match(SAFARI_NATIVE_CODE_REGEXP);
                 }, this);
 
-                return filtered.map(function(line) {
+                return filtered.map(function (line) {
                   // Throw away eval information until we implement stacktrace.js/stackframe#8
                   if (line.indexOf(' > eval') > -1) {
                     line = line.replace(
@@ -47540,14 +45383,14 @@
 
               // Opera 10.65+ Error.stack very similar to FF/Safari
               parseOpera11: function ErrorStackParser$$parseOpera11(error) {
-                var filtered = error.stack.split('\n').filter(function(line) {
+                var filtered = error.stack.split('\n').filter(function (line) {
                   return (
                     !!line.match(FIREFOX_SAFARI_STACK_REGEXP) &&
                     !line.match(/^Error created at/)
                   );
                 }, this);
 
-                return filtered.map(function(line) {
+                return filtered.map(function (line) {
                   var tokens = line.split('@');
                   var locationParts = this.extractLocation(tokens.pop());
                   var functionCall = tokens.shift() || '';
@@ -47589,7 +45432,7 @@
         { '../main': 59 }
       ],
       54: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -47699,7 +45542,7 @@
             if (Reflect.construct.sham) return false;
             if (typeof Proxy === 'function') return true;
             try {
-              Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+              Date.prototype.toString.call(Reflect.construct(Date, [], function () { }));
               return true;
             } catch (e) {
               return false;
@@ -47736,8 +45579,8 @@
             _getPrototypeOf = Object.setPrototypeOf
               ? Object.getPrototypeOf
               : function _getPrototypeOf(o) {
-                  return o.__proto__ || Object.getPrototypeOf(o);
-                };
+                return o.__proto__ || Object.getPrototypeOf(o);
+              };
             return _getPrototypeOf(o);
           }
           function _typeof(obj) {
@@ -47759,7 +45602,7 @@
           }
 
           if (typeof IS_MINIFIED !== 'undefined') {
-            _main.default._validateParameters = _main.default._clearValidateParamsCache = function() {};
+            _main.default._validateParameters = _main.default._clearValidateParamsCache = function () { };
           } else {
             // for parameter validation
             var dataDoc = _dereq_('../../../docs/parameterData.json');
@@ -47802,7 +45645,7 @@
             // For speedup over many runs. funcSpecificConstructors[func] only has the
             // constructors for types which were seen earlier as args of "func"
             var funcSpecificConstructors = {};
-            window.addEventListener('load', function() {
+            window.addEventListener('load', function () {
               // Make a list of all p5 classes to be used for argument validation
               // This must be done only when everything has loaded otherwise we get
               // an empty array
@@ -47824,34 +45667,6 @@
             });
 
             var argumentTree = {};
-            // The following two functions are responsible for querying and inserting
-            // into the argument tree. It stores the types of arguments that each
-            // function has seen so far. It is used to query if a sequence of
-            // arguments seen in validate parameters was seen before.
-            // Lets consider that the following segment of code runs repeatedly, perhaps
-            // in a loop or in draw()
-            //   color(10, 10, 10);
-            //   color(10, 10);
-            //   color('r', 'g', 'b');
-            // After the first of run the code segment, the argument tree looks like
-            // - color
-            //     - number
-            //        - number
-            //            - number
-            //                - seen: true
-            //            - seen: true
-            //     - string
-            //        - string
-            //            - string
-            //                - seen: true
-            // seen: true signifies that this argument was also seen as the last
-            // argument in a call. Now in the second run of the sketch, it would traverse
-            // the existing tree and see seen: true, i.e this sequence was seen
-            // before and so scoring can be skipped. This also prevents logging multiple
-            // validation messages for the same thing.
-
-            // These two functions would be called repeatedly over and over again,
-            // so they need to be as optimized for performance as possible
 
             var addType = function addType(value, obj, func) {
               var type = _typeof(value);
@@ -47967,7 +45782,7 @@
               // parse the parameter types for each overload
               var mapConstants = {};
               var maxParams = 0;
-              overloads.forEach(function(overload) {
+              overloads.forEach(function (overload) {
                 var formats = overload.formats;
 
                 // keep a record of the maximum number of arguments
@@ -47985,7 +45800,7 @@
                 overload.minParams = minParams;
 
                 // loop through each parameter position, and parse its types
-                formats.forEach(function(format) {
+                formats.forEach(function (format) {
                   // split this parameter's types
                   format.types = format.type.split('|').map(function ct(type) {
                     // array
@@ -48058,7 +45873,7 @@
                       typeParts.shift();
                     }
 
-                    typeParts.forEach(function(p) {
+                    typeParts.forEach(function (p) {
                       t = t && t[p];
                     });
                     if (t) {
@@ -48226,8 +46041,8 @@
 
             // a custom error type, used by the mocha
             // tests when expecting validation errors
-            _main.default.ValidationError = (function(name) {
-              var err = /*#__PURE__*/ (function(_Error) {
+            _main.default.ValidationError = (function (name) {
+              var err = /*#__PURE__*/ (function (_Error) {
                 _inherits(err, _Error);
                 function err(message, func, type) {
                   var _this;
@@ -48249,14 +46064,14 @@
             })('ValidationError');
 
             // function for generating console.log() msg
-            _main.default._friendlyParamError = function(errorObj, func) {
+            _main.default._friendlyParamError = function (errorObj, func) {
               var message;
               var translationObj;
 
               function formatType() {
                 var format = errorObj.format;
                 return format.types
-                  .map(function(type) {
+                  .map(function (type) {
                     return type.names ? type.names.join('|') : type.name;
                   })
                   .join('|');
@@ -48270,7 +46085,6 @@
                     // It needs to be this way for i18next-extract to work. The comment
                     // specifies the values that the context can take so that it can
                     // statically prepare the translation files with them.
-                    /* i18next-extract-mark-context-next-line ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] */
                     position: (0, _internationalization.translator)('fes.positions.p', {
                       context: (errorObj.position + 1).toString(),
                       defaultValue: (errorObj.position + 1).toString()
@@ -48468,7 +46282,7 @@
         }
       ],
       55: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -48550,7 +46364,7 @@
         { './constants': 48 }
       ],
       56: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           var _main = _interopRequireDefault(_dereq_('../core/main'));
           var _internationalization = _dereq_('./internationalization');
@@ -48591,7 +46405,7 @@
 
           // make a promise that resolves when the document is ready
           var waitForDocumentReady = function waitForDocumentReady() {
-            return new Promise(function(resolve, reject) {
+            return new Promise(function (resolve, reject) {
               // if the page is ready, initialize p5 immediately
               if (document.readyState === 'complete') {
                 resolve();
@@ -48614,7 +46428,7 @@
         { '../core/main': 59, './internationalization': 57 }
       ],
       57: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.initialize = exports.translator = void 0;
@@ -48679,7 +46493,7 @@
           /**
            * This is our i18next "backend" plugin. It tries to fetch languages
            * from a CDN.
-           */ var FetchResources = /*#__PURE__*/ (function() {
+           */ var FetchResources = /*#__PURE__*/ (function () {
             function FetchResources(services, options) {
               _classCallCheck(this, FetchResources);
               this.init(services, options);
@@ -48697,8 +46511,8 @@
                       : 2000;
                   return Promise.race([
                     fetch(url, options),
-                    new Promise(function(_, reject) {
-                      return setTimeout(function() {
+                    new Promise(function (_, reject) {
+                      return setTimeout(function () {
                         return reject(new Error('timeout'));
                       }, timeout);
                     })
@@ -48747,7 +46561,7 @@
                 value: function loadUrl(url, callback) {
                   this.fetchWithTimeout(url)
                     .then(
-                      function(response) {
+                      function (response) {
                         var ok = response.ok;
 
                         if (!ok) {
@@ -48756,12 +46570,12 @@
                         }
                         return response.json();
                       },
-                      function() {
+                      function () {
                         // caught in the catch() below
                         throw new Error('failed loading '.concat(url));
                       }
                     )
-                    .then(function(data) {
+                    .then(function (data) {
                       return callback(null, data);
                     })
                     .catch(callback);
@@ -48830,10 +46644,10 @@
                 resources: fallbackResources
               })
               .then(
-                function(translateFn) {
+                function (translateFn) {
                   exports.translator = translator = translateFn;
                 },
-                function(e) {
+                function (e) {
                   return console.debug('Translations failed to load ('.concat(e, ')'));
                 }
               );
@@ -48853,7 +46667,7 @@
         }
       ],
       58: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -48870,18 +46684,18 @@
            * removed completely. Not all unsupported Processing functions are listed here
            * but we try to include ones that a user coming from Processing might likely
            * call.
-           */ _main.default.prototype.pushStyle = function() {
+           */ _main.default.prototype.pushStyle = function () {
             throw new Error('pushStyle() not used, see push()');
           };
-          _main.default.prototype.popStyle = function() {
+          _main.default.prototype.popStyle = function () {
             throw new Error('popStyle() not used, see pop()');
           };
 
-          _main.default.prototype.popMatrix = function() {
+          _main.default.prototype.popMatrix = function () {
             throw new Error('popMatrix() not used, see pop()');
           };
 
-          _main.default.prototype.pushMatrix = function() {
+          _main.default.prototype.pushMatrix = function () {
             throw new Error('pushMatrix() not used, see push()');
           };
           var _default = _main.default;
@@ -48890,7 +46704,7 @@
         { './main': 59 }
       ],
       59: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -48997,7 +46811,7 @@
            *                              given p5 instance
            * @param  {HTMLElement}        [node] element to attach canvas to
            * @return {p5}                 a p5 instance
-           */ var p5 = /*#__PURE__*/ (function() {
+           */ var p5 = /*#__PURE__*/ (function () {
             function p5(sketch, node, sync) {
               var _this = this;
               _classCallCheck(this, p5);
@@ -49014,10 +46828,6 @@
                * loading is preferred, the load methods can instead be called in <a href="#/p5/setup">setup()</a>
                * or anywhere else with the use of a callback parameter.
                *
-               * By default the text "loading..." will be displayed. To make your own
-               * loading page, include an HTML element with id "p5_loading" in your
-               * page. More information <a href="http://bit.ly/2kQ6Nio">here</a>.
-               *
                * @method preload
                */
 
@@ -49028,38 +46838,13 @@
                * There can only be one <a href="#/p5/setup">setup()</a> function for each program and it shouldn't
                * be called again after its initial execution.
                *
-               * Note: Variables declared within <a href="#/p5/setup">setup()</a> are not accessible within other
-               * functions, including <a href="#/p5/draw">draw()</a>.
-               *
                * @method setup
                */
 
               /**
                * Called directly after <a href="#/p5/setup">setup()</a>, the <a href="#/p5/draw">draw()</a> function continuously executes
                * the lines of code contained inside its block until the program is stopped
-               * or <a href="#/p5/noLoop">noLoop()</a> is called. Note if <a href="#/p5/noLoop">noLoop()</a> is called in <a href="#/p5/setup">setup()</a>, <a href="#/p5/draw">draw()</a> will
-               * still be executed once before stopping. <a href="#/p5/draw">draw()</a> is called automatically and
-               * should never be called explicitly.
-               *
-               * It should always be controlled with <a href="#/p5/noLoop">noLoop()</a>, <a href="#/p5/redraw">redraw()</a> and <a href="#/p5/loop">loop()</a>. After
-               * <a href="#/p5/noLoop">noLoop()</a> stops the code in <a href="#/p5/draw">draw()</a> from executing, <a href="#/p5/redraw">redraw()</a> causes the
-               * code inside <a href="#/p5/draw">draw()</a> to execute once, and <a href="#/p5/loop">loop()</a> will cause the code
-               * inside <a href="#/p5/draw">draw()</a> to resume executing continuously.
-               *
-               * The number of times <a href="#/p5/draw">draw()</a> executes in each second may be controlled with
-               * the <a href="#/p5/frameRate">frameRate()</a> function.
-               *
-               * There can only be one <a href="#/p5/draw">draw()</a> function for each sketch, and <a href="#/p5/draw">draw()</a> must
-               * exist if you want the code to run continuously, or to process events such
-               * as <a href="#/p5/mousePressed">mousePressed()</a>. Sometimes, you might have an empty call to <a href="#/p5/draw">draw()</a> in
-               * your program, as shown in the above example.
-               *
-               * It is important to note that the drawing coordinate system will be reset
-               * at the beginning of each <a href="#/p5/draw">draw()</a> call. If any transformations are performed
-               * within <a href="#/p5/draw">draw()</a> (ex: scale, rotate, translate), their effects will be
-               * undone at the beginning of <a href="#/p5/draw">draw()</a>, so transformations will not accumulate
-               * over time. On the other hand, styling applied (ex: fill, stroke, etc) will
-               * remain in effect.
+               * or <a href="#/p5/noLoop">noLoop()</a> is called
                *
                * @method draw
                */
@@ -49162,7 +46947,7 @@
                 this._events.devicemotion = null;
               }
 
-              this._start = function() {
+              this._start = function () {
                 // Find node if id given
                 if (_this._userNode) {
                   if (typeof _this._userNode === 'string') {
@@ -49208,7 +46993,7 @@
                 }
               };
 
-              this._runIfPreloadsAreDone = function() {
+              this._runIfPreloadsAreDone = function () {
                 var context = this._isGlobal ? window : this;
                 if (context._preloadCount === 0) {
                   var loadingScreen = document.getElementById(context._loadingScreenId);
@@ -49223,7 +47008,7 @@
                 }
               };
 
-              this._decrementPreload = function() {
+              this._decrementPreload = function () {
                 var context = this._isGlobal ? window : this;
                 if (typeof context.preload === 'function') {
                   context._setProperty('_preloadCount', context._preloadCount - 1);
@@ -49231,9 +47016,9 @@
                 }
               };
 
-              this._wrapPreload = function(obj, fnName) {
+              this._wrapPreload = function (obj, fnName) {
                 var _this2 = this;
-                return function() {
+                return function () {
                   //increment counter
                   _this2._incrementPreload();
                   //call original function
@@ -49248,12 +47033,12 @@
                 };
               };
 
-              this._incrementPreload = function() {
+              this._incrementPreload = function () {
                 var context = this._isGlobal ? window : this;
                 context._setProperty('_preloadCount', context._preloadCount + 1);
               };
 
-              this._setup = function() {
+              this._setup = function () {
                 // Always create a default canvas.
                 // Later on if the user calls createCanvas, this default one
                 // will be replaced
@@ -49322,7 +47107,7 @@
                 }
               };
 
-              this._draw = function() {
+              this._draw = function () {
                 var now = window.performance.now();
                 var time_since_last = now - _this._lastFrameTime;
                 var target_time_between_frames = 1000 / _this._targetFrameRate;
@@ -49332,9 +47117,7 @@
                 // (this will prevent us from giving up opportunities to draw
                 // again when it's really about time for us to do so). fixes an
                 // issue where the frameRate is too low if our refresh loop isn't
-                // in sync with the browser. note that we have to draw once even
-                // if looping is off, so we bypass the time delay if that
-                // is the case.
+                // in sync with the browser
                 var epsilon = 5;
                 if (
                   !_this._loop ||
@@ -49350,7 +47133,6 @@
                   // If the user is actually using mouse module, then update
                   // coordinates, otherwise skip. We can test this by simply
                   // checking if any of the mouse functions are available or not.
-                  // NOTE : This reflects only in complete build or modular build.
                   if (typeof _this._updateMouseCoords !== 'undefined') {
                     _this._updateMouseCoords();
 
@@ -49367,7 +47149,7 @@
                 }
               };
 
-              this._setProperty = function(prop, value) {
+              this._setProperty = function (prop, value) {
                 _this[prop] = value;
                 if (_this._isGlobal) {
                   window[prop] = value;
@@ -49385,7 +47167,7 @@
                *
                * @method remove
                */
-              this.remove = function() {
+              this.remove = function () {
                 var loadingScreen = document.getElementById(_this._loadingScreenId);
                 if (loadingScreen) {
                   loadingScreen.parentNode.removeChild(loadingScreen);
@@ -49439,7 +47221,7 @@
                     }
                   }
                   var self = _this;
-                  _this._registeredMethods.remove.forEach(function(f) {
+                  _this._registeredMethods.remove.forEach(function (f) {
                     if (typeof f !== 'undefined') {
                       f.call(self);
                     }
@@ -49468,7 +47250,7 @@
               };
 
               // call any registered init functions
-              this._registeredMethods.init.forEach(function(f) {
+              this._registeredMethods.init.forEach(function (f) {
                 if (typeof f !== 'undefined') {
                   f.call(this);
                 }
@@ -49535,7 +47317,7 @@
               };
               window.addEventListener('focus', focusHandler);
               window.addEventListener('blur', blurHandler);
-              this.registerMethod('remove', function() {
+              this.registerMethod('remove', function () {
                 window.removeEventListener('focus', focusHandler);
                 window.removeEventListener('blur', blurHandler);
               });
@@ -49605,7 +47387,7 @@
                     print: true
                   };
 
-                  return function(prop, value) {
+                  return function (prop, value) {
                     if (
                       !p5.disableFriendlyErrors &&
                       typeof IS_MINIFIED === 'undefined' &&
@@ -49617,10 +47399,6 @@
                         // that users may accidentally overwrite global p5 functions with
                         // their own variables. Let's allow this but log a warning to
                         // help users who may be doing this unintentionally.
-                        //
-                        // For more information, see:
-                        //
-                        //   https://github.com/processing/p5.js/issues/1317
 
                         if (prop in globalObject && !(prop in propsToForciblyOverwrite)) {
                           throw new Error('global "'.concat(prop, '" already exists'));
@@ -49673,15 +47451,12 @@
             return p5;
           })();
 
-          // This is a pointer to our global mode p5 instance, if we're in
-          // global mode.
+          // This is a pointer to our global mode p5 instance, if we're in global mode.
           p5.instance = null;
 
           /**
            * Allows for the friendly error system (FES) to be turned off when creating a sketch,
            * which can give a significant boost to performance when needed.
-           * See <a href='https://github.com/processing/p5.js/wiki/Optimizing-p5.js-Code-for-Performance#disable-the-friendly-error-system-fes'>
-           * disabling the friendly error system</a>.
            *
            * @property {Boolean} disableFriendlyErrors
            */
@@ -49692,8 +47467,7 @@
             p5.prototype[k] = constants[k];
           }
 
-          // functions that cause preload to wait
-          // more can be added by using registerPreloadMethod(func)
+          // functions that cause preload to wait more can be added by using registerPreloadMethod(func)
           p5.prototype._preloadMethods = {
             loadJSON: p5.prototype,
             loadImage: p5.prototype,
@@ -49715,7 +47489,7 @@
         { './constants': 48, './shim': 70 }
       ],
       60: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -49738,7 +47512,7 @@
            * @constructor
            * @param {String} elt DOM node that is wrapped
            * @param {p5} [pInst] pointer to p5 instance
-           */ _main.default.Element = function(elt, pInst) {
+           */ _main.default.Element = function (elt, pInst) {
             /**
              * Underlying HTML element. All normal HTML methods can be called on this.
              *
@@ -49757,13 +47531,9 @@
            * Attaches the element to the parent specified. A way of setting
            * the container for the element. Accepts either a string ID, DOM
            * node, or <a href="#/p5.Element">p5.Element</a>. If no arguments given, parent node is returned.
-           * For more ways to position the canvas, see the
-           * <a href='https://github.com/processing/p5.js/wiki/Positioning-your-canvas'>
-           * positioning the canvas</a> wiki page.
            *
            * @method parent
-           * @param  {String|p5.Element|Object} parent the ID, DOM node, or <a href="#/p5.Element">p5.Element</a>
-           *                         of desired parent element
+           * @param  {String|p5.Element|Object} parent the ID, DOM node, or <a href="#/p5.Element">p5.Element</a> of desired parent element
            * @chainable
            *
            */
@@ -49771,7 +47541,7 @@
            * @method parent
            * @return {p5.Element}
            */
-          _main.default.Element.prototype.parent = function(p) {
+          _main.default.Element.prototype.parent = function (p) {
             if (typeof p === 'undefined') {
               return this.elt.parentNode;
             }
@@ -49792,9 +47562,6 @@
            *
            * Sets the ID of the element. If no ID argument is passed in, it instead
            * returns the current ID of the element.
-           * Note that only one element can have a particular id in a page.
-           * The <a href="#/p5.Element/class">.class()</a> function can be used
-           * to identify multiple elements with the same class name.
            *
            * @method id
            * @param  {String} id ID of the element
@@ -49804,7 +47571,7 @@
            * @method id
            * @return {String} the id of the element
            */
-          _main.default.Element.prototype.id = function(id) {
+          _main.default.Element.prototype.id = function (id) {
             if (typeof id === 'undefined') {
               return this.elt.id;
             }
@@ -49828,7 +47595,7 @@
            * @method class
            * @return {String} the class of the element
            */
-          _main.default.Element.prototype.class = function(c) {
+          _main.default.Element.prototype.class = function (c) {
             if (typeof c === 'undefined') {
               return this.elt.className;
             }
@@ -49850,10 +47617,9 @@
            *                                firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mousePressed = function(fxn) {
+          _main.default.Element.prototype.mousePressed = function (fxn) {
             // Prepend the mouse property setters to the event-listener.
             // This is required so that mouseButton is set correctly prior to calling the callback (fxn).
-            // For details, see https://github.com/processing/p5.js/issues/3087.
             var eventPrependedFxn = function eventPrependedFxn(event) {
               this._pInst._setProperty('mouseIsPressed', true);
               this._pInst._setMouseButton(event);
@@ -49871,13 +47637,11 @@
            * attach element and action specific event listeners.
            *
            * @method doubleClicked
-           * @param  {Function|Boolean} fxn function to be fired when mouse is
-           *                                double clicked over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when mouse is double clicked over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @return {p5.Element}
            */
-          _main.default.Element.prototype.doubleClicked = function(fxn) {
+          _main.default.Element.prototype.doubleClicked = function (fxn) {
             _main.default.Element._adjustListener('dblclick', fxn, this);
             return this;
           };
@@ -49887,24 +47651,12 @@
            * once after every time a mouse wheel is scrolled over the element. This can
            * be used to attach element specific event listeners.
            *
-           * The function accepts a callback function as argument which will be executed
-           * when the `wheel` event is triggered on the element, the callback function is
-           * passed one argument `event`. The `event.deltaY` property returns negative
-           * values if the mouse wheel is rotated up or away from the user and positive
-           * in the other direction. The `event.deltaX` does the same as `event.deltaY`
-           * except it reads the horizontal wheel scroll of the mouse wheel.
-           *
-           * On OS X with "natural" scrolling enabled, the `event.deltaY` values are
-           * reversed.
-           *
            * @method mouseWheel
-           * @param  {Function|Boolean} fxn function to be fired when mouse is
-           *                                scrolled over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when mouse is scrolled over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mouseWheel = function(fxn) {
+          _main.default.Element.prototype.mouseWheel = function (fxn) {
             _main.default.Element._adjustListener('wheel', fxn, this);
             return this;
           };
@@ -49916,13 +47668,11 @@
            * user performs a quick tap. This can be used to attach element specific event listeners.
            *
            * @method mouseReleased
-           * @param  {Function|Boolean} fxn function to be fired when mouse is
-           *                                released over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when mouse is released over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mouseReleased = function(fxn) {
+          _main.default.Element.prototype.mouseReleased = function (fxn) {
             _main.default.Element._adjustListener('mouseup', fxn, this);
             return this;
           };
@@ -49934,13 +47684,11 @@
            * user performs a quick tap.This can be used to attach element specific event listeners.
            *
            * @method mouseClicked
-           * @param  {Function|Boolean} fxn function to be fired when mouse is
-           *                                clicked over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when mouse is clicked over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mouseClicked = function(fxn) {
+          _main.default.Element.prototype.mouseClicked = function (fxn) {
             _main.default.Element._adjustListener('click', fxn, this);
             return this;
           };
@@ -49957,7 +47705,7 @@
            *                                firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mouseMoved = function(fxn) {
+          _main.default.Element.prototype.mouseMoved = function (fxn) {
             _main.default.Element._adjustListener('mousemove', fxn, this);
             return this;
           };
@@ -49968,13 +47716,11 @@
            * element specific event listener.
            *
            * @method mouseOver
-           * @param  {Function|Boolean} fxn function to be fired when a mouse moves
-           *                                onto the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a mouse moves onto the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mouseOver = function(fxn) {
+          _main.default.Element.prototype.mouseOver = function (fxn) {
             _main.default.Element._adjustListener('mouseover', fxn, this);
             return this;
           };
@@ -49985,13 +47731,11 @@
            * element specific event listener.
            *
            * @method mouseOut
-           * @param  {Function|Boolean} fxn function to be fired when a mouse
-           *                                moves off of an element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a mouse moves off of an element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.mouseOut = function(fxn) {
+          _main.default.Element.prototype.mouseOut = function (fxn) {
             _main.default.Element._adjustListener('mouseout', fxn, this);
             return this;
           };
@@ -50001,13 +47745,11 @@
            * registered. This can be used to attach element specific event listeners.
            *
            * @method touchStarted
-           * @param  {Function|Boolean} fxn function to be fired when a touch
-           *                                starts over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a touch starts over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.touchStarted = function(fxn) {
+          _main.default.Element.prototype.touchStarted = function (fxn) {
             _main.default.Element._adjustListener('touchstart', fxn, this);
             return this;
           };
@@ -50017,13 +47759,11 @@
            * registered. This can be used to attach element specific event listeners.
            *
            * @method touchMoved
-           * @param  {Function|Boolean} fxn function to be fired when a touch moves over
-           *                                the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a touch moves over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.touchMoved = function(fxn) {
+          _main.default.Element.prototype.touchMoved = function (fxn) {
             _main.default.Element._adjustListener('touchmove', fxn, this);
             return this;
           };
@@ -50033,13 +47773,11 @@
            * registered. This can be used to attach element specific event listeners.
            *
            * @method touchEnded
-           * @param  {Function|Boolean} fxn function to be fired when a touch ends
-           *                                over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a touch ends over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.touchEnded = function(fxn) {
+          _main.default.Element.prototype.touchEnded = function (fxn) {
             _main.default.Element._adjustListener('touchend', fxn, this);
             return this;
           };
@@ -50050,13 +47788,11 @@
            * element specific event listener.
            *
            * @method dragOver
-           * @param  {Function|Boolean} fxn function to be fired when a file is
-           *                                dragged over the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a file is dragged over the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.dragOver = function(fxn) {
+          _main.default.Element.prototype.dragOver = function (fxn) {
             _main.default.Element._adjustListener('dragover', fxn, this);
             return this;
           };
@@ -50067,19 +47803,17 @@
            * element specific event listener.
            *
            * @method dragLeave
-           * @param  {Function|Boolean} fxn function to be fired when a file is
-           *                                dragged off the element.
-           *                                if `false` is passed instead, the previously
-           *                                firing function will no longer fire.
+           * @param  {Function|Boolean} fxn function to be fired when a file is dragged off the element.
+           *                                if `false` is passed instead, the previously firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.dragLeave = function(fxn) {
+          _main.default.Element.prototype.dragLeave = function (fxn) {
             _main.default.Element._adjustListener('dragleave', fxn, this);
             return this;
           };
 
           // General handler for event attaching and detaching
-          _main.default.Element._adjustListener = function(ev, fxn, ctx) {
+          _main.default.Element._adjustListener = function (ev, fxn, ctx) {
             if (fxn === false) {
               _main.default.Element._detachListener(ev, ctx);
             } else {
@@ -50088,7 +47822,7 @@
             return this;
           };
 
-          _main.default.Element._attachListener = function(ev, fxn, ctx) {
+          _main.default.Element._attachListener = function (ev, fxn, ctx) {
             // detach the old listener if there was one
             if (ctx._events[ev]) {
               _main.default.Element._detachListener(ev, ctx);
@@ -50098,7 +47832,7 @@
             ctx._events[ev] = f;
           };
 
-          _main.default.Element._detachListener = function(ev, ctx) {
+          _main.default.Element._detachListener = function (ev, ctx) {
             var f = ctx._events[ev];
             ctx.elt.removeEventListener(ev, f, false);
             ctx._events[ev] = null;
@@ -50107,7 +47841,7 @@
           /**
            * Helper fxn for sharing pixel methods
            */
-          _main.default.Element.prototype._setProperty = function(prop, value) {
+          _main.default.Element.prototype._setProperty = function (prop, value) {
             this[prop] = value;
           };
           var _default = _main.default.Element;
@@ -50116,7 +47850,7 @@
         { './main': 59 }
       ],
       61: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -50201,7 +47935,7 @@
            * @param {Number} h            height
            * @param {Constant} renderer   the renderer to use, either P2D or WEBGL
            * @param {p5} [pInst]          pointer to p5 instance
-           */ _main.default.Graphics = function(w, h, renderer, pInst) {
+           */ _main.default.Graphics = function (w, h, renderer, pInst) {
             var r = renderer || constants.P2D;
 
             this.canvas = document.createElement('canvas');
@@ -50254,7 +47988,7 @@
            *
            * @method reset
            */
-          _main.default.Graphics.prototype.reset = function() {
+          _main.default.Graphics.prototype.reset = function () {
             this._renderer.resetMatrix();
             if (this._renderer.isP3D) {
               this._renderer._update();
@@ -50267,7 +48001,7 @@
            *
            * @method remove
            */
-          _main.default.Graphics.prototype.remove = function() {
+          _main.default.Graphics.prototype.remove = function () {
             if (this.elt.parentNode) {
               this.elt.parentNode.removeChild(this.elt);
             }
@@ -50285,7 +48019,7 @@
         { './constants': 48, './main': 59 }
       ],
       62: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -50365,7 +48099,7 @@
            * @param {p5} [pInst] pointer to p5 instance
            * @param {Boolean} [isMainCanvas] whether we're using it as main canvas
            */
-          _main.default.Renderer = function(elt, pInst, isMainCanvas) {
+          _main.default.Renderer = function (elt, pInst, isMainCanvas) {
             _main.default.Element.call(this, elt, pInst);
             this.canvas = elt;
             this._pixelsState = pInst;
@@ -50407,7 +48141,7 @@
 
           // the renderer should return a 'style' object that it wishes to
           // store on the push stack.
-          _main.default.Renderer.prototype.push = function() {
+          _main.default.Renderer.prototype.push = function () {
             return {
               properties: {
                 _doStroke: this._doStroke,
@@ -50431,7 +48165,7 @@
           // a pop() operation is in progress
           // the renderer is passed the 'style' object that it returned
           // from its push() method.
-          _main.default.Renderer.prototype.pop = function(style) {
+          _main.default.Renderer.prototype.pop = function (style) {
             if (style.properties) {
               // copy the style properties back into the renderer
               Object.assign(this, style.properties);
@@ -50441,7 +48175,7 @@
           /**
            * Resize our canvas element.
            */
-          _main.default.Renderer.prototype.resize = function(w, h) {
+          _main.default.Renderer.prototype.resize = function (w, h) {
             this.width = w;
             this.height = h;
             this.elt.width = w * this._pInst._pixelDensity;
@@ -50454,7 +48188,7 @@
             }
           };
 
-          _main.default.Renderer.prototype.get = function(x, y, w, h) {
+          _main.default.Renderer.prototype.get = function (x, y, w, h) {
             var pixelsState = this._pixelsState;
             var pd = pixelsState._pixelDensity;
             var canvas = this.canvas;
@@ -50487,7 +48221,7 @@
             return region;
           };
 
-          _main.default.Renderer.prototype.textLeading = function(l) {
+          _main.default.Renderer.prototype.textLeading = function (l) {
             if (typeof l === 'number') {
               this._setProperty('_textLeading', l);
               return this._pInst;
@@ -50496,7 +48230,7 @@
             return this._textLeading;
           };
 
-          _main.default.Renderer.prototype.textSize = function(s) {
+          _main.default.Renderer.prototype.textSize = function (s) {
             if (typeof s === 'number') {
               this._setProperty('_textSize', s);
               this._setProperty('_textLeading', s * constants._DEFAULT_LEADMULT);
@@ -50506,7 +48240,7 @@
             return this._textSize;
           };
 
-          _main.default.Renderer.prototype.textStyle = function(s) {
+          _main.default.Renderer.prototype.textStyle = function (s) {
             if (s) {
               if (
                 s === constants.NORMAL ||
@@ -50523,21 +48257,21 @@
             return this._textStyle;
           };
 
-          _main.default.Renderer.prototype.textAscent = function() {
+          _main.default.Renderer.prototype.textAscent = function () {
             if (this._textAscent === null) {
               this._updateTextMetrics();
             }
             return this._textAscent;
           };
 
-          _main.default.Renderer.prototype.textDescent = function() {
+          _main.default.Renderer.prototype.textDescent = function () {
             if (this._textDescent === null) {
               this._updateTextMetrics();
             }
             return this._textDescent;
           };
 
-          _main.default.Renderer.prototype.textAlign = function(h, v) {
+          _main.default.Renderer.prototype.textAlign = function (h, v) {
             if (typeof h !== 'undefined') {
               this._setProperty('_textAlign', h);
 
@@ -50554,7 +48288,7 @@
             }
           };
 
-          _main.default.Renderer.prototype.text = function(str, x, y, maxWidth, maxHeight) {
+          _main.default.Renderer.prototype.text = function (str, x, y, maxWidth, maxHeight) {
             var p = this._pInst;
             var cars;
             var n;
@@ -50704,14 +48438,14 @@
             return p;
           };
 
-          _main.default.Renderer.prototype._applyDefaults = function() {
+          _main.default.Renderer.prototype._applyDefaults = function () {
             return this;
           };
 
           /**
            * Helper fxn to check font type (system or otf)
            */
-          _main.default.Renderer.prototype._isOpenType = function() {
+          _main.default.Renderer.prototype._isOpenType = function () {
             var f =
               arguments.length > 0 && arguments[0] !== undefined
                 ? arguments[0]
@@ -50719,7 +48453,7 @@
             return _typeof(f) === 'object' && f.font && f.font.supported;
           };
 
-          _main.default.Renderer.prototype._updateTextMetrics = function() {
+          _main.default.Renderer.prototype._updateTextMetrics = function () {
             if (this._isOpenType()) {
               this._setProperty('_textAscent', this._textFont._textAscent());
               this._setProperty('_textDescent', this._textFont._textDescent());
@@ -50788,7 +48522,7 @@
         { '../core/constants': 48, './main': 59 }
       ],
       63: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -50866,7 +48600,7 @@
           var styleEmpty = 'rgba(0,0,0,0)';
           // const alphaThreshold = 0.00125; // minimum visible
 
-          _main.default.Renderer2D = function(elt, pInst, isMainCanvas) {
+          _main.default.Renderer2D = function (elt, pInst, isMainCanvas) {
             _main.default.Renderer.call(this, elt, pInst, isMainCanvas);
             this.drawingContext = this.canvas.getContext('2d');
             this._pInst._setProperty('drawingContext', this.drawingContext);
@@ -50877,7 +48611,7 @@
             _main.default.Renderer.prototype
           );
 
-          _main.default.Renderer2D.prototype._applyDefaults = function() {
+          _main.default.Renderer2D.prototype._applyDefaults = function () {
             this._cachedFillStyle = this._cachedStrokeStyle = undefined;
             this._cachedBlendMode = constants.BLEND;
             this._setFill(constants._DEFAULT_FILL);
@@ -50886,7 +48620,7 @@
             this.drawingContext.font = 'normal 12px sans-serif';
           };
 
-          _main.default.Renderer2D.prototype.resize = function(w, h) {
+          _main.default.Renderer2D.prototype.resize = function (w, h) {
             _main.default.Renderer.prototype.resize.call(this, w, h);
             this.drawingContext.scale(this._pInst._pixelDensity, this._pInst._pixelDensity);
           };
@@ -50895,7 +48629,7 @@
           // COLOR | Setting
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype.background = function() {
+          _main.default.Renderer2D.prototype.background = function () {
             this.drawingContext.save();
             this.resetMatrix();
 
@@ -50939,14 +48673,14 @@
             this.drawingContext.restore();
           };
 
-          _main.default.Renderer2D.prototype.clear = function() {
+          _main.default.Renderer2D.prototype.clear = function () {
             this.drawingContext.save();
             this.resetMatrix();
             this.drawingContext.clearRect(0, 0, this.width, this.height);
             this.drawingContext.restore();
           };
 
-          _main.default.Renderer2D.prototype.fill = function() {
+          _main.default.Renderer2D.prototype.fill = function () {
             var _this$_pInst2;
             var color = (_this$_pInst2 = this._pInst).color.apply(_this$_pInst2, arguments);
             this._setFill(color.toString());
@@ -50957,7 +48691,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.stroke = function() {
+          _main.default.Renderer2D.prototype.stroke = function () {
             var _this$_pInst3;
             var color = (_this$_pInst3 = this._pInst).color.apply(_this$_pInst3, arguments);
             this._setStroke(color.toString());
@@ -50968,7 +48702,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.erase = function(opacityFill, opacityStroke) {
+          _main.default.Renderer2D.prototype.erase = function (opacityFill, opacityStroke) {
             if (!this._isErasing) {
               // cache the fill style
               this._cachedFillStyle = this.drawingContext.fillStyle;
@@ -50989,7 +48723,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.noErase = function() {
+          _main.default.Renderer2D.prototype.noErase = function () {
             if (this._isErasing) {
               this.drawingContext.fillStyle = this._cachedFillStyle;
               this.drawingContext.strokeStyle = this._cachedStrokeStyle;
@@ -51003,7 +48737,7 @@
           // IMAGE | Loading & Displaying
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype.image = function(
+          _main.default.Renderer2D.prototype.image = function (
             img,
             sx,
             sy,
@@ -51063,7 +48797,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype._getTintedImageCanvas = function(img) {
+          _main.default.Renderer2D.prototype._getTintedImageCanvas = function (img) {
             if (!img.canvas) {
               return img;
             }
@@ -51092,7 +48826,7 @@
           // IMAGE | Pixels
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype.blendMode = function(mode) {
+          _main.default.Renderer2D.prototype.blendMode = function (mode) {
             if (mode === constants.SUBTRACT) {
               console.warn('blendMode(SUBTRACT) only works in WEBGL mode.');
             } else if (
@@ -51119,7 +48853,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.blend = function() {
+          _main.default.Renderer2D.prototype.blend = function () {
             var currBlend = this.drawingContext.globalCompositeOperation;
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
@@ -51143,7 +48877,7 @@
           // .get() is not overridden
 
           // x,y are canvas-relative (pre-scaled by _pixelDensity)
-          _main.default.Renderer2D.prototype._getPixel = function(x, y) {
+          _main.default.Renderer2D.prototype._getPixel = function (x, y) {
             var imageData, index;
             imageData = this.drawingContext.getImageData(x, y, 1, 1).data;
             index = 0;
@@ -51155,7 +48889,7 @@
             ];
           };
 
-          _main.default.Renderer2D.prototype.loadPixels = function() {
+          _main.default.Renderer2D.prototype.loadPixels = function () {
             var pixelsState = this._pixelsState; // if called by p5.Image
 
             var pd = pixelsState._pixelDensity;
@@ -51166,7 +48900,7 @@
             pixelsState._setProperty('pixels', imageData.data);
           };
 
-          _main.default.Renderer2D.prototype.set = function(x, y, imgOrCol) {
+          _main.default.Renderer2D.prototype.set = function (x, y, imgOrCol) {
             // round down to get integer numbers
             x = Math.floor(x);
             y = Math.floor(y);
@@ -51241,7 +48975,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.updatePixels = function(x, y, w, h) {
+          _main.default.Renderer2D.prototype.updatePixels = function (x, y, w, h) {
             var pixelsState = this._pixelsState;
             var pd = pixelsState._pixelDensity;
             if (x === undefined && y === undefined && w === undefined && h === undefined) {
@@ -51271,8 +49005,6 @@
            * Generate a cubic Bezier representing an arc on the unit circle of total
            * angle `size` radians, beginning `start` radians above the x-axis. Up to
            * four of these curves are combined to make a full arc.
-           *
-           * See www.joecridge.me/bezier.pdf for an explanation of the method.
            */
           _main.default.Renderer2D.prototype._acuteArcToBezier = function _acuteArcToBezier(
             start,
@@ -51310,7 +49042,7 @@
     *
     *   start <= stop < start + TWO_PI
     */
-          _main.default.Renderer2D.prototype.arc = function(x, y, w, h, start, stop, mode) {
+          _main.default.Renderer2D.prototype.arc = function (x, y, w, h, start, stop, mode) {
             var ctx = this.drawingContext;
             var rx = w / 2.0;
             var ry = h / 2.0;
@@ -51331,14 +49063,13 @@
             // Fill curves
             if (this._doFill) {
               ctx.beginPath();
-              curves.forEach(function(curve, index) {
+              curves.forEach(function (curve, index) {
                 if (index === 0) {
                   ctx.moveTo(x + curve.ax * rx, y + curve.ay * ry);
                 }
-                // prettier-ignore
                 ctx.bezierCurveTo(x + curve.bx * rx, y + curve.by * ry,
-      x + curve.cx * rx, y + curve.cy * ry,
-      x + curve.dx * rx, y + curve.dy * ry);
+                  x + curve.cx * rx, y + curve.cy * ry,
+                  x + curve.dx * rx, y + curve.dy * ry);
               });
               if (mode === constants.PIE || mode == null) {
                 ctx.lineTo(x, y);
@@ -51350,14 +49081,13 @@
             // Stroke curves
             if (this._doStroke) {
               ctx.beginPath();
-              curves.forEach(function(curve, index) {
+              curves.forEach(function (curve, index) {
                 if (index === 0) {
                   ctx.moveTo(x + curve.ax * rx, y + curve.ay * ry);
                 }
-                // prettier-ignore
                 ctx.bezierCurveTo(x + curve.bx * rx, y + curve.by * ry,
-      x + curve.cx * rx, y + curve.cy * ry,
-      x + curve.dx * rx, y + curve.dy * ry);
+                  x + curve.cx * rx, y + curve.cy * ry,
+                  x + curve.dx * rx, y + curve.dy * ry);
               });
               if (mode === constants.PIE) {
                 ctx.lineTo(x, y);
@@ -51370,7 +49100,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.ellipse = function(args) {
+          _main.default.Renderer2D.prototype.ellipse = function (args) {
             var ctx = this.drawingContext;
             var doFill = this._doFill,
               doStroke = this._doStroke;
@@ -51413,7 +49143,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.line = function(x1, y1, x2, y2) {
+          _main.default.Renderer2D.prototype.line = function (x1, y1, x2, y2) {
             var ctx = this.drawingContext;
             if (!this._doStroke) {
               return this;
@@ -51427,7 +49157,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.point = function(x, y) {
+          _main.default.Renderer2D.prototype.point = function (x, y) {
             var ctx = this.drawingContext;
             if (!this._doStroke) {
               return this;
@@ -51450,7 +49180,7 @@
             this._setFill(f);
           };
 
-          _main.default.Renderer2D.prototype.quad = function(
+          _main.default.Renderer2D.prototype.quad = function (
             x1,
             y1,
             x2,
@@ -51487,7 +49217,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.rect = function(args) {
+          _main.default.Renderer2D.prototype.rect = function (args) {
             var x = args[0];
             var y = args[1];
             var w = args[2];
@@ -51576,7 +49306,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.triangle = function(args) {
+          _main.default.Renderer2D.prototype.triangle = function (args) {
             var ctx = this.drawingContext;
             var doFill = this._doFill,
               doStroke = this._doStroke;
@@ -51608,7 +49338,7 @@
             }
           };
 
-          _main.default.Renderer2D.prototype.endShape = function(
+          _main.default.Renderer2D.prototype.endShape = function (
             mode,
             vertices,
             isCurve,
@@ -51871,7 +49601,7 @@
           // SHAPE | Attributes
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype.strokeCap = function(cap) {
+          _main.default.Renderer2D.prototype.strokeCap = function (cap) {
             if (
               cap === constants.ROUND ||
               cap === constants.SQUARE ||
@@ -51882,7 +49612,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.strokeJoin = function(join) {
+          _main.default.Renderer2D.prototype.strokeJoin = function (join) {
             if (
               join === constants.ROUND ||
               join === constants.BEVEL ||
@@ -51893,7 +49623,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.strokeWeight = function(w) {
+          _main.default.Renderer2D.prototype.strokeWeight = function (w) {
             if (typeof w === 'undefined' || w === 0) {
               // hack because lineWidth 0 doesn't work
               this.drawingContext.lineWidth = 0.0001;
@@ -51903,28 +49633,28 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype._getFill = function() {
+          _main.default.Renderer2D.prototype._getFill = function () {
             if (!this._cachedFillStyle) {
               this._cachedFillStyle = this.drawingContext.fillStyle;
             }
             return this._cachedFillStyle;
           };
 
-          _main.default.Renderer2D.prototype._setFill = function(fillStyle) {
+          _main.default.Renderer2D.prototype._setFill = function (fillStyle) {
             if (fillStyle !== this._cachedFillStyle) {
               this.drawingContext.fillStyle = fillStyle;
               this._cachedFillStyle = fillStyle;
             }
           };
 
-          _main.default.Renderer2D.prototype._getStroke = function() {
+          _main.default.Renderer2D.prototype._getStroke = function () {
             if (!this._cachedStrokeStyle) {
               this._cachedStrokeStyle = this.drawingContext.strokeStyle;
             }
             return this._cachedStrokeStyle;
           };
 
-          _main.default.Renderer2D.prototype._setStroke = function(strokeStyle) {
+          _main.default.Renderer2D.prototype._setStroke = function (strokeStyle) {
             if (strokeStyle !== this._cachedStrokeStyle) {
               this.drawingContext.strokeStyle = strokeStyle;
               this._cachedStrokeStyle = strokeStyle;
@@ -51934,7 +49664,7 @@
           //////////////////////////////////////////////
           // SHAPE | Curves
           //////////////////////////////////////////////
-          _main.default.Renderer2D.prototype.bezier = function(
+          _main.default.Renderer2D.prototype.bezier = function (
             x1,
             y1,
             x2,
@@ -51951,7 +49681,7 @@
             return this;
           };
 
-          _main.default.Renderer2D.prototype.curve = function(
+          _main.default.Renderer2D.prototype.curve = function (
             x1,
             y1,
             x2,
@@ -51974,7 +49704,7 @@
           // SHAPE | Vertex
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype._doFillStrokeClose = function(closeShape) {
+          _main.default.Renderer2D.prototype._doFillStrokeClose = function (closeShape) {
             if (closeShape) {
               this.drawingContext.closePath();
             }
@@ -51990,27 +49720,27 @@
           // TRANSFORM
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype.applyMatrix = function(a, b, c, d, e, f) {
+          _main.default.Renderer2D.prototype.applyMatrix = function (a, b, c, d, e, f) {
             this.drawingContext.transform(a, b, c, d, e, f);
           };
 
-          _main.default.Renderer2D.prototype.resetMatrix = function() {
+          _main.default.Renderer2D.prototype.resetMatrix = function () {
             this.drawingContext.setTransform(1, 0, 0, 1, 0, 0);
             this.drawingContext.scale(this._pInst._pixelDensity, this._pInst._pixelDensity);
 
             return this;
           };
 
-          _main.default.Renderer2D.prototype.rotate = function(rad) {
+          _main.default.Renderer2D.prototype.rotate = function (rad) {
             this.drawingContext.rotate(rad);
           };
 
-          _main.default.Renderer2D.prototype.scale = function(x, y) {
+          _main.default.Renderer2D.prototype.scale = function (x, y) {
             this.drawingContext.scale(x, y);
             return this;
           };
 
-          _main.default.Renderer2D.prototype.translate = function(x, y) {
+          _main.default.Renderer2D.prototype.translate = function (x, y) {
             // support passing a vector as the 1st parameter
             if (x instanceof _main.default.Vector) {
               y = x.y;
@@ -52025,7 +49755,7 @@
           //
           //////////////////////////////////////////////
 
-          _main.default.Renderer2D.prototype.text = function(
+          _main.default.Renderer2D.prototype.text = function (
             str,
             x,
             y,
@@ -52054,7 +49784,7 @@
             return p;
           };
 
-          _main.default.Renderer2D.prototype._renderText = function(p, line, x, y, maxY) {
+          _main.default.Renderer2D.prototype._renderText = function (p, line, x, y, maxY) {
             if (y >= maxY) {
               return; // don't render lines beyond our maxY position
             }
@@ -52087,7 +49817,7 @@
             return p;
           };
 
-          _main.default.Renderer2D.prototype.textWidth = function(s) {
+          _main.default.Renderer2D.prototype.textWidth = function (s) {
             if (this._isOpenType()) {
               return this._textFont._textWidth(s, this._textSize);
             }
@@ -52095,7 +49825,7 @@
             return this.drawingContext.measureText(s).width;
           };
 
-          _main.default.Renderer2D.prototype._applyTextProperties = function() {
+          _main.default.Renderer2D.prototype._applyTextProperties = function () {
             var font;
             var p = this._pInst;
 
@@ -52133,7 +49863,7 @@
           // store on the push stack.
           // derived renderers should call the base class' push() method
           // to fetch the base style object.
-          _main.default.Renderer2D.prototype.push = function() {
+          _main.default.Renderer2D.prototype.push = function () {
             this.drawingContext.save();
 
             // get the base renderer style
@@ -52145,7 +49875,7 @@
           // from its push() method.
           // derived renderers should pass this object to their base
           // class' pop method
-          _main.default.Renderer2D.prototype.pop = function(style) {
+          _main.default.Renderer2D.prototype.pop = function (style) {
             this.drawingContext.restore();
             // Re-cache the fill / stroke state
             this._cachedFillStyle = this.drawingContext.fillStyle;
@@ -52159,7 +49889,7 @@
         { '../image/filters': 80, './constants': 48, './main': 59, './p5.Renderer': 62 }
       ],
       64: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
 
           var _main = _interopRequireDefault(_dereq_('./main'));
@@ -52170,13 +49900,13 @@
           _main.default.prototype._promisePreloads = [
           ];
 
-          _main.default.prototype.registerPromisePreload = function(setup) {
+          _main.default.prototype.registerPromisePreload = function (setup) {
             _main.default.prototype._promisePreloads.push(setup);
           };
 
           var initialSetupRan = false;
 
-          _main.default.prototype._setupPromisePreloads = function() {
+          _main.default.prototype._setupPromisePreloads = function () {
             var _iteratorNormalCompletion = true;
             var _didIteratorError = false;
             var _iteratorError = undefined;
@@ -52240,7 +49970,7 @@
             initialSetupRan = true;
           };
 
-          _main.default.prototype._wrapPromisePreload = function(
+          _main.default.prototype._wrapPromisePreload = function (
             thisValue,
             fn,
             addCallbacks
@@ -52283,7 +50013,7 @@
                 promise.catch(errorCallback);
               }
               // Decrement the preload counter only if the promise resolved
-              promise.then(function() {
+              promise.then(function () {
                 return _this._decrementPreload();
               });
               // Return the original promise so that neither callback changes the result.
@@ -52299,7 +50029,7 @@
             return {};
           };
 
-          _main.default.prototype._legacyPreloadGenerator = function(
+          _main.default.prototype._legacyPreloadGenerator = function (
             thisValue,
             legacyPreloadSetup,
             fn
@@ -52314,7 +50044,7 @@
               // Generate the return value based on the generator.
               var returnValue = baseValueGenerator.apply(this, arguments);
               // Run the original wrapper
-              fn.apply(this, arguments).then(function(data) {
+              fn.apply(this, arguments).then(function (data) {
                 // Copy each key from the resolved value into returnValue
                 Object.assign(returnValue, data);
                 // Decrement the preload counter, to allow setup to continue.
@@ -52331,7 +50061,7 @@
         { './main': 59 }
       ],
       65: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -52412,26 +50142,13 @@
            * one drawing canvas you could use <a href="#/p5/createGraphics">createGraphics</a>
            * (hidden by default but it can be shown).
            *
-           * Important note: in 2D mode (i.e. when `p5.Renderer` is not set) the origin (0,0)
-           * is positioned at the top left of the screen. In 3D mode (i.e. when `p5.Renderer`
-           * is set to `WEBGL`), the origin is positioned at the center of the canvas.
-           * See [this issue](https://github.com/processing/p5.js/issues/1545) for more information.
-           *
-           * The system variables width and height are set by the parameters passed to this
-           * function. If <a href="#/p5/createCanvas">createCanvas()</a> is not used, the
-           * window will be given a default size of 100x100 pixels.
-           *
-           * For more ways to position the canvas, see the
-           * <a href='https://github.com/processing/p5.js/wiki/Positioning-your-canvas'>
-           * positioning the canvas</a> wiki page.
-           *
            * @method createCanvas
            * @param  {Number} w width of the canvas
            * @param  {Number} h height of the canvas
            * @param  {Constant} [renderer] either P2D or WEBGL
            * @return {p5.Renderer}
            */
-          _main.default.prototype.createCanvas = function(w, h, renderer) {
+          _main.default.prototype.createCanvas = function (w, h, renderer) {
             _main.default._validateParameters('createCanvas', arguments);
             //optional: renderer, otherwise defaults to p2d
             var r = renderer || constants.P2D;
@@ -52443,7 +50160,7 @@
                 //if defaultCanvas already exists
                 c.parentNode.removeChild(c); //replace the existing defaultCanvas
                 var thisRenderer = this._renderer;
-                this._elements = this._elements.filter(function(e) {
+                this._elements = this._elements.filter(function (e) {
                   return e !== thisRenderer;
                 });
               }
@@ -52512,7 +50229,7 @@
            * @param  {Number} h height of the canvas
            * @param  {Boolean} [noRedraw] don't redraw the canvas immediately
            */
-          _main.default.prototype.resizeCanvas = function(w, h, noRedraw) {
+          _main.default.prototype.resizeCanvas = function (w, h, noRedraw) {
             _main.default._validateParameters('resizeCanvas', arguments);
             if (this._renderer) {
               // save canvas properties
@@ -52548,7 +50265,7 @@
            * Removes the default canvas for a p5 sketch that doesn't require a canvas
            * @method noCanvas
            */
-          _main.default.prototype.noCanvas = function() {
+          _main.default.prototype.noCanvas = function () {
             if (this.canvas) {
               this.canvas.parentNode.removeChild(this.canvas);
             }
@@ -52566,7 +50283,7 @@
            *                               undefined defaults to p2d
            * @return {p5.Graphics} offscreen graphics buffer
            */
-          _main.default.prototype.createGraphics = function(w, h, renderer) {
+          _main.default.prototype.createGraphics = function (w, h, renderer) {
             _main.default._validateParameters('createGraphics', arguments);
             return new _main.default.Graphics(w, h, renderer, this);
           };
@@ -52616,7 +50333,7 @@
            *                EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT,
            *                SOFT_LIGHT, DODGE, BURN, ADD, REMOVE or SUBTRACT
            */
-          _main.default.prototype.blendMode = function(mode) {
+          _main.default.prototype.blendMode = function (mode) {
             _main.default._validateParameters('blendMode', arguments);
             if (mode === constants.NORMAL) {
               // Warning added 3/26/19, can be deleted in future (1.0 release?)
@@ -52634,9 +50351,6 @@
            * some native HTML5 Canvas functionality that is not exposed by p5. You can still call
            * it directly using the variable `drawingContext`, as in the example shown. This is
            * the equivalent of calling `canvas.getContext('2d');` or `canvas.getContext('webgl');`.
-           * See this
-           * <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D">
-           * reference for the native canvas API</a> for possible drawing functions you can call.
            *
            * @property drawingContext
            */ var _default = _main.default;
@@ -52651,7 +50365,7 @@
         }
       ],
       66: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -52749,7 +50463,7 @@
            *   3. Flags up when start and stop correspond to the same place on the
            *      underlying ellipse.  This is useful if you want to do something special
            *      there (like rendering a whole ellipse instead).
-           */ _main.default.prototype._normalizeArcAngles = function(
+           */ _main.default.prototype._normalizeArcAngles = function (
             start,
             stop,
             width,
@@ -52841,7 +50555,7 @@
            *                         perimeter of the arc. Default value is 25.
            * @chainable
            */
-          _main.default.prototype.arc = function(x, y, w, h, start, stop, mode, detail) {
+          _main.default.prototype.arc = function (x, y, w, h, start, stop, mode, detail) {
             _main.default._validateParameters('arc', arguments);
 
             // if the current stroke and fill settings wouldn't result in something
@@ -52926,7 +50640,7 @@
            * @param  {Number} h
            * @param  {Integer} detail number of radial sectors to draw (for WebGL mode)
            */
-          _main.default.prototype.ellipse = function(x, y, w, h, detailX) {
+          _main.default.prototype.ellipse = function (x, y, w, h, detailX) {
             _main.default._validateParameters('ellipse', arguments);
             return this._renderEllipse.apply(this, arguments);
           };
@@ -52946,7 +50660,7 @@
            * @param  {Number} d  diameter of the circle.
            * @chainable
            */
-          _main.default.prototype.circle = function() {
+          _main.default.prototype.circle = function () {
             _main.default._validateParameters('circle', arguments);
             var args = Array.prototype.slice.call(arguments, 0, 2);
             args.push(arguments[2]);
@@ -52955,7 +50669,7 @@
           };
 
           // internal method for drawing ellipses (without parameter validation)
-          _main.default.prototype._renderEllipse = function(x, y, w, h, detailX) {
+          _main.default.prototype._renderEllipse = function (x, y, w, h, detailX) {
             // if the current stroke and fill settings wouldn't result in something
             // visible, exit immediately
             if (!this._renderer._doStroke && !this._renderer._doFill) {
@@ -53011,7 +50725,7 @@
            * @param  {Number} z2 the z-coordinate of the second point
            * @chainable
            */
-          _main.default.prototype.line = function() {
+          _main.default.prototype.line = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -53053,7 +50767,7 @@
            * @param {p5.Vector} coordinate_vector the coordinate vector
            * @chainable
            */
-          _main.default.prototype.point = function() {
+          _main.default.prototype.point = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -53114,7 +50828,7 @@
            * @param {Number} z4 the z-coordinate of the fourth point
            * @chainable
            */
-          _main.default.prototype.quad = function() {
+          _main.default.prototype.quad = function () {
             for (
               var _len3 = arguments.length, args = new Array(_len3), _key3 = 0;
               _key3 < _len3;
@@ -53127,13 +50841,12 @@
             if (this._renderer._doStroke || this._renderer._doFill) {
               if (this._renderer.isP3D && args.length !== 12) {
                 // if 3D and we weren't passed 12 args, assume Z is 0
-                // prettier-ignore
                 this._renderer.quad.call(
-      this._renderer,
-      args[0], args[1], 0,
-      args[2], args[3], 0,
-      args[4], args[5], 0,
-      args[6], args[7], 0);
+                  this._renderer,
+                  args[0], args[1], 0,
+                  args[2], args[3], 0,
+                  args[4], args[5], 0,
+                  args[6], args[7], 0);
               } else {
                 var _this$_renderer3;
                 (_this$_renderer3 = this._renderer).quad.apply(_this$_renderer3, args);
@@ -53181,7 +50894,7 @@
            * @param  {Integer} [detailY] number of segments in the y-direction (for WebGL mode)
            * @chainable
            */
-          _main.default.prototype.rect = function() {
+          _main.default.prototype.rect = function () {
             _main.default._validateParameters('rect', arguments);
             return this._renderRect.apply(this, arguments);
           };
@@ -53210,14 +50923,14 @@
            * @param  {Number} [bl] optional radius of bottom-left corner.
            * @chainable
            */
-          _main.default.prototype.square = function(x, y, s, tl, tr, br, bl) {
+          _main.default.prototype.square = function (x, y, s, tl, tr, br, bl) {
             _main.default._validateParameters('square', arguments);
             // duplicate width for height in case of square
             return this._renderRect.call(this, x, y, s, s, tl, tr, br, bl);
           };
 
           // internal method to have renderer draw a rectangle
-          _main.default.prototype._renderRect = function() {
+          _main.default.prototype._renderRect = function () {
             if (this._renderer._doStroke || this._renderer._doFill) {
               // duplicate width for height in case only 3 arguments is provided
               if (arguments.length === 3) {
@@ -53263,7 +50976,7 @@
            * @param  {Number} y3 y-coordinate of the third point
            * @chainable
            */
-          _main.default.prototype.triangle = function() {
+          _main.default.prototype.triangle = function () {
             for (
               var _len4 = arguments.length, args = new Array(_len4), _key4 = 0;
               _key4 < _len4;
@@ -53297,7 +51010,7 @@
         }
       ],
       67: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -53397,7 +51110,7 @@
            * @method ellipseMode
            * @param  {Constant} mode either CENTER, RADIUS, CORNER, or CORNERS
            * @chainable
-           */ _main.default.prototype.ellipseMode = function(m) {
+           */ _main.default.prototype.ellipseMode = function (m) {
             _main.default._validateParameters('ellipseMode', arguments);
             if (
               m === constants.CORNER ||
@@ -53411,16 +51124,12 @@
           };
 
           /**
-           * Draws all geometry with jagged (aliased) edges. Note that <a href="#/p5/smooth">smooth()</a> is
-           * active by default in 2D mode, so it is necessary to call <a href="#/p5/noSmooth">noSmooth()</a> to disable
-           * smoothing of geometry, images, and fonts. In 3D mode, <a href="#/p5/noSmooth">noSmooth()</a> is enabled
-           * by default, so it is necessary to call <a href="#/p5/smooth">smooth()</a> if you would like
-           * smooth (antialiased) edges on your geometry.
+           * Draws all geometry with jagged (aliased) edges.
            *
            * @method noSmooth
            * @chainable
            */
-          _main.default.prototype.noSmooth = function() {
+          _main.default.prototype.noSmooth = function () {
             this.setAttributes('antialias', false);
             if (!this._renderer.isP3D) {
               if ('imageSmoothingEnabled' in this.drawingContext) {
@@ -53440,25 +51149,13 @@
            *
            * rectMode(CORNERS) interprets the first two parameters as the location of
            * one of the corners, and the third and fourth parameters as the location of
-           * the diagonally opposite corner. Note, the rectangle is drawn between the
-           * coordinates, so it is not neccesary that the first corner be the upper left
-           * corner.
-           *
-           * rectMode(CENTER) interprets the first two parameters as the shape's center
-           * point, while the third and fourth parameters are its width and height.
-           *
-           * rectMode(RADIUS) also uses the first two parameters as the shape's center
-           * point, but uses the third and fourth parameters to specify half of the shape's
-           * width and height respectively.
-           *
-           * The parameter to this method must be written in ALL CAPS because they are
-           * predefined as constants in ALL CAPS and Javascript is a case-sensitive language.
+           * the diagonally opposite corner.
            *
            * @method rectMode
            * @param  {Constant} mode either CORNER, CORNERS, CENTER, or RADIUS
            * @chainable
            */
-          _main.default.prototype.rectMode = function(m) {
+          _main.default.prototype.rectMode = function (m) {
             _main.default._validateParameters('rectMode', arguments);
             if (
               m === constants.CORNER ||
@@ -53473,16 +51170,12 @@
 
           /**
            * Draws all geometry with smooth (anti-aliased) edges. <a href="#/p5/smooth">smooth()</a> will also
-           * improve image quality of resized images. Note that <a href="#/p5/smooth">smooth()</a> is active by
-           * default in 2D mode; <a href="#/p5/noSmooth">noSmooth()</a> can be used to disable smoothing of geometry,
-           * images, and fonts. In 3D mode, <a href="#/p5/noSmooth">noSmooth()</a> is enabled
-           * by default, so it is necessary to call <a href="#/p5/smooth">smooth()</a> if you would like
-           * smooth (antialiased) edges on your geometry.
+           * improve image quality of resized images
            *
            * @method smooth
            * @chainable
            */
-          _main.default.prototype.smooth = function() {
+          _main.default.prototype.smooth = function () {
             this.setAttributes('antialias', true);
             if (!this._renderer.isP3D) {
               if ('imageSmoothingEnabled' in this.drawingContext) {
@@ -53504,7 +51197,7 @@
            * @param  {Constant} cap either ROUND, SQUARE or PROJECT
            * @chainable
            */
-          _main.default.prototype.strokeCap = function(cap) {
+          _main.default.prototype.strokeCap = function (cap) {
             _main.default._validateParameters('strokeCap', arguments);
             if (
               cap === constants.ROUND ||
@@ -53529,7 +51222,7 @@
            * @param  {Constant} join either MITER, BEVEL, ROUND
            * @chainable
            */
-          _main.default.prototype.strokeJoin = function(join) {
+          _main.default.prototype.strokeJoin = function (join) {
             _main.default._validateParameters('strokeJoin', arguments);
             if (
               join === constants.ROUND ||
@@ -53549,7 +51242,7 @@
            * @param  {Number} weight the weight of the stroke (in pixels)
            * @chainable
            */
-          _main.default.prototype.strokeWeight = function(w) {
+          _main.default.prototype.strokeWeight = function (w) {
             _main.default._validateParameters('strokeWeight', arguments);
             this._renderer.strokeWeight(w);
             return this;
@@ -53560,7 +51253,7 @@
         { '../constants': 48, '../main': 59 }
       ],
       68: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -53585,10 +51278,6 @@
            * middle parameters specify the two control points which define the shape
            * of the curve. Approximately speaking, control points "pull" the curve
            * towards them.
-           *
-           * Bezier curves were developed by French automotive engineer Pierre Bezier,
-           * and are commonly used in computer graphics to define gently sloping curves.
-           * See also <a href="#/p5/curve">curve()</a>.
            *
            * @method bezier
            * @param  {Number} x1 x-coordinate for the first anchor point
@@ -53615,7 +51304,7 @@
            * @param  {Number} y4
            * @param  {Number} z4 z-coordinate for the second anchor point
            * @chainable
-           */ _main.default.prototype.bezier = function() {
+           */ _main.default.prototype.bezier = function () {
             var _this$_renderer;
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
@@ -53640,14 +51329,11 @@
           /**
            * Sets the resolution at which Bezier's curve is displayed. The default value is 20.
            *
-           * Note, This function is only useful when using the WEBGL renderer
-           * as the default canvas renderer does not use this information.
-           *
            * @method bezierDetail
            * @param {Number} detail resolution of the curves
            * @chainable
            */
-          _main.default.prototype.bezierDetail = function(d) {
+          _main.default.prototype.bezierDetail = function (d) {
             _main.default._validateParameters('bezierDetail', arguments);
             this._bezierDetail = d;
             return this;
@@ -53670,7 +51356,7 @@
     * @param {Number} t value between 0 and 1
     * @return {Number} the value of the Bezier at position t
     */
-          _main.default.prototype.bezierPoint = function(a, b, c, d, t) {
+          _main.default.prototype.bezierPoint = function (a, b, c, d, t) {
             _main.default._validateParameters('bezierPoint', arguments);
 
             var adjustedT = 1 - t;
@@ -53696,7 +51382,7 @@
            * @param {Number} t value between 0 and 1
            * @return {Number} the tangent at position t
            */
-          _main.default.prototype.bezierTangent = function(a, b, c, d, t) {
+          _main.default.prototype.bezierTangent = function (a, b, c, d, t) {
             _main.default._validateParameters('bezierTangent', arguments);
 
             var adjustedT = 1 - t;
@@ -53748,7 +51434,7 @@
            * @param  {Number} z4 z-coordinate for the ending control point
            * @chainable
            */
-          _main.default.prototype.curve = function() {
+          _main.default.prototype.curve = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -53778,7 +51464,7 @@
            * @param {Number} resolution resolution of the curves
            * @chainable
            */
-          _main.default.prototype.curveDetail = function(d) {
+          _main.default.prototype.curveDetail = function (d) {
             _main.default._validateParameters('curveDetail', arguments);
             if (d < 3) {
               this._curveDetail = 3;
@@ -53801,7 +51487,7 @@
            * @param {Number} amount amount of deformation from the original vertices
            * @chainable
            */
-          _main.default.prototype.curveTightness = function(t) {
+          _main.default.prototype.curveTightness = function (t) {
             _main.default._validateParameters('curveTightness', arguments);
             this._renderer._curveTightness = t;
             return this;
@@ -53822,7 +51508,7 @@
            * @param {Number} t value between 0 and 1
            * @return {Number} bezier value at position t
            */
-          _main.default.prototype.curvePoint = function(a, b, c, d, t) {
+          _main.default.prototype.curvePoint = function (a, b, c, d, t) {
             _main.default._validateParameters('curvePoint', arguments);
 
             var t3 = t * t * t,
@@ -53847,7 +51533,7 @@
            * @param {Number} t value between 0 and 1
            * @return {Number} the tangent at position t
            */
-          _main.default.prototype.curveTangent = function(a, b, c, d, t) {
+          _main.default.prototype.curveTangent = function (a, b, c, d, t) {
             _main.default._validateParameters('curveTangent', arguments);
 
             var t2 = t * t,
@@ -53868,7 +51554,7 @@
         }
       ],
       69: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -53967,7 +51653,7 @@
            * @method beginContour
            * @chainable
            */
-          _main.default.prototype.beginContour = function() {
+          _main.default.prototype.beginContour = function () {
             contourVertices = [];
             isContour = true;
             return this;
@@ -53995,7 +51681,7 @@
            *                                TRIANGLE_STRIP, QUADS, QUAD_STRIP or TESS
            * @chainable
            */
-          _main.default.prototype.beginShape = function(kind) {
+          _main.default.prototype.beginShape = function (kind) {
             _main.default._validateParameters('beginShape', arguments);
             if (this._renderer.isP3D) {
               var _this$_renderer;
@@ -54061,7 +51747,7 @@
            * @param  {Number} z4 z-coordinate for the anchor point (for WebGL mode)
            * @chainable
            */
-          _main.default.prototype.bezierVertex = function() {
+          _main.default.prototype.bezierVertex = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -54127,7 +51813,7 @@
            * @param {Number} [z] z-coordinate of the vertex (for WebGL mode)
            * @chainable
            */
-          _main.default.prototype.curveVertex = function() {
+          _main.default.prototype.curveVertex = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -54163,7 +51849,7 @@
            * @method endContour
            * @chainable
            */
-          _main.default.prototype.endContour = function() {
+          _main.default.prototype.endContour = function () {
             var vert = contourVertices[0].slice(); // copy all data
             vert.isVert = contourVertices[0].isVert;
             vert.moveTo = false;
@@ -54192,7 +51878,7 @@
            * @param  {Constant} [mode] use CLOSE to close the shape
            * @chainable
            */
-          _main.default.prototype.endShape = function(mode) {
+          _main.default.prototype.endShape = function (mode) {
             _main.default._validateParameters('endShape', arguments);
             if (this._renderer.isP3D) {
               this._renderer.endShape(
@@ -54277,7 +51963,7 @@
            * @param  {Number} z3 z-coordinate for the anchor point (for WebGL mode)
            * @chainable
            */
-          _main.default.prototype.quadraticVertex = function() {
+          _main.default.prototype.quadraticVertex = function () {
             for (
               var _len3 = arguments.length, args = new Array(_len3), _key3 = 0;
               _key3 < _len3;
@@ -54348,7 +52034,7 @@
            * @param  {Number} [v] the vertex's texture v-coordinate
            * @chainable
            */
-          _main.default.prototype.vertex = function(x, y, moveTo, u, v) {
+          _main.default.prototype.vertex = function (x, y, moveTo, u, v) {
             if (this._renderer.isP3D) {
               var _this$_renderer5;
               (_this$_renderer5 = this._renderer).vertex.apply(_this$_renderer5, arguments);
@@ -54383,7 +52069,7 @@
         { '../constants': 48, '../main': 59 }
       ],
       70: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -54407,14 +52093,14 @@
           // requestanimationframe-for-smart-er-animating
           // requestAnimationFrame polyfill by Erik Möller
           // fixes from Paul Irish and Tino Zijdel
-          window.requestAnimationFrame = (function() {
+          window.requestAnimationFrame = (function () {
             return (
               window.requestAnimationFrame ||
               window.webkitRequestAnimationFrame ||
               window.mozRequestAnimationFrame ||
               window.oRequestAnimationFrame ||
               window.msRequestAnimationFrame ||
-              function(callback, element) {
+              function (callback, element) {
                 // should '60' here be framerate?
                 window.setTimeout(callback, 1000 / 60);
               }
@@ -54428,7 +52114,7 @@
            * Enumerable set to false to protect for...in from
            * Uint8ClampedArray.prototype pollution.
            */
-          (function() {
+          (function () {
             if (
               typeof Uint8ClampedArray !== 'undefined' &&
               !Uint8ClampedArray.prototype.slice
@@ -54450,7 +52136,7 @@
            * It will return the target object.
            * Modified from https://github.com/ljharb/object.assign
            */
-          (function() {
+          (function () {
             if (!Object.assign) {
               var keys = Object.keys;
               var defineProperty = Object.defineProperty;
@@ -54501,7 +52187,7 @@
         {}
       ],
       71: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -54516,30 +52202,13 @@
            * @for p5
            * @requires core
            */ /**
-                                                                                                                                                         * Stops p5.js from continuously executing the code within <a href="#/p5/draw">draw()</a>.
-                                                                                                                                                         * If <a href="#/p5/loop">loop()</a> is called, the code in <a href="#/p5/draw">draw()</a>
-                                                                                                                                                         * begins to run continuously again. If using <a href="#/p5/noLoop">noLoop()</a>
-                                                                                                                                                         * in <a href="#/p5/setup">setup()</a>, it should be the last line inside the block.
-                                                                                                                                                         *
-                                                                                                                                                         * When <a href="#/p5/noLoop">noLoop()</a> is used, it's not possible to manipulate
-                                                                                                                                                         * or access the screen inside event handling functions such as
-                                                                                                                                                         * <a href="#/p5/mousePressed">mousePressed()</a> or
-                                                                                                                                                         * <a href="#/p5/keyPressed">keyPressed()</a>. Instead, use those functions to
-                                                                                                                                                         * call <a href="#/p5/redraw">redraw()</a> or <a href="#/p5/loop">loop()</a>,
-                                                                                                                                                         * which will run <a href="#/p5/draw">draw()</a>, which can update the screen
-                                                                                                                                                         * properly. This means that when <a href="#/p5/noLoop">noLoop()</a> has been
-                                                                                                                                                         * called, no drawing can happen, and functions like <a href="#/p5/saveFrame">saveFrame()</a>
-                                                                                                                                                         * or <a href="#/p5/loadPixels">loadPixels()</a> may not be used.
-                                                                                                                                                         *
-                                                                                                                                                         * Note that if the sketch is resized, <a href="#/p5/redraw">redraw()</a> will
-                                                                                                                                                         * be called to update the sketch, even after <a href="#/p5/noLoop">noLoop()</a>
-                                                                                                                                                         * has been specified. Otherwise, the sketch would enter an odd state until
-                                                                                                                                                         * <a href="#/p5/loop">loop()</a> was called.
-                                                                                                                                                         *
-                                                                                                                                                         * Use <a href="#/p5/isLooping">isLooping()</a> to check current state of loop().
-                                                                                                                                                         *
-                                                                                                                                                         * @method noLoop
-                                                                                                                                                         */ _main.default.prototype.noLoop = function() {
+          * Stops p5.js from continuously executing the code within <a href="#/p5/draw">draw()</a>.
+          * If <a href="#/p5/loop">loop()</a> is called, the code in <a href="#/p5/draw">draw()</a>
+          * begins to run continuously again. If using <a href="#/p5/noLoop">noLoop()</a>
+          * in <a href="#/p5/setup">setup()</a>, it should be the last line inside the block.
+          *
+          * @method noLoop
+          */ _main.default.prototype.noLoop = function () {
             this._loop = false;
           };
 
@@ -54549,13 +52218,9 @@
            * <a href="#/p5/noLoop">noLoop()</a>. In that case, the <a href="#/p5/draw">draw()</a>
            * loop can be resumed with loop().
            *
-           * Avoid calling loop() from inside setup().
-           *
-           * Use <a href="#/p5/isLooping">isLooping()</a> to check current state of loop().
-           *
            * @method loop
            */
-          _main.default.prototype.loop = function() {
+          _main.default.prototype.loop = function () {
             if (!this._loop) {
               this._loop = true;
               if (this._setupDone) {
@@ -54573,23 +52238,18 @@
            * @method isLooping
            *
            */
-          _main.default.prototype.isLooping = function() {
+          _main.default.prototype.isLooping = function () {
             return this._loop;
           };
 
           /**
            * The <a href="#/p5/push">push()</a> function saves the current drawing style
            * settings and transformations, while <a href="#/p5/pop">pop()</a> restores these
-           * settings. Note that these functions are always used together. They allow you to
-           * change the style and transformation settings and later return to what you had.
-           * When a new state is started with <a href="#/p5/push">push()</a>, it builds on
-           * the current style and transform information. The <a href="#/p5/push">push()</a>
-           * and <a href="#/p5/pop">pop()</a> functions can be embedded to provide more
-           * control. (See the second example for a demonstration.)
+           * settings.
            *
            * @method push
            */
-          _main.default.prototype.push = function() {
+          _main.default.prototype.push = function () {
             this._styles.push({
               props: {
                 _colorMode: this._colorMode
@@ -54602,16 +52262,11 @@
           /**
            * The <a href="#/p5/push">push()</a> function saves the current drawing style
            * settings and transformations, while <a href="#/p5/pop">pop()</a> restores
-           * these settings. Note that these functions are always used together. They allow
-           * you to change the style and transformation settings and later return to what
-           * you had. When a new state is started with <a href="#/p5/push">push()</a>, it
-           * builds on the current style and transform information. The <a href="#/p5/push">push()</a>
-           * and <a href="#/p5/pop">pop()</a> functions can be embedded to provide more
-           * control. (See the second example for a demonstration.)
+           * these settings.
            *
            * @method pop
            */
-          _main.default.prototype.pop = function() {
+          _main.default.prototype.pop = function () {
             var style = this._styles.pop();
             if (style) {
               this._renderer.pop(style.renderer);
@@ -54643,7 +52298,7 @@
            * @method redraw
            * @param  {Integer} [n] Redraw for n-times. The default value is 1.
            */
-          _main.default.prototype.redraw = function(n) {
+          _main.default.prototype.redraw = function (n) {
             if (this._inUserDraw || !this._setupDone) {
               return;
             }
@@ -54685,26 +52340,7 @@
           /**
            * The `p5()` constructor enables you to activate "instance mode" instead of normal
            * "global mode". This is an advanced topic. A short description and example is
-           * included below. Please see
-           * <a target="blank" href="https://www.youtube.com/watch?v=Su792jEauZg&feature=youtu.be">
-           * Dan Shiffman's Coding Train video tutorial</a> or this
-           * <a target="blank" href="https://github.com/processing/p5.js/wiki/p5.js-overview#instantiation--namespace">tutorial page</a>
-           * for more info.
-           *
-           * By default, all p5.js functions are in the global namespace (i.e. bound to the window
-           * object), meaning you can call them simply `ellipse()`, `fill()`, etc. However, this
-           * might be inconvenient if you are mixing with other JS libraries (synchronously or
-           * asynchronously) or writing long programs of your own. p5.js currently supports a
-           * way around this problem called "instance mode". In instance mode, all p5 functions
-           * are bound up in a single variable instead of polluting your global namespace.
-           *
-           * Optionally, you can specify a default container for the canvas and any other elements
-           * to append to with a second argument. You can give the ID of an element in your html,
-           * or an html node itself.
-           *
-           * Note that creating instances like this also allows you to have more than one p5 sketch on
-           * a single web page, as they will each be wrapped up with their own set up variables. Of
-           * course, you could also use iframes to have multiple sketches in global mode.
+           * included below.
            *
            * @method p5
            * @param {Object} sketch a function containing a p5.js sketch
@@ -54716,7 +52352,7 @@
         { './main': 59 }
       ],
       72: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -54755,7 +52391,7 @@
            * @param  {Number} e numbers which define the 2x3 matrix to be multiplied
            * @param  {Number} f numbers which define the 2x3 matrix to be multiplied
            * @chainable
-           */ _main.default.prototype.applyMatrix = function(a, b, c, d, e, f) {
+           */ _main.default.prototype.applyMatrix = function (a, b, c, d, e, f) {
             var _this$_renderer;
             (_this$_renderer = this._renderer).applyMatrix.apply(
               _this$_renderer,
@@ -54770,7 +52406,7 @@
            * @method resetMatrix
            * @chainable
            */
-          _main.default.prototype.resetMatrix = function() {
+          _main.default.prototype.resetMatrix = function () {
             this._renderer.resetMatrix();
             return this;
           };
@@ -54790,7 +52426,7 @@
            * @param  {p5.Vector|Number[]} [axis] (in 3d) the axis to rotate around
            * @chainable
            */
-          _main.default.prototype.rotate = function(angle, axis) {
+          _main.default.prototype.rotate = function (angle, axis) {
             _main.default._validateParameters('rotate', arguments);
             this._renderer.rotate(this._toRadians(angle), axis);
             return this;
@@ -54809,7 +52445,7 @@
            *                        or degrees, depending on current angleMode
            * @chainable
            */
-          _main.default.prototype.rotateX = function(angle) {
+          _main.default.prototype.rotateX = function (angle) {
             this._assert3d('rotateX');
             _main.default._validateParameters('rotateX', arguments);
             this._renderer.rotateX(this._toRadians(angle));
@@ -54829,7 +52465,7 @@
            *                        or degrees, depending on current angleMode
            * @chainable
            */
-          _main.default.prototype.rotateY = function(angle) {
+          _main.default.prototype.rotateY = function (angle) {
             this._assert3d('rotateY');
             _main.default._validateParameters('rotateY', arguments);
             this._renderer.rotateY(this._toRadians(angle));
@@ -54851,7 +52487,7 @@
            *                        or degrees, depending on current angleMode
            * @chainable
            */
-          _main.default.prototype.rotateZ = function(angle) {
+          _main.default.prototype.rotateZ = function (angle) {
             this._assert3d('rotateZ');
             _main.default._validateParameters('rotateZ', arguments);
             this._renderer.rotateZ(this._toRadians(angle));
@@ -54883,7 +52519,7 @@
            * @param  {p5.Vector|Number[]} scales per-axis percents to scale the object
            * @chainable
            */
-          _main.default.prototype.scale = function(x, y, z) {
+          _main.default.prototype.scale = function (x, y, z) {
             _main.default._validateParameters('scale', arguments);
             // Only check for Vector argument type if Vector is available
             if (x instanceof _main.default.Vector) {
@@ -54926,7 +52562,7 @@
            *                        depending on current angleMode
            * @chainable
            */
-          _main.default.prototype.shearX = function(angle) {
+          _main.default.prototype.shearX = function (angle) {
             _main.default._validateParameters('shearX', arguments);
             var rad = this._toRadians(angle);
             this._renderer.applyMatrix(1, 0, Math.tan(rad), 1, 0, 0);
@@ -54951,7 +52587,7 @@
            *                        depending on current angleMode
            * @chainable
            */
-          _main.default.prototype.shearY = function(angle) {
+          _main.default.prototype.shearY = function (angle) {
             _main.default._validateParameters('shearY', arguments);
             var rad = this._toRadians(angle);
             this._renderer.applyMatrix(1, Math.tan(rad), 0, 1, 0, 0);
@@ -54977,7 +52613,7 @@
            * @param  {p5.Vector} vector the vector to translate by
            * @chainable
            */
-          _main.default.prototype.translate = function(x, y, z) {
+          _main.default.prototype.translate = function (x, y, z) {
             _main.default._validateParameters('translate', arguments);
             if (this._renderer.isP3D) {
               this._renderer.translate(x, y, z);
@@ -54992,7 +52628,7 @@
         { './main': 59 }
       ],
       73: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
 
           var _main = _interopRequireDefault(_dereq_('../core/main'));
@@ -55044,17 +52680,13 @@
            * between browsing sessions and page reloads.
            * The key can be the name of the variable but doesn't
            * have to be. To retrieve stored items
-           * see <a href="#/p5/getItem">getItem</a>.
-           *
-           * Sensitive data such as passwords or personal information
-           * should not be stored in local storage.
            *
            * @method storeItem
            * @for p5
            * @param {String} key
            * @param {String|Number|Object|Boolean|p5.Color|p5.Vector} value
            */
-          _main.default.prototype.storeItem = function(key, value) {
+          _main.default.prototype.storeItem = function (key, value) {
             if (typeof key !== 'string') {
               console.log(
                 'The argument that you passed to storeItem() - '.concat(
@@ -55111,7 +52743,7 @@
            * @param {String} key name that you wish to use to store in local storage
            * @return {Number|Object|String|Boolean|p5.Color|p5.Vector} Value of stored item
            */
-          _main.default.prototype.getItem = function(key) {
+          _main.default.prototype.getItem = function (key) {
             var value = localStorage.getItem(key);
             var type = localStorage.getItem(''.concat(key, 'p5TypeID'));
             if (typeof type === 'undefined') {
@@ -55156,7 +52788,7 @@
            * @method clearStorage
            * @for p5
            */
-          _main.default.prototype.clearStorage = function() {
+          _main.default.prototype.clearStorage = function () {
             localStorage.clear();
           };
 
@@ -55168,7 +52800,7 @@
            * @param {String} key
            * @for p5
            */
-          _main.default.prototype.removeItem = function(key) {
+          _main.default.prototype.removeItem = function (key) {
             if (typeof key !== 'string') {
               console.log(
                 'The argument that you passed to removeItem() - '.concat(
@@ -55184,7 +52816,7 @@
         { '../core/main': 59 }
       ],
       74: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -55216,7 +52848,7 @@
            * @method createStringDict
            * @param {Object} object object
            * @return {p5.StringDict}
-           */ _main.default.prototype.createStringDict = function(key, value) {
+           */ _main.default.prototype.createStringDict = function (key, value) {
             _main.default._validateParameters('createStringDict', arguments);
             return new _main.default.StringDict(key, value);
           };
@@ -55237,7 +52869,7 @@
            * @return {p5.NumberDict}
            */
 
-          _main.default.prototype.createNumberDict = function(key, value) {
+          _main.default.prototype.createNumberDict = function (key, value) {
             _main.default._validateParameters('createNumberDict', arguments);
             return new _main.default.NumberDict(key, value);
           };
@@ -55251,7 +52883,7 @@
            * @constructor
            */
 
-          _main.default.TypedDict = function(key, value) {
+          _main.default.TypedDict = function (key, value) {
             if (key instanceof Object) {
               this.data = key;
             } else {
@@ -55267,7 +52899,7 @@
            * @method size
            * @return {Integer} the number of key-value pairs in the Dictionary
            */
-          _main.default.TypedDict.prototype.size = function() {
+          _main.default.TypedDict.prototype.size = function () {
             return Object.keys(this.data).length;
           };
 
@@ -55280,7 +52912,7 @@
            * @return {Boolean} whether that key exists in Dictionary
            */
 
-          _main.default.TypedDict.prototype.hasKey = function(key) {
+          _main.default.TypedDict.prototype.hasKey = function (key) {
             return this.data.hasOwnProperty(key);
           };
 
@@ -55292,7 +52924,7 @@
            * @return {Number|String} the value stored at that key
            */
 
-          _main.default.TypedDict.prototype.get = function(key) {
+          _main.default.TypedDict.prototype.get = function (key) {
             if (this.data.hasOwnProperty(key)) {
               return this.data[key];
             } else {
@@ -55309,7 +52941,7 @@
            * @param {Number|String} value
            */
 
-          _main.default.TypedDict.prototype.set = function(key, value) {
+          _main.default.TypedDict.prototype.set = function (key, value) {
             if (this._validate(value)) {
               this.data[key] = value;
             } else {
@@ -55322,7 +52954,7 @@
            * during construction or calls to create()
            */
 
-          _main.default.TypedDict.prototype._addObj = function(obj) {
+          _main.default.TypedDict.prototype._addObj = function (obj) {
             for (var key in obj) {
               this.set(key, obj[key]);
             }
@@ -55340,7 +52972,7 @@
            * @param {Object} obj key/value pair
            */
 
-          _main.default.TypedDict.prototype.create = function(key, value) {
+          _main.default.TypedDict.prototype.create = function (key, value) {
             if (key instanceof Object && typeof value === 'undefined') {
               this._addObj(key);
             } else if (typeof key !== 'undefined') {
@@ -55348,7 +52980,7 @@
             } else {
               console.log(
                 'In order to create a new Dictionary entry you must pass ' +
-                  'an object or a key, value pair'
+                'an object or a key, value pair'
               );
             }
           };
@@ -55359,7 +52991,7 @@
            * @method clear
            */
 
-          _main.default.TypedDict.prototype.clear = function() {
+          _main.default.TypedDict.prototype.clear = function () {
             this.data = {};
           };
 
@@ -55370,7 +53002,7 @@
            * @param {Number|String} key for the pair to remove
            */
 
-          _main.default.TypedDict.prototype.remove = function(key) {
+          _main.default.TypedDict.prototype.remove = function (key) {
             if (this.data.hasOwnProperty(key)) {
               delete this.data[key];
             } else {
@@ -55384,7 +53016,7 @@
            * @method print
            */
 
-          _main.default.TypedDict.prototype.print = function() {
+          _main.default.TypedDict.prototype.print = function () {
             for (var item in this.data) {
               console.log('key:'.concat(item, ' value:').concat(this.data[item]));
             }
@@ -55396,7 +53028,7 @@
            * @method saveTable
            */
 
-          _main.default.TypedDict.prototype.saveTable = function(filename) {
+          _main.default.TypedDict.prototype.saveTable = function (filename) {
             var output = '';
 
             for (var key in this.data) {
@@ -55413,7 +53045,7 @@
            * @method saveJSON
            */
 
-          _main.default.TypedDict.prototype.saveJSON = function(filename, opt) {
+          _main.default.TypedDict.prototype.saveJSON = function (filename, opt) {
             _main.default.prototype.saveJSON(this.data, filename, opt);
           };
 
@@ -55422,7 +53054,7 @@
            * values for the Dictionary type
            */
 
-          _main.default.TypedDict.prototype._validate = function(value) {
+          _main.default.TypedDict.prototype._validate = function (value) {
             return true;
           };
 
@@ -55434,7 +53066,7 @@
            * @extends p5.TypedDict
            */
 
-          _main.default.StringDict = function() {
+          _main.default.StringDict = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -55449,7 +53081,7 @@
             _main.default.TypedDict.prototype
           );
 
-          _main.default.StringDict.prototype._validate = function(value) {
+          _main.default.StringDict.prototype._validate = function (value) {
             return typeof value === 'string';
           };
 
@@ -55462,7 +53094,7 @@
            * @extends p5.TypedDict
            */
 
-          _main.default.NumberDict = function() {
+          _main.default.NumberDict = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -55482,7 +53114,7 @@
            * values for the Dictionary type
            */
 
-          _main.default.NumberDict.prototype._validate = function(value) {
+          _main.default.NumberDict.prototype._validate = function (value) {
             return typeof value === 'number';
           };
 
@@ -55495,7 +53127,7 @@
            * @param {Number} Number to add to the value
            */
 
-          _main.default.NumberDict.prototype.add = function(key, amount) {
+          _main.default.NumberDict.prototype.add = function (key, amount) {
             if (this.data.hasOwnProperty(key)) {
               this.data[key] += amount;
             } else {
@@ -55512,7 +53144,7 @@
            * @param {Number} Number to subtract from the value
            */
 
-          _main.default.NumberDict.prototype.sub = function(key, amount) {
+          _main.default.NumberDict.prototype.sub = function (key, amount) {
             this.add(key, -amount);
           };
 
@@ -55525,7 +53157,7 @@
            * @param {Number} Amount to multiply the value by
            */
 
-          _main.default.NumberDict.prototype.mult = function(key, amount) {
+          _main.default.NumberDict.prototype.mult = function (key, amount) {
             if (this.data.hasOwnProperty(key)) {
               this.data[key] *= amount;
             } else {
@@ -55542,7 +53174,7 @@
            * @param {Number} Amount to divide the value by
            */
 
-          _main.default.NumberDict.prototype.div = function(key, amount) {
+          _main.default.NumberDict.prototype.div = function (key, amount) {
             if (this.data.hasOwnProperty(key)) {
               this.data[key] /= amount;
             } else {
@@ -55556,7 +53188,7 @@
            * from 'less than' to 'greater than'
            */
 
-          _main.default.NumberDict.prototype._valueTest = function(flip) {
+          _main.default.NumberDict.prototype._valueTest = function (flip) {
             if (Object.keys(this.data).length === 0) {
               throw new Error(
                 'Unable to search for a minimum or maximum value on an empty NumberDict'
@@ -55581,7 +53213,7 @@
            * @return {Number}
            */
 
-          _main.default.NumberDict.prototype.minValue = function() {
+          _main.default.NumberDict.prototype.minValue = function () {
             return this._valueTest(1);
           };
 
@@ -55592,7 +53224,7 @@
            * @return {Number}
            */
 
-          _main.default.NumberDict.prototype.maxValue = function() {
+          _main.default.NumberDict.prototype.maxValue = function () {
             return this._valueTest(-1);
           };
 
@@ -55602,7 +53234,7 @@
            * from 'less than' to 'greater than'
            */
 
-          _main.default.NumberDict.prototype._keyTest = function(flip) {
+          _main.default.NumberDict.prototype._keyTest = function (flip) {
             if (Object.keys(this.data).length === 0) {
               throw new Error('Unable to use minValue on an empty NumberDict');
             } else if (Object.keys(this.data).length === 1) {
@@ -55625,7 +53257,7 @@
            * @return {Number}
            */
 
-          _main.default.NumberDict.prototype.minKey = function() {
+          _main.default.NumberDict.prototype.minKey = function () {
             return this._keyTest(1);
           };
 
@@ -55636,7 +53268,7 @@
            * @return {Number}
            */
 
-          _main.default.NumberDict.prototype.maxKey = function() {
+          _main.default.NumberDict.prototype.maxKey = function () {
             return this._keyTest(-1);
           };
           var _default = _main.default.TypedDict;
@@ -55645,7 +53277,7 @@
         { '../core/main': 59 }
       ],
       75: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -55684,7 +53316,7 @@
            *                                             HTML element to search within
            * @return {p5.Element|null} <a href="#/p5.Element">p5.Element</a> containing node found
            */
-          _main.default.prototype.select = function(e, p) {
+          _main.default.prototype.select = function (e, p) {
             _main.default._validateParameters('select', arguments);
             var container = this._getContainer(p);
             var res = container.querySelector(e);
@@ -55709,7 +53341,7 @@
            *                                             , or HTML element to search within
            * @return {p5.Element[]} Array of <a href="#/p5.Element">p5.Element</a>s containing nodes found
            */
-          _main.default.prototype.selectAll = function(e, p) {
+          _main.default.prototype.selectAll = function (e, p) {
             _main.default._validateParameters('selectAll', arguments);
             var arr = [];
             var container = this._getContainer(p);
@@ -55726,7 +53358,7 @@
           /**
            * Helper function for select and selectAll
            */
-          _main.default.prototype._getContainer = function(p) {
+          _main.default.prototype._getContainer = function (p) {
             var container = document;
             if (typeof p === 'string') {
               container = document.querySelector(p) || document;
@@ -55741,11 +53373,11 @@
           /**
            * Helper function for getElement and getElements.
            */
-          _main.default.prototype._wrapElement = function(elt) {
+          _main.default.prototype._wrapElement = function (elt) {
             var children = Array.prototype.slice.call(elt.children);
             if (elt.tagName === 'INPUT' && elt.type === 'checkbox') {
               var converted = new _main.default.Element(elt, this);
-              converted.checked = function() {
+              converted.checked = function () {
                 if (arguments.length === 0) {
                   return this.elt.checked;
                 } else if (arguments[0]) {
@@ -55762,7 +53394,7 @@
               return this.createSelect(new _main.default.Element(elt, this));
             } else if (
               children.length > 0 &&
-              children.every(function(c) {
+              children.every(function (c) {
                 return c.tagName === 'INPUT' || c.tagName === 'LABEL';
               })
             ) {
@@ -55778,14 +53410,14 @@
            * Event handlers are removed, and element is removed from the DOM.
            * @method removeElements
            */
-          _main.default.prototype.removeElements = function(e) {
+          _main.default.prototype.removeElements = function (e) {
             _main.default._validateParameters('removeElements', arguments);
             // el.remove splices from this._elements, so don't mix iteration with it
             var isNotCanvasElement = function isNotCanvasElement(el) {
               return !(el.elt instanceof HTMLCanvasElement);
             };
             var removeableElements = this._elements.filter(isNotCanvasElement);
-            removeableElements.map(function(el) {
+            removeableElements.map(function (el) {
               return el.remove();
             });
           };
@@ -55802,7 +53434,7 @@
            *                                firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.changed = function(fxn) {
+          _main.default.Element.prototype.changed = function (fxn) {
             _main.default.Element._adjustListener('change', fxn, this);
             return this;
           };
@@ -55821,7 +53453,7 @@
            *                                firing function will no longer fire.
            * @chainable
            */
-          _main.default.Element.prototype.input = function(fxn) {
+          _main.default.Element.prototype.input = function (fxn) {
             _main.default.Element._adjustListener('input', fxn, this);
             return this;
           };
@@ -55846,7 +53478,7 @@
            * @param  {String} [html] inner HTML for element created
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createDiv = function() {
+          _main.default.prototype.createDiv = function () {
             var html =
               arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
             var elt = document.createElement('div');
@@ -55862,7 +53494,7 @@
            * @param  {String} [html] inner HTML for element created
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createP = function() {
+          _main.default.prototype.createP = function () {
             var html =
               arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
             var elt = document.createElement('p');
@@ -55877,7 +53509,7 @@
            * @param  {String} [html] inner HTML for element created
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createSpan = function() {
+          _main.default.prototype.createSpan = function () {
             var html =
               arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
             var elt = document.createElement('span');
@@ -55902,7 +53534,7 @@
            * @param  {Function} [successCallback] callback to be called once image data is loaded with the <a href="#/p5.Element">p5.Element</a> as argument
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createImg = function() {
+          _main.default.prototype.createImg = function () {
             _main.default._validateParameters('createImg', arguments);
             var elt = document.createElement('img');
             var args = arguments;
@@ -55915,7 +53547,7 @@
             }
             elt.src = args[0];
             self = addElement(elt, this);
-            elt.addEventListener('load', function() {
+            elt.addEventListener('load', function () {
               self.width = elt.offsetWidth || elt.width;
               self.height = elt.offsetHeight || elt.height;
               var last = args[args.length - 1];
@@ -55934,7 +53566,7 @@
            *                             could be _blank, _self, _parent, _top.
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createA = function(href, html, target) {
+          _main.default.prototype.createA = function (href, html, target) {
             _main.default._validateParameters('createA', arguments);
             var elt = document.createElement('a');
             elt.href = href;
@@ -55956,7 +53588,7 @@
            * @param  {Number} [step] step size for each tick of the slider (if step is set to 0, the slider will move continuously from the minimum to the maximum value)
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createSlider = function(min, max, value, step) {
+          _main.default.prototype.createSlider = function (min, max, value, step) {
             _main.default._validateParameters('createSlider', arguments);
             var elt = document.createElement('input');
             elt.type = 'range';
@@ -55981,7 +53613,7 @@
            * @param  {String} [value] value of the button
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createButton = function(label, value) {
+          _main.default.prototype.createButton = function (label, value) {
             _main.default._validateParameters('createButton', arguments);
             var elt = document.createElement('button');
             elt.innerHTML = label;
@@ -55998,7 +53630,7 @@
            * @param  {boolean} [value] value of the checkbox; checked is true, unchecked is false
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createCheckbox = function() {
+          _main.default.prototype.createCheckbox = function () {
             _main.default._validateParameters('createCheckbox', arguments);
             var elt = document.createElement('div');
             var checkbox = document.createElement('input');
@@ -56006,7 +53638,7 @@
             elt.appendChild(checkbox);
             //checkbox must be wrapped in p5.Element before label so that label appears after
             var self = addElement(elt, this);
-            self.checked = function() {
+            self.checked = function () {
               var cb = self.elt.getElementsByTagName('input')[0];
               if (cb) {
                 if (arguments.length === 0) {
@@ -56019,7 +53651,7 @@
               }
               return self;
             };
-            this.value = function(val) {
+            this.value = function (val) {
               self.value = val;
               return this;
             };
@@ -56060,7 +53692,7 @@
            * @return {p5.Element}
            */
 
-          _main.default.prototype.createSelect = function() {
+          _main.default.prototype.createSelect = function () {
             _main.default._validateParameters('createSelect', arguments);
             var self;
             var arg = arguments[0];
@@ -56082,7 +53714,7 @@
               self = addElement(elt, this);
               this.elt = elt;
             }
-            self.option = function(name, value) {
+            self.option = function (name, value) {
               var index;
 
               // if no name is passed, return
@@ -56115,7 +53747,7 @@
               }
             };
 
-            self.selected = function(value) {
+            self.selected = function (value) {
               // Update selected status of option
               if (value !== undefined) {
                 for (var i = 0; i < this.elt.length; i += 1) {
@@ -56160,7 +53792,7 @@
               }
             };
 
-            self.disable = function(value) {
+            self.disable = function (value) {
               if (typeof value === 'string') {
                 for (var i = 0; i < this.elt.length; i++) {
                   if (this.elt[i].value.toString() === value) {
@@ -56204,7 +53836,7 @@
            * @method createRadio
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createRadio = function() {
+          _main.default.prototype.createRadio = function () {
             // Creates a div, adds each option as an individual input inside it.
             // If already given with a containerEl, will search for all input[radio]
             // it, create a p5.Element out of it, add options to it and return the p5.Element.
@@ -56232,11 +53864,11 @@
               return el.nextElementSibling instanceof HTMLLabelElement;
             };
 
-            self._getOptionsArray = function() {
+            self._getOptionsArray = function () {
               return Array.from(this.elt.children).filter(isRadioInput);
             };
 
-            self.option = function(value, label) {
+            self.option = function (value, label) {
               // return an option with this value, create if not exists.
               var optionEl;
               var _iteratorNormalCompletion2 = true;
@@ -56291,7 +53923,7 @@
               return optionEl;
             };
 
-            self.remove = function(value) {
+            self.remove = function (value) {
               var _iteratorNormalCompletion3 = true;
               var _didIteratorError3 = false;
               var _iteratorError3 = undefined;
@@ -56324,7 +53956,7 @@
               }
             };
 
-            self.value = function() {
+            self.value = function () {
               var result = '';
               var _iteratorNormalCompletion4 = true;
               var _didIteratorError4 = false;
@@ -56358,7 +53990,7 @@
               return result;
             };
 
-            self.selected = function(value) {
+            self.selected = function (value) {
               var result = null;
               if (value === undefined) {
                 var _iteratorNormalCompletion5 = true;
@@ -56424,7 +54056,7 @@
               return result;
             };
 
-            self.disable = function() {
+            self.disable = function () {
               var shouldDisable =
                 arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
               var _iteratorNormalCompletion7 = true;
@@ -56467,7 +54099,7 @@
            * @param {String|p5.Color} [value] default color of element
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createColorPicker = function(value) {
+          _main.default.prototype.createColorPicker = function (value) {
             _main.default._validateParameters('createColorPicker', arguments);
             var elt = document.createElement('input');
             var self;
@@ -56490,7 +54122,7 @@
             }
             self = addElement(elt, this);
             // Method to return a p5.Color object for the given color.
-            self.color = function() {
+            self.color = function () {
               if (value) {
                 if (value.mode) {
                   _main.default.prototype._colorMode = value.mode;
@@ -56519,7 +54151,7 @@
            * @param {String} [value]
            * @return {p5.Element}
            */
-          _main.default.prototype.createInput = function() {
+          _main.default.prototype.createInput = function () {
             var value =
               arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
             var type =
@@ -56540,7 +54172,7 @@
            * @param  {Boolean} [multiple] optional, to allow multiple files to be selected
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created DOM element
            */
-          _main.default.prototype.createFileInput = function(callback) {
+          _main.default.prototype.createFileInput = function (callback) {
             var multiple =
               arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
             _main.default._validateParameters('createFileInput', arguments);
@@ -56643,7 +54275,7 @@
             mediaEl.loadedmetadata = false;
 
             // set width and height onload metadata
-            elt.addEventListener('loadedmetadata', function() {
+            elt.addEventListener('loadedmetadata', function () {
               mediaEl.width = elt.videoWidth;
               mediaEl.height = elt.videoHeight;
 
@@ -56667,8 +54299,7 @@
            * can be either a single string path to a video file, or an array of string
            * paths to different formats of the same video. This is useful for ensuring
            * that your video can play across different browsers, as each supports
-           * different formats. See <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats'>this
-           * page</a> for further information about supported formats.
+           * different formats.
            *
            * @method createVideo
            * @param  {String|String[]} src path to a video file, or array of paths for
@@ -56681,7 +54312,7 @@
            *                             further buffering of content
            * @return {p5.MediaElement}   pointer to video <a href="#/p5.Element">p5.Element</a>
            */
-          _main.default.prototype.createVideo = function(src, callback) {
+          _main.default.prototype.createVideo = function (src, callback) {
             _main.default._validateParameters('createVideo', arguments);
             return createMedia(this, 'video', src, callback);
           };
@@ -56706,7 +54337,7 @@
            *                             further buffering of content
            * @return {p5.MediaElement}   pointer to audio <a href="#/p5.Element">p5.Element</a>
            */
-          _main.default.prototype.createAudio = function(src, callback) {
+          _main.default.prototype.createAudio = function (src, callback) {
             _main.default._validateParameters('createAudio', arguments);
             return createMedia(this, 'audio', src, callback);
           };
@@ -56736,7 +54367,7 @@
           // with getUserMedia as it would overwrite existing properties.
           // Here, we will just add the getUserMedia property if it's missing.
           if (navigator.mediaDevices.getUserMedia === undefined) {
-            navigator.mediaDevices.getUserMedia = function(constraints) {
+            navigator.mediaDevices.getUserMedia = function (constraints) {
               // First get ahold of the legacy getUserMedia, if present
               var getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 
@@ -56749,7 +54380,7 @@
               }
 
               // Otherwise, wrap the call to the old navigator.getUserMedia with a Promise
-              return new Promise(function(resolve, reject) {
+              return new Promise(function (resolve, reject) {
                 getUserMedia.call(navigator, constraints, resolve, reject);
               });
             };
@@ -56763,17 +54394,6 @@
            * The loadedmetadata property can be used to detect when the element has fully
            * loaded.
            *
-           * More specific properties of the feed can be passing in a Constraints object.
-           * See the <a href='http://w3c.github.io/mediacapture-main/getusermedia.html#media-track-constraints'>
-           * W3C spec</a> for possible properties. Note that not all of these are supported
-           * by all browsers.
-           *
-           * <em>Security note</em>: A new browser security specification requires that
-           * getUserMedia, which is behind <a href="#/p5/createCapture">createCapture()</a>,
-           * only works when you're running the code locally, or on HTTPS. Learn more
-           * <a href='http://stackoverflow.com/questions/34197653/getusermedia-in-chrome-47-without-using-https'>here</a>
-           * and <a href='https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia'>here</a>.
-           *
            * @method createCapture
            * @param  {String|Constant|Object}   type type of capture, either VIDEO or
            *                                   AUDIO if none specified, default both,
@@ -56782,7 +54402,7 @@
            *                                   stream has loaded
            * @return {p5.Element} capture video <a href="#/p5.Element">p5.Element</a>
            */
-          _main.default.prototype.createCapture = function() {
+          _main.default.prototype.createCapture = function () {
             _main.default._validateParameters('createCapture', arguments);
 
             // return if getUserMedia is not supported by browser
@@ -56829,7 +54449,7 @@
             // required to work in iOS 11 & up:
             domElement.setAttribute('playsinline', '');
 
-            navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
+            navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
               try {
                 if ('srcObject' in domElement) {
                   domElement.srcObject = stream;
@@ -56844,7 +54464,7 @@
             var videoEl = addElement(domElement, this, true);
             videoEl.loadedmetadata = false;
             // set width and height onload metadata
-            domElement.addEventListener('loadedmetadata', function() {
+            domElement.addEventListener('loadedmetadata', function () {
               domElement.play();
               if (domElement.width) {
                 videoEl.width = domElement.width;
@@ -56868,7 +54488,7 @@
            * @param  {String} [content] html content to be inserted into the element
            * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
            */
-          _main.default.prototype.createElement = function(tag, content) {
+          _main.default.prototype.createElement = function (tag, content) {
             _main.default._validateParameters('createElement', arguments);
             var elt = document.createElement(tag);
             if (typeof content !== 'undefined') {
@@ -56889,7 +54509,7 @@
            * @param  {String} class name of class to add
            * @chainable
            */
-          _main.default.Element.prototype.addClass = function(c) {
+          _main.default.Element.prototype.addClass = function (c) {
             if (this.elt.className) {
               if (!this.hasClass(c)) {
                 this.elt.className = this.elt.className + ' ' + c;
@@ -56908,8 +54528,7 @@
            * @param  {String} class name of class to remove
            * @chainable
            */
-          _main.default.Element.prototype.removeClass = function(c) {
-            // Note: Removing a class that does not exist does NOT throw an error in classList.remove method
+          _main.default.Element.prototype.removeClass = function (c) {
             this.elt.classList.remove(c);
             return this;
           };
@@ -56922,7 +54541,7 @@
            * @returns {boolean} a boolean value if element has specified class
            * @param c {String} class name of class to check
            */
-          _main.default.Element.prototype.hasClass = function(c) {
+          _main.default.Element.prototype.hasClass = function (c) {
             return this.elt.classList.contains(c);
           };
 
@@ -56934,10 +54553,8 @@
            * @param c {String} class name to toggle
            * @chainable
            */
-          _main.default.Element.prototype.toggleClass = function(c) {
+          _main.default.Element.prototype.toggleClass = function (c) {
             // classList also has a toggle() method, but we cannot use that yet as support is unclear.
-            // See https://github.com/processing/p5.js/issues/3631
-            // this.elt.classList.toggle(c);
             if (this.elt.classList.contains(c)) {
               this.elt.classList.remove(c);
             } else {
@@ -56961,7 +54578,7 @@
            *                         to add to the current element
            * @chainable
            */
-          _main.default.Element.prototype.child = function(childNode) {
+          _main.default.Element.prototype.child = function (childNode) {
             if (typeof childNode === 'undefined') {
               return this.elt.childNodes;
             }
@@ -56990,7 +54607,7 @@
            * @param  {String} [align]       passing 'vertical', 'horizontal' aligns element accordingly
            * @chainable
            */
-          _main.default.Element.prototype.center = function(align) {
+          _main.default.Element.prototype.center = function (align) {
             var style = this.elt.style.display;
             var hidden = this.elt.style.display === 'none';
             var parentHidden = this.parent().style.display === 'none';
@@ -57040,7 +54657,7 @@
            * @param  {boolean} [append] whether to append HTML to existing
            * @chainable
            */
-          _main.default.Element.prototype.html = function() {
+          _main.default.Element.prototype.html = function () {
             if (arguments.length === 0) {
               return this.elt.innerHTML;
             } else if (arguments[1]) {
@@ -57075,7 +54692,7 @@
            * @param  {String} positionType it can be static, fixed, relative, sticky, initial or inherit (optional)
            * @chainable
            */
-          _main.default.Element.prototype.position = function() {
+          _main.default.Element.prototype.position = function () {
             if (arguments.length === 0) {
               return { x: this.elt.offsetLeft, y: this.elt.offsetTop };
             } else {
@@ -57100,7 +54717,7 @@
           };
 
           /* Helper method called by p5.Element.style() */
-          _main.default.Element.prototype._translate = function() {
+          _main.default.Element.prototype._translate = function () {
             this.elt.style.position = 'absolute';
             // save out initial non-translate transform styling
             var transform = '';
@@ -57132,7 +54749,7 @@
           };
 
           /* Helper method called by p5.Element.style() */
-          _main.default.Element.prototype._rotate = function() {
+          _main.default.Element.prototype._rotate = function () {
             // save out initial non-rotate transform styling
             var transform = '';
             if (this.elt.style.transform) {
@@ -57173,7 +54790,7 @@
            * @return {String} current value of property, if no value is given as second argument
            * @chainable
            */
-          _main.default.Element.prototype.style = function(prop, val) {
+          _main.default.Element.prototype.style = function (prop, val) {
             var self = this;
 
             if (val instanceof _main.default.Color) {
@@ -57238,7 +54855,7 @@
            * @param  {String} value      value to assign to attribute
            * @chainable
            */
-          _main.default.Element.prototype.attribute = function(attr, value) {
+          _main.default.Element.prototype.attribute = function (attr, value) {
             //handling for checkboxes and radios to ensure options get
             //attributes not divs
             if (
@@ -57269,7 +54886,7 @@
            * @param  {String} attr       attribute to remove
            * @chainable
            */
-          _main.default.Element.prototype.removeAttribute = function(attr) {
+          _main.default.Element.prototype.removeAttribute = function (attr) {
             if (
               this.elt.firstChild != null &&
               (this.elt.firstChild.type === 'checkbox' ||
@@ -57295,7 +54912,7 @@
            * @param  {String|Number}     value
            * @chainable
            */
-          _main.default.Element.prototype.value = function() {
+          _main.default.Element.prototype.value = function () {
             if (arguments.length > 0) {
               this.elt.value = arguments[0];
               return this;
@@ -57312,7 +54929,7 @@
            * @method show
            * @chainable
            */
-          _main.default.Element.prototype.show = function() {
+          _main.default.Element.prototype.show = function () {
             this.elt.style.display = 'block';
             return this;
           };
@@ -57323,7 +54940,7 @@
            * @method hide
            * @chainable
            */
-          _main.default.Element.prototype.hide = function() {
+          _main.default.Element.prototype.hide = function () {
             this.elt.style.display = 'none';
             return this;
           };
@@ -57345,7 +54962,7 @@
            * @param  {Number|Constant} [h] height of the element, either AUTO, or a number
            * @chainable
            */
-          _main.default.Element.prototype.size = function(w, h) {
+          _main.default.Element.prototype.size = function (w, h) {
             if (arguments.length === 0) {
               return { width: this.elt.offsetWidth, height: this.elt.offsetHeight };
             } else {
@@ -57400,7 +55017,7 @@
            * Removes the element, stops all media streams, and deregisters all listeners.
            * @method remove
            */
-          _main.default.Element.prototype.remove = function() {
+          _main.default.Element.prototype.remove = function () {
             // stop all audios/videos and detach all devices like microphone/camera etc
             // used as input/output for audios/videos.
             if (this instanceof _main.default.MediaElement) {
@@ -57408,7 +55025,7 @@
               var sources = this.elt.srcObject;
               if (sources !== null) {
                 var tracks = sources.getTracks();
-                tracks.forEach(function(track) {
+                tracks.forEach(function (track) {
                   track.stop();
                 });
               }
@@ -57447,7 +55064,7 @@
            * @param  {Function} [fxn]     callback triggered once when files are dropped with the drop event.
            * @chainable
            */
-          _main.default.Element.prototype.drop = function(callback, fxn) {
+          _main.default.Element.prototype.drop = function (callback, fxn) {
             // Is the file stuff supported?
             if (window.File && window.FileReader && window.FileList && window.Blob) {
               if (!this._dragDisabled) {
@@ -57469,7 +55086,7 @@
               // Deal with the files
               _main.default.Element._attachListener(
                 'drop',
-                function(evt) {
+                function (evt) {
                   evt.preventDefault();
                   // Call the second argument as a callback that receives the raw drop event
                   if (typeof fxn === 'function') {
@@ -57507,7 +55124,7 @@
            * @constructor
            * @param {String} elt DOM node that is wrapped
            */
-          _main.default.MediaElement = function(elt, pInst) {
+          _main.default.MediaElement = function (elt, pInst) {
             _main.default.Element.call(this, elt, pInst);
 
             var self = this;
@@ -57546,8 +55163,8 @@
             });
 
             // private _onended callback, set by the method: onended(callback)
-            self._onended = function() {};
-            self.elt.onended = function() {
+            self._onended = function () { };
+            self.elt.onended = function () {
               self._onended(self);
             };
           };
@@ -57561,7 +55178,7 @@
            * @method play
            * @chainable
            */
-          _main.default.MediaElement.prototype.play = function() {
+          _main.default.MediaElement.prototype.play = function () {
             var _this = this;
             if (this.elt.currentTime === this.elt.duration) {
               this.elt.currentTime = 0;
@@ -57575,7 +55192,7 @@
               promise = this.elt.play();
             }
             if (promise && promise.catch) {
-              promise.catch(function(e) {
+              promise.catch(function (e) {
                 // if it's an autoplay failure error
                 if (e.name === 'NotAllowedError') {
                   _main.default._friendlyAutoplayError(_this.src);
@@ -57594,7 +55211,7 @@
            * @method stop
            * @chainable
            */
-          _main.default.MediaElement.prototype.stop = function() {
+          _main.default.MediaElement.prototype.stop = function () {
             this.elt.pause();
             this.elt.currentTime = 0;
             return this;
@@ -57606,7 +55223,7 @@
            * @method pause
            * @chainable
            */
-          _main.default.MediaElement.prototype.pause = function() {
+          _main.default.MediaElement.prototype.pause = function () {
             this.elt.pause();
             return this;
           };
@@ -57617,7 +55234,7 @@
            * @method loop
            * @chainable
            */
-          _main.default.MediaElement.prototype.loop = function() {
+          _main.default.MediaElement.prototype.loop = function () {
             this.elt.setAttribute('loop', true);
             this.play();
             return this;
@@ -57629,7 +55246,7 @@
            * @method noLoop
            * @chainable
            */
-          _main.default.MediaElement.prototype.noLoop = function() {
+          _main.default.MediaElement.prototype.noLoop = function () {
             this.elt.removeAttribute('loop');
             return this;
           };
@@ -57640,14 +55257,14 @@
            * @method setupAutoplayFailDetection
            * @private
            */
-          _main.default.MediaElement.prototype._setupAutoplayFailDetection = function() {
+          _main.default.MediaElement.prototype._setupAutoplayFailDetection = function () {
             var _this2 = this;
-            var timeout = setTimeout(function() {
+            var timeout = setTimeout(function () {
               return _main.default._friendlyAutoplayError(_this2.src);
             }, 500);
             this.elt.addEventListener(
               'play',
-              function() {
+              function () {
                 return clearTimeout(timeout);
               },
               {
@@ -57666,7 +55283,7 @@
            * @chainable
            */
 
-          _main.default.MediaElement.prototype.autoplay = function(val) {
+          _main.default.MediaElement.prototype.autoplay = function (val) {
             var _this3 = this;
             var oldVal = this.elt.getAttribute('autoplay');
             this.elt.setAttribute('autoplay', val);
@@ -57703,7 +55320,7 @@
            * @param {Number}            val volume between 0.0 and 1.0
            * @chainable
            */
-          _main.default.MediaElement.prototype.volume = function(val) {
+          _main.default.MediaElement.prototype.volume = function (val) {
             if (typeof val === 'undefined') {
               return this.elt.volume;
             } else {
@@ -57715,8 +55332,7 @@
            * If no arguments are given, returns the current playback speed of the
            * element. The speed parameter sets the speed where 2.0 will play the
            * element twice as fast, 0.5 will play at half the speed, and -1 will play
-           * the element in normal speed in reverse.(Note that not all browsers support
-           * backward playback and even if they do, playback might not be smooth.)
+           * the element in normal speed in reverse.
            *
            * @method speed
            * @return {Number} current playback speed of the element
@@ -57727,7 +55343,7 @@
            * @param {Number} speed  speed multiplier for element playback
            * @chainable
            */
-          _main.default.MediaElement.prototype.speed = function(val) {
+          _main.default.MediaElement.prototype.speed = function (val) {
             if (typeof val === 'undefined') {
               return this.presetPlaybackRate || this.elt.playbackRate;
             } else {
@@ -57751,7 +55367,7 @@
            * @param {Number} time time to jump to (in seconds)
            * @chainable
            */
-          _main.default.MediaElement.prototype.time = function(val) {
+          _main.default.MediaElement.prototype.time = function (val) {
             if (typeof val === 'undefined') {
               return this.elt.currentTime;
             } else {
@@ -57766,11 +55382,11 @@
            * @method duration
            * @return {Number} duration
            */
-          _main.default.MediaElement.prototype.duration = function() {
+          _main.default.MediaElement.prototype.duration = function () {
             return this.elt.duration;
           };
           _main.default.MediaElement.prototype.pixels = [];
-          _main.default.MediaElement.prototype._ensureCanvas = function() {
+          _main.default.MediaElement.prototype._ensureCanvas = function () {
             if (!this.canvas) {
               this.canvas = document.createElement('canvas');
               this.drawingContext = this.canvas.getContext('2d');
@@ -57796,11 +55412,11 @@
               this.setModified(true);
             }
           };
-          _main.default.MediaElement.prototype.loadPixels = function() {
+          _main.default.MediaElement.prototype.loadPixels = function () {
             this._ensureCanvas();
             return _main.default.Renderer2D.prototype.loadPixels.apply(this, arguments);
           };
-          _main.default.MediaElement.prototype.updatePixels = function(x, y, w, h) {
+          _main.default.MediaElement.prototype.updatePixels = function (x, y, w, h) {
             if (this.loadedmetadata) {
               // wait for metadata
               this._ensureCanvas();
@@ -57809,16 +55425,16 @@
             this.setModified(true);
             return this;
           };
-          _main.default.MediaElement.prototype.get = function() {
+          _main.default.MediaElement.prototype.get = function () {
             this._ensureCanvas();
             return _main.default.Renderer2D.prototype.get.apply(this, arguments);
           };
-          _main.default.MediaElement.prototype._getPixel = function() {
+          _main.default.MediaElement.prototype._getPixel = function () {
             this.loadPixels();
             return _main.default.Renderer2D.prototype._getPixel.apply(this, arguments);
           };
 
-          _main.default.MediaElement.prototype.set = function(x, y, imgOrCol) {
+          _main.default.MediaElement.prototype.set = function (x, y, imgOrCol) {
             if (this.loadedmetadata) {
               // wait for metadata
               this._ensureCanvas();
@@ -57826,11 +55442,11 @@
               this.setModified(true);
             }
           };
-          _main.default.MediaElement.prototype.copy = function() {
+          _main.default.MediaElement.prototype.copy = function () {
             this._ensureCanvas();
             _main.default.prototype.copy.apply(this, arguments);
           };
-          _main.default.MediaElement.prototype.mask = function() {
+          _main.default.MediaElement.prototype.mask = function () {
             this.loadPixels();
             this.setModified(true);
             _main.default.Image.prototype.mask.apply(this, arguments);
@@ -57844,7 +55460,7 @@
            * @return {boolean} a boolean indicating whether or not the
            * image has been updated or modified since last texture upload.
            */
-          _main.default.MediaElement.prototype.isModified = function() {
+          _main.default.MediaElement.prototype.isModified = function () {
             return this._modified;
           };
           /**
@@ -57852,13 +55468,13 @@
            * changed or unchanged since last upload. gl texture upload will
            * set this value to false after uploading the texture; or might set
            * it to true if metadata has become available but there is no actual
-           * texture data available yet..
+           * texture data available yet.
            * @method setModified
            * @param {boolean} val sets whether or not the element has been
            * modified.
            * @private
            */
-          _main.default.MediaElement.prototype.setModified = function(value) {
+          _main.default.MediaElement.prototype.setModified = function (value) {
             this._modified = value;
           };
           /**
@@ -57868,14 +55484,11 @@
            * as the argument to the onended callback.
            *
            * @method  onended
-           * @param  {Function} callback function to call when the
-           *                             soundfile has ended. The
-           *                             media element will be passed
-           *                             in as the argument to the
-           *                             callback.
+           * @param  {Function} callback function to call when the soundfile has ended. The media
+           *                             element will be passed in as the argument to the callback.
            * @chainable
            */
-          _main.default.MediaElement.prototype.onended = function(callback) {
+          _main.default.MediaElement.prototype.onended = function (callback) {
             this._onended = callback;
             return this;
           };
@@ -57886,15 +55499,12 @@
            * Send the audio output of this element to a specified audioNode or
            * p5.sound object. If no element is provided, connects to p5's main
            * output. That connection is established when this method is first called.
-           * All connections are removed by the .disconnect() method.
-           *
-           * This method is meant to be used with the p5.sound.js addon library.
            *
            * @method  connect
            * @param  {AudioNode|Object} audioNode AudioNode from the Web Audio API,
            * or an object from the p5.sound library
            */
-          _main.default.MediaElement.prototype.connect = function(obj) {
+          _main.default.MediaElement.prototype.connect = function (obj) {
             var audioContext, mainOutput;
 
             // if p5.sound exists, same audio context
@@ -57938,7 +55548,7 @@
            *
            * @method  disconnect
            */
-          _main.default.MediaElement.prototype.disconnect = function() {
+          _main.default.MediaElement.prototype.disconnect = function () {
             if (this.audioSourceNode) {
               this.audioSourceNode.disconnect();
             } else {
@@ -57953,7 +55563,7 @@
            *
            * @method  showControls
            */
-          _main.default.MediaElement.prototype.showControls = function() {
+          _main.default.MediaElement.prototype.showControls = function () {
             // must set style for the element to show on the page
             this.elt.style['text-align'] = 'inherit';
             this.elt.controls = true;
@@ -57963,7 +55573,7 @@
            * Hide the default mediaElement controls.
            * @method hideControls
            */
-          _main.default.MediaElement.prototype.hideControls = function() {
+          _main.default.MediaElement.prototype.hideControls = function () {
             this.elt.controls = false;
           };
 
@@ -57982,26 +55592,14 @@
            * Schedule events to trigger every time a MediaElement
            * (audio/video) reaches a playback cue point.
            *
-           * Accepts a callback function, a time (in seconds) at which to trigger
-           * the callback, and an optional parameter for the callback.
-           *
-           * Time will be passed as the first parameter to the callback function,
-           * and param will be the second parameter.
-           *
            * @method  addCue
-           * @param {Number}   time     Time in seconds, relative to this media
-           *                             element's playback.
-           * @param {Function} callback Name of a function that will be
-           *                             called at the given time. The callback will
-           *                             receive time and (optionally) param as its
-           *                             two parameters.
-           * @param {Object} [value]    An object to be passed as the
-           *                             second parameter to the
-           *                             callback function.
-           * @return {Number} id ID of this cue,
-           *                     useful for removeCue(id)
+           * @param {Number}   time     Time in seconds, relative to this media element's playback.
+           * @param {Function} callback Name of a function that will be called at the given time. The callback will
+           *                             receive time and (optionally) param as its two parameters.
+           * @param {Object} [value]    An object to be passed as the second parameter to the callback function.
+           * @return {Number} id ID of this cue, useful for removeCue(id)
            */
-          _main.default.MediaElement.prototype.addCue = function(time, callback, val) {
+          _main.default.MediaElement.prototype.addCue = function (time, callback, val) {
             var id = this._cueIDCounter++;
 
             var cue = new Cue(callback, time, id, val);
@@ -58020,7 +55618,7 @@
            * @method removeCue
            * @param  {Number} id ID of the cue, as returned by addCue
            */
-          _main.default.MediaElement.prototype.removeCue = function(id) {
+          _main.default.MediaElement.prototype.removeCue = function (id) {
             for (var i = 0; i < this._cues.length; i++) {
               if (this._cues[i].id === id) {
                 console.log(id);
@@ -58039,14 +55637,14 @@
            * @method  clearCues
            * @param  {Number} id ID of the cue, as returned by addCue
            */
-          _main.default.MediaElement.prototype.clearCues = function() {
+          _main.default.MediaElement.prototype.clearCues = function () {
             this._cues = [];
             this.elt.ontimeupdate = null;
           };
 
           // private method that checks for cues to be fired if events
           // have been scheduled using addCue(callback, time).
-          _main.default.MediaElement.prototype._onTimeUpdate = function() {
+          _main.default.MediaElement.prototype._onTimeUpdate = function () {
             var playbackTime = this.time();
 
             for (var i = 0; i < this._cues.length; i++) {
@@ -58070,7 +55668,7 @@
            * @constructor
            * @param {File} file File that is wrapped
            */
-          _main.default.File = function(file, pInst) {
+          _main.default.File = function (file, pInst) {
             /**
              * Underlying File object. All normal File methods can be called on this.
              *
@@ -58117,9 +55715,9 @@
             this.data = undefined;
           };
 
-          _main.default.File._createLoader = function(theFile, callback) {
+          _main.default.File._createLoader = function (theFile, callback) {
             var reader = new FileReader();
-            reader.onload = function(e) {
+            reader.onload = function (e) {
               var p5file = new _main.default.File(theFile);
               if (p5file.file.type === 'application/json') {
                 // Parse JSON and store the result in data
@@ -58137,7 +55735,7 @@
             return reader;
           };
 
-          _main.default.File._load = function(f, callback) {
+          _main.default.File._load = function (f, callback) {
             // Text or data?
             // This should likely be improved
             if (/^text\//.test(f.type) || f.type === 'application/json') {
@@ -58156,7 +55754,7 @@
         { '../core/main': 59 }
       ],
       76: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -58300,7 +55898,7 @@
            *
            * @private
            */
-          _main.default.prototype._updatePAccelerations = function() {
+          _main.default.prototype._updatePAccelerations = function () {
             this._setProperty('pAccelerationX', this.accelerationX);
             this._setProperty('pAccelerationY', this.accelerationY);
             this._setProperty('pAccelerationZ', this.accelerationZ);
@@ -58311,10 +55909,6 @@
            * device along the x axis. If the sketch <a href="#/p5/angleMode">
            * angleMode()</a> is set to DEGREES, the value will be -180 to 180. If
            * it is set to RADIANS, the value will be -PI to PI.
-           *
-           * Note: The order the rotations are called is important, ie. if used
-           * together, it must be called in the order Z-X-Y or there might be
-           * unexpected behaviour.
            *
            * @property {Number} rotationX
            * @readOnly
@@ -58327,10 +55921,6 @@
            * angleMode()</a> is set to DEGREES, the value will be -90 to 90. If
            * it is set to RADIANS, the value will be -PI/2 to PI/2.
            *
-           * Note: The order the rotations are called is important, ie. if used
-           * together, it must be called in the order Z-X-Y or there might be
-           * unexpected behaviour.
-           *
            * @property {Number} rotationY
            * @readOnly
            */
@@ -58341,13 +55931,6 @@
            * device along the z axis. If the sketch <a href="#/p5/angleMode">
            * angleMode()</a> is set to DEGREES, the value will be 0 to 360. If
            * it is set to RADIANS, the value will be 0 to 2*PI.
-           *
-           * Unlike rotationX and rotationY, this variable is available for devices
-           * with a built-in compass only.
-           *
-           * Note: The order the rotations are called is important, ie. if used
-           * together, it must be called in the order Z-X-Y or there might be
-           * unexpected behaviour.
            *
            * @property {Number} rotationZ
            * @readOnly
@@ -58361,9 +55944,6 @@
            * the value will be -180 to 180. If it is set to RADIANS, the value will
            * be -PI to PI.
            *
-           * pRotationX can also be used with rotationX to determine the rotate
-           * direction of the device along the X-axis.
-           *
            * @property {Number} pRotationX
            * @readOnly
            */
@@ -58376,9 +55956,6 @@
            * the value will be -90 to 90. If it is set to RADIANS, the value will
            * be -PI/2 to PI/2.
            *
-           * pRotationY can also be used with rotationY to determine the rotate
-           * direction of the device along the Y-axis.
-           *
            * @property {Number} pRotationY
            * @readOnly
            */
@@ -58390,9 +55967,6 @@
            * If the sketch <a href="#/p5/angleMode"> angleMode()</a> is set to DEGREES,
            * the value will be 0 to 360. If it is set to RADIANS, the value will
            * be 0 to 2*PI.
-           *
-           * pRotationZ can also be used with rotationZ to determine the rotate
-           * direction of the device along the Z-axis.
            *
            * @property {Number} pRotationZ
            * @readOnly
@@ -58411,7 +55985,7 @@
           _main.default.prototype.pRotateDirectionY = undefined;
           _main.default.prototype.pRotateDirectionZ = undefined;
 
-          _main.default.prototype._updatePRotations = function() {
+          _main.default.prototype._updatePRotations = function () {
             this._setProperty('pRotationX', this.rotationX);
             this._setProperty('pRotationY', this.rotationY);
             this._setProperty('pRotationZ', this.rotationZ);
@@ -58437,7 +56011,7 @@
            * @param {number} value The threshold value
            */
 
-          _main.default.prototype.setMoveThreshold = function(val) {
+          _main.default.prototype.setMoveThreshold = function (val) {
             _main.default._validateParameters('setMoveThreshold', arguments);
             move_threshold = val;
           };
@@ -58450,7 +56024,7 @@
            * @param {number} value The threshold value
            */
 
-          _main.default.prototype.setShakeThreshold = function(val) {
+          _main.default.prototype.setShakeThreshold = function (val) {
             _main.default._validateParameters('setShakeThreshold', arguments);
             shake_threshold = val;
           };
@@ -58483,7 +56057,7 @@
            * @method deviceShaken
            */
 
-          _main.default.prototype._ondeviceorientation = function(e) {
+          _main.default.prototype._ondeviceorientation = function (e) {
             this._updatePRotations();
             if (this._angleMode === constants.radians) {
               e.beta = e.beta * (_PI / 180.0);
@@ -58495,14 +56069,14 @@
             this._setProperty('rotationZ', e.alpha);
             this._handleMotion();
           };
-          _main.default.prototype._ondevicemotion = function(e) {
+          _main.default.prototype._ondevicemotion = function (e) {
             this._updatePAccelerations();
             this._setProperty('accelerationX', e.acceleration.x * 2);
             this._setProperty('accelerationY', e.acceleration.y * 2);
             this._setProperty('accelerationZ', e.acceleration.z * 2);
             this._handleMotion();
           };
-          _main.default.prototype._handleMotion = function() {
+          _main.default.prototype._handleMotion = function () {
             if (window.orientation === 90 || window.orientation === -90) {
               this._setProperty('deviceOrientation', 'landscape');
             } else if (window.orientation === 0) {
@@ -58612,7 +56186,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       77: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -58649,8 +56223,6 @@
            * The variable keyCode is used to detect special keys such as BACKSPACE,
            * DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW,
            * DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
-           * You can also check for custom keys by looking up the keyCode of any key
-           * on a site like this: <a href="http://keycode.info/">keycode.info</a>.
            *
            * @property {Integer} keyCode
            * @readOnly
@@ -58661,26 +56233,9 @@
            * The <a href="#/p5/keyPressed">keyPressed()</a> function is called once every time a key is pressed. The
            * keyCode for the key that was pressed is stored in the <a href="#/p5/keyCode">keyCode</a> variable.
            *
-           * For non-ASCII keys, use the keyCode variable. You can check if the keyCode
-           * equals BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL,
-           * OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
-           *
-           * For ASCII keys, the key that was pressed is stored in the key variable. However, it
-           * does not distinguish between uppercase and lowercase. For this reason, it
-           * is recommended to use <a href="#/p5/keyTyped">keyTyped()</a> to read the key variable, in which the
-           * case of the variable will be distinguished.
-           *
-           * Because of how operating systems handle key repeats, holding down a key
-           * may cause multiple calls to <a href="#/p5/keyTyped">keyTyped()</a> (and <a href="#/p5/keyReleased">keyReleased()</a> as well). The
-           * rate of repeat is set by the operating system and how each computer is
-           * configured.<br><br>
-           * Browsers may have different default
-           * behaviors attached to various key events. To prevent any default
-           * behavior for this event, add "return false" to the end of the method.
-           *
            * @method keyPressed
            */
-          _main.default.prototype._onkeydown = function(e) {
+          _main.default.prototype._onkeydown = function (e) {
             if (this._downKeys[e.which]) {
               // prevent multiple firings
               return;
@@ -58700,14 +56255,9 @@
           };
           /**
            * The <a href="#/p5/keyReleased">keyReleased()</a> function is called once every time a key is released.
-           * See <a href="#/p5/key">key</a> and <a href="#/p5/keyCode">keyCode</a> for more information.<br><br>
-           * Browsers may have different default
-           * behaviors attached to various key events. To prevent any default
-           * behavior for this event, add "return false" to the end of the method.
-           *
            * @method keyReleased
            */
-          _main.default.prototype._onkeyup = function(e) {
+          _main.default.prototype._onkeyup = function (e) {
             this._downKeys[e.which] = false;
 
             if (!this._areDownKeys()) {
@@ -58745,7 +56295,7 @@
            *
            * @method keyTyped
            */
-          _main.default.prototype._onkeypress = function(e) {
+          _main.default.prototype._onkeypress = function (e) {
             if (e.which === this._lastKeyCodeTyped) {
               // prevent multiple firings
               return;
@@ -58767,7 +56317,7 @@
            * not focused on the element we must assume all keys currently down have
            * been released.
            */
-          _main.default.prototype._onblur = function(e) {
+          _main.default.prototype._onblur = function (e) {
             this._downKeys = {};
           };
 
@@ -58783,7 +56333,7 @@
            * @param {Number}          code The key to check for.
            * @return {Boolean}        whether key is down or not
            */
-          _main.default.prototype.keyIsDown = function(code) {
+          _main.default.prototype.keyIsDown = function (code) {
             _main.default._validateParameters('keyIsDown', arguments);
             return this._downKeys[code] || false;
           };
@@ -58797,7 +56347,7 @@
     * keyIsPressed property to true.
     * @private
    **/
-          _main.default.prototype._areDownKeys = function() {
+          _main.default.prototype._areDownKeys = function () {
             for (var key in this._downKeys) {
               if (this._downKeys.hasOwnProperty(key) && this._downKeys[key] === true) {
                 return true;
@@ -58811,7 +56361,7 @@
         { '../core/main': 59 }
       ],
       78: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -58926,8 +56476,7 @@
            * The system variable pmouseX always contains the horizontal position of
            * the mouse or finger in the frame previous to the current frame, relative to
            * (0, 0) of the canvas. The value at the top-left corner is (0, 0) for 2-D and
-           * (-width/2, -height/2) for WebGL. Note: pmouseX will be reset to the current mouseX
-           * value at the start of each touch event.
+           * (-width/2, -height/2) for WebGL.
            *
            * @property {Number} pmouseX
            * @readOnly
@@ -58938,8 +56487,7 @@
            * The system variable pmouseY always contains the vertical position of
            * the mouse or finger in the frame previous to the current frame, relative to
            * (0, 0) of the canvas. The value at the top-left corner is (0, 0) for 2-D and
-           * (-width/2, -height/2) for WebGL. Note: pmouseY will be reset to the current mouseY
-           * value at the start of each touch event.
+           * (-width/2, -height/2) for WebGL.
            *
            * @property {Number} pmouseY
            * @readOnly
@@ -58967,8 +56515,7 @@
           /**
            * The system variable pwinMouseX always contains the horizontal position
            * of the mouse in the frame previous to the current frame, relative to
-           * (0, 0) of the window. Note: pwinMouseX will be reset to the current winMouseX
-           * value at the start of each touch event.
+           * (0, 0) of the window.
            *
            * @property {Number} pwinMouseX
            * @readOnly
@@ -58978,8 +56525,7 @@
           /**
            * The system variable pwinMouseY always contains the vertical position of
            * the mouse in the frame previous to the current frame, relative to (0, 0)
-           * of the window. Note: pwinMouseY will be reset to the current winMouseY
-           * value at the start of each touch event.
+           * of the window.
            *
            * @property {Number} pwinMouseY
            * @readOnly
@@ -59006,7 +56552,7 @@
            */
           _main.default.prototype.mouseIsPressed = false;
 
-          _main.default.prototype._updateNextMouseCoords = function(e) {
+          _main.default.prototype._updateNextMouseCoords = function (e) {
             if (this._curElement !== null && (!e.touches || e.touches.length > 0)) {
               var mousePos = getMousePos(this._curElement.elt, this.width, this.height, e);
 
@@ -59024,7 +56570,7 @@
             }
           };
 
-          _main.default.prototype._updateMouseCoords = function() {
+          _main.default.prototype._updateMouseCoords = function () {
             this._setProperty('pmouseX', this.mouseX);
             this._setProperty('pmouseY', this.mouseY);
             this._setProperty('pwinMouseX', this.winMouseX);
@@ -59054,7 +56600,7 @@
             };
           }
 
-          _main.default.prototype._setMouseButton = function(e) {
+          _main.default.prototype._setMouseButton = function (e) {
             if (e.button === 1) {
               this._setProperty('mouseButton', constants.CENTER);
             } else if (e.button === 2) {
@@ -59086,7 +56632,7 @@
            * @method mouseDragged
            * @param  {Object} [event] optional MouseEvent callback argument.
            */
-          _main.default.prototype._onmousemove = function(e) {
+          _main.default.prototype._onmousemove = function (e) {
             var context = this._isGlobal ? window : this;
             var executeDefault;
             this._updateNextMouseCoords(e);
@@ -59114,7 +56660,7 @@
 
           /**
            * The <a href="#/p5/mousePressed">mousePressed()</a> function is called once after every time a mouse button
-           * is pressed. The mouseButton variable (see the related reference entry)
+           * is pressed. The mouseButton variable
            * can be used to determine which button has been pressed. If no
            * <a href="#/p5/mousePressed">mousePressed()</a> function is defined, the <a href="#/p5/touchStarted">touchStarted()</a> function will be
            * called instead if it is defined.<br><br>
@@ -59125,7 +56671,7 @@
            * @method mousePressed
            * @param  {Object} [event] optional MouseEvent callback argument.
            */
-          _main.default.prototype._onmousedown = function(e) {
+          _main.default.prototype._onmousedown = function (e) {
             var context = this._isGlobal ? window : this;
             var executeDefault;
             this._setProperty('mouseIsPressed', true);
@@ -59160,7 +56706,7 @@
            * @method mouseReleased
            * @param  {Object} [event] optional MouseEvent callback argument.
            */
-          _main.default.prototype._onmouseup = function(e) {
+          _main.default.prototype._onmouseup = function (e) {
             var context = this._isGlobal ? window : this;
             var executeDefault;
             this._setProperty('mouseIsPressed', false);
@@ -59185,15 +56731,12 @@
            * pressed and then released.<br><br>
            * Browsers handle clicks differently, so this function is only guaranteed to be
            * run when the left mouse button is clicked. To handle other mouse buttons
-           * being pressed or released, see <a href="#/p5/mousePressed">mousePressed()</a> or <a href="#/p5/mouseReleased">mouseReleased()</a>.<br><br>
-           * Browsers may have different default
-           * behaviors attached to various mouse events. To prevent any default
-           * behavior for this event, add "return false" to the end of the method.
+           * being pressed or released, 
            *
            * @method mouseClicked
            * @param  {Object} [event] optional MouseEvent callback argument.
            */
-          _main.default.prototype._onclick = function(e) {
+          _main.default.prototype._onclick = function (e) {
             var context = this._isGlobal ? window : this;
             if (typeof context.mouseClicked === 'function') {
               var executeDefault = context.mouseClicked(e);
@@ -59208,15 +56751,13 @@
            * listener has detected a dblclick event which is a part of the
            * DOM L3 specification. The doubleClicked event is fired when a
            * pointing device button (usually a mouse's primary button)
-           * is clicked twice on a single element. For more info on the
-           * dblclick event refer to mozilla's documentation here:
-           * https://developer.mozilla.org/en-US/docs/Web/Events/dblclick
+           * is clicked twice on a single element.
            *
            * @method doubleClicked
            * @param  {Object} [event] optional MouseEvent callback argument.
            */
 
-          _main.default.prototype._ondblclick = function(e) {
+          _main.default.prototype._ondblclick = function (e) {
             var context = this._isGlobal ? window : this;
             if (typeof context.doubleClicked === 'function') {
               var executeDefault = context.doubleClicked(e);
@@ -59260,7 +56801,7 @@
            * @param  {Object} [event] optional WheelEvent callback argument.
            *
            */
-          _main.default.prototype._onwheel = function(e) {
+          _main.default.prototype._onwheel = function (e) {
             var context = this._isGlobal ? window : this;
             this._setProperty('_mouseWheelDeltaY', e.deltaY);
             if (typeof context.mouseWheel === 'function') {
@@ -59277,13 +56818,10 @@
            * locks the pointer to its current position and makes it invisible.
            * Use <a href="#/p5/movedX">movedX</a> and <a href="#/p5/movedY">movedY</a> to get the difference the mouse was moved since
            * the last call of draw.
-           * Note that not all browsers support this feature.
-           * This enables you to create experiences that aren't limited by the mouse moving out of the screen
-           * even if it is repeatedly moved into one direction.
            *
            * @method requestPointerLock
            */
-          _main.default.prototype.requestPointerLock = function() {
+          _main.default.prototype.requestPointerLock = function () {
             // pointer lock object forking for cross browser
             var canvas = this._curElement.elt;
             canvas.requestPointerLock =
@@ -59302,7 +56840,7 @@
            *
            * @method exitPointerLock
            */
-          _main.default.prototype.exitPointerLock = function() {
+          _main.default.prototype.exitPointerLock = function () {
             document.exitPointerLock();
           };
           var _default = _main.default;
@@ -59311,7 +56849,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       79: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -59338,7 +56876,7 @@
            * @readOnly
            *
            */ _main.default.prototype.touches = [];
-          _main.default.prototype._updateTouchCoords = function(e) {
+          _main.default.prototype._updateTouchCoords = function (e) {
             if (this._curElement !== null) {
               var touches = [];
               for (var i = 0; i < e.touches.length; i++) {
@@ -59380,7 +56918,7 @@
            * @method touchStarted
            * @param  {Object} [event] optional TouchEvent callback argument.
            */
-          _main.default.prototype._ontouchstart = function(e) {
+          _main.default.prototype._ontouchstart = function (e) {
             var context = this._isGlobal ? window : this;
             var executeDefault;
             this._setProperty('mouseIsPressed', true);
@@ -59416,7 +56954,7 @@
            * @method touchMoved
            * @param  {Object} [event] optional TouchEvent callback argument.
            */
-          _main.default.prototype._ontouchmove = function(e) {
+          _main.default.prototype._ontouchmove = function (e) {
             var context = this._isGlobal ? window : this;
             var executeDefault;
             this._updateTouchCoords(e);
@@ -59445,7 +56983,7 @@
            * @method touchEnded
            * @param  {Object} [event] optional TouchEvent callback argument.
            */
-          _main.default.prototype._ontouchend = function(e) {
+          _main.default.prototype._ontouchend = function (e) {
             this._setProperty('mouseIsPressed', false);
             this._updateTouchCoords(e);
             this._updateNextMouseCoords(e);
@@ -59469,7 +57007,7 @@
         { '../core/main': 59 }
       ],
       80: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0; /*global ImageData:false */
@@ -59505,7 +57043,7 @@
            *                                   the data in thc RGBA order, with integer
            *                                   values between 0 and 255
            */
-          Filters._toPixels = function(canvas) {
+          Filters._toPixels = function (canvas) {
             if (canvas instanceof ImageData) {
               return canvas.data;
             } else {
@@ -59525,7 +57063,7 @@
            * @return {Integer}                32 bit integer value representing
            *                                  ARGB value.
            */
-          Filters._getARGB = function(data, i) {
+          Filters._getARGB = function (data, i) {
             var offset = i * 4;
             return (
               ((data[offset + 3] << 24) & 0xff000000) |
@@ -59544,7 +57082,7 @@
            * @param {Int32Array}        data   source 1D array where each value
            *                                   represents ARGB values
            */
-          Filters._setPixels = function(pixels, data) {
+          Filters._setPixels = function (pixels, data) {
             var offset = 0;
             for (var i = 0, al = pixels.length; i < al; i++) {
               offset = i * 4;
@@ -59565,7 +57103,7 @@
            * @return {ImageData}               Holder of pixel data (and width and
            *                                   height) for a canvas
            */
-          Filters._toImageData = function(canvas) {
+          Filters._toImageData = function (canvas) {
             if (canvas instanceof ImageData) {
               return canvas;
             } else {
@@ -59584,7 +57122,7 @@
            * @param  {Integer} height
            * @return {ImageData}
            */
-          Filters._createImageData = function(width, height) {
+          Filters._createImageData = function (width, height) {
             Filters._tmpCanvas = document.createElement('canvas');
             Filters._tmpCtx = Filters._tmpCanvas.getContext('2d');
             return this._tmpCtx.createImageData(width, height);
@@ -59609,7 +57147,7 @@
            * @param  {function(ImageData,Object)} func   [description]
            * @param  {Object} filterParam  [description]
            */
-          Filters.apply = function(canvas, func, filterParam) {
+          Filters.apply = function (canvas, func, filterParam) {
             var pixelsState = canvas.getContext('2d');
             var imageData = pixelsState.getImageData(0, 0, canvas.width, canvas.height);
 
@@ -59646,7 +57184,7 @@
            * @param  {Canvas} canvas
            * @param  {Float} level
            */
-          Filters.threshold = function(canvas, level) {
+          Filters.threshold = function (canvas, level) {
             var pixels = Filters._toPixels(canvas);
 
             if (level === undefined) {
@@ -59678,7 +57216,7 @@
            * @private
            * @param {Canvas} canvas
            */
-          Filters.gray = function(canvas) {
+          Filters.gray = function (canvas) {
             var pixels = Filters._toPixels(canvas);
 
             for (var i = 0; i < pixels.length; i += 4) {
@@ -59698,7 +57236,7 @@
            * @private
            * @param {Canvas} canvas
            */
-          Filters.opaque = function(canvas) {
+          Filters.opaque = function (canvas) {
             var pixels = Filters._toPixels(canvas);
 
             for (var i = 0; i < pixels.length; i += 4) {
@@ -59713,7 +57251,7 @@
            * @private
            * @param  {Canvas} canvas
            */
-          Filters.invert = function(canvas) {
+          Filters.invert = function (canvas) {
             var pixels = Filters._toPixels(canvas);
 
             for (var i = 0; i < pixels.length; i += 4) {
@@ -59734,7 +57272,7 @@
            * @param  {Canvas} canvas
            * @param  {Integer} level
            */
-          Filters.posterize = function(canvas, level) {
+          Filters.posterize = function (canvas, level) {
             var pixels = Filters._toPixels(canvas);
 
             if (level < 2 || level > 255) {
@@ -59760,7 +57298,7 @@
            * @private
            * @param  {Canvas} canvas
            */
-          Filters.dilate = function(canvas) {
+          Filters.dilate = function (canvas) {
             var pixels = Filters._toPixels(canvas);
             var currIdx = 0;
             var maxIdx = pixels.length ? pixels.length / 4 : 0;
@@ -59847,7 +57385,7 @@
            * @private
            * @param  {Canvas} canvas
            */
-          Filters.erode = function(canvas) {
+          Filters.erode = function (canvas) {
             var pixels = Filters._toPixels(canvas);
             var currIdx = 0;
             var maxIdx = pixels.length ? pixels.length / 4 : 0;
@@ -59940,12 +57478,6 @@
           /*
                * Port of https://github.com/processing/processing/blob/
                * main/core/src/processing/core/PImage.java#L1250
-               *
-               * Optimized code for building the blur kernel.
-               * further optimized blur code (approx. 15% for radius=20)
-               * bigger speed gains for larger radii (~30%)
-               * added support for various image types (ALPHA, RGB, ARGB)
-               * [toxi 050728]
                */
           function buildBlurKernel(r) {
             var radius = (r * 3.5) | 0;
@@ -60075,7 +57607,7 @@
             Filters._setPixels(pixels, argb);
           }
 
-          Filters.blur = function(canvas, radius) {
+          Filters.blur = function (canvas, radius) {
             blurARGB(canvas, radius);
           };
           var _default = Filters;
@@ -60084,7 +57616,7 @@
         {}
       ],
       81: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -60126,19 +57658,13 @@
            * These values are numbers. This array is the size (including an appropriate
            * factor for the <a href="#/p5/pixelDensity">pixelDensity</a>) of the display window x4,
            * representing the R, G, B, A values in order for each pixel, moving from
-           * left to right across each row, then down each column. See .<a href="#/p5.Image/pixels">pixels</a> for
-           * more info. It may also be simpler to use <a href="#/p5.Image/set">set()</a> or <a href="#/p5.Image/get">get()</a>.
-           *
-           * Before accessing the pixels of an image, the data must loaded with the
-           * <a href="#/p5.Image/loadPixels">loadPixels()</a> function. After the array data has been modified, the
-           * <a href="#/p5.Image/updatePixels">updatePixels()</a> function must be run to update the changes.
-           *
+           * left to right across each row, then down each column. 
            * @method createImage
            * @param  {Integer} width  width in pixels
            * @param  {Integer} height height in pixels
            * @return {p5.Image}       the <a href="#/p5.Image">p5.Image</a> object
            */
-          _main.default.prototype.createImage = function(width, height) {
+          _main.default.prototype.createImage = function (width, height) {
             _main.default._validateParameters('createImage', arguments);
             return new _main.default.Image(width, height);
           };
@@ -60158,7 +57684,7 @@
            *  @param  {String} [filename]
            *  @param  {String} [extension]
            */
-          _main.default.prototype.saveCanvas = function() {
+          _main.default.prototype.saveCanvas = function () {
             _main.default._validateParameters('saveCanvas', arguments);
 
             // copy arguments to array
@@ -60199,12 +57725,12 @@
                 break;
             }
 
-            htmlCanvas.toBlob(function(blob) {
+            htmlCanvas.toBlob(function (blob) {
               _main.default.prototype.downloadFile(blob, filename, extension);
             }, mimeType);
           };
 
-          _main.default.prototype.saveGif = function(pImg, filename) {
+          _main.default.prototype.saveGif = function (pImg, filename) {
             var props = pImg.gifProperties;
 
             //convert loopLimit back into Netscape Block formatting
@@ -60259,7 +57785,7 @@
 
             // Now to build the global palette
             // Sort all the unique palettes in descending order of their occurence
-            var palettesSortedByFreq = Object.keys(paletteFreqsAndFrames).sort(function(
+            var palettesSortedByFreq = Object.keys(paletteFreqsAndFrames).sort(function (
               a,
               b
             ) {
@@ -60267,7 +57793,7 @@
             });
 
             // The initial global palette is the one with the most occurence
-            var globalPalette = palettesSortedByFreq[0].split(',').map(function(a) {
+            var globalPalette = palettesSortedByFreq[0].split(',').map(function (a) {
               return parseInt(a);
             });
 
@@ -60283,11 +57809,11 @@
             // not in the global palette can be added there, while keeping the length
             // of the global palette <= 256
             for (var _i = 1; _i < palettesSortedByFreq.length; _i++) {
-              var palette = palettesSortedByFreq[_i].split(',').map(function(a) {
+              var palette = palettesSortedByFreq[_i].split(',').map(function (a) {
                 return parseInt(a);
               });
 
-              var difference = palette.filter(function(x) {
+              var difference = palette.filter(function (x) {
                 return !globalPaletteSet.has(x);
               });
               if (globalPalette.length + difference.length <= 256) {
@@ -60377,7 +57903,7 @@
               var frameOpts = {};
 
               // Transparency optimization
-              var canBeTransparent = palette.filter(function(a) {
+              var canBeTransparent = palette.filter(function (a) {
                 return !cannotBeTransparent.has(a);
               });
               if (canBeTransparent.length > 0) {
@@ -60451,27 +57977,20 @@
           };
 
           /**
-    *  Capture a sequence of frames that can be used to create a movie.
-    *  Accepts a callback.
-    *
-    *  Note that <a href="#/p5.Image/saveFrames">saveFrames()</a> will only save the first 15 frames of an animation.
-    *  To export longer animations, you might look into a library like
-    *  <a href="https://github.com/spite/ccapture.js/">ccapture.js</a>.
-    *
-    *  @method saveFrames
-    *  @param  {String}   filename
-    *  @param  {String}   extension 'jpg' or 'png'
-    *  @param  {Number}   duration  Duration in seconds to save the frames for.
-    *  @param  {Number}   framerate  Framerate to save the frames in.
-    *  @param  {function(Array)} [callback] A callback function that will be executed
-                                     to handle the image data. This function
-                                     should accept an array as argument. The
-                                     array will contain the specified number of
-                                     frames of objects. Each object has three
-                                     properties: imageData - an
-                                     image/octet-stream, filename and extension.
-    */
-          _main.default.prototype.saveFrames = function(
+          *  Capture a sequence of frames that can be used to create a movie.
+          *  Accepts a callback.
+          *
+          *  @method saveFrames
+          *  @param  {String}   filename
+          *  @param  {String}   extension 'jpg' or 'png'
+          *  @param  {Number}   duration  Duration in seconds to save the frames for.
+          *  @param  {Number}   framerate  Framerate to save the frames in.
+          *  @param  {function(Array)} [callback] A callback function that will be executed to handle the image data. This function
+                                          should accept an array as argument. The array will contain the specified number of
+                                          frames of objects. Each object has three properties: imageData - an
+                                          image/octet-stream, filename and extension.
+          */
+          _main.default.prototype.saveFrames = function (
             fName,
             ext,
             _duration,
@@ -60489,12 +58008,12 @@
             var makeFrame = _main.default.prototype._makeFrame;
             var cnv = this._curElement.elt;
             var frames = [];
-            var frameFactory = setInterval(function() {
+            var frameFactory = setInterval(function () {
               frames.push(makeFrame(fName + count, ext, cnv));
               count++;
             }, 1000 / fps);
 
-            setTimeout(function() {
+            setTimeout(function () {
               clearInterval(frameFactory);
               if (callback) {
                 callback(frames);
@@ -60530,7 +58049,7 @@
             }, duration + 0.01);
           };
 
-          _main.default.prototype._makeFrame = function(filename, extension, _cnv) {
+          _main.default.prototype._makeFrame = function (filename, extension, _cnv) {
             var cnv;
             if (this) {
               cnv = this._curElement.elt;
@@ -60573,7 +58092,7 @@
         { '../core/main': 59, omggif: 33 }
       ],
       82: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -60676,7 +58195,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        * @param  {function(Event)}    [failureCallback] called with event error if
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        *                                the image fails to load.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        * @return {p5.Image}             the <a href="#/p5.Image">p5.Image</a> object
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       */ _main.default.prototype.loadImage = function(
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       */ _main.default.prototype.loadImage = function (
             path,
             successCallback,
             failureCallback
@@ -60690,7 +58209,7 @@
               mode: 'cors'
             });
 
-            fetch(path, req).then(function(response) {
+            fetch(path, req).then(function (response) {
               // GIF section
               var contentType = response.headers.get('content-type');
               if (contentType === null) {
@@ -60700,7 +58219,7 @@
               }
               if (contentType && contentType.includes('image/gif')) {
                 response.arrayBuffer().then(
-                  function(arrayBuffer) {
+                  function (arrayBuffer) {
                     if (arrayBuffer) {
                       var byteArray = new Uint8Array(arrayBuffer);
                       _createGif(
@@ -60708,13 +58227,13 @@
                         pImg,
                         successCallback,
                         failureCallback,
-                        function(pImg) {
+                        function (pImg) {
                           self._decrementPreload();
                         }.bind(self)
                       );
                     }
                   },
-                  function(e) {
+                  function (e) {
                     if (typeof failureCallback === 'function') {
                       failureCallback(e);
                     } else {
@@ -60726,7 +58245,7 @@
                 // Non-GIF Section
                 var img = new Image();
 
-                img.onload = function() {
+                img.onload = function () {
                   pImg.width = pImg.canvas.width = img.width;
                   pImg.height = pImg.canvas.height = img.height;
 
@@ -60739,7 +58258,7 @@
                   self._decrementPreload();
                 };
 
-                img.onerror = function(e) {
+                img.onerror = function (e) {
                   _main.default._friendlyFileLoadError(0, img.src);
                   if (typeof failureCallback === 'function') {
                     failureCallback(e);
@@ -60750,9 +58269,6 @@
 
                 // Set crossOrigin in case image is served with CORS headers.
                 // This will let us draw to the canvas without tainting it.
-                // See https://developer.mozilla.org/en-US/docs/HTML/CORS_Enabled_Image
-                // When using data-uris the file will be loaded locally
-                // so we don't need to worry about crossOrigin with base64 file types.
                 if (path.indexOf('data:image/') !== 0) {
                   img.crossOrigin = 'Anonymous';
                 }
@@ -60912,7 +58428,7 @@
            * @param {Number}    [sHeight] the height of the subsection of the
            *                            source image to draw into the destination rectangle
            */
-          _main.default.prototype.image = function(
+          _main.default.prototype.image = function (
             img,
             dx,
             dy,
@@ -60983,15 +58499,6 @@
            * Sets the fill value for displaying images. Images can be tinted to
            * specified colors or made transparent by including an alpha value.
            *
-           * To apply transparency to an image without affecting its color, use
-           * white as the tint color and specify an alpha value. For instance,
-           * tint(255, 128) will make an image 50% transparent (assuming the default
-           * alpha range of 0-255, which can be changed with <a href="#/p5/colorMode">colorMode()</a>).
-           *
-           * The value for the gray parameter must be less than or equal to the current
-           * maximum value as specified by <a href="#/p5/colorMode">colorMode()</a>. The default maximum value is
-           * 255.
-           *
            * @method tint
            * @param  {Number}        v1      red or hue value relative to
            *                                 the current color range
@@ -61016,14 +58523,13 @@
           /**
            * @method tint
            * @param  {Number[]}      values  an array containing the red,green,blue &
-           *                                 and alpha components of the color
            */
 
           /**
            * @method tint
            * @param  {p5.Color}      color   the tint color
            */
-          _main.default.prototype.tint = function() {
+          _main.default.prototype.tint = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -61042,7 +58548,7 @@
            *
            * @method noTint
            */
-          _main.default.prototype.noTint = function() {
+          _main.default.prototype.noTint = function () {
             this._renderer._tint = null;
           };
 
@@ -61054,7 +58560,7 @@
            * @param {p5.Image} The image to be tinted
            * @return {canvas} The resulting tinted canvas
            */
-          _main.default.prototype._getTintedImageCanvas = function(img) {
+          _main.default.prototype._getTintedImageCanvas = function (img) {
             if (!img.canvas) {
               return img;
             }
@@ -61090,18 +58596,10 @@
            * two additional parameters are specified, they are used to set the image's
            * width and height.
            *
-           * imageMode(CORNERS) interprets the second and third parameters of <a href="#/p5/image">image()</a>
-           * as the location of one corner, and the fourth and fifth parameters as the
-           * opposite corner.
-           *
-           * imageMode(CENTER) interprets the second and third parameters of <a href="#/p5/image">image()</a>
-           * as the image's center point. If two additional parameters are specified,
-           * they are used to set the image's width and height.
-           *
            * @method imageMode
            * @param {Constant} mode either CORNER, CORNERS, or CENTER
            */
-          _main.default.prototype.imageMode = function(m) {
+          _main.default.prototype.imageMode = function (m) {
             _main.default._validateParameters('imageMode', arguments);
             if (
               m === constants.CORNER ||
@@ -61126,7 +58624,7 @@
         }
       ],
       83: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -61167,7 +58665,7 @@
            * @constructor
            * @param {Number} width
            * @param {Number} height
-           */ _main.default.Image = function(width, height) {
+           */ _main.default.Image = function (width, height) {
             /**
              * Image width.
              * @property {Number} width
@@ -61210,7 +58708,7 @@
           /**
            * Helper function for animating GIF-based images with time
            */
-          _main.default.Image.prototype._animateGif = function(pInst) {
+          _main.default.Image.prototype._animateGif = function (pInst) {
             var props = this.gifProperties;
             var curTime = pInst._lastFrameTime + pInst.deltaTime;
             if (props.lastChangeTime === 0) {
@@ -61241,7 +58739,7 @@
           /**
            * Helper fxn for sharing pixel methods
            */
-          _main.default.Image.prototype._setProperty = function(prop, value) {
+          _main.default.Image.prototype._setProperty = function (prop, value) {
             this[prop] = value;
             this.setModified(true);
           };
@@ -61251,7 +58749,7 @@
            *
            * @method loadPixels
            */
-          _main.default.Image.prototype.loadPixels = function() {
+          _main.default.Image.prototype.loadPixels = function () {
             _main.default.Renderer2D.prototype.loadPixels.call(this);
             this.setModified(true);
           };
@@ -61276,7 +58774,7 @@
           /**
            * @method updatePixels
            */
-          _main.default.Image.prototype.updatePixels = function(x, y, w, h) {
+          _main.default.Image.prototype.updatePixels = function (x, y, w, h) {
             _main.default.Renderer2D.prototype.updatePixels.call(this, x, y, w, h);
             this.setModified(true);
           };
@@ -61306,7 +58804,7 @@
            * @param  {Number}        y
            * @return {Number[]}      color of pixel at x,y in array format [R, G, B, A]
            */
-          _main.default.Image.prototype.get = function(x, y, w, h) {
+          _main.default.Image.prototype.get = function (x, y, w, h) {
             _main.default._validateParameters('p5.Image.get', arguments);
             return _main.default.Renderer2D.prototype.get.apply(this, arguments);
           };
@@ -61318,43 +58816,29 @@
            * Set the color of a single pixel or write an image into
            * this <a href="#/p5.Image">p5.Image</a>.
            *
-           * Note that for a large number of pixels this will
-           * be slower than directly manipulating the pixels array
-           * and then calling <a href="#/p5.Image/updatePixels">updatePixels()</a>.
-           *
            * @method set
            * @param {Number}              x x-coordinate of the pixel
            * @param {Number}              y y-coordinate of the pixel
-           * @param {Number|Number[]|Object}   a grayscale value | pixel array |
-           *                                a <a href="#/p5.Color">p5.Color</a> | image to copy
+           * @param {Number|Number[]|Object}   a grayscale value | pixel array | a <a href="#/p5.Color">p5.Color</a> | image to copy
            */
-          _main.default.Image.prototype.set = function(x, y, imgOrCol) {
+          _main.default.Image.prototype.set = function (x, y, imgOrCol) {
             _main.default.Renderer2D.prototype.set.call(this, x, y, imgOrCol);
             this.setModified(true);
           };
 
           /**
-    * Resize the image to a new width and height. To make the image scale
-    * proportionally, use 0 as the value for the wide or high parameter.
-    * For instance, to make the width of an image 150 pixels, and change
-    * the height using the same proportion, use resize(150, 0).
-    *
-    * @method resize
-    * @param {Number} width the resized image width
-    * @param {Number} height the resized image height
-    */
-          _main.default.Image.prototype.resize = function(width, height) {
+          * Resize the image to a new width and height. To make the image scale
+          * proportionally, use 0 as the value for the wide or high parameter.
+          * For instance, to make the width of an image 150 pixels, and change
+          * the height using the same proportion, use resize(150, 0).
+          *
+          * @method resize
+          * @param {Number} width the resized image width
+          * @param {Number} height the resized image height
+          */
+          _main.default.Image.prototype.resize = function (width, height) {
             // Copy contents to a temporary canvas, resize the original
             // and then copy back.
-            //
-            // There is a faster approach that involves just one copy and swapping the
-            // this.canvas reference. We could switch to that approach if (as i think
-            // is the case) there an expectation that the user would not hold a
-            // reference to the backing canvas of a p5.Image. But since we do not
-            // enforce that at the moment, I am leaving in the slower, but safer
-            // implementation.
-
-            // auto-resize
             if (width === 0 && height === 0) {
               width = this.canvas.width;
               height = this.canvas.height;
@@ -61373,7 +58857,6 @@
 
             if (this.gifProperties) {
               var props = this.gifProperties;
-              //adapted from github.com/LinusU/resize-image-data
               var nearestNeighbor = function nearestNeighbor(src, dst) {
                 var pos = 0;
                 for (var y = 0; y < dst.height; y++) {
@@ -61396,23 +58879,19 @@
               }
             }
 
-            // prettier-ignore
             tempCanvas.getContext('2d').drawImage(
-  this.canvas,
-  0, 0, this.canvas.width, this.canvas.height,
-  0, 0, tempCanvas.width, tempCanvas.height);
+              this.canvas,
+              0, 0, this.canvas.width, this.canvas.height,
+              0, 0, tempCanvas.width, tempCanvas.height);
 
             // Resize the original canvas, which will clear its contents
             this.canvas.width = this.width = width;
             this.canvas.height = this.height = height;
 
-            //Copy the image back
-
-            // prettier-ignore
             this.drawingContext.drawImage(
-  tempCanvas,
-  0, 0, width, height,
-  0, 0, width, height);
+              tempCanvas,
+              0, 0, width, height,
+              0, 0, width, height);
 
             if (this.pixels.length > 0) {
               this.loadPixels();
@@ -61450,7 +58929,7 @@
            * @param  {Integer} dw
            * @param  {Integer} dh
            */
-          _main.default.Image.prototype.copy = function() {
+          _main.default.Image.prototype.copy = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -61469,7 +58948,7 @@
            * @method mask
            * @param {p5.Image} srcImage source image
            */
-          _main.default.Image.prototype.mask = function(p5Image) {
+          _main.default.Image.prototype.mask = function (p5Image) {
             if (p5Image === undefined) {
               p5Image = this;
             }
@@ -61502,14 +58981,11 @@
            * Applies an image filter to a <a href="#/p5.Image">p5.Image</a>
            *
            * @method filter
-           * @param  {Constant} filterType  either THRESHOLD, GRAY, OPAQUE, INVERT,
-           *                                POSTERIZE, ERODE, DILATE or BLUR.
-           *                                See Filters.js for docs on
-           *                                each available filter
-           * @param  {Number} [filterParam] an optional parameter unique
-           *                                to each filter, see above
+           * @param  {Constant} filterType  either THRESHOLD, GRAY, OPAQUE, INVERT, POSTERIZE, ERODE, DILATE or BLUR.
+           *                                See Filters.js for docs on each available filter
+           * @param  {Number} [filterParam] an optional parameter unique to each filter, see above
            */
-          _main.default.Image.prototype.filter = function(operation, value) {
+          _main.default.Image.prototype.filter = function (operation, value) {
             _filters.default.apply(this.canvas, _filters.default[operation], value);
             this.setModified(true);
           };
@@ -61528,15 +59004,7 @@
            * @param  {Integer} dy Y coordinate of the destination's upper left corner
            * @param  {Integer} dw destination image width
            * @param  {Integer} dh destination image height
-           * @param  {Constant} blendMode the blend mode. either
-           *     BLEND, DARKEST, LIGHTEST, DIFFERENCE,
-           *     MULTIPLY, EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT,
-           *     SOFT_LIGHT, DODGE, BURN, ADD or NORMAL.
-           *
-           * Available blend modes are: normal | multiply | screen | overlay |
-           *            darken | lighten | color-dodge | color-burn | hard-light |
-           *            soft-light | difference | exclusion | hue | saturation |
-           *            color | luminosity
+           * @param  {Constant} blendMode the blend mode.
            */
           /**
            * @method blend
@@ -61550,7 +59018,7 @@
            * @param  {Integer} dh
            * @param  {Constant} blendMode
            */
-          _main.default.Image.prototype.blend = function() {
+          _main.default.Image.prototype.blend = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -61572,7 +59040,7 @@
            * modified.
            * @private
            */
-          _main.default.Image.prototype.setModified = function(val) {
+          _main.default.Image.prototype.setModified = function (val) {
             this._modified = val; //enforce boolean?
           };
 
@@ -61585,7 +59053,7 @@
            * @return {boolean} a boolean indicating whether or not the
            * image has been updated or modified since last texture upload.
            */
-          _main.default.Image.prototype.isModified = function() {
+          _main.default.Image.prototype.isModified = function () {
             return this._modified;
           };
 
@@ -61593,14 +59061,11 @@
            * Saves the image to a file and force the browser to download it.
            * Accepts two strings for filename and file extension
            * Supports png (default), jpg, and gif
-           *<br><br>
-           * Note that the file will only be downloaded as an animated GIF
-           * if the p5.Image was loaded from a GIF file.
            * @method save
            * @param {String} filename give your file a name
            * @param  {String} extension 'png' or 'jpg'
            */
-          _main.default.Image.prototype.save = function(filename, extension) {
+          _main.default.Image.prototype.save = function (filename, extension) {
             if (this.gifProperties) {
               _main.default.prototype.saveGif(this, filename);
             } else {
@@ -61614,7 +59079,7 @@
            *
            * @method reset
            */
-          _main.default.Image.prototype.reset = function() {
+          _main.default.Image.prototype.reset = function () {
             if (this.gifProperties) {
               var props = this.gifProperties;
               props.playing = true;
@@ -61633,7 +59098,7 @@
            * @method getCurrentFrame
            * @return {Number}       The index for the currently displaying frame in animated GIF
            */
-          _main.default.Image.prototype.getCurrentFrame = function() {
+          _main.default.Image.prototype.getCurrentFrame = function () {
             if (this.gifProperties) {
               var props = this.gifProperties;
               return props.displayIndex % props.numFrames;
@@ -61646,7 +59111,7 @@
            * @method setFrame
            * @param {Number}       index the index for the frame that should be displayed
            */
-          _main.default.Image.prototype.setFrame = function(index) {
+          _main.default.Image.prototype.setFrame = function (index) {
             if (this.gifProperties) {
               var props = this.gifProperties;
               if (index < props.numFrames && index >= 0) {
@@ -61668,7 +59133,7 @@
            * @method numFrames
            * @return {Number}
            */
-          _main.default.Image.prototype.numFrames = function() {
+          _main.default.Image.prototype.numFrames = function () {
             if (this.gifProperties) {
               return this.gifProperties.numFrames;
             }
@@ -61680,7 +59145,7 @@
            *
            * @method play
            */
-          _main.default.Image.prototype.play = function() {
+          _main.default.Image.prototype.play = function () {
             if (this.gifProperties) {
               this.gifProperties.playing = true;
             }
@@ -61691,7 +59156,7 @@
            *
            * @method pause
            */
-          _main.default.Image.prototype.pause = function() {
+          _main.default.Image.prototype.pause = function () {
             if (this.gifProperties) {
               this.gifProperties.playing = false;
             }
@@ -61706,7 +59171,7 @@
            * @param {Number}    d the amount in milliseconds to delay between switching frames
            * @param {Number}    [index] the index of the frame that should have the new delay value {optional}
            */
-          _main.default.Image.prototype.delay = function(d, index) {
+          _main.default.Image.prototype.delay = function (d, index) {
             if (this.gifProperties) {
               var props = this.gifProperties;
               if (index < props.numFrames && index >= 0) {
@@ -61748,7 +59213,7 @@
         { '../core/main': 59, './filters': 80 }
       ],
       84: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -61776,19 +59241,11 @@
            * pixelDensity^2).
            *
            * While the above method is complex, it is flexible enough to work with
-           * any pixelDensity. Note that <a href="#/p5/set">set()</a> will automatically take care of
-           * setting all the appropriate values in <a href="#/p5/pixels">pixels[]</a> for a given (x, y) at
-           * any pixelDensity, but the performance may not be as fast when lots of
-           * modifications are made to the pixel array.
+           * any pixelDensity.
            *
            * Before accessing this array, the data must loaded with the <a href="#/p5/loadPixels">loadPixels()</a>
            * function. After the array data has been modified, the <a href="#/p5/updatePixels">updatePixels()</a>
            * function must be run to update the changes.
-           *
-           * Note that this is not a standard javascript array.  This means that
-           * standard javascript functions such as <a href="#/p5/slice">slice()</a> or
-           * <a href="#/p5/arrayCopy">arrayCopy()</a> do not
-           * work.
            *
            * @property {Number[]} pixels
            */ _main.default.prototype.pixels = []; /**
@@ -61822,7 +59279,7 @@
            * @param  {Integer} dh
            * @param  {Constant} blendMode
            */
-          _main.default.prototype.blend = function() {
+          _main.default.prototype.blend = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -61869,7 +59326,7 @@
            * @param  {Integer} dw
            * @param  {Integer} dh
            */
-          _main.default.prototype.copy = function() {
+          _main.default.prototype.copy = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -61918,7 +59375,7 @@
             );
           };
 
-          _main.default.prototype._copyHelper = function(
+          _main.default.prototype._copyHelper = function (
             dstImage,
             srcImage,
             sx,
@@ -61971,50 +59428,12 @@
           /**
            * Applies a filter to the canvas. The presets options are:
            *
-           * THRESHOLD
-           * Converts the image to black and white pixels depending if they are above or
-           * below the threshold defined by the level parameter. The parameter must be
-           * between 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.
-           *
-           * GRAY
-           * Converts any colors in the image to grayscale equivalents. No parameter
-           * is used.
-           *
-           * OPAQUE
-           * Sets the alpha channel to entirely opaque. No parameter is used.
-           *
-           * INVERT
-           * Sets each pixel to its inverse value. No parameter is used.
-           *
-           * POSTERIZE
-           * Limits each channel of the image to the number of colors specified as the
-           * parameter. The parameter can be set to values between 2 and 255, but
-           * results are most noticeable in the lower ranges.
-           *
-           * BLUR
-           * Executes a Gaussian blur with the level parameter specifying the extent
-           * of the blurring. If no parameter is used, the blur is equivalent to
-           * Gaussian blur of radius 1. Larger values increase the blur.
-           *
-           * ERODE
-           * Reduces the light areas. No parameter is used.
-           *
-           * DILATE
-           * Increases the light areas. No parameter is used.
-           *
-           * filter() does not work in WEBGL mode.
-           * A similar effect can be achieved in WEBGL mode using custom
-           * shaders. Adam Ferriss has written
-           *
            * @method filter
-           * @param  {Constant} filterType  either THRESHOLD, GRAY, OPAQUE, INVERT,
-           *                                POSTERIZE, BLUR, ERODE, DILATE or BLUR.
-           *                                See Filters.js for docs on
-           *                                each available filter
-           * @param  {Number} [filterParam] an optional parameter unique
-           *                                to each filter, see above
+           * @param  {Constant} filterType  either THRESHOLD, GRAY, OPAQUE, INVERT, POSTERIZE, BLUR, ERODE, DILATE or BLUR.
+           *                                See Filters.js for docs on each available filter
+           * @param  {Number} [filterParam] an optional parameter unique to each filter, see above
            */
-          _main.default.prototype.filter = function(operation, value) {
+          _main.default.prototype.filter = function (operation, value) {
             _main.default._validateParameters('filter', arguments);
             if (this.canvas !== undefined) {
               _filters.default.apply(this.canvas, _filters.default[operation], value);
@@ -62050,7 +59469,7 @@
            * @param  {Number}        y
            * @return {Number[]}      color of pixel at x,y in array format [R, G, B, A]
            */
-          _main.default.prototype.get = function(x, y, w, h) {
+          _main.default.prototype.get = function (x, y, w, h) {
             var _this$_renderer2;
             _main.default._validateParameters('get', arguments);
             return (_this$_renderer2 = this._renderer).get.apply(
@@ -62062,12 +59481,10 @@
           /**
            * Loads the pixel data for the display window into the <a href="#/p5/pixels">pixels[]</a> array. This
            * function must always be called before reading from or writing to <a href="#/p5/pixels">pixels[]</a>.
-           * Note that only changes made with <a href="#/p5/set">set()</a> or direct manipulation of <a href="#/p5/pixels">pixels[]</a>
-           * will occur.
            *
            * @method loadPixels
            */
-          _main.default.prototype.loadPixels = function() {
+          _main.default.prototype.loadPixels = function () {
             for (
               var _len3 = arguments.length, args = new Array(_len3), _key3 = 0;
               _key3 < _len3;
@@ -62088,23 +59505,13 @@
            * When setting an image, the x and y parameters define the coordinates for
            * the upper-left corner of the image, regardless of the current <a href="#/p5/imageMode">imageMode()</a>.
            *
-           * After using <a href="#/p5/set">set()</a>, you must call <a href="#/p5/updatePixels">updatePixels()</a> for your changes to appear.
-           * This should be called once all pixels have been set, and must be called before
-           * calling .<a href="#/p5/get">get()</a> or drawing the image.
-           *
-           * Setting the color of a single pixel with set(x, y) is easy, but not as
-           * fast as putting the data directly into <a href="#/p5/pixels">pixels[]</a>. Setting the <a href="#/p5/pixels">pixels[]</a>
-           * values directly may be complicated when working with a retina display,
-           * but will perform better when lots of pixels need to be set directly on
-           * every loop. See the reference for <a href="#/p5/pixels">pixels[]</a> for more information.
-           *
            * @method set
            * @param {Number}              x x-coordinate of the pixel
            * @param {Number}              y y-coordinate of the pixel
            * @param {Number|Number[]|Object} c insert a grayscale value | a pixel array |
            *                                a <a href="#/p5.Color">p5.Color</a> object | a <a href="#/p5.Image">p5.Image</a> to copy
            */
-          _main.default.prototype.set = function(x, y, imgOrCol) {
+          _main.default.prototype.set = function (x, y, imgOrCol) {
             this._renderer.set(x, y, imgOrCol);
           };
           /**
@@ -62123,7 +59530,7 @@
            * @param  {Number} [w]    width of region to update
            * @param  {Number} [h]    height of region to update
            */
-          _main.default.prototype.updatePixels = function(x, y, w, h) {
+          _main.default.prototype.updatePixels = function (x, y, w, h) {
             _main.default._validateParameters('updatePixels', arguments);
             // graceful fail - if loadPixels() or set() has not been called, pixel
             // array will be empty, ignore call to updatePixels()
@@ -62138,7 +59545,7 @@
         { '../color/p5.Color': 46, '../core/main': 59, './filters': 80 }
       ],
       85: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -62173,45 +59580,37 @@
           }
 
           /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * Loads a JSON file from a file or a URL, and returns an Object.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * Note that even if the JSON file contains an Array, an Object will be
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * returned with index numbers as keys.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * This method is asynchronous, meaning it may not finish before the next
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * line in your sketch is executed. JSONP is supported via a polyfill and you
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * can pass in as the second argument an object with definitions of the json
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * callback following the syntax specified <a href="https://github.com/camsong/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * fetch-jsonp">here</a>.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * This method is suitable for fetching files up to size of 64MB.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @method loadJSON
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @param  {String}        path       name of the file or url to load
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @param  {Object}        [jsonpOptions] options object for jsonp related settings
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @param  {String}        [datatype] "json" or "jsonp"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @param  {function}      [callback] function to be executed after
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *                                    <a href="#/p5/loadJSON">loadJSON()</a> completes, data is passed
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *                                    in as first argument
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @param  {function}      [errorCallback] function to be executed if
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *                                    there is an error, response is passed
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *                                    in as first argument
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * @return {Object|Array}             JSON data
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
+           * Loads a JSON file from a file or a URL, and returns an Object.
+           *
+           * This method is suitable for fetching files up to size of 64MB.
+           * @method loadJSON
+           * @param  {String}     path       name of the file or url to load
+           * @param  {Object}     [jsonpOptions] options object for jsonp related settings
+           * @param  {String}     [datatype] "json" or "jsonp"
+           * @param  {function}   [callback] function to be executed after
+           *                                    <a href="#/p5/loadJSON">loadJSON()</a> completes, data is passed
+           *                                    in as first argument
+           * @param  {function}   [errorCallback] function to be executed if
+           *                                    there is an error, response is passed
+           *                                    in as first argument
+           * @return {Object|Array}             JSON data
+           */
           /**
            * @method loadJSON
-           * @param  {String}        path
-           * @param  {String}        datatype
-           * @param  {function}      [callback]
-           * @param  {function}      [errorCallback]
+           * @param  {String}     path
+           * @param  {String}     datatype
+           * @param  {function}   [callback]
+           * @param  {function}   [errorCallback]
            * @return {Object|Array}
            */
           /**
            * @method loadJSON
-           * @param  {String}        path
-           * @param  {function}      callback
-           * @param  {function}      [errorCallback]
+           * @param  {String}     path
+           * @param  {function}   callback
+           * @param  {function}   [errorCallback]
            * @return {Object|Array}
            */
-          _main.default.prototype.loadJSON = function() {
+          _main.default.prototype.loadJSON = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -62257,7 +59656,7 @@
               'GET',
               options,
               t,
-              function(resp) {
+              function (resp) {
                 for (var k in resp) {
                   ret[k] = resp[k];
                 }
@@ -62267,7 +59666,7 @@
 
                 self._decrementPreload();
               },
-              function(err) {
+              function (err) {
                 // Error handling
                 _main.default._friendlyFileLoadError(5, path);
 
@@ -62306,7 +59705,7 @@
     *                               in as first argument
     * @return {String[]}            Array of Strings
     */
-          _main.default.prototype.loadStrings = function() {
+          _main.default.prototype.loadStrings = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -62336,7 +59735,7 @@
               args[0],
               'GET',
               'text',
-              function(data) {
+              function (data) {
                 // split lines handling mac/windows/linux endings
                 var lines = data
                   .replace(/\r\n/g, '\r')
@@ -62360,7 +59759,7 @@
 
                 self._decrementPreload();
               },
-              function(err) {
+              function (err) {
                 // Error handling
                 _main.default._friendlyFileLoadError(3, arguments[0]);
 
@@ -62404,7 +59803,7 @@
            *                                      in as first argument
            * @return {Object}                     <a href="#/p5.Table">Table</a> object containing data
            */
-          _main.default.prototype.loadTable = function(path) {
+          _main.default.prototype.loadTable = function (path) {
             // p5._validateParameters('loadTable', arguments);
             var callback;
             var errorCallback;
@@ -62450,7 +59849,7 @@
               path,
               'GET',
               'table',
-              function(resp) {
+              function (resp) {
                 var state = {};
 
                 // define constants
@@ -62490,7 +59889,7 @@
                   currentRecord = null;
                 };
 
-                for (;;) {
+                for (; ;) {
                   currentChar = resp[offset++];
 
                   // EOF
@@ -62580,7 +59979,7 @@
 
                 self._decrementPreload();
               },
-              function(err) {
+              function (err) {
                 // Error handling
                 _main.default._friendlyFileLoadError(2, path);
 
@@ -62640,7 +60039,7 @@
            *                               in as first argument
            * @return {Object}              XML object containing data
            */
-          _main.default.prototype.loadXML = function() {
+          _main.default.prototype.loadXML = function () {
             for (
               var _len3 = arguments.length, args = new Array(_len3), _key3 = 0;
               _key3 < _len3;
@@ -62667,7 +60066,7 @@
               args[0],
               'GET',
               'xml',
-              function(xml) {
+              function (xml) {
                 for (var key in xml) {
                   ret[key] = xml[key];
                 }
@@ -62677,7 +60076,7 @@
 
                 self._decrementPreload();
               },
-              function(err) {
+              function (err) {
                 // Error handling
                 _main.default._friendlyFileLoadError(1, arguments[0]);
 
@@ -62702,7 +60101,7 @@
            *                                    is an error
            * @returns {Object} an object whose 'bytes' property will be the loaded buffer
            */
-          _main.default.prototype.loadBytes = function(file, callback, errorCallback) {
+          _main.default.prototype.loadBytes = function (file, callback, errorCallback) {
             var ret = {};
 
             var self = this;
@@ -62710,7 +60109,7 @@
               file,
               'GET',
               'arrayBuffer',
-              function(arrayBuffer) {
+              function (arrayBuffer) {
                 ret.bytes = new Uint8Array(arrayBuffer);
 
                 if (typeof callback === 'function') {
@@ -62719,7 +60118,7 @@
 
                 self._decrementPreload();
               },
-              function(err) {
+              function (err) {
                 // Error handling
                 _main.default._friendlyFileLoadError(6, file);
 
@@ -62771,7 +60170,7 @@
            * @param  {function}      [errorCallback]
            * @return {Promise}
            */
-          _main.default.prototype.httpGet = function() {
+          _main.default.prototype.httpGet = function () {
             _main.default._validateParameters('httpGet', arguments);
 
             var args = Array.prototype.slice.call(arguments);
@@ -62814,7 +60213,7 @@
            * @param  {function}      [errorCallback]
            * @return {Promise}
            */
-          _main.default.prototype.httpPost = function() {
+          _main.default.prototype.httpPost = function () {
             _main.default._validateParameters('httpPost', arguments);
 
             var args = Array.prototype.slice.call(arguments);
@@ -62856,7 +60255,7 @@
            * @param  {function}      [errorCallback]
            * @return {Promise}
            */
-          _main.default.prototype.httpDo = function() {
+          _main.default.prototype.httpDo = function () {
             var type;
             var callback;
             var errorCallback;
@@ -62965,7 +60364,7 @@
             } else {
               promise = fetch(request);
             }
-            promise = promise.then(function(res) {
+            promise = promise.then(function (res) {
               if (!res.ok) {
                 var err = new Error(res.body);
                 err.status = res.status;
@@ -62988,7 +60387,7 @@
                   case 'arrayBuffer':
                     return res.arrayBuffer();
                   case 'xml':
-                    return res.text().then(function(text) {
+                    return res.text().then(function (text) {
                       var parser = new DOMParser();
                       var xml = parser.parseFromString(text, 'text/xml');
                       return new _main.default.XML(xml.documentElement);
@@ -62998,7 +60397,7 @@
                 }
               }
             });
-            promise.then(callback || function() {});
+            promise.then(callback || function () { });
             promise.catch(errorCallback || console.error);
             return promise;
           };
@@ -63020,7 +60419,7 @@
            * @param {String} [extension]
            * @return {p5.PrintWriter}
            */
-          _main.default.prototype.createWriter = function(name, extension) {
+          _main.default.prototype.createWriter = function (name, extension) {
             var newPW;
             // check that it doesn't already exist
             for (var i in _main.default.prototype._pWriters) {
@@ -63043,7 +60442,7 @@
            *  @param  {String}     filename
            *  @param  {String}     [extension]
            */
-          _main.default.PrintWriter = function(filename, extension) {
+          _main.default.PrintWriter = function (filename, extension) {
             var self = this;
             this.name = filename;
             this.content = '';
@@ -63053,7 +60452,7 @@
              * @method write
              * @param {Array} data all data to be written by the PrintWriter
              */
-            this.write = function(data) {
+            this.write = function (data) {
               this.content += data;
             };
             /**
@@ -63061,21 +60460,21 @@
              * @method print
              * @param {Array} data all data to be printed by the PrintWriter
              */
-            this.print = function(data) {
+            this.print = function (data) {
               this.content += ''.concat(data, '\n');
             };
             /**
              * Clears the data already written to the PrintWriter object
              * @method clear
              */
-            this.clear = function() {
+            this.clear = function () {
               this.content = '';
             };
             /**
              * Closes the PrintWriter
              * @method close
              */
-            this.close = function() {
+            this.close = function () {
               // convert String to Array for the writeFile Blob
               var arr = [];
               arr.push(this.content);
@@ -63098,9 +60497,6 @@
            * @for p5
            */
 
-          // object, filename, options --> saveJSON, saveStrings,
-          // filename, [extension] [canvas] --> saveImage
-
           /**
            *  Saves a given element(image, text, json, csv, wav, or html) to the client's
            *  computer. The first parameter can be a pointer to element we want to save.
@@ -63113,29 +60509,19 @@
            *  If it is called without specifying an element, by default it will save the
            *  whole canvas as an image file. You can optionally specify a filename as
            *  the first parameter in such a case.
-           *  **Note that it is not recommended to
-           *  call this method within draw, as it will open a new save dialog on every
-           *  render.**
            *
            * @method save
-           * @param  {Object|String} [objectOrFilename]  If filename is provided, will
-           *                                             save canvas as an image with
-           *                                             either png or jpg extension
-           *                                             depending on the filename.
-           *                                             If object is provided, will
-           *                                             save depending on the object
-           *                                             and filename (see examples
-           *                                             above).
-           * @param  {String} [filename] If an object is provided as the first
-           *                               parameter, then the second parameter
-           *                               indicates the filename,
-           *                               and should include an appropriate
-           *                               file extension (see examples above).
-           * @param  {Boolean|String} [options]  Additional options depend on
-           *                            filetype.
+           * @param  {Object|String} [objectOrFilename]  If filename is provided, will save canvas as an image with
+           *                                             either png or jpg extension depending on the filename.
+           *                                             If object is provided, will save depending on the object
+           *                                             and filename
+           * @param  {String} [filename] If an object is provided as the first parameter, then the second parameter
+           *                               indicates the filename, and should include an appropriate
+           *                               file extension
+           * @param  {Boolean|String} [options]  Additional options depend on filetype.
            */
 
-          _main.default.prototype.save = function(object, _filename, _options) {
+          _main.default.prototype.save = function (object, _filename, _options) {
             // parse the arguments and figure out which things we are saving
             var args = arguments;
             // =================================================
@@ -63198,7 +60584,7 @@
            *                                 file to optimize filesize
            *                                 (but not readability).
            */
-          _main.default.prototype.saveJSON = function(json, filename, opt) {
+          _main.default.prototype.saveJSON = function (json, filename, opt) {
             _main.default._validateParameters('saveJSON', arguments);
             var stringify;
             if (opt) {
@@ -63223,7 +60609,7 @@
            *  @param  {String} [extension] the filename's extension
            *  @param  {Boolean} [isCRLF] if true, change line-break to CRLF
            */
-          _main.default.prototype.saveStrings = function(
+          _main.default.prototype.saveStrings = function (
             list,
             filename,
             extension,
@@ -63264,7 +60650,7 @@
            *  @param  {String} filename the filename to which the Table should be saved
            *  @param  {String} [options]  can be one of "tsv", "csv", or "html"
            */
-          _main.default.prototype.saveTable = function(table, filename, options) {
+          _main.default.prototype.saveTable = function (table, filename, options) {
             _main.default._validateParameters('saveTable', arguments);
             var ext;
             if (options === undefined) {
@@ -63369,7 +60755,7 @@
            *  @param  {String} [extension]
            *  @private
            */
-          _main.default.prototype.writeFile = function(
+          _main.default.prototype.writeFile = function (
             dataToDownload,
             filename,
             extension
@@ -63398,7 +60784,7 @@
            *  @param  {String} [filename]
            *  @param  {String} [extension]
            */
-          _main.default.prototype.downloadFile = function(data, fName, extension) {
+          _main.default.prototype.downloadFile = function (data, fName, extension) {
             var fx = _checkFileExtension(fName, extension);
             var filename = fx[0];
 
@@ -63412,7 +60798,7 @@
             a.download = filename;
 
             // Firefox requires the link to be added to the DOM before click()
-            a.onclick = function(e) {
+            a.onclick = function (e) {
               destroyClickedElement(e);
               e.stopPropagation();
             };
@@ -63471,7 +60857,7 @@
            *  @return  {Boolean} [description]
            *  @private
            */
-          _main.default.prototype._isSafari = function() {
+          _main.default.prototype._isSafari = function () {
             var x = Object.prototype.toString.call(window.HTMLElement);
             return x.indexOf('Constructor') > 0;
           };
@@ -63501,7 +60887,7 @@
         }
       ],
       86: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -63544,7 +60930,7 @@
            *  <li>header - this table has a header (title) row
            *  </ul>
            */
-          _main.default.Table = function(rows) {
+          _main.default.Table = function (rows) {
             /**
              * An array containing the names of the columns in the table, if the "header" the table is
              * loaded with the "header" parameter.
@@ -63563,7 +60949,7 @@
           /**
            *  Use <a href="#/p5/addRow">addRow()</a> to add a new row of data to a <a href="#/p5.Table">p5.Table</a> object. By default,
            *  an empty row is created. Typically, you would store a reference to
-           *  the new row in a TableRow object (see newRow in the example above),
+           *  the new row in a TableRow object,
            *  and then set individual values using <a href="#/p5/set">set()</a>.
            *
            *  If a <a href="#/p5.TableRow">p5.TableRow</a> object is included as a parameter, then that row is
@@ -63573,7 +60959,7 @@
            *  @param   {p5.TableRow} [row] row to be added to the table
            *  @return  {p5.TableRow} the row that was added
            */
-          _main.default.Table.prototype.addRow = function(row) {
+          _main.default.Table.prototype.addRow = function (row) {
             // make sure it is a valid TableRow
             var r = row || new _main.default.TableRow();
 
@@ -63592,7 +60978,7 @@
            * @method  removeRow
            * @param   {Integer} id ID number of the row to remove
            */
-          _main.default.Table.prototype.removeRow = function(id) {
+          _main.default.Table.prototype.removeRow = function (id) {
             this.rows[id].table = null; // remove reference to table
             var chunk = this.rows.splice(id + 1, this.rows.length);
             this.rows.pop();
@@ -63607,7 +60993,7 @@
            * @param  {Integer}   rowID ID number of the row to get
            * @return {p5.TableRow} <a href="#/p5.TableRow">p5.TableRow</a> object
            */
-          _main.default.Table.prototype.getRow = function(r) {
+          _main.default.Table.prototype.getRow = function (r) {
             return this.rows[r];
           };
 
@@ -63617,7 +61003,7 @@
            *  @method  getRows
            *  @return {p5.TableRow[]}   Array of <a href="#/p5.TableRow">p5.TableRow</a>s
            */
-          _main.default.Table.prototype.getRows = function() {
+          _main.default.Table.prototype.getRows = function () {
             return this.rows;
           };
 
@@ -63634,7 +61020,7 @@
            *                                 column to search
            *  @return {p5.TableRow}
            */
-          _main.default.Table.prototype.findRow = function(value, column) {
+          _main.default.Table.prototype.findRow = function (value, column) {
             // try the Object
             if (typeof column === 'string') {
               for (var i = 0; i < this.rows.length; i++) {
@@ -63667,7 +61053,7 @@
            *                                 column to search
            *  @return {p5.TableRow[]}        An Array of TableRow objects
            */
-          _main.default.Table.prototype.findRows = function(value, column) {
+          _main.default.Table.prototype.findRows = function (value, column) {
             var ret = [];
             if (typeof column === 'string') {
               for (var i = 0; i < this.rows.length; i++) {
@@ -63699,7 +61085,7 @@
            *                                  title (string)
            * @return {p5.TableRow}        TableRow object
            */
-          _main.default.Table.prototype.matchRow = function(regexp, column) {
+          _main.default.Table.prototype.matchRow = function (regexp, column) {
             if (typeof column === 'number') {
               for (var j = 0; j < this.rows.length; j++) {
                 if (this.rows[j].arr[column].match(regexp)) {
@@ -63728,7 +61114,7 @@
            *                                  title (string)
            * @return {p5.TableRow[]}          An Array of TableRow objects
            */
-          _main.default.Table.prototype.matchRows = function(regexp, column) {
+          _main.default.Table.prototype.matchRows = function (regexp, column) {
             var ret = [];
             if (typeof column === 'number') {
               for (var j = 0; j < this.rows.length; j++) {
@@ -63754,7 +61140,7 @@
            *  @param  {String|Number} column String or Number of the column to return
            *  @return {Array}       Array of column values
            */
-          _main.default.Table.prototype.getColumn = function(value) {
+          _main.default.Table.prototype.getColumn = function (value) {
             var ret = [];
             if (typeof value === 'string') {
               for (var i = 0; i < this.rows.length; i++) {
@@ -63774,7 +61160,7 @@
            *
            *  @method  clearRows
            */
-          _main.default.Table.prototype.clearRows = function() {
+          _main.default.Table.prototype.clearRows = function () {
             delete this.rows;
             this.rows = [];
           };
@@ -63788,7 +61174,7 @@
            *  @method  addColumn
            *  @param {String} [title] title of the given column
            */
-          _main.default.Table.prototype.addColumn = function(title) {
+          _main.default.Table.prototype.addColumn = function (title) {
             var t = title || null;
             this.columns.push(t);
           };
@@ -63799,7 +61185,7 @@
            *  @method  getColumnCount
            *  @return {Integer} Number of columns in this table
            */
-          _main.default.Table.prototype.getColumnCount = function() {
+          _main.default.Table.prototype.getColumnCount = function () {
             return this.columns.length;
           };
 
@@ -63809,7 +61195,7 @@
            *  @method  getRowCount
            *  @return {Integer} Number of rows in this table
            */
-          _main.default.Table.prototype.getRowCount = function() {
+          _main.default.Table.prototype.getRowCount = function () {
             return this.rows.length;
           };
 
@@ -63825,7 +61211,7 @@
            *  @param  {String|Integer} [column] Column ID (number)
            *                                   or name (string)
            */
-          _main.default.Table.prototype.removeTokens = function(chars, column) {
+          _main.default.Table.prototype.removeTokens = function (chars, column) {
             var escape = function escape(s) {
               return s.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
             };
@@ -63872,7 +61258,7 @@
            *  @param  {String|Integer} [column] Column ID (number)
            *                                   or name (string)
            */
-          _main.default.Table.prototype.trim = function(column) {
+          _main.default.Table.prototype.trim = function (column) {
             var regex = new RegExp(' ', 'g');
 
             if (typeof column === 'undefined') {
@@ -63912,7 +61298,7 @@
            *  @method  removeColumn
            *  @param  {String|Integer} column columnName (string) or ID (number)
            */
-          _main.default.Table.prototype.removeColumn = function(c) {
+          _main.default.Table.prototype.removeColumn = function (c) {
             var cString;
             var cNumber;
             if (typeof c === 'string') {
@@ -63948,7 +61334,7 @@
            *                               or title (String)
            * @param {String|Number} value  value to assign
            */
-          _main.default.Table.prototype.set = function(row, column, value) {
+          _main.default.Table.prototype.set = function (row, column, value) {
             this.rows[row].set(column, value);
           };
 
@@ -63963,7 +61349,7 @@
            *                               or title (String)
            * @param {Number} value  value to assign
            */
-          _main.default.Table.prototype.setNum = function(row, column, value) {
+          _main.default.Table.prototype.setNum = function (row, column, value) {
             this.rows[row].setNum(column, value);
           };
 
@@ -63978,7 +61364,7 @@
            *                               or title (String)
            * @param {String} value  value to assign
            */
-          _main.default.Table.prototype.setString = function(row, column, value) {
+          _main.default.Table.prototype.setString = function (row, column, value) {
             this.rows[row].setString(column, value);
           };
 
@@ -63993,7 +61379,7 @@
            *                                   ID (number)
            * @return {String|Number}
            */
-          _main.default.Table.prototype.get = function(row, column) {
+          _main.default.Table.prototype.get = function (row, column) {
             return this.rows[row].get(column);
           };
 
@@ -64008,7 +61394,7 @@
            *                                   ID (number)
            * @return {Number}
            */
-          _main.default.Table.prototype.getNum = function(row, column) {
+          _main.default.Table.prototype.getNum = function (row, column) {
             return this.rows[row].getNum(column);
           };
 
@@ -64024,7 +61410,7 @@
            * @return {String}
            */
 
-          _main.default.Table.prototype.getString = function(row, column) {
+          _main.default.Table.prototype.getString = function (row, column) {
             return this.rows[row].getString(column);
           };
 
@@ -64038,7 +61424,7 @@
            *                              title each row object (optional)
            * @return {Object}
            */
-          _main.default.Table.prototype.getObject = function(headerColumn) {
+          _main.default.Table.prototype.getObject = function (headerColumn) {
             var tableObject = {};
             var obj, cPos, index;
 
@@ -64068,7 +61454,7 @@
            * @method  getArray
            * @return {Array}
            */
-          _main.default.Table.prototype.getArray = function() {
+          _main.default.Table.prototype.getArray = function () {
             var tableArray = [];
             for (var i = 0; i < this.rows.length; i++) {
               tableArray.push(this.rows[i].arr);
@@ -64081,7 +61467,7 @@
         { '../core/main': 59 }
       ],
       87: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -64107,7 +61493,7 @@
            *                              string of values, separated by the
            *                              separator
            *  @param {String} [separator] comma separated values (csv) by default
-           */ _main.default.TableRow = function(str, separator) {
+           */ _main.default.TableRow = function (str, separator) {
             var arr = [];
             var obj = {};
             if (str) {
@@ -64133,7 +61519,7 @@
            *                                or Title (String)
            *  @param {String|Number} value  The value to be stored
            */
-          _main.default.TableRow.prototype.set = function(column, value) {
+          _main.default.TableRow.prototype.set = function (column, value) {
             // if typeof column is string, use .obj
             if (typeof column === 'string') {
               var cPos = this.table.columns.indexOf(column); // index of columnID
@@ -64167,7 +61553,7 @@
            *  @param {Number|String} value  The value to be stored
            *                                as a Float
            */
-          _main.default.TableRow.prototype.setNum = function(column, value) {
+          _main.default.TableRow.prototype.setNum = function (column, value) {
             var floatVal = parseFloat(value);
             this.set(column, floatVal);
           };
@@ -64182,7 +61568,7 @@
            *  @param {String|Number|Boolean|Object} value  The value to be stored
            *                                as a String
            */
-          _main.default.TableRow.prototype.setString = function(column, value) {
+          _main.default.TableRow.prototype.setString = function (column, value) {
             var stringVal = value.toString();
             this.set(column, stringVal);
           };
@@ -64196,7 +61582,7 @@
            *                                   ID (number)
            *  @return {String|Number}
            */
-          _main.default.TableRow.prototype.get = function(column) {
+          _main.default.TableRow.prototype.get = function (column) {
             if (typeof column === 'string') {
               return this.obj[column];
             } else {
@@ -64214,7 +61600,7 @@
            *                                   ID (number)
            *  @return {Number}  Float Floating point number
            */
-          _main.default.TableRow.prototype.getNum = function(column) {
+          _main.default.TableRow.prototype.getNum = function (column) {
             var ret;
             if (typeof column === 'string') {
               ret = parseFloat(this.obj[column]);
@@ -64238,7 +61624,7 @@
            *                                   ID (number)
            *  @return {String}  String
            */
-          _main.default.TableRow.prototype.getString = function(column) {
+          _main.default.TableRow.prototype.getString = function (column) {
             if (typeof column === 'string') {
               return this.obj[column].toString();
             } else {
@@ -64251,7 +61637,7 @@
         { '../core/main': 59 }
       ],
       88: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -64270,7 +61656,7 @@
            *
            * @class p5.XML
            * @constructor
-           */ _main.default.XML = function(DOM) {
+           */ _main.default.XML = function (DOM) {
             if (!DOM) {
               var xmlDoc = document.implementation.createDocument(null, 'doc');
               this.DOM = xmlDoc.createElement('root');
@@ -64286,7 +61672,7 @@
            * @method getParent
            * @return {p5.XML}   element parent
            */
-          _main.default.XML.prototype.getParent = function() {
+          _main.default.XML.prototype.getParent = function () {
             return new _main.default.XML(this.DOM.parentElement);
           };
 
@@ -64296,7 +61682,7 @@
            * @method getName
            * @return {String} the name of the node
            */
-          _main.default.XML.prototype.getName = function() {
+          _main.default.XML.prototype.getName = function () {
             return this.DOM.tagName;
           };
 
@@ -64306,7 +61692,7 @@
            * @method setName
            * @param {String} the new name of the node
            */
-          _main.default.XML.prototype.setName = function(name) {
+          _main.default.XML.prototype.setName = function (name) {
             var content = this.DOM.innerHTML;
             var attributes = this.DOM.attributes;
             var xmlDoc = document.implementation.createDocument(null, 'default');
@@ -64325,7 +61711,7 @@
            * @method hasChildren
            * @return {boolean}
            */
-          _main.default.XML.prototype.hasChildren = function() {
+          _main.default.XML.prototype.hasChildren = function () {
             return this.DOM.children.length > 0;
           };
 
@@ -64337,7 +61723,7 @@
            * @method listChildren
            * @return {String[]} names of the children of the element
            */
-          _main.default.XML.prototype.listChildren = function() {
+          _main.default.XML.prototype.listChildren = function () {
             var arr = [];
             for (var i = 0; i < this.DOM.childNodes.length; i++) {
               arr.push(this.DOM.childNodes[i].nodeName);
@@ -64354,7 +61740,7 @@
            * @param {String} [name] element name
            * @return {p5.XML[]} children of the element
            */
-          _main.default.XML.prototype.getChildren = function(param) {
+          _main.default.XML.prototype.getChildren = function (param) {
             if (param) {
               return elementsToP5XML(this.DOM.getElementsByTagName(param));
             } else {
@@ -64379,7 +61765,7 @@
            * @param {String|Integer} name element name or index
            * @return {p5.XML}
            */
-          _main.default.XML.prototype.getChild = function(param) {
+          _main.default.XML.prototype.getChild = function (param) {
             if (typeof param === 'string') {
               var _iteratorNormalCompletion = true;
               var _didIteratorError = false;
@@ -64421,7 +61807,7 @@
            * @method addChild
            * @param {p5.XML} node a <a href="#/p5.XML">p5.XML</a> Object which will be the child to be added
            */
-          _main.default.XML.prototype.addChild = function(node) {
+          _main.default.XML.prototype.addChild = function (node) {
             if (node instanceof _main.default.XML) {
               this.DOM.appendChild(node.DOM);
             } else {
@@ -64435,7 +61821,7 @@
            * @method removeChild
            * @param {String|Integer} name element name or index
            */
-          _main.default.XML.prototype.removeChild = function(param) {
+          _main.default.XML.prototype.removeChild = function (param) {
             var ind = -1;
             if (typeof param === 'string') {
               for (var i = 0; i < this.DOM.children.length; i++) {
@@ -64458,7 +61844,7 @@
            * @method getAttributeCount
            * @return {Integer}
            */
-          _main.default.XML.prototype.getAttributeCount = function() {
+          _main.default.XML.prototype.getAttributeCount = function () {
             return this.DOM.attributes.length;
           };
 
@@ -64469,7 +61855,7 @@
            * @method listAttributes
            * @return {String[]} an array of strings containing the names of attributes
            */
-          _main.default.XML.prototype.listAttributes = function() {
+          _main.default.XML.prototype.listAttributes = function () {
             var arr = [];
             var _iteratorNormalCompletion2 = true;
             var _didIteratorError2 = false;
@@ -64508,7 +61894,7 @@
            * @param {String} the attribute to be checked
            * @return {boolean} true if attribute found else false
            */
-          _main.default.XML.prototype.hasAttribute = function(name) {
+          _main.default.XML.prototype.hasAttribute = function (name) {
             var obj = {};
             var _iteratorNormalCompletion3 = true;
             var _didIteratorError3 = false;
@@ -64551,7 +61937,7 @@
            * @param {Number} [defaultValue]  the default value of the attribute
            * @return {Number}
            */
-          _main.default.XML.prototype.getNum = function(name, defaultValue) {
+          _main.default.XML.prototype.getNum = function (name, defaultValue) {
             var obj = {};
             var _iteratorNormalCompletion4 = true;
             var _didIteratorError4 = false;
@@ -64594,7 +61980,7 @@
            * @param {Number} [defaultValue]  the default value of the attribute
            * @return {String}
            */
-          _main.default.XML.prototype.getString = function(name, defaultValue) {
+          _main.default.XML.prototype.getString = function (name, defaultValue) {
             var obj = {};
             var _iteratorNormalCompletion5 = true;
             var _didIteratorError5 = false;
@@ -64634,7 +62020,7 @@
            * @param {String} name            the full name of the attribute
            * @param {Number|String|Boolean} value  the value of the attribute
            */
-          _main.default.XML.prototype.setAttribute = function(name, value) {
+          _main.default.XML.prototype.setAttribute = function (name, value) {
             this.DOM.setAttribute(name, value);
           };
 
@@ -64646,7 +62032,7 @@
            * @param {String} [defaultValue] value returned if no content is found
            * @return {String}
            */
-          _main.default.XML.prototype.getContent = function(defaultValue) {
+          _main.default.XML.prototype.getContent = function (defaultValue) {
             var str;
             str = this.DOM.textContent;
             str = str.replace(/\s\s+/g, ',');
@@ -64659,7 +62045,7 @@
            * @method setContent
            * @param {String} text the new content
            */
-          _main.default.XML.prototype.setContent = function(content) {
+          _main.default.XML.prototype.setContent = function (content) {
             if (!this.DOM.children.length) {
               this.DOM.textContent = content;
             }
@@ -64672,7 +62058,7 @@
            * @method serialize
            * @return {String} Serialized string of the element
            */
-          _main.default.XML.prototype.serialize = function() {
+          _main.default.XML.prototype.serialize = function () {
             var xmlSerializer = new XMLSerializer();
             return xmlSerializer.serializeToString(this.DOM);
           };
@@ -64682,7 +62068,7 @@
         { '../core/main': 59 }
       ],
       89: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -64722,7 +62108,7 @@
            * @param  {Number} high maximum limit
            * @return {Number}      constrained number
            */
-          _main.default.prototype.constrain = function(n, low, high) {
+          _main.default.prototype.constrain = function (n, low, high) {
             _main.default._validateParameters('constrain', arguments);
             return Math.max(Math.min(n, high), low);
           };
@@ -64747,7 +62133,7 @@
            * @param  {Number} z2 z-coordinate of the second point
            * @return {Number}    distance between the two points
            */
-          _main.default.prototype.dist = function() {
+          _main.default.prototype.dist = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -64801,7 +62187,7 @@
            * @param  {Number} amt   number
            * @return {Number}       lerped value
            */
-          _main.default.prototype.lerp = function(start, stop, amt) {
+          _main.default.prototype.lerp = function (start, stop, amt) {
             _main.default._validateParameters('lerp', arguments);
             return amt * (stop - start) + start;
           };
@@ -64829,7 +62215,7 @@
            * @param  {Number} b second value
            * @return {Number}   magnitude of vector from (0,0) to (a,b)
            */
-          _main.default.prototype.mag = function(x, y) {
+          _main.default.prototype.mag = function (x, y) {
             _main.default._validateParameters('mag', arguments);
             return hypot(x, y);
           };
@@ -64846,7 +62232,7 @@
     * @param  {Boolean} [withinBounds] constrain the value to the newly mapped range
     * @return {Number}        remapped number
     */
-          _main.default.prototype.map = function(
+          _main.default.prototype.map = function (
             n,
             start1,
             stop1,
@@ -64881,7 +62267,7 @@
            * @param  {Number[]} nums Numbers to compare
            * @return {Number}
            */
-          _main.default.prototype.max = function() {
+          _main.default.prototype.max = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -64911,7 +62297,7 @@
            * @param  {Number[]} nums Numbers to compare
            * @return {Number}
            */
-          _main.default.prototype.min = function() {
+          _main.default.prototype.min = function () {
             for (
               var _len3 = arguments.length, args = new Array(_len3), _key3 = 0;
               _key3 < _len3;
@@ -64930,7 +62316,7 @@
            * Normalizes a number from another range into a value between 0 and 1.
            * Identical to map(value, low, high, 0, 1).
            * Numbers outside of the range are not clamped to 0 and 1, because
-           * out-of-range values are often intentional and useful. (See the example above.)
+           * out-of-range values are often intentional and useful.
            *
            * @method norm
            * @param  {Number} value incoming value to be normalized
@@ -64938,7 +62324,7 @@
            * @param  {Number} stop  upper bound of the value's current range
            * @return {Number}       normalized number
            */
-          _main.default.prototype.norm = function(n, start, stop) {
+          _main.default.prototype.norm = function (n, start, stop) {
             _main.default._validateParameters('norm', arguments);
             return this.map(n, start, stop, 0, 1);
           };
@@ -64963,7 +62349,7 @@
            * @param  {Number} [decimals] number of decimal places to round to, default is 0
            * @return {Integer}  rounded number
            */
-          _main.default.prototype.round = function(n, decimals) {
+          _main.default.prototype.round = function (n, decimals) {
             if (!decimals) {
               return Math.round(n);
             }
@@ -64979,7 +62365,7 @@
            * @param  {Number} n number to square
            * @return {Number}   squared number
            */
-          _main.default.prototype.sq = function(n) {
+          _main.default.prototype.sq = function (n) {
             return n * n;
           };
 
@@ -65044,7 +62430,7 @@
            * @param {Number} num Number whose fractional part needs to be found out
            * @returns {Number} fractional part of x, i.e, {x}
            */
-          _main.default.prototype.fract = function(toConvert) {
+          _main.default.prototype.fract = function (toConvert) {
             _main.default._validateParameters('fract', arguments);
             var sign = 0;
             var num = Number(toConvert);
@@ -65070,7 +62456,7 @@
         { '../core/main': 59 }
       ],
       90: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -65095,7 +62481,7 @@
            * @param {Number} [y] y component of the vector
            * @param {Number} [z] z component of the vector
            * @return {p5.Vector}
-           */ _main.default.prototype.createVector = function(x, y, z) {
+           */ _main.default.prototype.createVector = function (x, y, z) {
             if (this instanceof _main.default) {
               return new _main.default.Vector(this, arguments);
             } else {
@@ -65108,7 +62494,7 @@
         { '../core/main': 59 }
       ],
       91: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -65168,7 +62554,7 @@
            * @param  {Number} [z] z-coordinate in noise space
            * @return {Number}     Perlin noise value (between 0 and 1) at specified
            *                      coordinates
-           */ _main.default.prototype.noise = function(x) {
+           */ _main.default.prototype.noise = function (x) {
             var y = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
             var z = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
             if (perlin == null) {
@@ -65255,22 +62641,11 @@
            * as such define the overall intensity of the noise, whereas higher octaves
            * create finer grained details in the noise sequence.
            *
-           * By default, noise is computed over 4 octaves with each octave contributing
-           * exactly half than its predecessor, starting at 50% strength for the 1st
-           * octave. This falloff amount can be changed by adding an additional function
-           * parameter. Eg. a falloff factor of 0.75 means each octave will now have
-           * 75% impact (25% less) of the previous lower octave. Any value between
-           * 0.0 and 1.0 is valid, however note that values greater than 0.5 might
-           * result in greater than 1.0 values returned by <b>noise()</b>.
-           *
-           * By changing these parameters, the signal created by the <b>noise()</b>
-           * function can be adapted to fit very specific needs and characteristics.
-           *
            * @method noiseDetail
            * @param {Number} lod number of octaves to be used by the noise
            * @param {Number} falloff falloff factor for each octave
            */
-          _main.default.prototype.noiseDetail = function(lod, falloff) {
+          _main.default.prototype.noiseDetail = function (lod, falloff) {
             if (lod > 0) {
               perlin_octaves = lod;
             }
@@ -65288,10 +62663,10 @@
            * @method noiseSeed
            * @param {Number} seed   the seed value
            */
-          _main.default.prototype.noiseSeed = function(seed) {
+          _main.default.prototype.noiseSeed = function (seed) {
             // Linear Congruential Generator
             // Variant of a Lehman Generator
-            var lcg = (function() {
+            var lcg = (function () {
               // Set to values from http://en.wikipedia.org/wiki/Numerical_Recipes
               // m is basically chosen to be large (as it is the max period)
               // and for its relationships to a and c
@@ -65332,7 +62707,7 @@
         { '../core/main': 59 }
       ],
       92: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -65599,7 +62974,7 @@
               }
             } else if (x instanceof Array) {
               if (
-                x.every(function(element) {
+                x.every(function (element) {
                   return Number.isFinite(element);
                 })
               ) {
@@ -65620,7 +62995,7 @@
             } else if (arguments.length === 2) {
               var vectorComponents = Array.prototype.slice.call(arguments);
               if (
-                vectorComponents.every(function(element) {
+                vectorComponents.every(function (element) {
                   return Number.isFinite(element);
                 })
               ) {
@@ -65631,7 +63006,7 @@
             } else if (arguments.length === 3) {
               var _vectorComponents = Array.prototype.slice.call(arguments);
               if (
-                _vectorComponents.every(function(element) {
+                _vectorComponents.every(function (element) {
                   return Number.isFinite(element);
                 })
               ) {
@@ -65740,10 +63115,10 @@
             }
             if (x instanceof Array) {
               if (
-                x.every(function(element) {
+                x.every(function (element) {
                   return Number.isFinite(element);
                 }) &&
-                x.every(function(element) {
+                x.every(function (element) {
                   return typeof element === 'number';
                 })
               ) {
@@ -65770,10 +63145,10 @@
 
             var vectorComponents = Array.prototype.slice.call(arguments);
             if (
-              vectorComponents.every(function(element) {
+              vectorComponents.every(function (element) {
                 return Number.isFinite(element);
               }) &&
-              vectorComponents.every(function(element) {
+              vectorComponents.every(function (element) {
                 return typeof element === 'number';
               })
             ) {
@@ -65865,15 +63240,15 @@
             }
             if (x instanceof Array) {
               if (
-                x.every(function(element) {
+                x.every(function (element) {
                   return Number.isFinite(element);
                 }) &&
-                x.every(function(element) {
+                x.every(function (element) {
                   return typeof element === 'number';
                 })
               ) {
                 if (
-                  x.some(function(element) {
+                  x.some(function (element) {
                     return element === 0;
                   })
                 ) {
@@ -65905,15 +63280,15 @@
 
             var vectorComponents = Array.prototype.slice.call(arguments);
             if (
-              vectorComponents.every(function(element) {
+              vectorComponents.every(function (element) {
                 return Number.isFinite(element);
               }) &&
-              vectorComponents.every(function(element) {
+              vectorComponents.every(function (element) {
                 return typeof element === 'number';
               })
             ) {
               if (
-                vectorComponents.some(function(element) {
+                vectorComponents.some(function (element) {
                   return element === 0;
                 })
               ) {
@@ -65974,7 +63349,7 @@
           /**
            * Calculates the dot product of two vectors. The version of the method
            * that computes the dot product of two independent vectors is a static
-           * method. See the examples for more context.
+           * method.
            *
            * @method dot
            * @param  {Number} x   x component of the vector
@@ -66073,9 +63448,6 @@
 
           /**
            * Calculate the angle of rotation for this vector(only 2D vectors).
-           * p5.Vectors created using <a src="#/p5/createVector">createVector()</a>
-           * will take the current <a = src="#/p5/angleMode">angleMode</a> into consideration, and give the angle
-           * in radians or degree accordingly.
            *
            * @method heading
            * @return {Number} the angle of rotation
@@ -66260,7 +63632,7 @@
            * @param {Number}     [length] the length of the new vector (defaults to 1)
            * @return {p5.Vector}          the new <a href="#/p5.Vector">p5.Vector</a> object
            */
-          _main.default.Vector.fromAngles = function(theta, phi, length) {
+          _main.default.Vector.fromAngles = function (theta, phi, length) {
             if (typeof length === 'undefined') {
               length = 1;
             }
@@ -66576,7 +63948,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       93: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -66591,15 +63963,13 @@
            * @requires core
            */
           var randomStateProp = '_lcg_random_state'; // Set to values from http://en.wikipedia.org/wiki/Numerical_Recipes
-          // m is basically chosen to be large (as it is the max period)
-          // and for its relationships to a and c
           var m = 4294967296; // a - 1 should be divisible by m's prime factors
           var a = 1664525; // c and m should be co-prime
           var c = 1013904223;
           var y2 = 0;
 
           // Linear Congruential Generator that stores its state at instance[stateProperty]
-          _main.default.prototype._lcg = function(stateProperty) {
+          _main.default.prototype._lcg = function (stateProperty) {
             // define the recurrence relationship
             this[stateProperty] = (a * this[stateProperty] + c) % m;
             // return a float in [0, 1)
@@ -66607,7 +63977,7 @@
             return this[stateProperty] / m;
           };
 
-          _main.default.prototype._lcgSetSeed = function(stateProperty, val) {
+          _main.default.prototype._lcgSetSeed = function (stateProperty, val) {
             // pick a random seed if val is undefined or null
             // the >>> 0 casts the seed to an unsigned 32-bit integer
             this[stateProperty] = (val == null ? Math.random() * m : val) >>> 0;
@@ -66615,15 +63985,11 @@
 
           /**
            * Sets the seed value for <a href="#/p5/random">random()</a>.
-           *
-           * By default, <a href="#/p5/random">random()</a> produces different results each time the program
-           * is run. Set the seed parameter to a constant to return the same
-           * pseudo-random numbers each time the software is run.
-           *
+
            * @method randomSeed
            * @param {Number} seed   the seed value
            */
-          _main.default.prototype.randomSeed = function(seed) {
+          _main.default.prototype.randomSeed = function (seed) {
             this._lcgSetSeed(randomStateProp, seed);
             this._gaussian_previous = false;
           };
@@ -66655,7 +64021,7 @@
            * @param  {Array} choices   the array to choose from
            * @return {*} the random element from the array
            */
-          _main.default.prototype.random = function(min, max) {
+          _main.default.prototype.random = function (min, max) {
             _main.default._validateParameters('random', arguments);
             var rand;
 
@@ -66702,7 +64068,7 @@
            * @param  {Number} [sd]    the standard deviation
            * @return {Number} the random number
            */
-          _main.default.prototype.randomGaussian = function(mean) {
+          _main.default.prototype.randomGaussian = function (mean) {
             var sd = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
             var y1, x1, x2, w;
             if (this._gaussian_previous) {
@@ -66729,7 +64095,7 @@
         { '../core/main': 59 }
       ],
       94: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -66803,10 +64169,9 @@
            * @requires core
            * @requires constants
            */ /*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * all DEGREES/RADIANS conversion should be done in the p5 instance
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 * if possible, using the p5._toRadians(), p5._fromRadians() methods.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 */ _main.default.prototype._angleMode =
-            constants.RADIANS;
+           * all DEGREES/RADIANS conversion should be done in the p5 instance
+           * if possible, using the p5._toRadians(), p5._fromRadians() methods.
+           */ _main.default.prototype._angleMode = constants.RADIANS;
           /**
            * The inverse of <a href="#/p5/cos">cos()</a>, returns the arc cosine of a value.
            * This function expects the values in the range of -1 to 1 and values are returned in
@@ -66816,7 +64181,7 @@
            * @method acos
            * @param  {Number} value the value whose arc cosine is to be returned
            * @return {Number}       the arc cosine of the given value
-           */ _main.default.prototype.acos = function(ratio) {
+           */ _main.default.prototype.acos = function (ratio) {
             return this._fromRadians(Math.acos(ratio));
           };
 
@@ -66830,7 +64195,7 @@
            * @param  {Number} value the value whose arc sine is to be returned
            * @return {Number}       the arc sine of the given value
            */
-          _main.default.prototype.asin = function(ratio) {
+          _main.default.prototype.asin = function (ratio) {
             return this._fromRadians(Math.asin(ratio));
           };
 
@@ -66844,7 +64209,7 @@
            * @param  {Number} value the value whose arc tangent is to be returned
            * @return {Number}       the arc tangent of the given value
            */
-          _main.default.prototype.atan = function(ratio) {
+          _main.default.prototype.atan = function (ratio) {
             return this._fromRadians(Math.atan(ratio));
           };
 
@@ -66855,16 +64220,12 @@
            * -180 if the angleMode is DEGREES. The atan2<a href="#/p5/">()</a> function is
            * most often used for orienting geometry to the position of the cursor.
            *
-           * Note: The y-coordinate of the point is the first parameter, and the
-           * x-coordinate is the second parameter, due the the structure of calculating
-           * the tangent.
-           *
            * @method atan2
            * @param  {Number} y y-coordinate of the point
            * @param  {Number} x x-coordinate of the point
            * @return {Number}   the arc tangent of the given point
            */
-          _main.default.prototype.atan2 = function(y, x) {
+          _main.default.prototype.atan2 = function (y, x) {
             return this._fromRadians(Math.atan2(y, x));
           };
 
@@ -66876,7 +64237,7 @@
            * @param  {Number} angle the angle
            * @return {Number}       the cosine of the angle
            */
-          _main.default.prototype.cos = function(angle) {
+          _main.default.prototype.cos = function (angle) {
             return Math.cos(this._toRadians(angle));
           };
 
@@ -66888,7 +64249,7 @@
            * @param  {Number} angle the angle
            * @return {Number}       the sine of the angle
            */
-          _main.default.prototype.sin = function(angle) {
+          _main.default.prototype.sin = function (angle) {
             return Math.sin(this._toRadians(angle));
           };
 
@@ -66900,7 +64261,7 @@
            * @param  {Number} angle the angle
            * @return {Number}       the tangent of the angle
            */
-          _main.default.prototype.tan = function(angle) {
+          _main.default.prototype.tan = function (angle) {
             return Math.tan(this._toRadians(angle));
           };
 
@@ -66913,7 +64274,7 @@
            * @param  {Number} radians the radians value to convert to degrees
            * @return {Number}         the converted angle
            */
-          _main.default.prototype.degrees = function(angle) {
+          _main.default.prototype.degrees = function (angle) {
             return angle * constants.RAD_TO_DEG;
           };
 
@@ -66926,7 +64287,7 @@
            * @param  {Number} degrees the degree value to convert to radians
            * @return {Number}         the converted angle
            */
-          _main.default.prototype.radians = function(angle) {
+          _main.default.prototype.radians = function (angle) {
             return angle * constants.DEG_TO_RAD;
           };
 
@@ -66936,7 +64297,7 @@
            * @method angleMode
            * @param {Constant} mode either RADIANS or DEGREES
            */
-          _main.default.prototype.angleMode = function(mode) {
+          _main.default.prototype.angleMode = function (mode) {
             if (mode === constants.DEGREES || mode === constants.RADIANS) {
               this._angleMode = mode;
             }
@@ -66950,7 +64311,7 @@
            * @param {Number} angle
            * @returns {Number}
            */
-          _main.default.prototype._toRadians = function(angle) {
+          _main.default.prototype._toRadians = function (angle) {
             if (this._angleMode === constants.DEGREES) {
               return angle * constants.DEG_TO_RAD;
             }
@@ -66965,7 +64326,7 @@
            * @param {Number} angle
            * @returns {Number}
            */
-          _main.default.prototype._toDegrees = function(angle) {
+          _main.default.prototype._toDegrees = function (angle) {
             if (this._angleMode === constants.RADIANS) {
               return angle * constants.RAD_TO_DEG;
             }
@@ -66980,7 +64341,7 @@
            * @param {Number} angle
            * @returns {Number}
            */
-          _main.default.prototype._fromRadians = function(angle) {
+          _main.default.prototype._fromRadians = function (angle) {
             if (this._angleMode === constants.DEGREES) {
               return angle * constants.RAD_TO_DEG;
             }
@@ -66992,7 +64353,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       95: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -67031,7 +64392,7 @@
            */ /**
            * @method textAlign
            * @return {Object}
-           */ _main.default.prototype.textAlign = function(horizAlign, vertAlign) {
+           */ _main.default.prototype.textAlign = function (horizAlign, vertAlign) {
             var _this$_renderer;
             _main.default._validateParameters('textAlign', arguments);
             return (_this$_renderer = this._renderer).textAlign.apply(
@@ -67052,7 +64413,7 @@
            * @method textLeading
            * @return {Number}
            */
-          _main.default.prototype.textLeading = function(theLeading) {
+          _main.default.prototype.textLeading = function (theLeading) {
             var _this$_renderer2;
             _main.default._validateParameters('textLeading', arguments);
             return (_this$_renderer2 = this._renderer).textLeading.apply(
@@ -67073,7 +64434,7 @@
            * @method textSize
            * @return {Number}
            */
-          _main.default.prototype.textSize = function(theSize) {
+          _main.default.prototype.textSize = function (theSize) {
             var _this$_renderer3;
             _main.default._validateParameters('textSize', arguments);
             return (_this$_renderer3 = this._renderer).textSize.apply(
@@ -67084,19 +64445,16 @@
 
           /**
            * Sets/gets the style of the text for system fonts to NORMAL, ITALIC, BOLD or BOLDITALIC.
-           * Note: this may be is overridden by CSS styling. For non-system fonts
-           * (opentype, truetype, etc.) please load styled fonts instead.
            *
            * @method textStyle
-           * @param {Constant} theStyle styling for text, either NORMAL,
-           *                            ITALIC, BOLD or BOLDITALIC
+           * @param {Constant} theStyle styling for text, either NORMAL, ITALIC, BOLD or BOLDITALIC
            * @chainable
            */
           /**
            * @method textStyle
            * @return {String}
            */
-          _main.default.prototype.textStyle = function(theStyle) {
+          _main.default.prototype.textStyle = function (theStyle) {
             var _this$_renderer4;
             _main.default._validateParameters('textStyle', arguments);
             return (_this$_renderer4 = this._renderer).textStyle.apply(
@@ -67112,7 +64470,7 @@
            * @param {String} theText the String of characters to measure
            * @return {Number} the calculated width
            */
-          _main.default.prototype.textWidth = function() {
+          _main.default.prototype.textWidth = function () {
             var _this$_renderer5;
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
@@ -67139,7 +64497,7 @@
            * @method textAscent
            * @return {Number}
            */
-          _main.default.prototype.textAscent = function() {
+          _main.default.prototype.textAscent = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -67158,7 +64516,7 @@
            * @method textDescent
            * @return {Number}
            */
-          _main.default.prototype.textDescent = function() {
+          _main.default.prototype.textDescent = function () {
             for (
               var _len3 = arguments.length, args = new Array(_len3), _key3 = 0;
               _key3 < _len3;
@@ -67173,7 +64531,7 @@
           /**
            * Helper function to measure ascent and descent.
            */
-          _main.default.prototype._updateTextMetrics = function() {
+          _main.default.prototype._updateTextMetrics = function () {
             return this._renderer._updateTextMetrics();
           };
           var _default = _main.default;
@@ -67182,7 +64540,7 @@
         { '../core/main': 59 }
       ],
       96: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -67277,12 +64635,12 @@
            * @param  {Function}      [onError]  function to be executed if
            *                                    an error occurs
            * @return {p5.Font}                  <a href="#/p5.Font">p5.Font</a> object
-           */ _main.default.prototype.loadFont = function(path, onSuccess, onError) {
+           */ _main.default.prototype.loadFont = function (path, onSuccess, onError) {
             _main.default._validateParameters('loadFont', arguments);
             var p5Font = new _main.default.Font(this);
 
             var self = this;
-            opentype.load(path, function(err, font) {
+            opentype.load(path, function (err, font) {
               if (err) {
                 _main.default._friendlyFileLoadError(4, path);
                 if (typeof onError !== 'undefined') {
@@ -67356,21 +64714,18 @@
            * from x and y.
            *
            * <b>WEBGL</b>: Only opentype/truetype fonts are supported. You must load a font
-           * using the <a href="#/p5/loadFont">loadFont()</a> method (see the example above).
+           * using the <a href="#/p5/loadFont">loadFont()</a> method .
            * <a href="#/p5/stroke">stroke()</a> currently has no effect in webgl mode.
            *
            * @method text
-           * @param {String|Object|Array|Number|Boolean} str the alphanumeric
-           *                                             symbols to be displayed
+           * @param {String|Object|Array|Number|Boolean} str the alphanumeric symbols to be displayed
            * @param {Number} x   x-coordinate of text
            * @param {Number} y   y-coordinate of text
            * @param {Number} [x2]  by default, the width of the text box,
-           *                     see <a href="#/p5/rectMode">rectMode()</a> for more info
            * @param {Number} [y2]  by default, the height of the text box,
-           *                     see <a href="#/p5/rectMode">rectMode()</a> for more info
            * @chainable
            */
-          _main.default.prototype.text = function(str, x, y, maxWidth, maxHeight) {
+          _main.default.prototype.text = function (str, x, y, maxWidth, maxHeight) {
             var _this$_renderer;
             _main.default._validateParameters('text', arguments);
             return !(this._renderer._doFill || this._renderer._doStroke)
@@ -67394,7 +64749,7 @@
            * @param {Number} [size] the font size to use
            * @chainable
            */
-          _main.default.prototype.textFont = function(theFont, theSize) {
+          _main.default.prototype.textFont = function (theFont, theSize) {
             _main.default._validateParameters('textFont', arguments);
             if (arguments.length) {
               if (!theFont) {
@@ -67429,7 +64784,7 @@
         }
       ],
       97: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -67503,7 +64858,7 @@
            * @constructor
            * @param {p5} [pInst] pointer to p5 instance
            */
-          _main.default.Font = function(p) {
+          _main.default.Font = function (p) {
             this.parent = p;
 
             this.cache = {};
@@ -67530,7 +64885,7 @@
            *
            * @return {Object}          a rectangle object with properties: x, y, w, h
            */
-          _main.default.Font.prototype.textBounds = function(str) {
+          _main.default.Font.prototype.textBounds = function (str) {
             var x = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
             var y = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
             var fontSize = arguments.length > 3 ? arguments[3] : undefined;
@@ -67549,7 +64904,6 @@
 
             fontSize = fontSize || p._renderer._textSize;
 
-            // NOTE: cache disabled for now pending further discussion of #3436
             if (cacheResults) {
               key = cacheKey('textBounds', str, x, y, fontSize, alignment, baseline);
               result = this.cache[key];
@@ -67568,7 +64922,7 @@
               var lineHeight = p._renderer.textLeading();
               var lineCount = 0;
 
-              this.font.forEachGlyph(str, x, y, fontSize, opts, function(
+              this.font.forEachGlyph(str, x, y, fontSize, opts, function (
                 glyph,
                 gX,
                 gY,
@@ -67653,7 +65007,7 @@
            *
            * @return {Array}  an array of points, each with x, y, alpha (the path angle)
            */
-          _main.default.Font.prototype.textToPoints = function(
+          _main.default.Font.prototype.textToPoints = function (
             txt,
             x,
             y,
@@ -67702,15 +65056,11 @@
           /**
            * Returns the set of opentype glyphs for the supplied string.
            *
-           * Note that there is not a strict one-to-one mapping between characters
-           * and glyphs, so the list of returned glyphs can be larger or smaller
-           * than the length of the given string.
-           *
            * @private
            * @param  {String} str the string to be converted
            * @return {Array}     the opentype glyphs
            */
-          _main.default.Font.prototype._getGlyphs = function(str) {
+          _main.default.Font.prototype._getGlyphs = function (str) {
             return this.font.stringToGlyphs(str);
           };
 
@@ -67724,7 +65074,7 @@
            * @param  {Object} options opentype options (optional)
            * @return {Object}     the opentype path
            */
-          _main.default.Font.prototype._getPath = function(line, x, y, options) {
+          _main.default.Font.prototype._getPath = function (line, x, y, options) {
             var p = (options && options.renderer && options.renderer._pInst) || this.parent,
               renderer = p._renderer,
               pos = this._handleAlignment(renderer, line, x, y);
@@ -67733,21 +65083,19 @@
           };
 
           /*
-    * Creates an SVG-formatted path-data string
-    * (See http://www.w3.org/TR/SVG/paths.html#PathData)
-    * from the given opentype path or string/position
-    *
-    * @param  {Object} path    an opentype path, OR the following:
-    *
-    * @param  {String} line     a line of text
-    * @param  {Number} x        x-position
-    * @param  {Number} y        y-position
-    * @param  {Object} options opentype options (optional), set options.decimals
-    * to set the decimal precision of the path-data
-    *
-    * @return {Object}     this p5.Font object
-    */
-          _main.default.Font.prototype._getPathData = function(line, x, y, options) {
+          * Creates an SVG-formatted path-data string
+          *
+          * @param  {Object} path    an opentype path, OR the following:
+          *
+          * @param  {String} line     a line of text
+          * @param  {Number} x        x-position
+          * @param  {Number} y        y-position
+          * @param  {Object} options opentype options (optional), set options.decimals
+          * to set the decimal precision of the path-data
+          *
+          * @return {Object}     this p5.Font object
+          */
+          _main.default.Font.prototype._getPathData = function (line, x, y, options) {
             var decimals = 3;
 
             // create path from string/position
@@ -67783,7 +65131,7 @@
     *
     * @return {Object}     this p5.Font object
     */
-          _main.default.Font.prototype._getSVG = function(line, x, y, options) {
+          _main.default.Font.prototype._getSVG = function (line, x, y, options) {
             var decimals = 3;
 
             // create path from string/position
@@ -67826,7 +65174,7 @@
     *
     * @return {p5.Font}     this p5.Font object
     */
-          _main.default.Font.prototype._renderPath = function(line, x, y, options) {
+          _main.default.Font.prototype._renderPath = function (line, x, y, options) {
             var pdata;
             var pg = (options && options.renderer) || this.parent._renderer;
             var ctx = pg.drawingContext;
@@ -67892,23 +65240,23 @@
             return this;
           };
 
-          _main.default.Font.prototype._textWidth = function(str, fontSize) {
+          _main.default.Font.prototype._textWidth = function (str, fontSize) {
             return this.font.getAdvanceWidth(str, fontSize);
           };
 
-          _main.default.Font.prototype._textAscent = function(fontSize) {
+          _main.default.Font.prototype._textAscent = function (fontSize) {
             return this.font.ascender * this._scale(fontSize);
           };
 
-          _main.default.Font.prototype._textDescent = function(fontSize) {
+          _main.default.Font.prototype._textDescent = function (fontSize) {
             return -this.font.descender * this._scale(fontSize);
           };
 
-          _main.default.Font.prototype._scale = function(fontSize) {
+          _main.default.Font.prototype._scale = function (fontSize) {
             return 1 / this.font.unitsPerEm * (fontSize || this.parent._renderer._textSize);
           };
 
-          _main.default.Font.prototype._handleAlignment = function(
+          _main.default.Font.prototype._handleAlignment = function (
             renderer,
             line,
             x,
@@ -68102,16 +65450,16 @@
             return length == null
               ? bezlen(p1x, p1y, c1x, c1y, c2x, c2y, p2x, p2y)
               : findDotsAtSegment(
-                  p1x,
-                  p1y,
-                  c1x,
-                  c1y,
-                  c2x,
-                  c2y,
-                  p2x,
-                  p2y,
-                  getTatLen(p1x, p1y, c1x, c1y, c2x, c2y, p2x, p2y, length)
-                );
+                p1x,
+                p1y,
+                c1x,
+                c1y,
+                c2x,
+                c2y,
+                p2x,
+                p2y,
+                getTatLen(p1x, p1y, c1x, c1y, c2x, c2y, p2x, p2y, length)
+              );
           }
 
           function pointAtLength(path, length, istotal) {
@@ -68175,7 +65523,6 @@
               my = 0,
               start = 0;
             if (!pathArray) {
-              // console.warn("Unexpected state: undefined pathArray"); // shouldn't happen
               return res;
             }
             if (pathArray[0][0] === 'M') {
@@ -68277,65 +65624,65 @@
             var ii;
 
             var processPath = function processPath(path, d, pcom) {
-                var nx;
-                var ny;
-                var tq = { T: 1, Q: 1 };
-                if (!path) {
-                  return ['C', d.x, d.y, d.x, d.y, d.x, d.y];
-                }
-                if (!(path[0] in tq)) {
-                  d.qx = d.qy = null;
-                }
-                switch (path[0]) {
-                  case 'M':
-                    d.X = path[1];
-                    d.Y = path[2];
-                    break;
-                  case 'A':
-                    path = ['C'].concat(a2c.apply(0, [d.x, d.y].concat(path.slice(1))));
-                    break;
-                  case 'S':
-                    if (pcom === 'C' || pcom === 'S') {
-                      nx = d.x * 2 - d.bx;
-                      ny = d.y * 2 - d.by;
-                    } else {
-                      nx = d.x;
-                      ny = d.y;
-                    }
-                    path = ['C', nx, ny].concat(path.slice(1));
-                    break;
-                  case 'T':
-                    if (pcom === 'Q' || pcom === 'T') {
-                      d.qx = d.x * 2 - d.qx;
-                      d.qy = d.y * 2 - d.qy;
-                    } else {
-                      d.qx = d.x;
-                      d.qy = d.y;
-                    }
-                    path = ['C'].concat(q2c(d.x, d.y, d.qx, d.qy, path[1], path[2]));
-                    break;
-                  case 'Q':
-                    d.qx = path[1];
-                    d.qy = path[2];
-                    path = ['C'].concat(q2c(d.x, d.y, path[1], path[2], path[3], path[4]));
+              var nx;
+              var ny;
+              var tq = { T: 1, Q: 1 };
+              if (!path) {
+                return ['C', d.x, d.y, d.x, d.y, d.x, d.y];
+              }
+              if (!(path[0] in tq)) {
+                d.qx = d.qy = null;
+              }
+              switch (path[0]) {
+                case 'M':
+                  d.X = path[1];
+                  d.Y = path[2];
+                  break;
+                case 'A':
+                  path = ['C'].concat(a2c.apply(0, [d.x, d.y].concat(path.slice(1))));
+                  break;
+                case 'S':
+                  if (pcom === 'C' || pcom === 'S') {
+                    nx = d.x * 2 - d.bx;
+                    ny = d.y * 2 - d.by;
+                  } else {
+                    nx = d.x;
+                    ny = d.y;
+                  }
+                  path = ['C', nx, ny].concat(path.slice(1));
+                  break;
+                case 'T':
+                  if (pcom === 'Q' || pcom === 'T') {
+                    d.qx = d.x * 2 - d.qx;
+                    d.qy = d.y * 2 - d.qy;
+                  } else {
+                    d.qx = d.x;
+                    d.qy = d.y;
+                  }
+                  path = ['C'].concat(q2c(d.x, d.y, d.qx, d.qy, path[1], path[2]));
+                  break;
+                case 'Q':
+                  d.qx = path[1];
+                  d.qy = path[2];
+                  path = ['C'].concat(q2c(d.x, d.y, path[1], path[2], path[3], path[4]));
 
-                    break;
-                  case 'L':
-                    path = ['C'].concat(l2c(d.x, d.y, path[1], path[2]));
-                    break;
-                  case 'H':
-                    path = ['C'].concat(l2c(d.x, d.y, path[1], d.y));
-                    break;
-                  case 'V':
-                    path = ['C'].concat(l2c(d.x, d.y, d.x, path[1]));
-                    break;
-                  case 'Z':
-                    path = ['C'].concat(l2c(d.x, d.y, d.X, d.Y));
-                    break;
-                }
+                  break;
+                case 'L':
+                  path = ['C'].concat(l2c(d.x, d.y, path[1], path[2]));
+                  break;
+                case 'H':
+                  path = ['C'].concat(l2c(d.x, d.y, path[1], d.y));
+                  break;
+                case 'V':
+                  path = ['C'].concat(l2c(d.x, d.y, d.x, path[1]));
+                  break;
+                case 'Z':
+                  path = ['C'].concat(l2c(d.x, d.y, d.X, d.Y));
+                  break;
+              }
 
-                return path;
-              },
+              return path;
+            },
               fixArc = function fixArc(pp, i) {
                 if (pp[i].length > 7) {
                   pp[i].shift();
@@ -68424,8 +65771,6 @@
           }
 
           function a2c(x1, y1, rx, ry, angle, lac, sweep_flag, x2, y2, recursive) {
-            // for more information of where this Math came from visit:
-            // http://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
             var PI = Math.PI;
 
             var _120 = PI * 120 / 180;
@@ -68718,7 +66063,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       98: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -68741,7 +66086,7 @@
            * @param {Array} array Array to append
            * @param {any} value to be added to the Array
            * @return {Array} the array that was appended to
-           */ _main.default.prototype.append = function(array, value) {
+           */ _main.default.prototype.append = function (array, value) {
             array.push(value);
             return array;
           };
@@ -68750,16 +66095,7 @@
            * Copies an array (or part of an array) to another array. The src array is
            * copied to the dst array, beginning at the position specified by
            * srcPosition and into the position specified by dstPosition. The number of
-           * elements to copy is determined by length. Note that copying values
-           * overwrites existing values in the destination array. To append values
-           * instead of overwriting them, use <a href="#/p5/concat">concat()</a>.
-           *
-           * The simplified version with only two arguments, arrayCopy(src, dst),
-           * copies an entire array to another of the same size. It is equivalent to
-           * arrayCopy(src, 0, dst, 0, src.length).
-           *
-           * Using this function is far more efficient for copying array data than
-           * iterating through a for() loop and copying each element individually.
+           * elements to copy is determined by length.
            *
            * @method arrayCopy
            * @deprecated Use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin">arr1.copyWithin(arr2)</a> instead.
@@ -68776,7 +66112,7 @@
            * @param {Array}  dst
            * @param {Integer} [length]
            */
-          _main.default.prototype.arrayCopy = function(
+          _main.default.prototype.arrayCopy = function (
             src,
             srcPosition,
             dst,
@@ -68803,14 +66139,12 @@
               }
 
               start = 0;
-              // rename  so we don't get confused
               dst = srcPosition;
               src = src.slice(0, end);
             }
 
             // Since we are not returning the array and JavaScript is pass by reference
-            // we must modify the actual values of the array
-            // instead of reassigning arrays
+            // we must modify the actual values of the array instead of reassigning arrays
             Array.prototype.splice.apply(dst, [start, end].concat(src));
           };
 
@@ -68824,7 +66158,7 @@
            * @param {Array} b second Array to concatenate
            * @return {Array} concatenated array
            */
-          _main.default.prototype.concat = function(list0, list1) {
+          _main.default.prototype.concat = function (list0, list1) {
             return list0.concat(list1);
           };
 
@@ -68836,7 +66170,7 @@
            * @param {Array} list Array to reverse
            * @return {Array} the reversed list
            */
-          _main.default.prototype.reverse = function(list) {
+          _main.default.prototype.reverse = function (list) {
             return list.reverse();
           };
 
@@ -68849,7 +66183,7 @@
            * @param  {Array} list Array to shorten
            * @return {Array} shortened Array
            */
-          _main.default.prototype.shorten = function(list) {
+          _main.default.prototype.shorten = function (list) {
             list.pop();
             return list;
           };
@@ -68864,7 +66198,7 @@
            * @param  {Boolean} [bool] modify passed array
            * @return {Array}   shuffled Array
            */
-          _main.default.prototype.shuffle = function(arr, bool) {
+          _main.default.prototype.shuffle = function (arr, bool) {
             var isView = ArrayBuffer && ArrayBuffer.isView && ArrayBuffer.isView(arr);
             arr = bool || isView ? arr : arr.slice();
 
@@ -68894,13 +66228,13 @@
            * @param {Integer} [count] number of elements to sort, starting from 0
            * @return {Array} the sorted list
            */
-          _main.default.prototype.sort = function(list, count) {
+          _main.default.prototype.sort = function (list, count) {
             var arr = count ? list.slice(0, Math.min(count, list.length)) : list;
             var rest = count ? list.slice(Math.min(count, list.length)) : [];
             if (typeof arr[0] === 'string') {
               arr = arr.sort();
             } else {
-              arr = arr.sort(function(a, b) {
+              arr = arr.sort(function (a, b) {
                 return a - b;
               });
             }
@@ -68922,8 +66256,7 @@
            * @param {Integer} position in the array from which to insert data
            * @return {Array} the list
            */
-          _main.default.prototype.splice = function(list, value, index) {
-            // note that splice returns spliced elements and not an array
+          _main.default.prototype.splice = function (list, value, index) {
             Array.prototype.splice.apply(list, [index, 0].concat(value));
 
             return list;
@@ -68944,7 +66277,7 @@
            * @param  {Integer} [count] number of values to extract
            * @return {Array}          Array of extracted elements
            */
-          _main.default.prototype.subset = function(list, start, count) {
+          _main.default.prototype.subset = function (list, start, count) {
             if (typeof count !== 'undefined') {
               return list.slice(start, start + count);
             } else {
@@ -68957,7 +66290,7 @@
         { '../core/main': 59 }
       ],
       99: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -68977,7 +66310,7 @@
            * @method float
            * @param {String}  str float string to parse
            * @return {Number}     floating point representation of string
-           */ _main.default.prototype.float = function(str) {
+           */ _main.default.prototype.float = function (str) {
             if (str instanceof Array) {
               return str.map(parseFloat);
             }
@@ -68999,7 +66332,7 @@
            * @param {Array} ns                    values to parse
            * @return {Number[]}                   integer representation of values
            */
-          _main.default.prototype.int = function(n) {
+          _main.default.prototype.int = function (n) {
             var radix =
               arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 10;
             if (n === Infinity || n === 'Infinity') {
@@ -69013,7 +66346,7 @@
             } else if (typeof n === 'boolean') {
               return n ? 1 : 0;
             } else if (n instanceof Array) {
-              return n.map(function(n) {
+              return n.map(function (n) {
                 return _main.default.prototype.int(n, radix);
               });
             }
@@ -69028,7 +66361,7 @@
            * @param {String|Boolean|Number|Array} n value to parse
            * @return {String}                     string representation of value
            */
-          _main.default.prototype.str = function(n) {
+          _main.default.prototype.str = function (n) {
             if (n instanceof Array) {
               return n.map(_main.default.prototype.str);
             } else {
@@ -69048,7 +66381,7 @@
            * @param {String|Boolean|Number|Array} n value to parse
            * @return {Boolean}                    boolean representation of value
            */
-          _main.default.prototype.boolean = function(n) {
+          _main.default.prototype.boolean = function (n) {
             if (typeof n === 'number') {
               return n !== 0;
             } else if (typeof n === 'string') {
@@ -69076,7 +66409,7 @@
            * @param {Array} ns                   values to parse
            * @return {Number[]}                  array of byte representation of values
            */
-          _main.default.prototype.byte = function(n) {
+          _main.default.prototype.byte = function (n) {
             var nn = _main.default.prototype.int(n, 10);
             if (typeof nn === 'number') {
               return (nn + 128) % 256 - 128;
@@ -69101,7 +66434,7 @@
            * @param {Array} ns              values to parse
            * @return {String[]}             array of string representation of values
            */
-          _main.default.prototype.char = function(n) {
+          _main.default.prototype.char = function (n) {
             if (typeof n === 'number' && !isNaN(n)) {
               return String.fromCharCode(n);
             } else if (n instanceof Array) {
@@ -69125,7 +66458,7 @@
            * @param {Array} ns       values to parse
            * @return {Number[]}      integer representation of values
            */
-          _main.default.prototype.unchar = function(n) {
+          _main.default.prototype.unchar = function (n) {
             if (typeof n === 'string' && n.length === 1) {
               return n.charCodeAt(0);
             } else if (n instanceof Array) {
@@ -69150,10 +66483,10 @@
            * @param {Number} [digits]
            * @return {String[]}      hexadecimal string representation of values
            */
-          _main.default.prototype.hex = function(n, digits) {
+          _main.default.prototype.hex = function (n, digits) {
             digits = digits === undefined || digits === null ? (digits = 8) : digits;
             if (n instanceof Array) {
-              return n.map(function(n) {
+              return n.map(function (n) {
                 return _main.default.prototype.hex(n, digits);
               });
             } else if (n === Infinity || n === -Infinity) {
@@ -69190,7 +66523,7 @@
            * @param {Array} ns values to parse
            * @return {Number[]}      integer representations of hexadecimal value
            */
-          _main.default.prototype.unhex = function(n) {
+          _main.default.prototype.unhex = function (n) {
             if (n instanceof Array) {
               return n.map(_main.default.prototype.unhex);
             } else {
@@ -69203,7 +66536,7 @@
         { '../core/main': 59 }
       ],
       100: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -69230,7 +66563,7 @@
            * @param  {Array}  list      array of Strings to be joined
            * @param  {String} separator String to be placed between each item
            * @return {String}           joined String
-           */ _main.default.prototype.join = function(list, separator) {
+           */ _main.default.prototype.join = function (list, separator) {
             _main.default._validateParameters('join', arguments);
             return list.join(separator);
           };
@@ -69258,7 +66591,7 @@
            * @param  {String} regexp the regexp to be used for matching
            * @return {String[]}      Array of Strings found
            */
-          _main.default.prototype.match = function(str, reg) {
+          _main.default.prototype.match = function (str, reg) {
             _main.default._validateParameters('match', arguments);
             return str.match(reg);
           };
@@ -69287,7 +66620,7 @@
            * @param  {String} regexp the regexp to be used for matching
            * @return {String[]}         2d Array of Strings found
            */
-          _main.default.prototype.matchAll = function(str, reg) {
+          _main.default.prototype.matchAll = function (str, reg) {
             _main.default._validateParameters('matchAll', arguments);
             var re = new RegExp(reg, 'g');
             var match = re.exec(str);
@@ -69307,8 +66640,6 @@
            * versions: one for formatting floats, and one for formatting ints.
            * The values for the digits, left, and right parameters should always
            * be positive integers.
-           * (NOTE): Be cautious when using left and right parameters as it prepends numbers of 0's if the parameter
-           * if greater than the current length of the number.
            *
            * @method nf
            * @param {Number|String}       num      the Number to format
@@ -69325,10 +66656,10 @@
            * @param {Integer|String}      [right]
            * @return {String[]}                formatted Strings
            */
-          _main.default.prototype.nf = function(nums, left, right) {
+          _main.default.prototype.nf = function (nums, left, right) {
             _main.default._validateParameters('nf', arguments);
             if (nums instanceof Array) {
-              return nums.map(function(x) {
+              return nums.map(function (x) {
                 return doNf(x, left, right);
               });
             } else {
@@ -69399,10 +66730,10 @@
            * @param  {Integer|String}  [right]
            * @return {String[]}           formatted Strings
            */
-          _main.default.prototype.nfc = function(num, right) {
+          _main.default.prototype.nfc = function (num, right) {
             _main.default._validateParameters('nfc', arguments);
             if (num instanceof Array) {
-              return num.map(function(x) {
+              return num.map(function (x) {
                 return doNfc(x, right);
               });
             } else {
@@ -69453,7 +66784,7 @@
            * @param {Integer}      [right]
            * @return {String[]}         formatted Strings
            */
-          _main.default.prototype.nfp = function() {
+          _main.default.prototype.nfp = function () {
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
               _key < _len;
@@ -69479,12 +66810,10 @@
            * puts an additional "_" (space) in front of positive numbers just in case to align it with negative
            * numbers which includes "-" (minus) sign.
            * The main usecase of nfs() can be seen when one wants to align the digits (place values) of a non-negative
-           * number with some negative number (See the example to get a clear picture).
+           * number with some negative number.
            * There are two versions: one for formatting float, and one for formatting int.
            * The values for the digits, left, and right parameters should always be positive integers.
            * (IMP): The result on the canvas basically the expected alignment can vary based on the typeface you are using.
-           * (NOTE): Be cautious when using left and right parameters as it prepends numbers of 0's if the parameter
-           * if greater than the current length of the number.
            *
            * @method nfs
            * @param {Number}       num      the Number to format
@@ -69501,7 +66830,7 @@
            * @param {Integer}      [right]
            * @return {String[]}         formatted Strings
            */
-          _main.default.prototype.nfs = function() {
+          _main.default.prototype.nfs = function () {
             for (
               var _len2 = arguments.length, args = new Array(_len2), _key2 = 0;
               _key2 < _len2;
@@ -69528,16 +66857,12 @@
            * specifies the character or characters that mark the boundaries between
            * each piece. A String[] array is returned that contains each of the pieces.
            *
-           * The <a href="#/p5/splitTokens">splitTokens()</a> function works in a similar fashion, except that it
-           * splits using a range of characters instead of a specific character or
-           * sequence.
-           *
            * @method split
            * @param  {String} value the String to be split
            * @param  {String} delim the String used to separate the data
            * @return {String[]}  Array of Strings
            */
-          _main.default.prototype.split = function(str, delim) {
+          _main.default.prototype.split = function (str, delim) {
             _main.default._validateParameters('split', arguments);
             return str.split(delim);
           };
@@ -69547,17 +66872,13 @@
            * delimiters or "tokens." The delim parameter specifies the character or
            * characters to be used as a boundary.
            *
-           * If no delim characters are specified, any whitespace character is used to
-           * split. Whitespace characters include tab (\t), line feed (\n), carriage
-           * return (\r), form feed (\f), and space.
-           *
            * @method splitTokens
            * @param  {String} value   the String to be split
            * @param  {String} [delim] list of individual Strings that will be used as
            *                          separators
            * @return {String[]}          Array of Strings
            */
-          _main.default.prototype.splitTokens = function(value, delims) {
+          _main.default.prototype.splitTokens = function (value, delims) {
             _main.default._validateParameters('splitTokens', arguments);
             var d;
             if (typeof delims !== 'undefined') {
@@ -69581,7 +66902,7 @@
             } else {
               d = /\s/g;
             }
-            return value.split(d).filter(function(n) {
+            return value.split(d).filter(function (n) {
               return n;
             });
           };
@@ -69600,7 +66921,7 @@
            * @param  {Array} strs an Array of Strings to be trimmed
            * @return {String[]}   an Array of trimmed Strings
            */
-          _main.default.prototype.trim = function(str) {
+          _main.default.prototype.trim = function (str) {
             _main.default._validateParameters('trim', arguments);
             if (str instanceof Array) {
               return str.map(this.trim);
@@ -69619,7 +66940,7 @@
         }
       ],
       101: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -69639,7 +66960,7 @@
            *
            * @method day
            * @return {Integer} the current da
-           */ _main.default.prototype.day = function() {
+           */ _main.default.prototype.day = function () {
             return new Date().getDate();
           };
 
@@ -69650,7 +66971,7 @@
            * @method hour
            * @return {Integer} the current hour
            */
-          _main.default.prototype.hour = function() {
+          _main.default.prototype.hour = function () {
             return new Date().getHours();
           };
 
@@ -69661,7 +66982,7 @@
            * @method minute
            * @return {Integer} the current minute
            */
-          _main.default.prototype.minute = function() {
+          _main.default.prototype.minute = function () {
             return new Date().getMinutes();
           };
 
@@ -69673,7 +66994,7 @@
            * @method millis
            * @return {Number} the number of milliseconds since starting the sketch
            */
-          _main.default.prototype.millis = function() {
+          _main.default.prototype.millis = function () {
             if (this._millisStart === -1) {
               // Sketch has not started
               return 0;
@@ -69689,7 +67010,7 @@
            * @method month
            * @return {Integer} the current month
            */
-          _main.default.prototype.month = function() {
+          _main.default.prototype.month = function () {
             //January is 0!
             return new Date().getMonth() + 1;
           };
@@ -69701,7 +67022,7 @@
            * @method second
            * @return {Integer} the current second
            */
-          _main.default.prototype.second = function() {
+          _main.default.prototype.second = function () {
             return new Date().getSeconds();
           };
 
@@ -69712,7 +67033,7 @@
            * @method year
            * @return {Integer} the current year
            */
-          _main.default.prototype.year = function() {
+          _main.default.prototype.year = function () {
             return new Date().getFullYear();
           };
           var _default = _main.default;
@@ -69721,7 +67042,7 @@
         { '../core/main': 59 }
       ],
       102: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -69800,12 +67121,10 @@
            * @method plane
            * @param  {Number} [width]    width of the plane
            * @param  {Number} [height]   height of the plane
-           * @param  {Integer} [detailX]  Optional number of triangle
-           *                             subdivisions in x-dimension
-           * @param {Integer} [detailY]   Optional number of triangle
-           *                             subdivisions in y-dimension
+           * @param  {Integer} [detailX]  Optional number of triangle subdivisions in x-dimension
+           * @param {Integer} [detailY]   Optional number of triangle subdivisions in y-dimension
            * @chainable
-           */ _main.default.prototype.plane = function(width, height, detailX, detailY) {
+           */ _main.default.prototype.plane = function (width, height, detailX, detailY) {
             this._assert3d('plane');
             _main.default._validateParameters('plane', arguments);
             if (typeof width === 'undefined') {
@@ -69844,7 +67163,7 @@
               } else if (this._renderer._doStroke) {
                 console.log(
                   'Cannot draw stroke on plane objects with more' +
-                    ' than 1 detailX or 1 detailY'
+                  ' than 1 detailX or 1 detailY'
                 );
               }
               this._renderer.createBuffers(gId, planeGeom);
@@ -69866,7 +67185,7 @@
            *                            subdivisions in y-dimension
            * @chainable
            */
-          _main.default.prototype.box = function(width, height, depth, detailX, detailY) {
+          _main.default.prototype.box = function (width, height, depth, detailX, detailY) {
             this._assert3d('box');
             _main.default._validateParameters('box', arguments);
             if (typeof width === 'undefined') {
@@ -69944,7 +67263,7 @@
               } else if (this._renderer._doStroke) {
                 console.log(
                   'Cannot draw stroke on box objects with more' +
-                    ' than 4 detailX or 4 detailY'
+                  ' than 4 detailX or 4 detailY'
                 );
               }
               //initialize our geometry buffer with
@@ -69971,7 +67290,7 @@
            *
            * @chainable
            */
-          _main.default.prototype.sphere = function(radius, detailX, detailY) {
+          _main.default.prototype.sphere = function (radius, detailX, detailY) {
             this._assert3d('sphere');
             _main.default._validateParameters('sphere', arguments);
             if (typeof radius === 'undefined') {
@@ -70133,7 +67452,7 @@
            * @param  {Boolean} [topCap]    whether to draw the top of the cylinder
            * @chainable
            */
-          _main.default.prototype.cylinder = function(
+          _main.default.prototype.cylinder = function (
             radius,
             height,
             detailX,
@@ -70186,7 +67505,7 @@
               } else if (this._renderer._doStroke) {
                 console.log(
                   'Cannot draw stroke on cylinder objects with more' +
-                    ' than 24 detailX or 16 detailY'
+                  ' than 24 detailX or 16 detailY'
                 );
               }
               this._renderer.createBuffers(gId, cylinderGeom);
@@ -70216,7 +67535,7 @@
            * @param  {Boolean} [cap]     whether to draw the base of the cone
            * @chainable
            */
-          _main.default.prototype.cone = function(radius, height, detailX, detailY, cap) {
+          _main.default.prototype.cone = function (radius, height, detailX, detailY, cap) {
             this._assert3d('cone');
             _main.default._validateParameters('cone', arguments);
             if (typeof radius === 'undefined') {
@@ -70247,7 +67566,7 @@
               } else if (this._renderer._doStroke) {
                 console.log(
                   'Cannot draw stroke on cone objects with more' +
-                    ' than 24 detailX or 16 detailY'
+                  ' than 24 detailX or 16 detailY'
                 );
               }
               this._renderer.createBuffers(gId, coneGeom);
@@ -70278,7 +67597,7 @@
            *                                    150, it may crash the browser.
            * @chainable
            */
-          _main.default.prototype.ellipsoid = function(
+          _main.default.prototype.ellipsoid = function (
             radiusX,
             radiusY,
             radiusZ,
@@ -70337,7 +67656,7 @@
               } else if (this._renderer._doStroke) {
                 console.log(
                   'Cannot draw stroke on ellipsoids with more' +
-                    ' than 24 detailX or 24 detailY'
+                  ' than 24 detailX or 24 detailY'
                 );
               }
               this._renderer.createBuffers(gId, ellipsoidGeom);
@@ -70367,7 +67686,7 @@
            *                                default is 16
            * @chainable
            */
-          _main.default.prototype.torus = function(radius, tubeRadius, detailX, detailY) {
+          _main.default.prototype.torus = function (radius, tubeRadius, detailX, detailY) {
             this._assert3d('torus');
             _main.default._validateParameters('torus', arguments);
             if (typeof radius === 'undefined') {
@@ -70435,7 +67754,7 @@
               } else if (this._renderer._doStroke) {
                 console.log(
                   'Cannot draw strokes on torus object with more' +
-                    ' than 24 detailX or 16 detailY'
+                  ' than 24 detailX or 16 detailY'
                 );
               }
               this._renderer.createBuffers(gId, torusGeom);
@@ -70460,7 +67779,7 @@
            * @param {Number} z z-coordinate of point
            * @chainable
            */
-          _main.default.RendererGL.prototype.point = function(x, y, z) {
+          _main.default.RendererGL.prototype.point = function (x, y, z) {
             if (typeof z === 'undefined') {
               z = 0;
             }
@@ -70472,7 +67791,7 @@
             return this;
           };
 
-          _main.default.RendererGL.prototype.triangle = function(args) {
+          _main.default.RendererGL.prototype.triangle = function (args) {
             var x1 = args[0],
               y1 = args[1];
             var x2 = args[2],
@@ -70500,19 +67819,14 @@
 
             // only one triangle is cached, one point is at the origin, and the
             // two adjacent sides are tne unit vectors along the X & Y axes.
-            //
-            // this matrix multiplication transforms those two unit vectors
-            // onto the required vector prior to rendering, and moves the
-            // origin appropriately.
             var uMVMatrix = this.uMVMatrix.copy();
             try {
-              // prettier-ignore
               var mult = new _main.default.Matrix([
-    x2 - x1, y2 - y1, 0, 0, // the resulting unit X-axis
-    x3 - x1, y3 - y1, 0, 0, // the resulting unit Y-axis
-    0, 0, 1, 0, // the resulting unit Z-axis (unchanged)
-    x1, y1, 0, 1 // the resulting origin
-    ]).mult(this.uMVMatrix);
+                x2 - x1, y2 - y1, 0, 0, // the resulting unit X-axis
+                x3 - x1, y3 - y1, 0, 0, // the resulting unit Y-axis
+                0, 0, 1, 0, // the resulting unit Z-axis (unchanged)
+                x1, y1, 0, 1 // the resulting origin
+              ]).mult(this.uMVMatrix);
 
               this.uMVMatrix = mult;
 
@@ -70524,7 +67838,7 @@
             return this;
           };
 
-          _main.default.RendererGL.prototype.ellipse = function(args) {
+          _main.default.RendererGL.prototype.ellipse = function (args) {
             this.arc(
               args[0],
               args[1],
@@ -70537,7 +67851,7 @@
             );
           };
 
-          _main.default.RendererGL.prototype.arc = function(args) {
+          _main.default.RendererGL.prototype.arc = function (args) {
             var x = arguments[0];
             var y = arguments[1];
             var width = arguments[2];
@@ -70661,7 +67975,7 @@
             return this;
           };
 
-          _main.default.RendererGL.prototype.rect = function(args) {
+          _main.default.RendererGL.prototype.rect = function (args) {
             var perPixelLighting = this._pInst._glAttributes.perPixelLighting;
             var x = args[0];
             var y = args[1];
@@ -70716,35 +68030,34 @@
             return this;
           };
 
-          // prettier-ignore
           _main.default.RendererGL.prototype.quad = function (x1, y1, z1, x2, y2, z2, x3, y3, z3, x4, y4, z4) {
-  var gId = "quad|".concat(
-  x1, "|").concat(y1, "|").concat(z1, "|").concat(x2, "|").concat(y2, "|").concat(z2, "|").concat(x3, "|").concat(y3, "|").concat(z3, "|").concat(x4, "|").concat(y4, "|").concat(z4);
-  if (!this.geometryInHash(gId)) {
-    var _quad = function _quad() {
-      this.vertices.push(new _main.default.Vector(x1, y1, z1));
-      this.vertices.push(new _main.default.Vector(x2, y2, z2));
-      this.vertices.push(new _main.default.Vector(x3, y3, z3));
-      this.vertices.push(new _main.default.Vector(x4, y4, z4));
-      this.uvs.push(0, 0, 1, 0, 1, 1, 0, 1);
-      this.strokeIndices = [[0, 1], [1, 2], [2, 3], [3, 0]];
-    };
-    var quadGeom = new _main.default.Geometry(2, 2, _quad);
-    quadGeom.
-    computeNormals().
-    _makeTriangleEdges().
-    _edgesToVertices();
-    quadGeom.faces = [[0, 1, 2], [2, 3, 0]];
-    this.createBuffers(gId, quadGeom);
-  }
-  this.drawBuffers(gId);
-  return this;
-};
+            var gId = "quad|".concat(
+              x1, "|").concat(y1, "|").concat(z1, "|").concat(x2, "|").concat(y2, "|").concat(z2, "|").concat(x3, "|").concat(y3, "|").concat(z3, "|").concat(x4, "|").concat(y4, "|").concat(z4);
+            if (!this.geometryInHash(gId)) {
+              var _quad = function _quad() {
+                this.vertices.push(new _main.default.Vector(x1, y1, z1));
+                this.vertices.push(new _main.default.Vector(x2, y2, z2));
+                this.vertices.push(new _main.default.Vector(x3, y3, z3));
+                this.vertices.push(new _main.default.Vector(x4, y4, z4));
+                this.uvs.push(0, 0, 1, 0, 1, 1, 0, 1);
+                this.strokeIndices = [[0, 1], [1, 2], [2, 3], [3, 0]];
+              };
+              var quadGeom = new _main.default.Geometry(2, 2, _quad);
+              quadGeom.
+                computeNormals().
+                _makeTriangleEdges().
+                _edgesToVertices();
+              quadGeom.faces = [[0, 1, 2], [2, 3, 0]];
+              this.createBuffers(gId, quadGeom);
+            }
+            this.drawBuffers(gId);
+            return this;
+          };
 
           //this implementation of bezier curve
           //is based on Bernstein polynomial
           // pretier-ignore
-          _main.default.RendererGL.prototype.bezier = function(
+          _main.default.RendererGL.prototype.bezier = function (
             x1,
             y1,
             z1, // x2
@@ -70785,7 +68098,7 @@
           };
 
           // pretier-ignore
-          _main.default.RendererGL.prototype.curve = function(
+          _main.default.RendererGL.prototype.curve = function (
             x1,
             y1,
             z1, // x2
@@ -70847,7 +68160,7 @@
            * @param {Number} z1 z-coordinate of second vertex
            * @chainable
            */
-          _main.default.RendererGL.prototype.line = function() {
+          _main.default.RendererGL.prototype.line = function () {
             if (arguments.length === 6) {
               this.beginShape(constants.LINES);
               this.vertex(
@@ -70878,7 +68191,7 @@
             return this;
           };
 
-          _main.default.RendererGL.prototype.bezierVertex = function() {
+          _main.default.RendererGL.prototype.bezierVertex = function () {
             if (this.immediateMode._bezierVertex.length === 0) {
               throw Error('vertex() must be used once before calling bezierVertex()');
             } else {
@@ -70999,7 +68312,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype.quadraticVertex = function() {
+          _main.default.RendererGL.prototype.quadraticVertex = function () {
             if (this.immediateMode._quadraticVertex.length === 0) {
               throw Error('vertex() must be used once before calling quadraticVertex()');
             } else {
@@ -71113,7 +68426,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype.curveVertex = function() {
+          _main.default.RendererGL.prototype.curveVertex = function () {
             var w_x = [];
             var w_y = [];
             var w_z = [];
@@ -71246,7 +68559,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype.image = function(
+          _main.default.RendererGL.prototype.image = function (
             img,
             sx,
             sy,
@@ -71307,7 +68620,7 @@
         { '../core/constants': 48, '../core/main': 59, './p5.Geometry': 108 }
       ],
       103: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -71395,7 +68708,7 @@
            * @param  {Number} [sensitivityZ] sensitivity to scroll movement along Z axis
            * @chainable
            */
-          _main.default.prototype.orbitControl = function(
+          _main.default.prototype.orbitControl = function (
             sensitivityX,
             sensitivityY,
             sensitivityZ
@@ -71426,11 +68739,8 @@
             // default right-mouse and mouse-wheel behaviors (context menu and scrolling,
             // respectively) are disabled here to allow use of those events for panning and
             // zooming
-
-            // disable context menu for canvas element and add 'contextMenuDisabled'
-            // flag to p5 instance
             if (this.contextMenuDisabled !== true) {
-              this.canvas.oncontextmenu = function() {
+              this.canvas.oncontextmenu = function () {
                 return false;
               };
               this._setProperty('contextMenuDisabled', true);
@@ -71439,7 +68749,7 @@
             // disable default scrolling behavior on the canvas element and add
             // 'wheelDefaultDisabled' flag to p5 instance
             if (this.wheelDefaultDisabled !== true) {
-              this.canvas.onwheel = function() {
+              this.canvas.onwheel = function () {
                 return false;
               };
               this._setProperty('wheelDefaultDisabled', true);
@@ -71507,12 +68817,6 @@
            * specify these parameters, add a call to stroke() and strokeWeight()
            * just before the end of the draw() loop.
            *
-           * By default, the grid will run through the origin (0,0,0) of the sketch
-           * along the XZ plane
-           * and the axes icon will be offset from the origin.  Both the grid and axes
-           * icon will be sized according to the current canvas size.  Note that because the
-           * grid runs parallel to the default camera view, it is often helpful to use
-           * debugMode along with orbitControl to allow full view of the grid.
            * @method debugMode
            */
 
@@ -71553,7 +68857,7 @@
            * @param {Number} [axesZOff]
            */
 
-          _main.default.prototype.debugMode = function() {
+          _main.default.prototype.debugMode = function () {
             this._assert3d('debugMode');
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
@@ -71566,7 +68870,6 @@
 
             // start by removing existing 'post' registered debug methods
             for (var i = this._registeredMethods.post.length - 1; i >= 0; i--) {
-              // test for equality...
               if (
                 this._registeredMethods.post[i].toString() === this._grid().toString() ||
                 this._registeredMethods.post[i].toString() === this._axesIcon().toString()
@@ -71603,12 +68906,11 @@
            * Turns off debugMode() in a 3D sketch.
            * @method noDebugMode
            */
-          _main.default.prototype.noDebugMode = function() {
+          _main.default.prototype.noDebugMode = function () {
             this._assert3d('noDebugMode');
 
             // start by removing existing 'post' registered debug methods
             for (var i = this._registeredMethods.post.length - 1; i >= 0; i--) {
-              // test for equality...
               if (
                 this._registeredMethods.post[i].toString() === this._grid().toString() ||
                 this._registeredMethods.post[i].toString() === this._axesIcon().toString()
@@ -71628,7 +68930,7 @@
            * @param {Number} [yOff] offset of grid center from origin in Y axis
            * @param {Number} [zOff] offset of grid center from origin in Z axis
            */
-          _main.default.prototype._grid = function(size, numDivs, xOff, yOff, zOff) {
+          _main.default.prototype._grid = function (size, numDivs, xOff, yOff, zOff) {
             if (typeof size === 'undefined') {
               size = this.width / 2;
             }
@@ -71649,7 +68951,7 @@
             var spacing = size / numDivs;
             var halfSize = size / 2;
 
-            return function() {
+            return function () {
               this.push();
               this.stroke(
                 this._renderer.curStrokeColor[0] * 255,
@@ -71705,7 +69007,7 @@
            * @param {Number} [yOff] offset of icon from origin in Y axis
            * @param {Number} [zOff] offset of icon from origin in Z axis
            */
-          _main.default.prototype._axesIcon = function(size, xOff, yOff, zOff) {
+          _main.default.prototype._axesIcon = function (size, xOff, yOff, zOff) {
             if (typeof size === 'undefined') {
               size = this.width / 20 > 40 ? this.width / 20 : 40;
             }
@@ -71719,7 +69021,7 @@
               zOff = xOff;
             }
 
-            return function() {
+            return function () {
               this.push();
               this._renderer.uMVMatrix.set(
                 this._renderer._curCamera.cameraMatrix.mat4[0],
@@ -71768,7 +69070,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       104: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -71817,7 +69119,7 @@
            * @param  {p5.Color}      color   the ambient light color
            * @chainable
            */
-          _main.default.prototype.ambientLight = function(v1, v2, v3, a) {
+          _main.default.prototype.ambientLight = function (v1, v2, v3, a) {
             this._assert3d('ambientLight');
             _main.default._validateParameters('ambientLight', arguments);
             var color = this.color.apply(this, arguments);
@@ -71842,9 +69144,6 @@
            * (255, 255, 255), which is used if this method is not called before
            * specularMaterial(). If this method is called without specularMaterial(),
            * There will be no effect.
-           *
-           * Note: specularColor is equivalent to the processing function
-           * <a href="https://processing.org/reference/lightSpecular_.html">lightSpecular</a>.
            *
            * @method specularColor
            * @param  {Number}        v1      red or hue value relative to
@@ -71880,7 +69179,7 @@
            * @param  {p5.Color}      color   the ambient light color
            * @chainable
            */
-          _main.default.prototype.specularColor = function(v1, v2, v3) {
+          _main.default.prototype.specularColor = function (v1, v2, v3) {
             this._assert3d('specularColor');
             _main.default._validateParameters('specularColor', arguments);
             var color = this.color.apply(this, arguments);
@@ -71934,7 +69233,7 @@
            * @param  {Number}    z
            * @chainable
            */
-          _main.default.prototype.directionalLight = function(v1, v2, v3, x, y, z) {
+          _main.default.prototype.directionalLight = function (v1, v2, v3, x, y, z) {
             this._assert3d('directionalLight');
             _main.default._validateParameters('directionalLight', arguments);
 
@@ -72017,7 +69316,7 @@
            * @param  {p5.Vector}                position
            * @chainable
            */
-          _main.default.prototype.pointLight = function(v1, v2, v3, x, y, z) {
+          _main.default.prototype.pointLight = function (v1, v2, v3, x, y, z) {
             this._assert3d('pointLight');
             _main.default._validateParameters('pointLight', arguments);
 
@@ -72058,11 +69357,11 @@
           };
 
           /**
-           * Sets the default ambient and directional light. The defaults are <a href="#/p5/ambientLight">ambientLight(128, 128, 128)</a> and <a href="#/p5/directionalLight">directionalLight(128, 128, 128, 0, 0, -1)</a>. Lights need to be included in the <a href="#/p5/draw">draw()</a> to remain persistent in a looping program. Placing them in the <a href="#/p5/setup">setup()</a> of a looping program will cause them to only have an effect the first time through the loop.
+           * Sets the default ambient and directional light.
            * @method lights
            * @chainable
            */
-          _main.default.prototype.lights = function() {
+          _main.default.prototype.lights = function () {
             this._assert3d('lights');
             this.ambientLight(128, 128, 128);
             this.directionalLight(128, 128, 128, 0, 0, -1);
@@ -72083,7 +69382,7 @@
            * @param {Number} quadratic  quadratic value for determining falloff
            * @chainable
            */
-          _main.default.prototype.lightFalloff = function(
+          _main.default.prototype.lightFalloff = function (
             constantAttenuation,
             linearAttenuation,
             quadraticAttenuation
@@ -72228,7 +69527,7 @@
            * @param  {Number}                   [angle]
            * @param  {Number}                   [conc]
            */
-          _main.default.prototype.spotLight = function(
+          _main.default.prototype.spotLight = function (
             v1,
             v2,
             v3,
@@ -72475,7 +69774,7 @@
            * @method noLights
            * @chainable
            */
-          _main.default.prototype.noLights = function() {
+          _main.default.prototype.noLights = function () {
             this._assert3d('noLights');
             _main.default._validateParameters('noLights', arguments);
 
@@ -72512,7 +69811,7 @@
         { '../core/main': 59 }
       ],
       105: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -72564,7 +69863,7 @@
            * @param  {function(Event)} [failureCallback]
            * @param  {String} [fileType]
            * @return {p5.Geometry} the <a href="#/p5.Geometry">p5.Geometry</a> object
-           */ _main.default.prototype.loadModel = function(path) {
+           */ _main.default.prototype.loadModel = function (path) {
             _main.default._validateParameters('loadModel', arguments);
             var normalize;
             var successCallback;
@@ -72595,7 +69894,7 @@
                 path,
                 'GET',
                 'arrayBuffer',
-                function(arrayBuffer) {
+                function (arrayBuffer) {
                   parseSTL(model, arrayBuffer);
 
                   if (normalize) {
@@ -72611,7 +69910,7 @@
             } else if (fileType.match(/\.obj$/i)) {
               this.loadStrings(
                 path,
-                function(strings) {
+                function (strings) {
                   parseObj(model, strings);
 
                   if (normalize) {
@@ -73063,7 +70362,7 @@
            * @method model
            * @param  {p5.Geometry} model Loaded 3d model to be rendered
            */
-          _main.default.prototype.model = function(model) {
+          _main.default.prototype.model = function (model) {
             this._assert3d('model');
             _main.default._validateParameters('model', arguments);
             if (model.vertices.length > 0) {
@@ -73081,7 +70380,7 @@
         { '../core/main': 59, './p5.Geometry': 108 }
       ],
       106: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -73175,7 +70474,7 @@
            * argument.
            * @return {p5.Shader} a shader object created from the provided
            * vertex and fragment shader files.
-           */ _main.default.prototype.loadShader = function(
+           */ _main.default.prototype.loadShader = function (
             vertFilename,
             fragFilename,
             callback,
@@ -73201,7 +70500,7 @@
 
             this.loadStrings(
               vertFilename,
-              function(result) {
+              function (result) {
                 loadedShader._vertSrc = result.join('\n');
                 loadedVert = true;
                 if (loadedFrag) {
@@ -73213,7 +70512,7 @@
 
             this.loadStrings(
               fragFilename,
-              function(result) {
+              function (result) {
                 loadedShader._fragSrc = result.join('\n');
                 loadedFrag = true;
                 if (loadedVert) {
@@ -73233,7 +70532,7 @@
            * @returns {p5.Shader} a shader object created from the provided
            * vertex and fragment shaders.
            */
-          _main.default.prototype.createShader = function(vertSrc, fragSrc) {
+          _main.default.prototype.createShader = function (vertSrc, fragSrc) {
             this._assert3d('createShader');
             _main.default._validateParameters('createShader', arguments);
             return new _main.default.Shader(this._renderer, vertSrc, fragSrc);
@@ -73250,7 +70549,7 @@
            * @param {p5.Shader} [s] the desired <a href="#/p5.Shader">p5.Shader</a> to use for rendering
            * shapes.
            */
-          _main.default.prototype.shader = function(s) {
+          _main.default.prototype.shader = function (s) {
             this._assert3d('shader');
             _main.default._validateParameters('shader', arguments);
 
@@ -73278,7 +70577,7 @@
            * @method resetShader
            * @chainable
            */
-          _main.default.prototype.resetShader = function() {
+          _main.default.prototype.resetShader = function () {
             this._renderer.userFillShader = this._renderer.userStrokeShader = null;
             return this;
           };
@@ -73292,7 +70591,7 @@
            * @method normalMaterial
            * @chainable
            */
-          _main.default.prototype.normalMaterial = function() {
+          _main.default.prototype.normalMaterial = function () {
             this._assert3d('normalMaterial');
             for (
               var _len = arguments.length, args = new Array(_len), _key = 0;
@@ -73320,7 +70619,7 @@
            *                    to render as texture
            * @chainable
            */
-          _main.default.prototype.texture = function(tex) {
+          _main.default.prototype.texture = function (tex) {
             this._assert3d('texture');
             _main.default._validateParameters('texture', arguments);
             if (tex.gifProperties) {
@@ -73349,7 +70648,7 @@
            * @method  textureMode
            * @param {Constant} mode either IMAGE or NORMAL
            */
-          _main.default.prototype.textureMode = function(mode) {
+          _main.default.prototype.textureMode = function (mode) {
             if (mode !== constants.IMAGE && mode !== constants.NORMAL) {
               console.warn(
                 'You tried to set '.concat(
@@ -73383,7 +70682,7 @@
            * @param {Constant} wrapX either CLAMP, REPEAT, or MIRROR
            * @param {Constant} [wrapY] either CLAMP, REPEAT, or MIRROR
            */
-          _main.default.prototype.textureWrap = function(wrapX) {
+          _main.default.prototype.textureWrap = function (wrapX) {
             var wrapY =
               arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : wrapX;
             this._renderer.textureWrapX = wrapX;
@@ -73409,7 +70708,7 @@
            * @param  {Number[]|String|p5.Color} color  color, color Array, or CSS color string
            * @chainable
            */
-          _main.default.prototype.ambientMaterial = function(v1, v2, v3) {
+          _main.default.prototype.ambientMaterial = function (v1, v2, v3) {
             this._assert3d('ambientMaterial');
             _main.default._validateParameters('ambientMaterial', arguments);
 
@@ -73443,7 +70742,7 @@
            * @param  {Number[]|String|p5.Color} color  color, color Array, or CSS color string
            * @chainable
            */
-          _main.default.prototype.emissiveMaterial = function(v1, v2, v3, a) {
+          _main.default.prototype.emissiveMaterial = function (v1, v2, v3, a) {
             this._assert3d('emissiveMaterial');
             _main.default._validateParameters('emissiveMaterial', arguments);
 
@@ -73485,7 +70784,7 @@
            * @param  {Number[]|String|p5.Color} color color Array, or CSS color string
            * @chainable
            */
-          _main.default.prototype.specularMaterial = function(v1, v2, v3, alpha) {
+          _main.default.prototype.specularMaterial = function (v1, v2, v3, alpha) {
             this._assert3d('specularMaterial');
             _main.default._validateParameters('specularMaterial', arguments);
 
@@ -73509,7 +70808,7 @@
            *                       Defaults to 1.
            * @chainable
            */
-          _main.default.prototype.shininess = function(shine) {
+          _main.default.prototype.shininess = function (shine) {
             this._assert3d('shininess');
             _main.default._validateParameters('shininess', arguments);
 
@@ -73527,7 +70826,7 @@
            * @param  {Number[]} color [description]
            * @return {Number[]]}  Normalized numbers array
            */
-          _main.default.RendererGL.prototype._applyColorBlend = function(colors) {
+          _main.default.RendererGL.prototype._applyColorBlend = function (colors) {
             var gl = this.GL;
 
             var isTexture = this.drawMode === constants.TEXTURE;
@@ -73555,7 +70854,7 @@
            * @param  {Number[]} color [description]
            * @return {Number[]]}  Normalized numbers array
            */
-          _main.default.RendererGL.prototype._applyBlendMode = function() {
+          _main.default.RendererGL.prototype._applyBlendMode = function () {
             if (this._cachedBlendMode === this.curBlendMode) {
               return;
             }
@@ -73634,7 +70933,7 @@
         { '../core/constants': 48, '../core/main': 59, './p5.Texture': 115 }
       ],
       107: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -73670,7 +70969,7 @@
            * @param  {Number} [upY]      y component of direction 'up' from camera
            * @param  {Number} [upZ]      z component of direction 'up' from camera
            * @chainable
-           */ _main.default.prototype.camera = function() {
+           */ _main.default.prototype.camera = function () {
             var _this$_renderer$_curC;
             this._assert3d('camera');
             for (
@@ -73710,7 +71009,7 @@
            * @param  {Number} [far]    frustum far plane length
            * @chainable
            */
-          _main.default.prototype.perspective = function() {
+          _main.default.prototype.perspective = function () {
             var _this$_renderer$_curC2;
             this._assert3d('perspective');
             for (
@@ -73747,7 +71046,7 @@
            * @param  {Number} [far]    camera frustum far plane
            * @chainable
            */
-          _main.default.prototype.ortho = function() {
+          _main.default.prototype.ortho = function () {
             var _this$_renderer$_curC3;
             this._assert3d('ortho');
             for (
@@ -73789,7 +71088,7 @@
            * @param  {Number} [far]    camera frustum far plane
            * @chainable
            */
-          _main.default.prototype.frustum = function() {
+          _main.default.prototype.frustum = function () {
             var _this$_renderer$_curC4;
             this._assert3d('frustum');
             for (
@@ -73819,7 +71118,7 @@
            * @return {p5.Camera} The newly created camera object.
            * @for p5
            */
-          _main.default.prototype.createCamera = function() {
+          _main.default.prototype.createCamera = function () {
             this._assert3d('createCamera');
             var _cam = new _main.default.Camera(this._renderer);
 
@@ -73847,20 +71146,10 @@
            * to create multiple cameras, in which case the current camera
            * can be set through the <a href="#/p5/setCamera">setCamera()</a> method.
            *
-           * Note:
-           * The methods below operate in two coordinate systems: the 'world' coordinate
-           * system describe positions in terms of their relationship to the origin along
-           * the X, Y and Z axes whereas the camera's 'local' coordinate system
-           * describes positions from the camera's point of view: left-right, up-down,
-           * and forward-backward. The <a href="#/p5.Camera/move">move()</a> method,
-           * for instance, moves the camera along its own axes, whereas the
-           * <a href="#/p5.Camera/setPosition">setPosition()</a>
-           * method sets the camera's position in world-space.
-           *
            * @class p5.Camera
            * @param {rendererGL} rendererGL instance of WebGL renderer
            */
-          _main.default.Camera = function(renderer) {
+          _main.default.Camera = function (renderer) {
             this._renderer = renderer;
 
             this.cameraType = 'default';
@@ -73880,13 +71169,10 @@
            * @method perspective
            * @for p5.Camera
            */
-          _main.default.Camera.prototype.perspective = function(fovy, aspect, near, far) {
+          _main.default.Camera.prototype.perspective = function (fovy, aspect, near, far) {
             this.cameraType = arguments.length > 0 ? 'custom' : 'default';
             if (typeof fovy === 'undefined') {
               fovy = this.defaultCameraFOV;
-              // this avoids issue where setting angleMode(DEGREES) before calling
-              // perspective leads to a smaller than expected FOV (because
-              // _computeCameraDefaultSettings computes in radians)
               this.cameraFOV = fovy;
             } else {
               this.cameraFOV = this._renderer._pInst._toRadians(fovy);
@@ -73905,14 +71191,14 @@
               near = 0.01;
               console.log(
                 'Avoid perspective near plane values close to or below 0. ' +
-                  'Setting value to 0.01.'
+                'Setting value to 0.01.'
               );
             }
 
             if (far < near) {
               console.log(
                 'Perspective far plane value is less than near plane value. ' +
-                  'Nothing will be shown.'
+                'Nothing will be shown.'
               );
             }
 
@@ -73925,11 +71211,10 @@
             var f = 1.0 / Math.tan(this.cameraFOV / 2);
             var nf = 1.0 / (this.cameraNear - this.cameraFar);
 
-            // prettier-ignore
             this.projMatrix.set(f / aspect, 0, 0, 0,
-  0, -f, 0, 0,
-  0, 0, (far + near) * nf, -1,
-  0, 0, 2 * far * near * nf, 0);
+              0, -f, 0, 0,
+              0, 0, (far + near) * nf, -1,
+              0, 0, 2 * far * near * nf, 0);
 
             if (this._isActive()) {
               this._renderer.uPMatrix.set(
@@ -73959,7 +71244,7 @@
            * @method ortho
            * @for p5.Camera
            */
-          _main.default.Camera.prototype.ortho = function(
+          _main.default.Camera.prototype.ortho = function (
             left,
             right,
             bottom,
@@ -73989,11 +71274,10 @@
 
             this.projMatrix = _main.default.Matrix.identity();
 
-            // prettier-ignore
             this.projMatrix.set(x, 0, 0, 0,
-  0, -y, 0, 0,
-  0, 0, z, 0,
-  tx, ty, tz, 1);
+              0, -y, 0, 0,
+              0, 0, z, 0,
+              tx, ty, tz, 1);
 
             if (this._isActive()) {
               this._renderer.uPMatrix.set(
@@ -74023,7 +71307,7 @@
            * @method frustum
            * @for p5.Camera
            */
-          _main.default.Camera.prototype.frustum = function(
+          _main.default.Camera.prototype.frustum = function (
             left,
             right,
             bottom,
@@ -74053,11 +71337,10 @@
 
             this.projMatrix = _main.default.Matrix.identity();
 
-            // prettier-ignore
             this.projMatrix.set(x, 0, 0, 0,
-  0, y, 0, 0,
-  tx, ty, tz, -1,
-  0, 0, z, 0);
+              0, y, 0, 0,
+              tx, ty, tz, -1,
+              0, 0, z, 0);
 
             if (this._isActive()) {
               this._renderer.uPMatrix.set(
@@ -74093,7 +71376,7 @@
            * @method _rotateView
            * @private
            */
-          _main.default.Camera.prototype._rotateView = function(a, x, y, z) {
+          _main.default.Camera.prototype._rotateView = function (a, x, y, z) {
             var centerX = this.centerX;
             var centerY = this.centerY;
             var centerZ = this.centerZ;
@@ -74106,11 +71389,10 @@
             var rotation = _main.default.Matrix.identity(this._renderer._pInst);
             rotation.rotate(this._renderer._pInst._toRadians(a), x, y, z);
 
-            // prettier-ignore
             var rotatedCenter = [
-  centerX * rotation.mat4[0] + centerY * rotation.mat4[4] + centerZ * rotation.mat4[8],
-  centerX * rotation.mat4[1] + centerY * rotation.mat4[5] + centerZ * rotation.mat4[9],
-  centerX * rotation.mat4[2] + centerY * rotation.mat4[6] + centerZ * rotation.mat4[10]];
+              centerX * rotation.mat4[0] + centerY * rotation.mat4[4] + centerZ * rotation.mat4[8],
+              centerX * rotation.mat4[1] + centerY * rotation.mat4[5] + centerZ * rotation.mat4[9],
+              centerX * rotation.mat4[2] + centerY * rotation.mat4[6] + centerZ * rotation.mat4[10]];
 
             // add eye position back into center
             rotatedCenter[0] += this.eyeX;
@@ -74137,7 +71419,7 @@
            * <a href="#/p5/angleMode">angleMode</a> units.
            * Greater than 0 values rotate counterclockwise (to the left).
            */
-          _main.default.Camera.prototype.pan = function(amount) {
+          _main.default.Camera.prototype.pan = function (amount) {
             var local = this._getLocalAxes();
             this._rotateView(amount, local.y[0], local.y[1], local.y[2]);
           };
@@ -74149,7 +71431,7 @@
            * <a href="#/p5/angleMode">angleMode</a> units.
            * Greater than 0 values rotate counterclockwise (to the left).
            */
-          _main.default.Camera.prototype.tilt = function(amount) {
+          _main.default.Camera.prototype.tilt = function (amount) {
             var local = this._getLocalAxes();
             this._rotateView(amount, local.x[0], local.x[1], local.x[2]);
           };
@@ -74162,7 +71444,7 @@
            * @param {Number} y y position of a point in world space
            * @param {Number} z z position of a point in world space
            */
-          _main.default.Camera.prototype.lookAt = function(x, y, z) {
+          _main.default.Camera.prototype.lookAt = function (x, y, z) {
             this.camera(
               this.eyeX,
               this.eyeY,
@@ -74186,7 +71468,7 @@
            * @method camera
            * @for p5.Camera
            */
-          _main.default.Camera.prototype.camera = function(
+          _main.default.Camera.prototype.camera = function (
             eyeX,
             eyeY,
             eyeZ,
@@ -74230,11 +71512,10 @@
             // the camera affects the model view matrix, insofar as it
             // inverse translates the world to the eye position of the camera
             // and rotates it.
-            // prettier-ignore
             this.cameraMatrix.set(local.x[0], local.y[0], local.z[0], 0,
-  local.x[1], local.y[1], local.z[1], 0,
-  local.x[2], local.y[2], local.z[2], 0,
-  0, 0, 0, 1);
+              local.x[1], local.y[1], local.z[1], 0,
+              local.x[2], local.y[2], local.z[2], 0,
+              0, 0, 0, 1);
 
             var tx = -eyeX;
             var ty = -eyeY;
@@ -74272,7 +71553,7 @@
            * @param {Number} y amount to move along camera's up-down axis
            * @param {Number} z amount to move along camera's forward-backward axis
            */
-          _main.default.Camera.prototype.move = function(x, y, z) {
+          _main.default.Camera.prototype.move = function (x, y, z) {
             var local = this._getLocalAxes();
 
             // scale local axes by movement amounts
@@ -74301,7 +71582,7 @@
            * @param {Number} y y position of a point in world space
            * @param {Number} z z position of a point in world space
            */
-          _main.default.Camera.prototype.setPosition = function(x, y, z) {
+          _main.default.Camera.prototype.setPosition = function (x, y, z) {
             var diffX = x - this.eyeX;
             var diffY = y - this.eyeY;
             var diffZ = z - this.eyeZ;
@@ -74323,7 +71604,7 @@
           // Camera Helper Methods
           ////////////////////////////////////////////////////////////////////////////////
 
-          _main.default.Camera.prototype._computeCameraDefaultSettings = function() {
+          _main.default.Camera.prototype._computeCameraDefaultSettings = function () {
             this.defaultCameraFOV = 60 / 180 * Math.PI;
             this.defaultAspectRatio = this._renderer.width / this._renderer.height;
             this.defaultEyeX = 0;
@@ -74339,7 +71620,7 @@
 
           //detect if user didn't set the camera
           //then call this function below
-          _main.default.Camera.prototype._setDefaultCamera = function() {
+          _main.default.Camera.prototype._setDefaultCamera = function () {
             this.cameraFOV = this.defaultCameraFOV;
             this.aspectRatio = this.defaultAspectRatio;
             this.eyeX = this.defaultEyeX;
@@ -74360,7 +71641,7 @@
             this.cameraType = 'default';
           };
 
-          _main.default.Camera.prototype._resize = function() {
+          _main.default.Camera.prototype._resize = function () {
             // If we're using the default camera, update the aspect ratio
             if (this.cameraType === 'default') {
               this._computeCameraDefaultSettings();
@@ -74378,7 +71659,7 @@
            * @method copy
            * @private
            */
-          _main.default.Camera.prototype.copy = function() {
+          _main.default.Camera.prototype.copy = function () {
             var _cam = new _main.default.Camera(this._renderer);
             _cam.cameraFOV = this.cameraFOV;
             _cam.aspectRatio = this.aspectRatio;
@@ -74405,7 +71686,7 @@
            * @method _getLocalAxes
            * @private
            */
-          _main.default.Camera.prototype._getLocalAxes = function() {
+          _main.default.Camera.prototype._getLocalAxes = function () {
             // calculate camera local Z vector
             var z0 = this.eyeX - this.centerX;
             var z1 = this.eyeY - this.centerY;
@@ -74465,7 +71746,7 @@
            * @param {Number} dPhi change in spherical coordinate phi
            * @param {Number} dRadius change in radius
            */
-          _main.default.Camera.prototype._orbit = function(dTheta, dPhi, dRadius) {
+          _main.default.Camera.prototype._orbit = function (dTheta, dPhi, dRadius) {
             var diffX = this.eyeX - this.centerX;
             var diffY = this.eyeY - this.centerY;
             var diffZ = this.eyeZ - this.centerZ;
@@ -74516,7 +71797,7 @@
            * @method _isActive
            * @private
            */
-          _main.default.Camera.prototype._isActive = function() {
+          _main.default.Camera.prototype._isActive = function () {
             return this === this._renderer._curCamera;
           };
 
@@ -74527,7 +71808,7 @@
            * @param  {p5.Camera} cam  p5.Camera object
            * @for p5
            */
-          _main.default.prototype.setCamera = function(cam) {
+          _main.default.prototype.setCamera = function (cam) {
             this._renderer._curCamera = cam;
 
             // set the projection matrix (which is not normally updated each frame)
@@ -74556,7 +71837,7 @@
         { '../core/main': 59 }
       ],
       108: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -74578,7 +71859,7 @@
            * @param  {Integer} [detailX] number of vertices on horizontal surface
            * @param  {Integer} [detailY] number of vertices on horizontal surface
            * @param {function} [callback] function to call upon object instantiation.
-           */ _main.default.Geometry = function(detailX, detailY, callback) {
+           */ _main.default.Geometry = function (detailX, detailY, callback) {
             //an array containing every vertex
             //@type [p5.Vector]
             this.vertices = []; //an array containing every vertex for stroke drawing
@@ -74612,7 +71893,7 @@
             return this;
           };
 
-          _main.default.Geometry.prototype.reset = function() {
+          _main.default.Geometry.prototype.reset = function () {
             this.lineVertices.length = 0;
             this.lineNormals.length = 0;
 
@@ -74630,7 +71911,7 @@
            * @method computeFaces
            * @chainable
            */
-          _main.default.Geometry.prototype.computeFaces = function() {
+          _main.default.Geometry.prototype.computeFaces = function () {
             this.faces.length = 0;
             var sliceCount = this.detailX + 1;
             var a, b, c, d;
@@ -74647,7 +71928,7 @@
             return this;
           };
 
-          _main.default.Geometry.prototype._getFaceNormal = function(faceId) {
+          _main.default.Geometry.prototype._getFaceNormal = function (faceId) {
             //This assumes that vA->vB->vC is a counter-clockwise ordering
             var face = this.faces[faceId];
             var vA = this.vertices[face[0]];
@@ -74676,7 +71957,7 @@
            * @method computeNormals
            * @chainable
            */
-          _main.default.Geometry.prototype.computeNormals = function() {
+          _main.default.Geometry.prototype.computeNormals = function () {
             var vertexNormals = this.vertexNormals;
             var vertices = this.vertices;
             var faces = this.faces;
@@ -74715,7 +71996,7 @@
            * @method averageNormals
            * @chainable
            */
-          _main.default.Geometry.prototype.averageNormals = function() {
+          _main.default.Geometry.prototype.averageNormals = function () {
             for (var i = 0; i <= this.detailY; i++) {
               var offset = this.detailX + 1;
               var temp = _main.default.Vector.add(
@@ -74735,7 +72016,7 @@
            * @method averagePoleNormals
            * @chainable
            */
-          _main.default.Geometry.prototype.averagePoleNormals = function() {
+          _main.default.Geometry.prototype.averagePoleNormals = function () {
             //average the north pole
             var sum = new _main.default.Vector(0, 0, 0);
             for (var i = 0; i < this.detailX; i++) {
@@ -74773,7 +72054,7 @@
            * @private
            * @chainable
            */
-          _main.default.Geometry.prototype._makeTriangleEdges = function() {
+          _main.default.Geometry.prototype._makeTriangleEdges = function () {
             this.edges.length = 0;
             if (Array.isArray(this.strokeIndices)) {
               for (var i = 0, max = this.strokeIndices.length; i < max; i++) {
@@ -74796,7 +72077,7 @@
            * @private
            * @chainable
            */
-          _main.default.Geometry.prototype._edgesToVertices = function() {
+          _main.default.Geometry.prototype._edgesToVertices = function () {
             this.lineVertices.length = 0;
             this.lineNormals.length = 0;
 
@@ -74828,7 +72109,7 @@
            * @method normalize
            * @chainable
            */
-          _main.default.Geometry.prototype.normalize = function() {
+          _main.default.Geometry.prototype.normalize = function () {
             if (this.vertices.length > 0) {
               // Find the corners of our bounding box
               var maxPosition = this.vertices[0].copy();
@@ -74861,7 +72142,7 @@
         { '../core/main': 59 }
       ],
       109: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -74891,7 +72172,7 @@
            * @constructor
            * @param {Array} [mat4] array literal of our 4x4 matrix
            */
-          _main.default.Matrix = function() {
+          _main.default.Matrix = function () {
             var args = new Array(arguments.length);
             for (var i = 0; i < args.length; ++i) {
               args[i] = arguments[i];
@@ -74930,7 +72211,7 @@
            *                                     array copying.
            * @chainable
            */
-          _main.default.Matrix.prototype.set = function(inMatrix) {
+          _main.default.Matrix.prototype.set = function (inMatrix) {
             if (inMatrix instanceof _main.default.Matrix) {
               this.mat4 = inMatrix.mat4;
               return this;
@@ -74964,7 +72245,7 @@
            * @method get
            * @return {p5.Matrix} the copy of the p5.Matrix object
            */
-          _main.default.Matrix.prototype.get = function() {
+          _main.default.Matrix.prototype.get = function () {
             return new _main.default.Matrix(this.mat4, this.p5);
           };
 
@@ -74973,7 +72254,7 @@
            * @method copy
            * @return {p5.Matrix}   the result matrix
            */
-          _main.default.Matrix.prototype.copy = function() {
+          _main.default.Matrix.prototype.copy = function () {
             var copied = new _main.default.Matrix(this.p5);
             copied.mat4[0] = this.mat4[0];
             copied.mat4[1] = this.mat4[1];
@@ -74999,7 +72280,7 @@
            * @method identity
            * @return {p5.Matrix}   the result matrix
            */
-          _main.default.Matrix.identity = function(pInst) {
+          _main.default.Matrix.identity = function (pInst) {
             return new _main.default.Matrix(pInst);
           };
 
@@ -75010,7 +72291,7 @@
            *                                               based on to transpose
            * @chainable
            */
-          _main.default.Matrix.prototype.transpose = function(a) {
+          _main.default.Matrix.prototype.transpose = function (a) {
             var a01, a02, a03, a12, a13, a23;
             if (a instanceof _main.default.Matrix) {
               a01 = a.mat4[1];
@@ -75071,7 +72352,7 @@
            *                                                based on to invert
            * @chainable
            */
-          _main.default.Matrix.prototype.invert = function(a) {
+          _main.default.Matrix.prototype.invert = function (a) {
             var a00, a01, a02, a03, a10, a11, a12, a13;
             var a20, a21, a22, a23, a30, a31, a32, a33;
             if (a instanceof _main.default.Matrix) {
@@ -75155,7 +72436,7 @@
            * @method invert3x3
            * @chainable
            */
-          _main.default.Matrix.prototype.invert3x3 = function() {
+          _main.default.Matrix.prototype.invert3x3 = function () {
             var a00 = this.mat3[0];
             var a01 = this.mat3[1];
             var a02 = this.mat3[2];
@@ -75193,7 +72474,7 @@
            * @param  {Number[]} mat3 1-dimensional array
            * @chainable
            */
-          _main.default.Matrix.prototype.transpose3x3 = function(mat3) {
+          _main.default.Matrix.prototype.transpose3x3 = function (mat3) {
             var a01 = mat3[1],
               a02 = mat3[2],
               a12 = mat3[5];
@@ -75213,7 +72494,7 @@
            * @param  {p5.Matrix} mat4 the matrix to be based on to invert
            * @chainable
            */
-          _main.default.Matrix.prototype.inverseTranspose = function(matrix) {
+          _main.default.Matrix.prototype.inverseTranspose = function (matrix) {
             if (this.mat3 === undefined) {
               console.error('sorry, this function only works with mat3');
             } else {
@@ -75247,7 +72528,7 @@
            * @method determinant
            * @return {Number} Determinant of our 4x4 matrix
            */
-          _main.default.Matrix.prototype.determinant = function() {
+          _main.default.Matrix.prototype.determinant = function () {
             var d00 = this.mat4[0] * this.mat4[5] - this.mat4[1] * this.mat4[4],
               d01 = this.mat4[0] * this.mat4[6] - this.mat4[2] * this.mat4[4],
               d02 = this.mat4[0] * this.mat4[7] - this.mat4[3] * this.mat4[4],
@@ -75272,7 +72553,7 @@
            *                                                we want to multiply by
            * @chainable
            */
-          _main.default.Matrix.prototype.mult = function(multMatrix) {
+          _main.default.Matrix.prototype.mult = function (multMatrix) {
             var _src;
 
             if (multMatrix === this || multMatrix === this.mat4) {
@@ -75327,7 +72608,7 @@
             return this;
           };
 
-          _main.default.Matrix.prototype.apply = function(multMatrix) {
+          _main.default.Matrix.prototype.apply = function (multMatrix) {
             var _src;
 
             if (multMatrix === this || multMatrix === this.mat4) {
@@ -75390,7 +72671,7 @@
            * @param  {p5.Vector|Float32Array|Number[]} s vector to scale by
            * @chainable
            */
-          _main.default.Matrix.prototype.scale = function(x, y, z) {
+          _main.default.Matrix.prototype.scale = function (x, y, z) {
             if (x instanceof _main.default.Vector) {
               // x is a vector, extract the components from it.
               y = x.y;
@@ -75427,7 +72708,7 @@
            * @chainable
            * inspired by Toji's gl-matrix lib, mat4 rotation
            */
-          _main.default.Matrix.prototype.rotate = function(a, x, y, z) {
+          _main.default.Matrix.prototype.rotate = function (a, x, y, z) {
             if (x instanceof _main.default.Vector) {
               // x is a vector, extract the components from it.
               y = x.y;
@@ -75495,7 +72776,7 @@
            * @param  {Number[]} v vector to translate by
            * @chainable
            */
-          _main.default.Matrix.prototype.translate = function(v) {
+          _main.default.Matrix.prototype.translate = function (v) {
             var x = v[0],
               y = v[1],
               z = v[2] || 0;
@@ -75505,13 +72786,13 @@
             this.mat4[15] += this.mat4[3] * x + this.mat4[7] * y + this.mat4[11] * z;
           };
 
-          _main.default.Matrix.prototype.rotateX = function(a) {
+          _main.default.Matrix.prototype.rotateX = function (a) {
             this.rotate(a, 1, 0, 0);
           };
-          _main.default.Matrix.prototype.rotateY = function(a) {
+          _main.default.Matrix.prototype.rotateY = function (a) {
             this.rotate(a, 0, 1, 0);
           };
-          _main.default.Matrix.prototype.rotateZ = function(a) {
+          _main.default.Matrix.prototype.rotateZ = function (a) {
             this.rotate(a, 0, 0, 1);
           };
 
@@ -75524,7 +72805,7 @@
            * @param  {Number} far    far clipping plane
            * @chainable
            */
-          _main.default.Matrix.prototype.perspective = function(fovy, aspect, near, far) {
+          _main.default.Matrix.prototype.perspective = function (fovy, aspect, near, far) {
             var f = 1.0 / Math.tan(fovy / 2),
               nf = 1 / (near - far);
 
@@ -75559,7 +72840,7 @@
            * @param  {Number} far    far clipping plane
            * @chainable
            */
-          _main.default.Matrix.prototype.ortho = function(
+          _main.default.Matrix.prototype.ortho = function (
             left,
             right,
             bottom,
@@ -75599,7 +72880,7 @@
         { '../core/main': 59 }
       ],
       110: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -75608,7 +72889,7 @@
             return obj && obj.__esModule ? obj : { default: obj };
           }
 
-          _main.default.RenderBuffer = function(size, src, dst, attr, renderer, map) {
+          _main.default.RenderBuffer = function (size, src, dst, attr, renderer, map) {
             this.size = size; // the number of FLOATs in each vertex
             this.src = src; // the name of the model's source array
             this.dst = dst; // the name of the geometry's buffer
@@ -75624,7 +72905,7 @@
            * @param {p5.Shader} shader Active shader
            * @private
            */
-          _main.default.RenderBuffer.prototype._prepareBuffer = function(geometry, shader) {
+          _main.default.RenderBuffer.prototype._prepareBuffer = function (geometry, shader) {
             var attributes = shader.attributes;
             var gl = this._renderer.GL;
             var model;
@@ -75674,7 +72955,7 @@
         { '../core/main': 59 }
       ],
       111: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -75767,7 +73048,7 @@
            *                       POINTS,LINES,LINE_STRIP,LINE_LOOP,TRIANGLES,
            *                       TRIANGLE_STRIP, TRIANGLE_FAN and TESS(WEBGL only)
            * @chainable
-           */ _main.default.RendererGL.prototype.beginShape = function(mode) {
+           */ _main.default.RendererGL.prototype.beginShape = function (mode) {
             this.immediateMode.shapeMode =
               mode !== undefined ? mode : constants.TRIANGLE_FAN;
             this.immediateMode.geometry.reset();
@@ -75781,7 +73062,7 @@
            * @param  {Number} y y-coordinate of vertex
            * @param  {Number} z z-coordinate of vertex
            * @chainable
-           */ _main.default.RendererGL.prototype.vertex = function(x, y) {
+           */ _main.default.RendererGL.prototype.vertex = function (x, y) {
             var z, u, v;
 
             // default to (x, y) mode: all other arugments assumed to be 0.
@@ -75820,7 +73101,7 @@
                 // Only throw this warning if custom uv's have  been provided
                 console.warn(
                   'You must first call texture() before using' +
-                    ' vertex() with image based u and v coordinates'
+                  ' vertex() with image based u and v coordinates'
                 );
               }
             }
@@ -75842,7 +73123,7 @@
            * End shape drawing and render vertices to screen.
            * @chainable
            */
-          _main.default.RendererGL.prototype.endShape = function(
+          _main.default.RendererGL.prototype.endShape = function (
             mode,
             isCurve,
             isBezier,
@@ -75883,12 +73164,11 @@
            * Called from endShape(). This function calculates the stroke vertices for custom shapes and
            * tesselates shapes when applicable.
            * @private
-           * @param  {Number} mode webgl primitives mode.  beginShape supports the
-           *                       following modes:
+           * @param  {Number} mode webgl primitives mode.  beginShape supports the following modes:
            *                       POINTS,LINES,LINE_STRIP,LINE_LOOP,TRIANGLES,
            *                       TRIANGLE_STRIP, TRIANGLE_FAN and TESS(WEBGL only)
            */
-          _main.default.RendererGL.prototype._processVertices = function(mode) {
+          _main.default.RendererGL.prototype._processVertices = function (mode) {
             if (this.immediateMode.geometry.vertices.length === 0) return;
 
             var calculateStroke = this._doStroke && this.drawMode !== constants.TEXTURE;
@@ -75920,7 +73200,7 @@
            * @private
            * @returns  {Array[Number]} indices for custom shape vertices indicating edges.
            */
-          _main.default.RendererGL.prototype._calculateEdges = function(
+          _main.default.RendererGL.prototype._calculateEdges = function (
             shapeMode,
             verts,
             shouldClose
@@ -75964,7 +73244,7 @@
            * Called from _processVertices() when applicable. This function tesselates immediateMode.geometry.
            * @private
            */
-          _main.default.RendererGL.prototype._tesselateShape = function() {
+          _main.default.RendererGL.prototype._tesselateShape = function () {
             this.immediateMode.shapeMode = constants.TRIANGLES;
             var contours = [
               new Float32Array(this._vToNArray(this.immediateMode.geometry.vertices))
@@ -75986,7 +73266,7 @@
            * enabling all appropriate buffers, applying color blend, and drawing the fill geometry.
            * @private
            */
-          _main.default.RendererGL.prototype._drawImmediateFill = function() {
+          _main.default.RendererGL.prototype._drawImmediateFill = function () {
             var gl = this.GL;
             var shader = this._getImmediateFillShader();
 
@@ -76043,7 +73323,7 @@
            * enabling all appropriate buffers, applying color blend, and drawing the stroke geometry.
            * @private
            */
-          _main.default.RendererGL.prototype._drawImmediateStroke = function() {
+          _main.default.RendererGL.prototype._drawImmediateStroke = function () {
             var gl = this.GL;
             var shader = this._getImmediateStrokeShader();
             this._setStrokeUniforms(shader);
@@ -76053,7 +73333,7 @@
             try {
               for (
                 var _iterator2 = this.immediateMode.buffers.stroke[Symbol.iterator](),
-                  _step2;
+                _step2;
                 !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done);
                 _iteratorNormalCompletion2 = true
               ) {
@@ -76086,8 +73366,8 @@
            * @parem
            * @private
            */
-          _main.default.RendererGL.prototype._calculateNormals = function(geometry) {
-            geometry.vertices.forEach(function() {
+          _main.default.RendererGL.prototype._calculateNormals = function (geometry) {
+            geometry.vertices.forEach(function () {
               geometry.vertexNormals.push(new _main.default.Vector(0, 0, 1));
             });
           };
@@ -76097,7 +73377,7 @@
         { '../core/constants': 48, '../core/main': 59, './p5.RenderBuffer': 110 }
       ],
       112: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -76118,7 +73398,7 @@
            * @param  {String} gId  key of the geometry object
            * @returns {Object} a new buffer object
            */
-          _main.default.RendererGL.prototype._initBufferDefaults = function(gId) {
+          _main.default.RendererGL.prototype._initBufferDefaults = function (gId) {
             this._freeBuffers(gId);
 
             hashCount++;
@@ -76132,7 +73412,7 @@
             return (this.retainedMode.geometry[gId] = {});
           };
 
-          _main.default.RendererGL.prototype._freeBuffers = function(gId) {
+          _main.default.RendererGL.prototype._freeBuffers = function (gId) {
             var buffers = this.retainedMode.geometry[gId];
             if (!buffers) {
               return;
@@ -76190,7 +73470,7 @@
            * @param  {String} gId    key of the geometry object
            * @param  {p5.Geometry}  model contains geometry data
            */
-          _main.default.RendererGL.prototype.createBuffers = function(gId, model) {
+          _main.default.RendererGL.prototype.createBuffers = function (gId, model) {
             var gl = this.GL;
             //initialize the gl buffers for our geom groups
             var buffers = this._initBufferDefaults(gId);
@@ -76227,7 +73507,7 @@
            * @param  {String} gId     ID in our geom hash
            * @chainable
            */
-          _main.default.RendererGL.prototype.drawBuffers = function(gId) {
+          _main.default.RendererGL.prototype.drawBuffers = function (gId) {
             var gl = this.GL;
             var geometry = this.retainedMode.geometry[gId];
 
@@ -76240,7 +73520,7 @@
               try {
                 for (
                   var _iterator2 = this.retainedMode.buffers.stroke[Symbol.iterator](),
-                    _step2;
+                  _step2;
                   !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done);
                   _iteratorNormalCompletion2 = true
                 ) {
@@ -76275,7 +73555,7 @@
               try {
                 for (
                   var _iterator3 = this.retainedMode.buffers.fill[Symbol.iterator](),
-                    _step3;
+                  _step3;
                   !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done);
                   _iteratorNormalCompletion3 = true
                 ) {
@@ -76322,7 +73602,7 @@
            * @param {Number} scaleY  the amount to scale in the Y direction
            * @param {Number} scaleZ  the amount to scale in the Z direction
            */
-          _main.default.RendererGL.prototype.drawBuffersScaled = function(
+          _main.default.RendererGL.prototype.drawBuffersScaled = function (
             gId,
             scaleX,
             scaleY,
@@ -76337,7 +73617,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype._drawArrays = function(drawMode, gId) {
+          _main.default.RendererGL.prototype._drawArrays = function (drawMode, gId) {
             this.GL.drawArrays(
               drawMode,
               0,
@@ -76347,7 +73627,7 @@
             return this;
           };
 
-          _main.default.RendererGL.prototype._drawElements = function(drawMode, gId) {
+          _main.default.RendererGL.prototype._drawElements = function (drawMode, gId) {
             var buffers = this.retainedMode.geometry[gId];
             var gl = this.GL;
             // render the fill
@@ -76360,7 +73640,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype._drawPoints = function(
+          _main.default.RendererGL.prototype._drawPoints = function (
             vertices,
             vertexBuffer
           ) {
@@ -76388,7 +73668,7 @@
         { '../core/main': 59, './p5.RenderBuffer': 110, './p5.RendererGL': 113 }
       ],
       113: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -76536,7 +73816,7 @@
            * @constructor
            * @extends p5.Renderer
            */
-          _main.default.RendererGL = function(elt, pInst, isMainCanvas, attr) {
+          _main.default.RendererGL = function (elt, pInst, isMainCanvas, attr) {
             _main.default.Renderer.call(this, elt, pInst, isMainCanvas);
             this._setAttributeDefaults(pInst);
             this._initContext();
@@ -76621,24 +73901,20 @@
             this.retainedMode = {
               geometry: {},
               buffers: {
-                // prettier-ignore
                 stroke: [
-      new _main.default.RenderBuffer(3, 'lineVertices', 'lineVertexBuffer', 'aPosition', this, this._flatten),
-      new _main.default.RenderBuffer(4, 'lineNormals', 'lineNormalBuffer', 'aDirection', this, this._flatten)],
+                  new _main.default.RenderBuffer(3, 'lineVertices', 'lineVertexBuffer', 'aPosition', this, this._flatten),
+                  new _main.default.RenderBuffer(4, 'lineNormals', 'lineNormalBuffer', 'aDirection', this, this._flatten)],
 
-                // prettier-ignore
                 fill: [
-      new _main.default.RenderBuffer(3, 'vertices', 'vertexBuffer', 'aPosition', this, this._vToNArray),
-      new _main.default.RenderBuffer(3, 'vertexNormals', 'normalBuffer', 'aNormal', this, this._vToNArray),
-      new _main.default.RenderBuffer(4, 'vertexColors', 'colorBuffer', 'aMaterialColor', this),
-      new _main.default.RenderBuffer(3, 'vertexAmbients', 'ambientBuffer', 'aAmbientColor', this),
-      //new BufferDef(3, 'vertexSpeculars', 'specularBuffer', 'aSpecularColor'),
-      new _main.default.RenderBuffer(2, 'uvs', 'uvBuffer', 'aTexCoord', this, this._flatten)],
+                  new _main.default.RenderBuffer(3, 'vertices', 'vertexBuffer', 'aPosition', this, this._vToNArray),
+                  new _main.default.RenderBuffer(3, 'vertexNormals', 'normalBuffer', 'aNormal', this, this._vToNArray),
+                  new _main.default.RenderBuffer(4, 'vertexColors', 'colorBuffer', 'aMaterialColor', this),
+                  new _main.default.RenderBuffer(3, 'vertexAmbients', 'ambientBuffer', 'aAmbientColor', this),
+                  new _main.default.RenderBuffer(2, 'uvs', 'uvBuffer', 'aTexCoord', this, this._flatten)],
 
-                // prettier-ignore
                 text: [
-      new _main.default.RenderBuffer(3, 'vertices', 'vertexBuffer', 'aPosition', this, this._vToNArray),
-      new _main.default.RenderBuffer(2, 'uvs', 'uvBuffer', 'aTexCoord', this, this._flatten)]
+                  new _main.default.RenderBuffer(3, 'vertices', 'vertexBuffer', 'aPosition', this, this._vToNArray),
+                  new _main.default.RenderBuffer(2, 'uvs', 'uvBuffer', 'aTexCoord', this, this._flatten)]
               }
             };
 
@@ -76651,18 +73927,16 @@
               _quadraticVertex: [],
               _curveVertex: [],
               buffers: {
-                // prettier-ignore
                 fill: [
-      new _main.default.RenderBuffer(3, 'vertices', 'vertexBuffer', 'aPosition', this, this._vToNArray),
-      new _main.default.RenderBuffer(3, 'vertexNormals', 'normalBuffer', 'aNormal', this, this._vToNArray),
-      new _main.default.RenderBuffer(4, 'vertexColors', 'colorBuffer', 'aVertexColor', this),
-      new _main.default.RenderBuffer(3, 'vertexAmbients', 'ambientBuffer', 'aAmbientColor', this),
-      new _main.default.RenderBuffer(2, 'uvs', 'uvBuffer', 'aTexCoord', this, this._flatten)],
+                  new _main.default.RenderBuffer(3, 'vertices', 'vertexBuffer', 'aPosition', this, this._vToNArray),
+                  new _main.default.RenderBuffer(3, 'vertexNormals', 'normalBuffer', 'aNormal', this, this._vToNArray),
+                  new _main.default.RenderBuffer(4, 'vertexColors', 'colorBuffer', 'aVertexColor', this),
+                  new _main.default.RenderBuffer(3, 'vertexAmbients', 'ambientBuffer', 'aAmbientColor', this),
+                  new _main.default.RenderBuffer(2, 'uvs', 'uvBuffer', 'aTexCoord', this, this._flatten)],
 
-                // prettier-ignore
                 stroke: [
-      new _main.default.RenderBuffer(3, 'lineVertices', 'lineVertexBuffer', 'aPosition', this, this._flatten),
-      new _main.default.RenderBuffer(4, 'lineNormals', 'lineNormalBuffer', 'aDirection', this, this._flatten)],
+                  new _main.default.RenderBuffer(3, 'lineVertices', 'lineVertexBuffer', 'aPosition', this, this._flatten),
+                  new _main.default.RenderBuffer(4, 'lineNormals', 'lineNormalBuffer', 'aDirection', this, this._flatten)],
 
                 point: this.GL.createBuffer()
               }
@@ -76708,8 +73982,7 @@
           // Setting
           //////////////////////////////////////////////
 
-          _main.default.RendererGL.prototype._setAttributeDefaults = function(pInst) {
-            // See issue #3850, safer to enable AA in Safari
+          _main.default.RendererGL.prototype._setAttributeDefaults = function (pInst) {
             var applyAA = navigator.userAgent.toLowerCase().includes('safari');
             var defaults = {
               alpha: true,
@@ -76729,7 +74002,7 @@
             return;
           };
 
-          _main.default.RendererGL.prototype._initContext = function() {
+          _main.default.RendererGL.prototype._initContext = function () {
             try {
               this.drawingContext =
                 this.canvas.getContext('webgl', this._pInst._glAttributes) ||
@@ -76752,8 +74025,7 @@
 
           //This is helper function to reset the context anytime the attributes
           //are changed with setAttributes()
-
-          _main.default.RendererGL.prototype._resetContext = function(options, callback) {
+          _main.default.RendererGL.prototype._resetContext = function (options, callback) {
             var w = this.width;
             var h = this.height;
             var defaultId = this.canvas.id;
@@ -76800,7 +74072,7 @@
             if (typeof callback === 'function') {
               //setTimeout with 0 forces the task to the back of the queue, this ensures that
               //we finish switching out the renderer
-              setTimeout(function() {
+              setTimeout(function () {
                 callback.apply(window._renderer, options);
               }, 0);
             }
@@ -76812,41 +74084,6 @@
            */
           /**
            * Set attributes for the WebGL Drawing context.
-           * This is a way of adjusting how the WebGL
-           * renderer works to fine-tune the display and performance.
-           *
-           * Note that this will reinitialize the drawing context
-           * if called after the WebGL canvas is made.
-           *
-           * If an object is passed as the parameter, all attributes
-           * not declared in the object will be set to defaults.
-           *
-           * The available attributes are:
-           * <br>
-           * alpha - indicates if the canvas contains an alpha buffer
-           * default is true
-           *
-           * depth - indicates whether the drawing buffer has a depth buffer
-           * of at least 16 bits - default is true
-           *
-           * stencil - indicates whether the drawing buffer has a stencil buffer
-           * of at least 8 bits
-           *
-           * antialias - indicates whether or not to perform anti-aliasing
-           * default is false (true in Safari)
-           *
-           * premultipliedAlpha - indicates that the page compositor will assume
-           * the drawing buffer contains colors with pre-multiplied alpha
-           * default is false
-           *
-           * preserveDrawingBuffer - if true the buffers will not be cleared and
-           * and will preserve their values until cleared or overwritten by author
-           * (note that p5 clears automatically on draw loop)
-           * default is true
-           *
-           * perPixelLighting - if true, per-pixel lighting will be used in the
-           * lighting shader otherwise per-vertex lighting is used.
-           * default is true.
            *
            * @method setAttributes
            * @for p5
@@ -76859,11 +74096,11 @@
            * @param  {Object}  obj object with key-value pairs
            */
 
-          _main.default.prototype.setAttributes = function(key, value) {
+          _main.default.prototype.setAttributes = function (key, value) {
             if (typeof this._glAttributes === 'undefined') {
               console.log(
                 'You are trying to use setAttributes on a p5.Graphics object ' +
-                  'that does not use a WEBGL renderer.'
+                'that does not use a WEBGL renderer.'
               );
 
               return;
@@ -76895,7 +74132,7 @@
                 if (this._renderer.retainedMode.geometry.hasOwnProperty(x)) {
                   console.error(
                     'Sorry, Could not set the attributes, you need to call setAttributes() ' +
-                      'before calling the other drawing methods in setup()'
+                    'before calling the other drawing methods in setup()'
                   );
 
                   return;
@@ -76916,7 +74153,7 @@
            * @class p5.RendererGL
            */
 
-          _main.default.RendererGL.prototype._update = function() {
+          _main.default.RendererGL.prototype._update = function () {
             // reset model view and apply initial camera transform
             // (containing only look at info; no projection).
             this.uMVMatrix.set(
@@ -76970,7 +74207,7 @@
           /**
            * [background description]
            */
-          _main.default.RendererGL.prototype.background = function() {
+          _main.default.RendererGL.prototype.background = function () {
             var _this$_pInst;
             var _col = (_this$_pInst = this._pInst).color.apply(_this$_pInst, arguments);
             var _r = _col.levels[0] / 255;
@@ -76997,8 +74234,7 @@
            * @param  {Number}            [a]  opacity
            * @chainable
            */
-          _main.default.RendererGL.prototype.fill = function(v1, v2, v3, a) {
-            //see material.js for more info on color blending in webgl
+          _main.default.RendererGL.prototype.fill = function (v1, v2, v3, a) {
             var color = _main.default.prototype.color.apply(this._pInst, arguments);
             this.curFillColor = color._array;
             this.drawMode = constants.FILL;
@@ -77016,26 +74252,26 @@
            * @param  {Number}            [v3] blue or brightness value
            * @param  {Number}            [a]  opacity
            */
-          _main.default.RendererGL.prototype.stroke = function(r, g, b, a) {
+          _main.default.RendererGL.prototype.stroke = function (r, g, b, a) {
             arguments[3] = 255;
             var color = _main.default.prototype.color.apply(this._pInst, arguments);
             this.curStrokeColor = color._array;
           };
 
-          _main.default.RendererGL.prototype.strokeCap = function(cap) {
+          _main.default.RendererGL.prototype.strokeCap = function (cap) {
             console.error('Sorry, strokeCap() is not yet implemented in WEBGL mode');
           };
 
-          _main.default.RendererGL.prototype.strokeJoin = function(join) {
+          _main.default.RendererGL.prototype.strokeJoin = function (join) {
             console.error('Sorry, strokeJoin() is not yet implemented in WEBGL mode');
           };
 
-          _main.default.RendererGL.prototype.filter = function(filterType) {
+          _main.default.RendererGL.prototype.filter = function (filterType) {
             // filter can be achieved using custom shaders.
             console.error('filter() does not work in WEBGL mode');
           };
 
-          _main.default.RendererGL.prototype.blendMode = function(mode) {
+          _main.default.RendererGL.prototype.blendMode = function (mode) {
             if (
               mode === constants.DARKEST ||
               mode === constants.LIGHTEST ||
@@ -77062,7 +74298,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype.erase = function(opacityFill, opacityStroke) {
+          _main.default.RendererGL.prototype.erase = function (opacityFill, opacityStroke) {
             if (!this._isErasing) {
               this._applyBlendMode(constants.REMOVE);
               this._isErasing = true;
@@ -77075,7 +74311,7 @@
             }
           };
 
-          _main.default.RendererGL.prototype.noErase = function() {
+          _main.default.RendererGL.prototype.noErase = function () {
             if (this._isErasing) {
               this._isErasing = false;
               this.curFillColor = this._cachedFillStyle.slice();
@@ -77089,7 +74325,7 @@
            * @method  strokeWeight
            * @param  {Number} stroke weight to be used for drawing
            */
-          _main.default.RendererGL.prototype.strokeWeight = function(w) {
+          _main.default.RendererGL.prototype.strokeWeight = function (w) {
             if (this.curStrokeWeight !== w) {
               this.pointSize = w;
               this.curStrokeWeight = w;
@@ -77097,14 +74333,13 @@
           };
 
           // x,y are canvas-relative (pre-scaled by _pixelDensity)
-          _main.default.RendererGL.prototype._getPixel = function(x, y) {
+          _main.default.RendererGL.prototype._getPixel = function (x, y) {
             var imageData, index;
             imageData = new Uint8Array(4);
-            // prettier-ignore
             this.drawingContext.readPixels(
-  x, y, 1, 1,
-  this.drawingContext.RGBA, this.drawingContext.UNSIGNED_BYTE,
-  imageData);
+              x, y, 1, 1,
+              this.drawingContext.RGBA, this.drawingContext.UNSIGNED_BYTE,
+              imageData);
 
             index = 0;
             return [
@@ -77117,14 +74352,12 @@
 
           /**
            * Loads the pixels data for this canvas into the pixels[] attribute.
-           * Note that updatePixels() and set() do not work.
-           * Any pixel manipulation must be done directly to the pixels[] array.
            *
            * @private
            * @method loadPixels
            */
 
-          _main.default.RendererGL.prototype.loadPixels = function() {
+          _main.default.RendererGL.prototype.loadPixels = function () {
             var pixelsState = this._pixelsState;
 
             if (this._pInst._glAttributes.preserveDrawingBuffer !== true) {
@@ -77145,18 +74378,17 @@
             }
 
             var pd = this._pInst._pixelDensity;
-            // prettier-ignore
             this.GL.readPixels(
-  0, 0, this.width * pd, this.height * pd,
-  this.GL.RGBA, this.GL.UNSIGNED_BYTE,
-  pixels);
+              0, 0, this.width * pd, this.height * pd,
+              this.GL.RGBA, this.GL.UNSIGNED_BYTE,
+              pixels);
           };
 
           //////////////////////////////////////////////
           // HASH | for geometry
           //////////////////////////////////////////////
 
-          _main.default.RendererGL.prototype.geometryInHash = function(gId) {
+          _main.default.RendererGL.prototype.geometryInHash = function (gId) {
             return this.retainedMode.geometry[gId] !== undefined;
           };
 
@@ -77166,7 +74398,7 @@
            * @param  {Number} w [description]
            * @param  {Number} h [description]
            */
-          _main.default.RendererGL.prototype.resize = function(w, h) {
+          _main.default.RendererGL.prototype.resize = function (w, h) {
             _main.default.Renderer.prototype.resize.call(this, w, h);
             this.GL.viewport(0, 0, this.GL.drawingBufferWidth, this.GL.drawingBufferHeight);
 
@@ -77193,7 +74425,7 @@
            * @param {Number} b normalized blue val.
            * @param {Number} a normalized alpha val.
            */
-          _main.default.RendererGL.prototype.clear = function() {
+          _main.default.RendererGL.prototype.clear = function () {
             var _r = (arguments.length <= 0 ? undefined : arguments[0]) || 0;
             var _g = (arguments.length <= 1 ? undefined : arguments[1]) || 0;
             var _b = (arguments.length <= 2 ? undefined : arguments[2]) || 0;
@@ -77202,16 +74434,15 @@
             this.GL.clear(this.GL.COLOR_BUFFER_BIT | this.GL.DEPTH_BUFFER_BIT);
           };
 
-          _main.default.RendererGL.prototype.applyMatrix = function(a, b, c, d, e, f) {
+          _main.default.RendererGL.prototype.applyMatrix = function (a, b, c, d, e, f) {
             if (arguments.length === 16) {
               _main.default.Matrix.prototype.apply.apply(this.uMVMatrix, arguments);
             } else {
-              // prettier-ignore
               this.uMVMatrix.apply([
-    a, b, 0, 0,
-    c, d, 0, 0,
-    0, 0, 1, 0,
-    e, f, 0, 1]);
+                a, b, 0, 0,
+                c, d, 0, 0,
+                0, 0, 1, 0,
+                e, f, 0, 1]);
             }
           };
 
@@ -77223,7 +74454,7 @@
            * @param  {Number} z [description]
            * @chainable
            */
-          _main.default.RendererGL.prototype.translate = function(x, y, z) {
+          _main.default.RendererGL.prototype.translate = function (x, y, z) {
             if (x instanceof _main.default.Vector) {
               z = x.z;
               y = x.y;
@@ -77241,12 +74472,12 @@
            * @param  {Number} [z] z-axis scalar
            * @chainable
            */
-          _main.default.RendererGL.prototype.scale = function(x, y, z) {
+          _main.default.RendererGL.prototype.scale = function (x, y, z) {
             this.uMVMatrix.scale(x, y, z);
             return this;
           };
 
-          _main.default.RendererGL.prototype.rotate = function(rad, axis) {
+          _main.default.RendererGL.prototype.rotate = function (rad, axis) {
             if (typeof axis === 'undefined') {
               return this.rotateZ(rad);
             }
@@ -77254,22 +74485,22 @@
             return this;
           };
 
-          _main.default.RendererGL.prototype.rotateX = function(rad) {
+          _main.default.RendererGL.prototype.rotateX = function (rad) {
             this.rotate(rad, 1, 0, 0);
             return this;
           };
 
-          _main.default.RendererGL.prototype.rotateY = function(rad) {
+          _main.default.RendererGL.prototype.rotateY = function (rad) {
             this.rotate(rad, 0, 1, 0);
             return this;
           };
 
-          _main.default.RendererGL.prototype.rotateZ = function(rad) {
+          _main.default.RendererGL.prototype.rotateZ = function (rad) {
             this.rotate(rad, 0, 0, 1);
             return this;
           };
 
-          _main.default.RendererGL.prototype.push = function() {
+          _main.default.RendererGL.prototype.push = function () {
             // get the base renderer style
             var style = _main.default.Renderer.prototype.push.apply(this);
 
@@ -77327,7 +74558,7 @@
             return style;
           };
 
-          _main.default.RendererGL.prototype.resetMatrix = function() {
+          _main.default.RendererGL.prototype.resetMatrix = function () {
             this.uMVMatrix = _main.default.Matrix.identity(this._pInst);
             return this;
           };
@@ -77342,7 +74573,7 @@
  * and the shader must be valid in that context.
  */
 
-          _main.default.RendererGL.prototype._getImmediateStrokeShader = function() {
+          _main.default.RendererGL.prototype._getImmediateStrokeShader = function () {
             // select the stroke shader to use
             var stroke = this.userStrokeShader;
             if (!stroke || !stroke.isStrokeShader()) {
@@ -77358,7 +74589,7 @@
                                                                * selects which fill shader should be used based on renderer state,
                                                                * for use with begin/endShape and immediate vertex mode.
                                                                */
-          _main.default.RendererGL.prototype._getImmediateFillShader = function() {
+          _main.default.RendererGL.prototype._getImmediateFillShader = function () {
             var fill = this.userFillShader;
             if (this._useNormalMaterial) {
               if (!fill || !fill.isNormalShader()) {
@@ -77383,7 +74614,7 @@
     * selects which fill shader should be used based on renderer state
     * for retained mode.
     */
-          _main.default.RendererGL.prototype._getRetainedFillShader = function() {
+          _main.default.RendererGL.prototype._getRetainedFillShader = function () {
             if (this._useNormalMaterial) {
               return this._getNormalShader();
             }
@@ -77403,7 +74634,7 @@
             return fill;
           };
 
-          _main.default.RendererGL.prototype._getImmediatePointShader = function() {
+          _main.default.RendererGL.prototype._getImmediatePointShader = function () {
             // select the point shader to use
             var point = this.userPointShader;
             if (!point || !point.isPointShader()) {
@@ -77415,7 +74646,7 @@
           _main.default.RendererGL.prototype._getRetainedLineShader =
             _main.default.RendererGL.prototype._getImmediateLineShader;
 
-          _main.default.RendererGL.prototype._getLightShader = function() {
+          _main.default.RendererGL.prototype._getLightShader = function () {
             if (!this._defaultLightShader) {
               if (this._pInst._glAttributes.perPixelLighting) {
                 this._defaultLightShader = new _main.default.Shader(
@@ -77435,7 +74666,7 @@
             return this._defaultLightShader;
           };
 
-          _main.default.RendererGL.prototype._getImmediateModeShader = function() {
+          _main.default.RendererGL.prototype._getImmediateModeShader = function () {
             if (!this._defaultImmediateModeShader) {
               this._defaultImmediateModeShader = new _main.default.Shader(
                 this,
@@ -77447,7 +74678,7 @@
             return this._defaultImmediateModeShader;
           };
 
-          _main.default.RendererGL.prototype._getNormalShader = function() {
+          _main.default.RendererGL.prototype._getNormalShader = function () {
             if (!this._defaultNormalShader) {
               this._defaultNormalShader = new _main.default.Shader(
                 this,
@@ -77459,7 +74690,7 @@
             return this._defaultNormalShader;
           };
 
-          _main.default.RendererGL.prototype._getColorShader = function() {
+          _main.default.RendererGL.prototype._getColorShader = function () {
             if (!this._defaultColorShader) {
               this._defaultColorShader = new _main.default.Shader(
                 this,
@@ -77471,7 +74702,7 @@
             return this._defaultColorShader;
           };
 
-          _main.default.RendererGL.prototype._getPointShader = function() {
+          _main.default.RendererGL.prototype._getPointShader = function () {
             if (!this._defaultPointShader) {
               this._defaultPointShader = new _main.default.Shader(
                 this,
@@ -77482,7 +74713,7 @@
             return this._defaultPointShader;
           };
 
-          _main.default.RendererGL.prototype._getLineShader = function() {
+          _main.default.RendererGL.prototype._getLineShader = function () {
             if (!this._defaultLineShader) {
               this._defaultLineShader = new _main.default.Shader(
                 this,
@@ -77494,7 +74725,7 @@
             return this._defaultLineShader;
           };
 
-          _main.default.RendererGL.prototype._getFontShader = function() {
+          _main.default.RendererGL.prototype._getFontShader = function () {
             if (!this._defaultFontShader) {
               this.GL.getExtension('OES_standard_derivatives');
               this._defaultFontShader = new _main.default.Shader(
@@ -77506,7 +74737,7 @@
             return this._defaultFontShader;
           };
 
-          _main.default.RendererGL.prototype._getEmptyTexture = function() {
+          _main.default.RendererGL.prototype._getEmptyTexture = function () {
             if (!this._emptyTexture) {
               // a plain white texture RGBA, full alpha, single pixel.
               var im = new _main.default.Image(1, 1);
@@ -77516,7 +74747,7 @@
             return this._emptyTexture;
           };
 
-          _main.default.RendererGL.prototype.getTexture = function(img) {
+          _main.default.RendererGL.prototype.getTexture = function (img) {
             var textures = this.textures;
             var _iteratorNormalCompletion = true;
             var _didIteratorError = false;
@@ -77550,7 +74781,7 @@
             return tex;
           };
 
-          _main.default.RendererGL.prototype._setStrokeUniforms = function(strokeShader) {
+          _main.default.RendererGL.prototype._setStrokeUniforms = function (strokeShader) {
             strokeShader.bindShader();
 
             // set the uniform values
@@ -77558,7 +74789,7 @@
             strokeShader.setUniform('uStrokeWeight', this.curStrokeWeight);
           };
 
-          _main.default.RendererGL.prototype._setFillUniforms = function(fillShader) {
+          _main.default.RendererGL.prototype._setFillUniforms = function (fillShader) {
             fillShader.bindShader();
 
             fillShader.setUniform('uMaterialColor', this.curFillColor);
@@ -77618,7 +74849,7 @@
             fillShader.bindTextures();
           };
 
-          _main.default.RendererGL.prototype._setPointUniforms = function(pointShader) {
+          _main.default.RendererGL.prototype._setPointUniforms = function (pointShader) {
             pointShader.bindShader();
 
             // set the uniform values
@@ -77633,7 +74864,7 @@
     * when passed more than two arguments it also updates or initializes
     * the data associated with the buffer
     */
-          _main.default.RendererGL.prototype._bindBuffer = function(
+          _main.default.RendererGL.prototype._bindBuffer = function (
             buffer,
             target,
             values,
@@ -77651,7 +74882,7 @@
           ///////////////////////////////
           //// UTILITY FUNCTIONS
           //////////////////////////////
-          _main.default.RendererGL.prototype._arraysEqual = function(a, b) {
+          _main.default.RendererGL.prototype._arraysEqual = function (a, b) {
             var aLength = a.length;
             if (aLength !== b.length) return false;
             for (var i = 0; i < aLength; i++) {
@@ -77660,7 +74891,7 @@
             return true;
           };
 
-          _main.default.RendererGL.prototype._isTypedArray = function(arr) {
+          _main.default.RendererGL.prototype._isTypedArray = function (arr) {
             var res = false;
             res = arr instanceof Float32Array;
             res = arr instanceof Float64Array;
@@ -77676,7 +74907,7 @@
            * @return {Array}     1-dimensional array
            * [[1, 2, 3],[4, 5, 6]] -> [1, 2, 3, 4, 5, 6]
            */
-          _main.default.RendererGL.prototype._flatten = function(arr) {
+          _main.default.RendererGL.prototype._flatten = function (arr) {
             //when empty, return empty
             if (arr.length === 0) {
               return [];
@@ -77715,7 +74946,7 @@
            * [p5.Vector(1, 2, 3), p5.Vector(4, 5, 6)] ->
            * [1, 2, 3, 4, 5, 6]
            */
-          _main.default.RendererGL.prototype._vToNArray = function(arr) {
+          _main.default.RendererGL.prototype._vToNArray = function (arr) {
             var ret = [];
             var _iteratorNormalCompletion2 = true;
             var _didIteratorError2 = false;
@@ -77750,7 +74981,7 @@
           /**
            * ensures that p5 is using a 3d renderer. throws an error if not.
            */
-          _main.default.prototype._assert3d = function(name) {
+          _main.default.prototype._assert3d = function (name) {
             if (!this._renderer.isP3D)
               throw new Error(
                 ''.concat(
@@ -77808,11 +75039,10 @@
             return tessy;
           };
 
-          _main.default.RendererGL.prototype._triangulate = function(contours) {
+          _main.default.RendererGL.prototype._triangulate = function (contours) {
             // libtess will take 3d verts and flatten to a plane for tesselation
             // since only doing 2d tesselation here, provide z=1 normal to skip
             // iterating over verts only to get the same answer.
-            // comment out to test normal-generation code
             this._tessy.gluTessNormal(0, 0, 1);
 
             var triangleVerts = [];
@@ -77835,7 +75065,7 @@
           };
 
           // function to calculate BezierVertex Coefficients
-          _main.default.RendererGL.prototype._bezierCoefficients = function(t) {
+          _main.default.RendererGL.prototype._bezierCoefficients = function (t) {
             var t2 = t * t;
             var t3 = t2 * t;
             var mt = 1 - t;
@@ -77845,7 +75075,7 @@
           };
 
           // function to calculate QuadraticVertex Coefficients
-          _main.default.RendererGL.prototype._quadraticCoefficients = function(t) {
+          _main.default.RendererGL.prototype._quadraticCoefficients = function (t) {
             var t2 = t * t;
             var mt = 1 - t;
             var mt2 = mt * mt;
@@ -77853,7 +75083,7 @@
           };
 
           // function to convert Bezier coordinates to Catmull Rom Splines
-          _main.default.RendererGL.prototype._bezierToCatmull = function(w) {
+          _main.default.RendererGL.prototype._bezierToCatmull = function (w) {
             var p1 = w[1];
             var p2 = w[1] + (w[2] - w[0]) / this._curveTightness;
             var p3 = w[2] - (w[3] - w[1]) / this._curveTightness;
@@ -77876,7 +75106,7 @@
         }
       ],
       114: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.default = void 0;
@@ -77899,7 +75129,7 @@
            * will provide the GL context for this new p5.Shader
            * @param {String} vertSrc source code for the vertex shader (as a string)
            * @param {String} fragSrc source code for the fragment shader (as a string)
-           */ _main.default.Shader = function(renderer, vertSrc, fragSrc) {
+           */ _main.default.Shader = function (renderer, vertSrc, fragSrc) {
             this._renderer = renderer;
             this._vertSrc = vertSrc;
             this._fragSrc = fragSrc;
@@ -77923,7 +75153,7 @@
            * @chainable
            * @private
            */
-          _main.default.Shader.prototype.init = function() {
+          _main.default.Shader.prototype.init = function () {
             if (this._glProgram === 0 /* or context is stale? */) {
               var gl = this._renderer.GL;
               //set up the shader by
@@ -77984,7 +75214,7 @@
            * @method _loadAttributes
            * @private
            */
-          _main.default.Shader.prototype._loadAttributes = function() {
+          _main.default.Shader.prototype._loadAttributes = function () {
             if (this._loadedAttributes) {
               return;
             }
@@ -78020,7 +75250,7 @@
            * @method _loadUniforms
            * @private
            */
-          _main.default.Shader.prototype._loadUniforms = function() {
+          _main.default.Shader.prototype._loadUniforms = function () {
             if (this._loadedUniforms) {
               return;
             }
@@ -78067,7 +75297,7 @@
             this._loadedUniforms = true;
           };
 
-          _main.default.Shader.prototype.compile = function() {
+          _main.default.Shader.prototype.compile = function () {
           };
 
           /**
@@ -78075,7 +75305,7 @@
            * @method bindShader
            * @private
            */
-          _main.default.Shader.prototype.bindShader = function() {
+          _main.default.Shader.prototype.bindShader = function () {
             this.init();
             if (!this._bound) {
               this.useProgram();
@@ -78092,7 +75322,7 @@
            * @chainable
            * @private
            */
-          _main.default.Shader.prototype.unbindShader = function() {
+          _main.default.Shader.prototype.unbindShader = function () {
             if (this._bound) {
               this.unbindTextures();
               //this._renderer.GL.useProgram(0); ??
@@ -78101,7 +75331,7 @@
             return this;
           };
 
-          _main.default.Shader.prototype.bindTextures = function() {
+          _main.default.Shader.prototype.bindTextures = function () {
             var gl = this._renderer.GL;
             var _iteratorNormalCompletion = true;
             var _didIteratorError = false;
@@ -78115,9 +75345,6 @@
                 var uniform = _step.value;
                 var tex = uniform.texture;
                 if (tex === undefined) {
-                  // user hasn't yet supplied a texture for this slot.
-                  // (or there may not be one--maybe just lighting),
-                  // so we supply a default texture instead.
                   tex = this._renderer._getEmptyTexture();
                 }
                 gl.activeTexture(gl.TEXTURE0 + uniform.samplerIndex);
@@ -78141,7 +75368,7 @@
             }
           };
 
-          _main.default.Shader.prototype.updateTextures = function() {
+          _main.default.Shader.prototype.updateTextures = function () {
             var _iteratorNormalCompletion2 = true;
             var _didIteratorError2 = false;
             var _iteratorError2 = undefined;
@@ -78173,10 +75400,10 @@
             }
           };
 
-          _main.default.Shader.prototype.unbindTextures = function() {
+          _main.default.Shader.prototype.unbindTextures = function () {
           };
 
-          _main.default.Shader.prototype._setMatrixUniforms = function() {
+          _main.default.Shader.prototype._setMatrixUniforms = function () {
             this.setUniform('uProjectionMatrix', this._renderer.uPMatrix.mat4);
             if (this.isStrokeShader()) {
               if (this._renderer._curCamera.cameraType === 'default') {
@@ -78200,7 +75427,7 @@
            * @chainable
            * @private
            */
-          _main.default.Shader.prototype.useProgram = function() {
+          _main.default.Shader.prototype.useProgram = function () {
             var gl = this._renderer.GL;
             if (this._renderer._curShader !== this) {
               gl.useProgram(this._glProgram);
@@ -78222,7 +75449,7 @@
            * with that uniform; type varies (could be a single numerical value, array,
            * matrix, or texture / sampler reference)
            */
-          _main.default.Shader.prototype.setUniform = function(uniformName, data) {
+          _main.default.Shader.prototype.setUniform = function (uniformName, data) {
             var uniform = this.uniforms[uniformName];
             if (!uniform) {
               return;
@@ -78328,13 +75555,9 @@
           };
 
           /* NONE OF THIS IS FAST OR EFFICIENT BUT BEAR WITH ME
-    *
-    * these shader "type" query methods are used by various
-    * facilities of the renderer to determine if changing
-    * the shader type for the required action
-    **/
+          **/
 
-          _main.default.Shader.prototype.isLightShader = function() {
+          _main.default.Shader.prototype.isLightShader = function () {
             return (
               this.attributes.aNormal !== undefined ||
               this.uniforms.uUseLighting !== undefined ||
@@ -78352,26 +75575,26 @@
             );
           };
 
-          _main.default.Shader.prototype.isNormalShader = function() {
+          _main.default.Shader.prototype.isNormalShader = function () {
             return this.attributes.aNormal !== undefined;
           };
 
-          _main.default.Shader.prototype.isTextureShader = function() {
+          _main.default.Shader.prototype.isTextureShader = function () {
             return this.samplerIndex > 0;
           };
 
-          _main.default.Shader.prototype.isColorShader = function() {
+          _main.default.Shader.prototype.isColorShader = function () {
             return (
               this.attributes.aVertexColor !== undefined ||
               this.uniforms.uMaterialColor !== undefined
             );
           };
 
-          _main.default.Shader.prototype.isTexLightShader = function() {
+          _main.default.Shader.prototype.isTexLightShader = function () {
             return this.isLightShader() && this.isTextureShader();
           };
 
-          _main.default.Shader.prototype.isStrokeShader = function() {
+          _main.default.Shader.prototype.isStrokeShader = function () {
             return this.uniforms.uStrokeWeight !== undefined;
           };
 
@@ -78380,7 +75603,7 @@
            * @chainable
            * @private
            */
-          _main.default.Shader.prototype.enableAttrib = function(
+          _main.default.Shader.prototype.enableAttrib = function (
             attr,
             size,
             type,
@@ -78425,7 +75648,7 @@
         { '../core/main': 59 }
       ],
       115: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -78506,7 +75729,7 @@
            * will provide the GL context for this new p5.Texture
            * @param {p5.Image|p5.Graphics|p5.Element|p5.MediaElement|ImageData} [obj] the
            * object containing the image data to store in the texture.
-           */ _main.default.Texture = function(renderer, obj) {
+           */ _main.default.Texture = function (renderer, obj) {
             this._renderer = renderer;
             var gl = this._renderer.GL;
 
@@ -78542,7 +75765,7 @@
             return this;
           };
 
-          _main.default.Texture.prototype._getTextureDataFromSource = function() {
+          _main.default.Texture.prototype._getTextureDataFromSource = function () {
             var textureData;
             if (this.isSrcP5Image) {
               // param is a p5.Image
@@ -78567,7 +75790,7 @@
            * @private
            * @method init
            */
-          _main.default.Texture.prototype.init = function(data) {
+          _main.default.Texture.prototype.init = function (data) {
             var gl = this._renderer.GL;
             this.glTex = gl.createTexture();
 
@@ -78620,7 +75843,7 @@
            * not the data has occurred, this method simply re-uploads the texture.
            * @method update
            */
-          _main.default.Texture.prototype.update = function() {
+          _main.default.Texture.prototype.update = function () {
             var data = this.src;
             if (data.width === 0 || data.height === 0) {
               return false; // nothing to do!
@@ -78710,7 +75933,7 @@
            * Binds the texture to the appropriate GL target.
            * @method bindTexture
            */
-          _main.default.Texture.prototype.bindTexture = function() {
+          _main.default.Texture.prototype.bindTexture = function () {
             // bind texture using gl context + glTarget and
             // generated gl texture object
             var gl = this._renderer.GL;
@@ -78723,7 +75946,7 @@
            * Unbinds the texture from the appropriate GL target.
            * @method unbindTexture
            */
-          _main.default.Texture.prototype.unbindTexture = function() {
+          _main.default.Texture.prototype.unbindTexture = function () {
             // unbind per above, disable texturing on glTarget
             var gl = this._renderer.GL;
             gl.bindTexture(this.glTarget, null);
@@ -78739,7 +75962,7 @@
            * @param {String} upScale Specifies the texture filtering when
            *                         textures are magnified. Options are LINEAR or NEAREST
            */
-          _main.default.Texture.prototype.setInterpolation = function(downScale, upScale) {
+          _main.default.Texture.prototype.setInterpolation = function (downScale, upScale) {
             var gl = this._renderer.GL;
 
             if (downScale === constants.NEAREST) {
@@ -78769,7 +75992,7 @@
            * @param {String} wrapX Controls the horizontal texture wrapping behavior
            * @param {String} wrapY Controls the vertical texture wrapping behavior
            */
-          _main.default.Texture.prototype.setWrapMode = function(wrapX, wrapY) {
+          _main.default.Texture.prototype.setWrapMode = function (wrapX, wrapY) {
             var gl = this._renderer.GL;
 
             // for webgl 1 we need to check if the texture is power of two
@@ -78843,7 +76066,7 @@
         { '../core/constants': 48, '../core/main': 59 }
       ],
       116: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           function _typeof(obj) {
             if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
@@ -78911,10 +76134,10 @@
           }
 
           // Text/Typography
-          _main.default.RendererGL.prototype._applyTextProperties = function() {
+          _main.default.RendererGL.prototype._applyTextProperties = function () {
           };
 
-          _main.default.RendererGL.prototype.textWidth = function(s) {
+          _main.default.RendererGL.prototype.textWidth = function (s) {
             if (this._isOpenType()) {
               return this._textFont._textWidth(s, this._textSize);
             }
@@ -78960,17 +76183,15 @@
              *
              * finds free space of a given size in the ImageData list
              */
-            this.findImage = function(space) {
+            this.findImage = function (space) {
               var imageSize = this.width * this.height;
               if (space > imageSize) throw new Error('font is too complex to render in 3D');
 
-              // search through the list of images, looking for one with
-              // anough unused space.
+              // search through the list of images, looking for one with anough unused space.
               var imageInfo, imageData;
               for (var ii = this.infos.length - 1; ii >= 0; --ii) {
                 var imageInfoTest = this.infos[ii];
                 if (imageInfoTest.index + space < imageSize) {
-                  // found one
                   imageInfo = imageInfoTest;
                   imageData = imageInfoTest.imageData;
                   break;
@@ -79065,7 +76286,7 @@
              * row & column stripes compiled into textures.
              */
 
-            this.getGlyphInfo = function(glyph) {
+            this.getGlyphInfo = function (glyph) {
               // check the cache
               var gi = this.glyphInfos[glyph.index];
               if (gi) return gi;
@@ -79114,7 +76335,7 @@
                  * find the minimum & maximum value in a list of values
                  */
                 function minMax(rg, min, max) {
-                  for (var _i = rg.length; _i-- > 0; ) {
+                  for (var _i = rg.length; _i-- > 0;) {
                     var _v = rg[_i];
                     if (min > _v) min = _v;
                     if (max < _v) max = _v;
@@ -79187,7 +76408,7 @@
                  * converts the cubic to a quadtratic approximation by
                  * picking an appropriate quadratic control point
                  */
-                this.toQuadratic = function() {
+                this.toQuadratic = function () {
                   return {
                     x: this.p0.x,
                     y: this.p0.y,
@@ -79205,7 +76426,7 @@
                  * calculates the magnitude of error of this curve's
                  * quadratic approximation.
                  */
-                this.quadError = function() {
+                this.quadError = function () {
                   return (
                     _main.default.Vector.sub(
                       _main.default.Vector.sub(this.p1, this.p0),
@@ -79226,7 +76447,7 @@
                  * this cubic keeps its start point and its end point becomes the
                  * point at 't'. the 'end half is returned.
                  */
-                this.split = function(t) {
+                this.split = function (t) {
                   var m1 = _main.default.Vector.lerp(this.p0, this.c0, t);
                   var m2 = _main.default.Vector.lerp(this.c0, this.c1, t);
                   var mm1 = _main.default.Vector.lerp(m1, m2, t);
@@ -79247,7 +76468,7 @@
                  * from splitting this cubic at its inflection points.
                  * this cubic is (potentially) altered and returned in the list.
                  */
-                this.splitInflections = function() {
+                this.splitInflections = function () {
                   var a = _main.default.Vector.sub(this.c0, this.p0);
                   var b = _main.default.Vector.sub(
                     _main.default.Vector.sub(this.c1, this.c0),
@@ -79343,7 +76564,7 @@
                     var tail = [];
 
                     var t3 = void 0;
-                    for (;;) {
+                    for (; ;) {
                       // calculate this cubic's precision
                       t3 = precision / cubic.quadError();
                       if (t3 >= 0.5 * 0.5 * 0.5) {
@@ -79411,8 +76632,6 @@
                * @param {Number} x1
                * @param {Number} y1
                * @return {Boolean} true if the two points are sufficiently close
-               *
-               * tests if two points are close enough to be considered the same
                */
               function samePoint(x0, y0, x1, y1) {
                 return Math.abs(x1 - x0) < 0.00001 && Math.abs(y1 - y0) < 0.00001;
@@ -79433,7 +76652,6 @@
                   var x1 = (cmd.x - xMin) / gWidth;
                   var y1 = (cmd.y - yMin) / gHeight;
 
-                  // don't bother if this point is the same as the last
                   if (samePoint(x0, y0, x1, y1)) continue;
 
                   switch (cmd.type) {
@@ -79581,7 +76799,7 @@
             };
           };
 
-          _main.default.RendererGL.prototype._renderText = function(p, line, x, y, maxY) {
+          _main.default.RendererGL.prototype._renderText = function (p, line, x, y, maxY) {
             if (!this._textFont || typeof this._textFont === 'string') {
               console.log(
                 'WEBGL: you must load and set a font before drawing text. See `loadFont` and `textFont` for more details.'
@@ -79643,7 +76861,7 @@
             var g = this.retainedMode.geometry['glyph'];
             if (!g) {
               // create the geometry for rendering a quad
-              var geom = (this._textGeom = new _main.default.Geometry(1, 1, function() {
+              var geom = (this._textGeom = new _main.default.Geometry(1, 1, function () {
                 for (var i = 0; i <= 1; i++) {
                   for (var j = 0; j <= 1; j++) {
                     this.vertices.push(new _main.default.Vector(j, i, 0));
@@ -79761,7 +76979,7 @@
         }
       ],
       117: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           module.exports = {
             fes: {
               autoplay:
@@ -79831,18 +77049,7 @@
               misusedTopLevel:
                 "Did you just try to use p5.js's {{symbolName}} {{symbolType}}? If so, you may want to move it into your sketch's setup() function.\n\nFor more details, see: {{link}}",
               positions: {
-                p_1: 'first',
-                p_10: 'tenth',
-                p_11: 'eleventh',
-                p_12: 'twelfth',
-                p_2: 'second',
-                p_3: 'third',
-                p_4: 'fourth',
-                p_5: 'fifth',
-                p_6: 'sixth',
-                p_7: 'seventh',
-                p_8: 'eighth',
-                p_9: 'ninth'
+                p_1: 'first', p_10: 'tenth', p_11: 'eleventh', p_12: 'twelfth', p_2: 'second', p_3: 'third', p_4: 'fourth', p_5: 'fifth', p_6: 'sixth', p_7: 'seventh', p_8: 'eighth', p_9: 'ninth'
               },
               pre: '\n🌸 p5.js says: {{message}}',
               welcome:
@@ -79855,7 +77062,7 @@
         {}
       ],
       118: [
-        function(_dereq_, module, exports) {
+        function (_dereq_, module, exports) {
           'use strict';
           Object.defineProperty(exports, '__esModule', { value: true });
           exports.languages = exports.default = void 0;
@@ -79866,12 +77073,7 @@
 
           // Only one language is imported above. This is intentional as other languages
           // will be hosted online and then downloaded whenever needed
-
           /**
-           * Here, we define a default/fallback language which we can use without internet.
-           * You won't have to change this when adding a new language.
-           *
-           * `translation` is the namespace we are using for our initial set of strings
            */ var _default = {
             en: {
               translation: _translation.default
@@ -79880,9 +77082,6 @@
 
           /**
            * This is a list of languages that we have added so far.
-           * If you have just added a new language (yay!), add its key to the list below
-           * (`en` is english, `es` es español). Also add its export to
-           * dev.js, which is another file in this folder.
            */ exports.default = _default;
           var languages = ['en', 'es'];
           exports.languages = languages;

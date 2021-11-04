@@ -188,11 +188,11 @@
 
 (function (Dancer) {
   var CODECS = {
-      mp3: "audio/mpeg;",
-      ogg: 'audio/ogg; codecs="vorbis"',
-      wav: 'audio/wav; codecs="1"',
-      aac: 'audio/mp4; codecs="mp4a.40.2"',
-    },
+    mp3: "audio/mpeg;",
+    ogg: 'audio/ogg; codecs="vorbis"',
+    wav: 'audio/wav; codecs="1"',
+    aac: 'audio/mp4; codecs="mp4a.40.2"',
+  },
     audioEl = document.createElement("audio");
 
   Dancer.options = {};
@@ -227,7 +227,7 @@
     return !!(Dancer.isSupported() === "flash"
       ? type.toLowerCase() === "mp3"
       : audioEl.canPlayType &&
-        audioEl.canPlayType(CODECS[type.toLowerCase()]).replace(/no/, ""));
+      audioEl.canPlayType(CODECS[type.toLowerCase()]).replace(/no/, ""));
   };
 
   Dancer.addPlugin = function (name, fn) {
@@ -267,7 +267,7 @@
     if (audioEl.src) {
       return audioEl.src;
     }
-    for (var i = sources.length; i--; ) {
+    for (var i = sources.length; i--;) {
       if ((sources[i].type || "").match(/audio\/mpeg/)) return sources[i].src;
     }
     return null;
@@ -455,7 +455,7 @@
         },
         i;
 
-      for (i = channels; i--; ) {
+      for (i = channels; i--;) {
         buffers.push(e.inputBuffer.getChannelData(i));
       }
 
@@ -943,7 +943,7 @@ var FlashDetect = new (function () {
         try {
           obj.AllowScriptAccess = "always";
           version = getActiveXVersion(obj);
-        } catch (err) {}
+        } catch (err) { }
         return version;
       },
     },
@@ -964,7 +964,7 @@ var FlashDetect = new (function () {
     var version = -1;
     try {
       version = activeXObj.GetVariable("$version");
-    } catch (err) {}
+    } catch (err) { }
     return version;
   };
   /**
